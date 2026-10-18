@@ -19,6 +19,7 @@ sys.path.insert(0, str(ROOT))
 
 from rettskriv.engine import Engine  # noqa: E402
 from rettskriv.rules import OBLIGATORY  # noqa: E402
+from tools.ingest import done_sources  # noqa: E402
 
 SURVEY = ROOT / "out" / "survey"
 AUDIT = ROOT / "out" / "audit"
@@ -29,6 +30,7 @@ def main() -> None:
     parser.add_argument("--size", type=int, default=500)
     parser.add_argument("--min", type=int, default=2)
     parser.add_argument("--sample", type=float, default=0.03, help="share of obligatory-only pairs audited")
+    parser.add_argument("--round", type=int, required=True)
     args = parser.parse_args()
     AUDIT.mkdir(parents=True, exist_ok=True)
     rng = random.Random("rettskriv-audit")
@@ -36,35 +38,38 @@ def main() -> None:
         engine = Engine(lang)
         obligatory = {r.name for r in OBLIGATORY[lang]}
         rows = {"rule": [], "left": [], "inbank": []}
+        done = done_sources(lang)
         with open(SURVEY / f"{lang}-changes.tsv") as handle:
             for row in csv.DictReader(handle, delimiter="\t"):
                 if row["why"] != "rule":
                     continue
                 target = engine.rule_target(row["from"])
                 chain = target[1] if isinstance(target, tuple) else ()
-                if set(chain) <= obligatory and rng.random() > args.sample:
+                if row["from"] in done or set(chain) <= obligatory and rng.random() > args.sample:
                     continue
                 rows["rule"].append((row["count"], row["from"], row["to"], "+".join(chain), row["examples"]))
         with open(SURVEY / f"{lang}-left.tsv") as handle:
             for row in csv.DictReader(handle, delimiter="\t"):
-                if int(row["count"]) < args.min:
+                if int(row["count"]) < args.min or row["form"] in done:
                     continue
                 rows["left"].append((row["count"], row["form"], row["reason"], row["candidates"], row["examples"]))
         inbank = SURVEY / f"{lang}-inbank.tsv"
         if inbank.exists():
             with open(inbank) as handle:
                 for row in csv.DictReader(handle, delimiter="\t"):
+                    if row["form"] in done:
+                        continue
                     rows["inbank"].append((row["count"], row["form"], "in-bank", row["ratio"], row["examples"]))
         for kind, items in rows.items():
             for n in range(0, len(items), args.size):
-                path = AUDIT / f"{lang}-{kind}-{n // args.size:02d}.tsv"
+                path = AUDIT / f"{lang}-{kind}-r{args.round}-{n // args.size:02d}.tsv"
                 with open(path, "w") as handle:
                     if kind == "rule":
                         handle.write("id\tcount\tfrom\tto\trules\texamples\n")
                     else:
                         handle.write("id\tcount\tform\treason\tcandidates\texamples\n")
                     for i, item in enumerate(items[n : n + args.size]):
-                        handle.write(f"{lang}-{kind}-{n + i:05d}\t" + "\t".join(item) + "\n")
+                        handle.write(f"{lang}-{kind}-r{args.round}-{n + i:05d}\t" + "\t".join(item) + "\n")
             print(lang, kind, len(items), "items")
 
 

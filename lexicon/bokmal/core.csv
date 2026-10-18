@@ -121,6 +121,7 @@ vare,var,lower;prev=de|vi|i|der|som|alle|begge|disse|hvilke|mange|flere|nogle|ba
 vare,=,,,core
 have,har,lower;prev=vi|de|i|som|der,plural present,core
 have,ha,lower;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|faa|aa,infinitive,core
+have,har,lower;next=vi|i|de;notprev=at|vil|skal|kan|maa|kunde|skulde|vilde|skulle|kunne|ville,inverted plural present,core
 have,hage,cap;mid;nouncaps,garden,core
 have,=,,,core
 havde,hadde,,,core
@@ -373,6 +374,14 @@ næste,neste,,,core
 næsten,nesten,,,core
 rigtig,riktig,,,core
 #
+bog,bok,,book (bog = bow/shoulder is not in these texts' vocabulary),core
+bogen,boken,,,core
+bogens,bokens,,,core
+bøger,bøker,,,core
+bøgerne,bøkene,,,core
+bøgers,bøkers,,,core
+tak,takk,before=1907,before 1907 the roof was Tag; Tak is thanks,core
+tilstede,til stede,,,core
 # Names and foreign words that rules would mangle
 luther,=,,name,core
 och,=,,Swedish,core
@@ -386,4 +395,9 @@ daa,da,,,core
 # Infinitive marker: at before a word that can only be an infinitive
 at,å,lower;nexttags=verb:inf|verb:imp,infinitive marker,core
 at,Å,initial;nexttags=verb:inf|verb:imp,infinitive marker,core
+at,å,lower;prev=for|til|ved|om|af|paa|med|uden|istedenfor|istedetfor;nexthas=verb:inf;notnext=han|hun|de|det|den|vi|jeg|du|man|der|hans|hendes|deres|dens|dets|sin|sit|sine|min|mit|mine|din|dit|dine|vor|vort|vore|nogen|noget|nogle|alle|ingen|en|et|i|saa|da|nu|naar|hvis|om|ikke,after a preposition before an infinitive,core
 at,=,,conjunction,core
+# I (second person plural) against i (in)
+i,dere,cap;mid,pronoun I = you (plural); the preposition is lower case,core
+i,dere,initial;nexttags=verb:pres|verb:pret|verb:inf|verb:imp,pronoun at sentence start before a verb,core
+i,=,,,core

@@ -10,18 +10,23 @@ Order for each word:
 3. A form the modern bank allows: left as printed, apart from the case of a
    capitalised noun. If the form is archaic (its use collapsed after 1910), it is
    reported, because only the lexicon may decide it.
-4. Respelling rules: exactly one non-archaic bank form at the shallowest depth
-   that has any, or nothing.
+4. Respelling rules: exactly one non-archaic bank form reachable at any depth, or
+   nothing. (Preferring the shallowest made ræd "red" where it is "redd".) A rule
+   result is applied only if its chain is trusted (data/trusted-chains.json: audit
+   precision >= 99.5%); otherwise it is "pending", left as printed until an audit
+   puts the form in the lexicon.
 """
 from __future__ import annotations
 
+import json
 from collections import Counter
+from pathlib import Path
 from dataclasses import dataclass, field
 
 from . import lexicon as lexmod
 from .archaism import Archaism
 from .bank import Bank
-from .rules import NEEDS, candidates
+from .rules import NEEDS, OBLIGATORY, candidates
 from .text import Token, apply_case, join, offset_map, tokenise
 
 TITLES = {
@@ -31,6 +36,19 @@ TITLES = {
     "lieutenant", "løitnant", "løytnant", "general", "oberst", "major", "sogneprest", "sognepræst",
     "kapellan", "skipper", "kjøbmand", "kjøpmann", "lensmand", "lensmann", "fogd", "foged", "amtmand",
 }
+SUBJECTS = {"jeg", "du", "han", "hun", "vi", "man", "der", "som", "hvo", "hvem", "hvilken", "og", "eller", "men"}
+OBJECTS = {"sig", "ham", "hende", "dem", "os", "mig", "dig", "eder", "det", "op", "ud", "ind", "ned", "af",
+           "paa", "til", "frem", "hen", "bort", "over", "med", "ikke", "ei", "atter", "igjen", "nu", "da", "saa"}
+DETERMINERS = {"den", "det", "de", "denne", "dette", "disse", "min", "mit", "mine", "din", "dit", "dine", "sin",
+               "sit", "sine", "hans", "hendes", "dens", "dets", "vor", "vort", "vore", "eders", "deres", "hin",
+               "hint", "hine", "alle", "begge", "mange", "nogle", "de", "en", "et", "saa", "meget", "mest", "mere"}
+PLURAL_SUBJECTS = {"vi", "de"}
+# after these a participle in -ede cannot be an adjective (objects, or the subject
+# after an inverted verb: "Dermed tørrede han")
+PRONOUN_OBJECTS = {"sig", "ham", "hende", "dem", "os", "mig", "dig", "eder", "jeg", "du", "han", "hun", "vi", "man"}
+
+ROOT = Path(__file__).resolve().parent.parent
+
 # Tags too rare to block a reading: letters as symbols, abbreviations, interjections.
 MINOR_TAGS = frozenset({"symb", "fork", "interj"})
 KEEP_CAPITAL = {"gud", "guds", "herren", "herrens", "herre", "jesus", "jesu", "kristus", "kristi",
@@ -56,6 +74,10 @@ class Engine:
         self.archaism = Archaism(lang)
         self.names: set[str] = set()
         self.nouncaps = False
+        self.year: int | None = None
+        trusted = ROOT / "data" / "trusted-chains.json"
+        self.trusted = set(json.loads(trusted.read_text()).get(lang, [])) if trusted.exists() else set()
+        self.obligatory = {r.name for r in OBLIGATORY[lang]}
         self._cand: dict[str, tuple[str, tuple[str, ...]] | str] = {}
 
     # -- book-level context -------------------------------------------------
@@ -96,19 +118,19 @@ class Engine:
         """The unique non-archaic bank respelling of low, or a reason string."""
         if low in self._cand:
             return self._cand[low]
-        result = "unknown"
+        found = {}
         for level in candidates(low, self.lang):
-            found = {
-                cand: chain for cand, chain in level.items()
-                if cand != low and self.bank.common(cand) and not self.archaism.archaic(cand)
-                and all(NEEDS[step] & self.bank.tags(cand) for step in chain if step in NEEDS)
-            }
-            if len(found) == 1:
-                result = next(iter(found.items()))
-                break
-            if found:
-                result = "ambiguous:" + "|".join(sorted(found))
-                break
+            for cand, chain in level.items():
+                if cand != low and self.bank.common(cand) and not self.archaism.archaic(cand) and all(
+                    NEEDS[step] & self.bank.tags(cand) for step in chain if step in NEEDS
+                ):
+                    found[cand] = chain
+        if len(found) == 1:
+            result = next(iter(found.items()))
+        elif found:
+            result = "ambiguous:" + "|".join(sorted(found))
+        else:
+            result = "unknown"
         self._cand[low] = result
         return result
 
@@ -118,6 +140,8 @@ class Engine:
         prev = tokens[words[pos - 1]] if pos > 0 else None
         nxt = tokens[words[pos + 1]] if pos + 1 < len(words) else None
         for key, values in entry.when:
+            if key == "before" and not (self.year and self.year < int(next(iter(values)))):
+                return False
             if key == "nouncaps" and not self.nouncaps:
                 return False
             if key == "nonouncaps" and self.nouncaps:
@@ -130,9 +154,9 @@ class Engine:
                 return False
             if key == "initial" and not token.initial:
                 return False
-            if key in ("prev", "notprev", "prevout", "prevtags"):
+            if key in ("prev", "notprev", "prevout", "prevtags", "prevhas"):
                 other = prev
-            elif key in ("next", "notnext", "nextout", "nexttags"):
+            elif key in ("next", "notnext", "nextout", "nexttags", "nexthas"):
                 other = nxt
             else:
                 continue
@@ -146,6 +170,9 @@ class Engine:
                 return False
             if key in ("prevout", "nextout") and (other.out or other.text).lower() not in values:
                 return False
+            if key in ("prevhas", "nexthas"):
+                if not self.bank.tags((other.out or other.text).lower()) & values:
+                    return False
             if key in ("prevtags", "nexttags"):
                 tags = self.bank.tags((other.out or other.text).lower()) - MINOR_TAGS
                 if self.nouncaps and not other.capitalised:
@@ -153,6 +180,73 @@ class Engine:
                 if not tags or not tags <= values:
                     return False
         return True
+
+    # -- grammar: inflections that need the neighbouring words ------------------
+
+    def modern_lower(self, low: str) -> str | None:
+        """The modern form of a lower-case word by bank or rules, without context."""
+        if self.bank.common(low) and not self.archaism.archaic(low):
+            return low
+        target = self.rule_target(low)
+        return target[0] if isinstance(target, tuple) else None
+
+    def weak_past(self, low: str) -> str | None:
+        """Modern past tense of an old weak past in -ede: svarede -> svarte, kastede -> kastet."""
+        if self.lang != "nob" or not low.endswith("ede") or len(low) < 6:
+            return None
+        infinitive = self.modern_lower(low[:-2])
+        if not infinitive or "verb:inf" not in self.bank.tags(infinitive):
+            return None
+        stem = infinitive[:-1] if infinitive.endswith("e") else infinitive
+        forms = [f for f in (stem + "et", stem + "te", stem + "de") if "verb:pret" in self.bank.tags(f)]
+        if not forms:
+            return None
+        return max(forms, key=lambda f: self.archaism.freq.get(f, (0.0, 0.0))[1])
+
+    def plural_present(self, low: str) -> str | None:
+        """Modern present of an old plural present (vi komme -> vi kommer)."""
+        if self.lang != "nob":
+            return None
+        infinitive = self.modern_lower(low)
+        if not infinitive:
+            return None
+        tags = self.bank.tags(infinitive) - MINOR_TAGS
+        if self.nouncaps:
+            tags -= {"subst"}
+        if not tags or not tags <= {"verb:inf", "verb:imp"}:
+            return None
+        present = infinitive + "r"
+        return present if "verb:pres" in self.bank.tags(present) else None
+
+    def grammar_candidate(self, low: str) -> bool:
+        return self.weak_past(low) is not None or self.plural_present(low) is not None
+
+    def grammar(self, tokens: list[Token], i: int, words: list[int]) -> bool:
+        token = tokens[i]
+        low = token.lower
+        pos = words.index(i)
+        prev = tokens[words[pos - 1]].lower if pos > 0 else None
+        nxt = tokens[words[pos + 1]].lower if pos + 1 < len(words) else None
+        past = self.weak_past(low)
+        if past:
+            respelled = self.modern_lower(low)
+            adjective = respelled is not None and "adj:part" in self.bank.tags(respelled)
+            verb_context = prev in SUBJECTS or nxt in OBJECTS
+            if not adjective or nxt in PRONOUN_OBJECTS or (verb_context and prev not in DETERMINERS):
+                token.out = self.case(token, past)
+                token.reason = "grammar:weak-past"
+                return True
+            return False
+        present = self.plural_present(low)
+        after = tokens[words[pos + 1]] if pos + 1 < len(words) else None
+        inverted = after is not None and (after.lower == "vi" or after.text == "I")
+        if present and (inverted or prev in PLURAL_SUBJECTS or (prev == "i" and tokens[words[pos - 1]].text == "I")):
+            if prev == "de" and pos > 1 and tokens[words[pos - 2]].lower in {"alle", "og", "for", "af", "med", "til", "paa"}:
+                return False
+            token.out = self.case(token, present)
+            token.reason = "grammar:plural-present"
+            return True
+        return False
 
     def case(self, token: Token, target: str) -> str:
         """Case for a modern form: initial capitals stay, noun capitals go."""
@@ -190,6 +284,11 @@ class Engine:
             token.out = token.text
             token.reason = "lexicon-nomatch"
             return True
+        if self.lang == "nob" and not token.capitalised or token.initial:
+            if not second_pass and self.grammar_candidate(low):
+                return False
+            if second_pass and self.grammar(tokens, i, words):
+                return True
         if token.text in self.names or self.bank.proper_only(token.text):
             token.out = token.text
             token.reason = "name"
@@ -204,6 +303,13 @@ class Engine:
             return True
         target = self.rule_target(low)
         if isinstance(target, tuple):
+            signature = "+".join(sorted(set(target[1]) - self.obligatory)) or "obligatory"
+            if signature not in self.trusted:
+                # measured below the trust bar: left as printed until audited
+                token.out = token.text
+                token.reason = "pending"
+                token.meta["candidates"] = target[0]
+                return True
             token.out = self.case(token, target[0])
             token.reason = "rule:" + "+".join(target[1])
         else:

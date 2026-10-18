@@ -20,10 +20,9 @@ def main() -> None:
     for book in corpus.books():
         data = corpus.load(book)
         lang = corpus.LANGUAGE.get(data["book"].get("language"), "nob")
-        for item in data["items"]:
-            for block in item.get("blocks", []):
-                for w in WORD.findall(block.get("text", "")):
-                    types[lang][w.lower()] += 1
+        for text in corpus.texts(data):
+            for w in WORD.findall(text):
+                types[lang][w.lower()] += 1
     for lang, counter in types.items():
         bank = Bank(lang)
         wanted = []

@@ -7,6 +7,7 @@ CSV columns: source, target, when, note, origin.
 - when: empty (always) or clauses joined by ";", all of which must hold:
     nouncaps           the book capitalises common nouns (so a lower-case word is no noun)
     nonouncaps         the book does not
+    before=YYYY        the book was printed before that year
     cap / lower        the token is capitalised / lower case
     mid / initial      the token is mid-sentence / sentence- or line-initial
     prev=a|b           the previous word (lower case, as printed) is one of these
@@ -15,6 +16,8 @@ CSV columns: source, target, when, note, origin.
     nextout=a|b        the next word's modern form is one of these
     nexttags=t|u       every bank tag of the next word's modern form is one of these
     prevtags=t|u       likewise for the previous word
+    nexthas=t|u        the next word's modern form has at least one of these tags
+    prevhas=t|u        likewise for the previous word
     notnext=a|b / notprev=a|b
 - Rows for one source are tried in file order; the first match wins. A source that
   has rows but no matching row is left as printed: listing a word means only its
@@ -29,7 +32,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LEXICON = ROOT / "lexicon"
 
-CONTEXT_KEYS = {"prevout", "nextout", "nexttags", "prevtags"}
+CONTEXT_KEYS = {"prevout", "nextout", "nexttags", "prevtags", "nexthas", "prevhas"}
 
 
 @dataclass(frozen=True)

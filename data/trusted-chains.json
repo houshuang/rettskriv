@@ -1,0 +1,11 @@
+{
+ "nob": [
+  "ae+ld-ll",
+  "erne+g-k",
+  "obligatory"
+ ],
+ "nno": [
+  "obligatory"
+ ],
+ "_note": "Chains with audit precision >= 99.5% over >= 30 forms (tools/rule_precision.py --write), plus 'obligatory': aa->å, qv->kv, ph->f, øi->øy are the reforms' own letter equivalences; their audited misses (names, råkt for råket) change no meaning."
+}

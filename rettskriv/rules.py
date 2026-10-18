@@ -3,8 +3,7 @@
 Obligatory rules first rewrite letter sequences modern Norwegian no longer has
 (aa, qv, ph, øi). Optional rules then rewrite one site at a time (b d g after a
 vowel, doubled consonants, æ). The engine keeps only candidates the modern word
-bank contains and acts only when exactly one survives at the shallowest depth that
-has any. Rules never choose between two modern words: they only find the modern
+bank contains and acts only when exactly one survives at any depth. Rules never choose between two modern words: they only find the modern
 spelling of a word that has no modern spelling of its own.
 
 Every rule is a pure respelling of the same word. Substitutions of one word for
@@ -42,14 +41,14 @@ BOKMAL_OBLIGATORY = [
     r("aa", "aa", "å"),
     r("qv", "q[vu]", "kv"),
     r("ph", "ph", "f"),
-    r("th", "(?<!s)th", "t"),
+    r("th", "^th", "t"),  # only word-initially: let|hed, kort|hed join t and h
     r("oej", "ø[ji]", "øy"),
     r("ej", "ej", "ei"),
     r("ii", "ii", "i"),
     r("hed", "hed(?=$|en$|er$|ens$|ene$|ers$|s$)", "het"),
     r("skab", "skab", "skap"),
     r("agtig", "agtig", "aktig"),
-    r("igt", "igt$", "ig"),
+    r("igt", "(?<=l)igt$", "ig"),
 ]
 
 BOKMAL = [
@@ -57,7 +56,7 @@ BOKMAL = [
     r("aj", "aj", "ai"),
     # 1907: soft b d g after a vowel become p t k
     r("b-p", f"(?<=[{V}])b(?![b])", "p"),
-    r("d-t", f"(?<=[{V}])d(?![d])(?!(?<=ed)e$)", "t"),  # not the -ede suffix
+    r("d-t", f"(?<=[{V}])d(?![dt])(?!(?<=ed)e$)", "t"),  # not the -ede suffix, not before t
     r("g-k", f"(?<=[{V}])g(?![g])", "k"),
     r("bb-pp", "bb", "pp"),
     r("dd-tt", "dd", "tt"),
@@ -66,12 +65,13 @@ BOKMAL = [
     r("nd-nn", "nd", "nn"),
     r("ld-ll", "ld", "ll"),
     # final consonant doubled after a short vowel
-    r("double", f"(?<=[{V}])([bdfgklmnprst])(?=(?:e|en|er|et|ene|ens|es|s)?$)", r"\1\1"),
-    r("ee", "ee", "e"),
+    # (only word-finally: before an ending the vowel is often long, hære is not herre)
+    r("double", f"(?<=[{V}])([bdfgklmnprst])$", r"\1\1"),
+    r("ee", "ee(?!$)", "e"),  # final -ee is French é (idee, allee)
     r("oo", "oo", "o"),
     r("uu", "uu", "u"),
     # loan-word spellings
-    r("ch-k", "ch", "k"),
+    r("ch-k", "(?<!s)ch(?=[aeiouyæøårl])", "k"),  # not German sch or final ch (Schiller, Hauch)
     r("c-k", "c(?=[aou]|$|[^eiyhæø])", "k"),
     r("c-s", "c(?=[eiyæø])", "s"),
     r("x", "x", "ks"),

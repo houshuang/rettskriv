@@ -34,22 +34,23 @@ def main() -> None:
     for book in args.books or corpus.books():
         data = corpus.load(book)
         default = corpus.LANGUAGE.get(data["book"].get("language"), "nob")
-        texts = [b.get("text", "") for it in data["items"] for b in it.get("blocks", [])]
+        texts = corpus.texts(data)
         for lang in ("nob", "nno"):
             engine = engines.get(lang) or engines.setdefault(lang, Engine(lang))
             engine.learn_book(texts)
+            engine.year = data.get("printed_year")
         print(book, "nouncaps" if engines[default].nouncaps else "lowercase nouns",
               len(engines[default].names), "names", flush=True)
         for item in data["items"]:
-            blocks = item.get("blocks", [])
-            lang = corpus.detect(" ".join(b.get("text", "") for b in blocks), default)
+            if item.get("kind") != "piece":
+                continue
+            lang = corpus.detect(" ".join(text for _, text, _ in corpus.units(item)), default)
             languages[(book, lang)] += 1
             if lang not in engines:
                 continue
             engine = engines[lang]
-            for block in blocks:
-                text = block.get("text", "")
-                result = engine.modernise(text, verse=block.get("type") == "stanza")
+            for _, text, verse in corpus.units(item):
+                result = engine.modernise(text, verse=verse)
                 flags[lang].update(result.flags)
                 for t in result.tokens:
                     if not t.word:

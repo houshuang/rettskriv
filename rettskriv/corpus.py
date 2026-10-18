@@ -35,6 +35,31 @@ def load(book: str) -> dict:
         return json.load(handle)
 
 
+TITLE_FIELDS = ("title", "nav_title", "subtitle")
+
+
+def units(item: dict):
+    """Every text of a piece as (path, text, verse). Verse lines are one text, joined
+    by newlines, so context runs across lines; the newline count is preserved."""
+    for field in TITLE_FIELDS:
+        if isinstance(item.get(field), str) and item[field]:
+            yield (field,), item[field], False
+    for b, block in enumerate(item.get("blocks", [])):
+        if block.get("type") == "stanza":
+            yield ("blocks", b, "lines"), "\n".join(line["t"] for line in block["lines"]), True
+        elif isinstance(block.get("text"), str):
+            yield ("blocks", b, "text"), block["text"], False
+        if isinstance(block.get("caption"), str) and block["caption"]:
+            yield ("blocks", b, "caption"), block["caption"], False
+    for n, note in enumerate(item.get("notes", [])):
+        if isinstance(note.get("text"), str):
+            yield ("notes", n, "text"), note["text"], False
+
+
+def texts(data: dict) -> list[str]:
+    return [text for item in data["items"] for _, text, _ in units(item)]
+
+
 def detect(text: str, default: str) -> str:
     """The language of a piece, from function-word markers. Returns default when unclear."""
     words = [w.lower() for w in WORD.findall(text)]
