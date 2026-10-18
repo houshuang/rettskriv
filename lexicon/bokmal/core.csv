@@ -124,7 +124,6 @@ vare,=,,,core
 have,har,lower;prev=vi|de|i|som|der;notprev2=kan|skal|vil|maa|kunde|skulde|vilde|maatte|skulle|kunne|ville|måtte|bør|tør|lod|fik|fikk|monne,plural present (not after an inverted modal),core
 have,ha,lower;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|faa|aa,infinitive,core
 have,har,lower;next=vi|i|de;notprev=at|vil|skal|kan|maa|kunde|skulde|vilde|skulle|kunne|ville,inverted plural present,core
-have,hage,cap;mid;nouncaps,garden,core
 have,=,,,core
 havde,hadde,,,core
 havt,hatt,,,core
@@ -401,12 +400,12 @@ so,=,,landsmål,core
 dog,dog,,,core
 daa,da,,,core
 # Infinitive marker: at before a word that can only be an infinitive
-at,å,lower;nexttags=verb:inf|verb:imp,infinitive marker,core
-at,Å,initial;nexttags=verb:inf|verb:imp,infinitive marker,core
+at,å,lower;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
+at,Å,initial;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
 at,å,lower;prev=for|til|ved|om|af|paa|med|uden|istedenfor|istedetfor;nexthas=verb:inf;notnext=han|hun|de|det|den|vi|jeg|du|man|der|hans|hendes|deres|dens|dets|sin|sit|sine|min|mit|mine|din|dit|dine|vor|vort|vore|nogen|noget|nogle|alle|ingen|en|et|i|saa|da|nu|naar|hvis|om|ikke,after a preposition before an infinitive,core
 at,=,,conjunction,core
 # I (second person plural) against i (in)
-i,dere,cap;mid,pronoun I = you (plural); the preposition is lower case,core
+i,dere,cap;mid;notprev=a|b|c|d|e|f|g|h|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|æ|ø|å,pronoun I = you (plural); the preposition is lower case,core
 i,dere,initial;nexttags=verb:pres|verb:pret|verb:inf|verb:imp,pronoun at sentence start before a verb,core
 i,=,,,core
 # From the acceptance reads (18 Oct 2026)
@@ -435,7 +434,7 @@ skovene,skogene,,,acceptance
 dale,daler,cap;mid;nouncaps,,acceptance
 krige,kriger,cap;mid;nouncaps,,acceptance
 stakke,stakker,cap;mid;nouncaps,,acceptance
-favne,favner,cap;mid;nouncaps,,acceptance
+favne,=,,the dragon Favne or fathoms,acceptance
 skatte,skatter,cap;mid;nouncaps,,acceptance
 taarne,tårn,,,acceptance
 trolde,troll,,,acceptance
@@ -450,3 +449,21 @@ lee,=,cap,name,acceptance
 hun,=,cap;mid;nouncaps,"a capital Hun mid-sentence is the female (hunn), never the pronoun",acceptance
 løn,=,cap;mid;nouncaps,i Løn = in secret,acceptance
 leg,=,,leg = play or a resting place (leie),acceptance
+des,=,,foreign article (des Anschauungsunterrichts; des lois),acceptance
+buk,bukk,cap;mid;nouncaps,a buck (modern buk = belly is Danish Bug),acceptance
+sid,=,,sid = long (sid hatt),acceptance
+frøerne,=,,Danish frø = frog; bokmål frøene = the seeds,acceptance
+tønder,=,,tinder or barrels,acceptance
+rom,=,cap;mid,Rome (rom = room),acceptance
+endeligt,=,,dit endeligt = your end (endelikt),acceptance
+ilde,=,next=op|paa|under|i,to kindle (ilde op),acceptance
+grundede,=,,founded (grunnla) or pondered,acceptance
+gjentage,=,,take again or repeat,acceptance
+haardt,hardt,,,acceptance
+haarde,harde,,,acceptance
+haard,hard,,,acceptance
+slaaes,slås,,,acceptance
+inat,i natt,,,acceptance
+inatt,i natt,,,acceptance
+tilslut,til slutt,,,acceptance
+undtagelse,unntakelse,,,acceptance

@@ -100,8 +100,10 @@ def main() -> None:
             note = (verdict.get("note") or "").strip().replace("\n", " ")
             if kind == "ok":
                 target = (item.get("to") or "").lower()
-            elif kind == "context" and grammar.grammar_candidate(source):
-                continue  # the grammar rules decide these by context
+            elif kind in ("keep", "context") and (
+                grammar.weak_past(source) or kind == "context" and grammar.grammar_candidate(source)
+            ):
+                continue  # the grammar rules decide these by context (-ede past or adjective)
             elif kind in ("keep", "context"):
                 note = f"{kind}: {target} {note}".strip() if target else f"{kind}: {note}".strip()
                 target = "="

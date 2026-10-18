@@ -50,7 +50,7 @@ PRONOUN_OBJECTS = {"sig", "ham", "hende", "dem", "os", "mig", "dig", "eder", "je
 
 ROOT = Path(__file__).resolve().parent.parent
 NAME_SHARE = 0.5
-BREAK = re.compile(r"[,.;:!?()«»\"“”—–-]")
+BREAK = re.compile(r"[,.;:!?()«»\"“”—–\-\d]")
 # Capitalised mid-sentence in a book that capitalises nouns, these still are what they say.
 CAPITAL_FUNCTION_WORDS = {"i", "de", "dem", "deres", "eder", "eders", "jeg"}
 MODALS = {"kan", "skal", "vil", "maa", "må", "kunde", "skulde", "vilde", "maatte", "måtte", "kunne", "skulle",
@@ -58,6 +58,10 @@ MODALS = {"kan", "skal", "vil", "maa", "må", "kunde", "skulde", "vilde", "maatt
 
 # Tags too rare to block a reading: letters as symbols, abbreviations, interjections.
 MINOR_TAGS = frozenset({"symb", "fork", "interj"})
+# first names ending in -s that are not genitives
+FIRST_NAMES_IN_S = {"mogens", "hans", "klaus", "claus", "nils", "niels", "lars", "mons", "jens", "anders",
+                    "vincents", "markus", "magnus", "thomas", "tomas", "andreas", "jonas", "elias", "mathias",
+                    "matias", "tobias", "nikolaus", "paulus", "petrus", "julius", "ambrosius", "erasmus"}
 KEEP_CAPITAL = {"gud", "guds", "herren", "herrens", "herre", "jesus", "jesu", "kristus", "kristi",
                 "christus", "christi", "de", "dem", "deres", "frelseren", "frelserens"}
 
@@ -111,6 +115,15 @@ class Engine:
                 nxt = tokens[i + 1] if i + 1 < len(tokens) else None
                 if prev is not None and prev.lower in TITLES and not token.initial and token.lower not in self.lexicon:
                     self.names.add(token.text)
+                # a surname after a first name (Mogens Svale, Vincents Lunge), even if it is
+                # also a common word; not after Jesu, Guds and the like
+                if (
+                    prev is not None and not token.initial and prev.capitalised
+                    and token.lower not in self.lexicon
+                    and self.bank.proper_only(prev.text) and prev.lower not in KEEP_CAPITAL
+                    and (not prev.lower.endswith(("s", "u")) or prev.lower in FIRST_NAMES_IN_S)
+                ):
+                    self.names.add(token.text)
                 # next to a known proper name (Jonas Lie, Ole Berg): a full name
                 # (only for forms that are no known word: «Jesu Hænder» makes no name of Hænder)
                 for other in (prev, nxt):
@@ -152,6 +165,13 @@ class Engine:
         if pos + 1 < len(words) and not BREAK.search("".join(t.text for t in tokens[i + 1 : words[pos + 1]])):
             nxt = tokens[words[pos + 1]]
         return prev, nxt
+
+    def neighbour_form(self, other: Token) -> str:
+        """A neighbour's modern form; one still undecided (deferred to the second pass)
+        is looked up without context."""
+        if other.out is not None:
+            return other.out.lower()
+        return self.modern_lower(other.lower) or other.lower
 
     def matches(self, entry: lexmod.Entry, tokens: list[Token], i: int, words: list[int]) -> bool:
         token = tokens[i]
@@ -198,13 +218,13 @@ class Engine:
                 return False
             if key in ("prev", "next") and other.lower not in values:
                 return False
-            if key in ("prevout", "nextout") and (other.out or other.text).lower() not in values:
+            if key in ("prevout", "nextout") and self.neighbour_form(other) not in values:
                 return False
             if key in ("prevhas", "nexthas"):
-                if not self.bank.tags((other.out or other.text).lower()) & values:
+                if not self.bank.tags(self.neighbour_form(other)) & values:
                     return False
             if key in ("prevtags", "nexttags"):
-                tags = self.bank.tags((other.out or other.text).lower()) - MINOR_TAGS
+                tags = self.bank.tags(self.neighbour_form(other)) - MINOR_TAGS
                 if self.nouncaps and not other.capitalised:
                     tags -= {"subst"}
                 if not tags or not tags <= values:
@@ -214,7 +234,14 @@ class Engine:
     # -- grammar: inflections that need the neighbouring words ------------------
 
     def modern_lower(self, low: str) -> str | None:
-        """The modern form of a lower-case word by bank or rules, without context."""
+        """The modern form of a lower-case word by lexicon, bank or rules, without context."""
+        rows = self.lexicon.get(low, [])
+        if len(rows) == 1 and not rows[0].when:
+            if rows[0].keep:
+                return low if self.bank.common(low) else None
+            return rows[0].target
+        if rows:
+            return None
         if self.bank.common(low) and not self.archaism.archaic(low):
             return low
         target = self.rule_target(low)
@@ -243,7 +270,8 @@ class Engine:
         tags = self.bank.tags(infinitive) - MINOR_TAGS
         if self.nouncaps:
             tags -= {"subst"}
-        if not tags or not tags <= {"verb:inf", "verb:imp"}:
+        # an -e form that can also be an adjective (åpne) is checked in context
+        if not tags or not tags <= {"verb:inf", "verb:imp", "adj"} or "verb:inf" not in tags:
             return None
         present = infinitive + "r"
         return present if "verb:pres" in self.bank.tags(present) else None
@@ -272,6 +300,8 @@ class Engine:
         after = next_token
         inverted = after is not None and (after.lower == "vi" or after.text == "I") and prev not in MODALS
         subject = prev in PLURAL_SUBJECTS or (prev == "i" and prev_token.text == "I")
+        if present and "adj" in self.bank.tags(self.modern_lower(low) or "") and nxt not in PRONOUN_OBJECTS:
+            return False  # de aabne Døre (the open doors) against de aabne sig (they open)
         if present and (inverted or subject):
             before = tokens[words[pos - 2]].lower if subject and pos > 1 else None
             # "skulle vi have", "fik de gaa": after an inverted verb the verb is an infinitive
@@ -314,18 +344,20 @@ class Engine:
         if token.text in self.names or token.lower in KEEP_CAPITAL or low in KEEP_CAPITAL:
             return capital
         tags = self.bank.tags(low)
-        if not tags or "prop" in tags and not (tags - {"prop"}):
+        if "prop" in tags and not (tags - {"prop"}):
             return capital
+        if not tags:
+            # unknown to the bank (genitives, compounds): lower only a respelled word
+            return low if token.lower != low else capital
         # a name if modern text writes the form capitalised at least half as often as
         # lower case (Mose, Laban, Lee score above 1; nouns 0.01–0.15, from sentence starts)
-        pairs = [(capital, low)]
-        if token.lower == low:
-            pairs.append((token.text, token.lower))
+        # names keep their spelling: a respelled word is a common word and loses its capital
+        pairs = [(capital, low), (token.text, token.lower)] if token.lower == low else []
         for upper_form, lower_form in pairs:
             upper_use = self.archaism.modern(upper_form)
             if upper_use > 0 and upper_use >= NAME_SHARE * self.archaism.modern(lower_form):
                 return capital
-        if "prop" in tags and capital not in self.archaism.freq and token.text not in self.archaism.freq:
+        if token.lower == low and "prop" in tags and capital not in self.archaism.freq:
             return capital
         return low
 
@@ -351,6 +383,11 @@ class Engine:
             token.out = token.text
             token.reason = "name"
             return True
+        if self.lang == "nob" and (not token.capitalised or token.initial) and self.grammar_candidate(low):
+            if not second_pass:
+                return False
+            if self.grammar(tokens, i, words):
+                return True
         entries = self.lexicon.get(low)
         if entries:
             if not second_pass and any(e.contextual for e in entries):
@@ -367,11 +404,6 @@ class Engine:
             token.out = token.text
             token.reason = "lexicon-nomatch"
             return True
-        if self.lang == "nob" and not token.capitalised or token.initial:
-            if not second_pass and self.grammar_candidate(low):
-                return False
-            if second_pass and self.grammar(tokens, i, words):
-                return True
         if token.text in self.names or self.bank.proper_only(token.text):
             token.out = token.text
             token.reason = "name"
