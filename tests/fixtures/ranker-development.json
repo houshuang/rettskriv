@@ -1,0 +1,1421 @@
+[
+  {
+    "id": "c01",
+    "book": "constructed-1",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Han lader geværet før jakten.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 4,
+        "from": "lader",
+        "candidates": [
+          "lader",
+          "lar"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "lader",
+        "accepted": [
+          "lader"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "geværet",
+        "accepted": [
+          "geværet"
+        ]
+      },
+      {
+        "at": 18,
+        "from": "før",
+        "accepted": [
+          "før"
+        ]
+      },
+      {
+        "at": 22,
+        "from": "jakten",
+        "accepted": [
+          "jakten"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c02",
+    "book": "constructed-2",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Han lader henne gå hjem.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 4,
+        "from": "lader",
+        "candidates": [
+          "lader",
+          "lar"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "lader",
+        "accepted": [
+          "lar"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "henne",
+        "accepted": [
+          "henne"
+        ]
+      },
+      {
+        "at": 16,
+        "from": "gå",
+        "accepted": [
+          "gå"
+        ]
+      },
+      {
+        "at": 19,
+        "from": "hjem",
+        "accepted": [
+          "hjem"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c03",
+    "book": "constructed-3",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Han lader.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 4,
+        "from": "lader",
+        "candidates": [
+          "lader",
+          "lar"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "lader",
+        "accepted": [
+          "lader"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c04",
+    "book": "constructed-4",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Han voksede bordet med bivoks.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 4,
+        "from": "voksede",
+        "candidates": [
+          "voksede",
+          "vokste",
+          "vokset"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "voksede",
+        "accepted": [
+          "vokset"
+        ]
+      },
+      {
+        "at": 12,
+        "from": "bordet",
+        "accepted": [
+          "bordet"
+        ]
+      },
+      {
+        "at": 19,
+        "from": "med",
+        "accepted": [
+          "med"
+        ]
+      },
+      {
+        "at": 23,
+        "from": "bivoks",
+        "accepted": [
+          "bivoks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c05",
+    "book": "constructed-5",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Treet voksede raskt.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 6,
+        "from": "voksede",
+        "candidates": [
+          "voksede",
+          "vokste",
+          "vokset"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Treet",
+        "accepted": [
+          "Treet"
+        ]
+      },
+      {
+        "at": 6,
+        "from": "voksede",
+        "accepted": [
+          "vokste"
+        ]
+      },
+      {
+        "at": 14,
+        "from": "raskt",
+        "accepted": [
+          "raskt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c06",
+    "book": "constructed-6",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Han skrev ordet «voksede» på tavlen.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 17,
+        "from": "voksede",
+        "candidates": [
+          "voksede",
+          "vokste",
+          "vokset"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "skrev",
+        "accepted": [
+          "skrev"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "ordet",
+        "accepted": [
+          "ordet"
+        ]
+      },
+      {
+        "at": 17,
+        "from": "voksede",
+        "accepted": [
+          "voksede"
+        ]
+      },
+      {
+        "at": 26,
+        "from": "på",
+        "accepted": [
+          "på"
+        ]
+      },
+      {
+        "at": 29,
+        "from": "tavlen",
+        "accepted": [
+          "tavlen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c07",
+    "book": "constructed-7",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Jeg ved ikke svaret.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 4,
+        "from": "ved",
+        "candidates": [
+          "ved",
+          "vet"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Jeg",
+        "accepted": [
+          "Jeg"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "ved",
+        "accepted": [
+          "vet"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "ikke",
+        "accepted": [
+          "ikke"
+        ]
+      },
+      {
+        "at": 13,
+        "from": "svaret",
+        "accepted": [
+          "svaret"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c08",
+    "book": "constructed-8",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Jeg står ved døren.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 9,
+        "from": "ved",
+        "candidates": [
+          "ved",
+          "vet"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Jeg",
+        "accepted": [
+          "Jeg"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "står",
+        "accepted": [
+          "står"
+        ]
+      },
+      {
+        "at": 9,
+        "from": "ved",
+        "accepted": [
+          "ved"
+        ]
+      },
+      {
+        "at": 13,
+        "from": "døren",
+        "accepted": [
+          "døren"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c09",
+    "book": "constructed-9",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Han tog boken med seg.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 4,
+        "from": "tog",
+        "candidates": [
+          "tog",
+          "tok"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "tog",
+        "accepted": [
+          "tok"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "boken",
+        "accepted": [
+          "boken"
+        ]
+      },
+      {
+        "at": 14,
+        "from": "med",
+        "accepted": [
+          "med"
+        ]
+      },
+      {
+        "at": 18,
+        "from": "seg",
+        "accepted": [
+          "seg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c10",
+    "book": "constructed-10",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Et tog kom inn på stasjonen.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 3,
+        "from": "tog",
+        "candidates": [
+          "tog",
+          "tok"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Et",
+        "accepted": [
+          "Et"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "tog",
+        "accepted": [
+          "tog"
+        ]
+      },
+      {
+        "at": 7,
+        "from": "kom",
+        "accepted": [
+          "kom"
+        ]
+      },
+      {
+        "at": 11,
+        "from": "inn",
+        "accepted": [
+          "inn"
+        ]
+      },
+      {
+        "at": 15,
+        "from": "på",
+        "accepted": [
+          "på"
+        ]
+      },
+      {
+        "at": 18,
+        "from": "stasjonen",
+        "accepted": [
+          "stasjonen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c11",
+    "book": "constructed-11",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Han vilde reise i morgen.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 4,
+        "from": "vilde",
+        "candidates": [
+          "vilde",
+          "ville"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "vilde",
+        "accepted": [
+          "ville"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "reise",
+        "accepted": [
+          "reise"
+        ]
+      },
+      {
+        "at": 16,
+        "from": "i",
+        "accepted": [
+          "i"
+        ]
+      },
+      {
+        "at": 18,
+        "from": "morgen",
+        "accepted": [
+          "morgen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c12",
+    "book": "constructed-12",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "De vilde dyrene løp gjennom skogen.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 3,
+        "from": "vilde",
+        "candidates": [
+          "vilde",
+          "ville"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "De",
+        "accepted": [
+          "De"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "vilde",
+        "accepted": [
+          "ville"
+        ]
+      },
+      {
+        "at": 9,
+        "from": "dyrene",
+        "accepted": [
+          "dyrene"
+        ]
+      },
+      {
+        "at": 16,
+        "from": "løp",
+        "accepted": [
+          "løp"
+        ]
+      },
+      {
+        "at": 20,
+        "from": "gjennom",
+        "accepted": [
+          "gjennom"
+        ]
+      },
+      {
+        "at": 28,
+        "from": "skogen",
+        "accepted": [
+          "skogen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c13",
+    "book": "constructed-13",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Jeg møtte Hr. Baat i går.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 14,
+        "from": "Baat",
+        "candidates": [
+          "Baat",
+          "Båt"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Jeg",
+        "accepted": [
+          "Jeg"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "møtte",
+        "accepted": [
+          "møtte"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "Hr",
+        "accepted": [
+          "Hr"
+        ]
+      },
+      {
+        "at": 14,
+        "from": "Baat",
+        "accepted": [
+          "Baat"
+        ]
+      },
+      {
+        "at": 19,
+        "from": "i",
+        "accepted": [
+          "i"
+        ]
+      },
+      {
+        "at": 21,
+        "from": "går",
+        "accepted": [
+          "går"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c14",
+    "book": "constructed-14",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Han rodde sin baat over fjorden.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 14,
+        "from": "baat",
+        "candidates": [
+          "baat",
+          "båt"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "rodde",
+        "accepted": [
+          "rodde"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "sin",
+        "accepted": [
+          "sin"
+        ]
+      },
+      {
+        "at": 14,
+        "from": "baat",
+        "accepted": [
+          "båt"
+        ]
+      },
+      {
+        "at": 19,
+        "from": "over",
+        "accepted": [
+          "over"
+        ]
+      },
+      {
+        "at": 24,
+        "from": "fjorden",
+        "accepted": [
+          "fjorden"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c15",
+    "book": "constructed-15",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Hun skrev bokstavene «aa» i margen.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 22,
+        "from": "aa",
+        "candidates": [
+          "aa",
+          "å"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Hun",
+        "accepted": [
+          "Hun"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "skrev",
+        "accepted": [
+          "skrev"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "bokstavene",
+        "accepted": [
+          "bokstavene"
+        ]
+      },
+      {
+        "at": 22,
+        "from": "aa",
+        "accepted": [
+          "aa"
+        ]
+      },
+      {
+        "at": 26,
+        "from": "i",
+        "accepted": [
+          "i"
+        ]
+      },
+      {
+        "at": 28,
+        "from": "margen",
+        "accepted": [
+          "margen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c16",
+    "book": "constructed-16",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nob",
+    "original": "Det er godt aa være hjemme.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 12,
+        "from": "aa",
+        "candidates": [
+          "aa",
+          "å"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Det",
+        "accepted": [
+          "Det"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "er",
+        "accepted": [
+          "er"
+        ]
+      },
+      {
+        "at": 7,
+        "from": "godt",
+        "accepted": [
+          "godt"
+        ]
+      },
+      {
+        "at": 12,
+        "from": "aa",
+        "accepted": [
+          "å"
+        ]
+      },
+      {
+        "at": 15,
+        "from": "være",
+        "accepted": [
+          "være"
+        ]
+      },
+      {
+        "at": 20,
+        "from": "hjemme",
+        "accepted": [
+          "hjemme"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c17",
+    "book": "constructed-17",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nno",
+    "original": "Ho saag på meg.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 3,
+        "from": "saag",
+        "candidates": [
+          "saag",
+          "såg"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Ho",
+        "accepted": [
+          "Ho"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "saag",
+        "accepted": [
+          "såg"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "på",
+        "accepted": [
+          "på"
+        ]
+      },
+      {
+        "at": 11,
+        "from": "meg",
+        "accepted": [
+          "meg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c18",
+    "book": "constructed-18",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nno",
+    "original": "Ho skreiv ordet «saag» på tavla.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 17,
+        "from": "saag",
+        "candidates": [
+          "saag",
+          "såg"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Ho",
+        "accepted": [
+          "Ho"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "skreiv",
+        "accepted": [
+          "skreiv"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "ordet",
+        "accepted": [
+          "ordet"
+        ]
+      },
+      {
+        "at": 17,
+        "from": "saag",
+        "accepted": [
+          "saag"
+        ]
+      },
+      {
+        "at": 23,
+        "from": "på",
+        "accepted": [
+          "på"
+        ]
+      },
+      {
+        "at": 26,
+        "from": "tavla",
+        "accepted": [
+          "tavla"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c19",
+    "book": "constructed-19",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nno",
+    "original": "Eg gjekk paa skulen.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 9,
+        "from": "paa",
+        "candidates": [
+          "paa",
+          "på"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Eg",
+        "accepted": [
+          "Eg"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "gjekk",
+        "accepted": [
+          "gjekk"
+        ]
+      },
+      {
+        "at": 9,
+        "from": "paa",
+        "accepted": [
+          "på"
+        ]
+      },
+      {
+        "at": 13,
+        "from": "skulen",
+        "accepted": [
+          "skulen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c20",
+    "book": "constructed-20",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nno",
+    "original": "Ordet «paa» har tre bokstavar.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 7,
+        "from": "paa",
+        "candidates": [
+          "paa",
+          "på"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Ordet",
+        "accepted": [
+          "Ordet"
+        ]
+      },
+      {
+        "at": 7,
+        "from": "paa",
+        "accepted": [
+          "paa"
+        ]
+      },
+      {
+        "at": 12,
+        "from": "har",
+        "accepted": [
+          "har"
+        ]
+      },
+      {
+        "at": 16,
+        "from": "tre",
+        "accepted": [
+          "tre"
+        ]
+      },
+      {
+        "at": 20,
+        "from": "bokstavar",
+        "accepted": [
+          "bokstavar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c21",
+    "book": "constructed-21",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nno",
+    "original": "Han kom fraa byen.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 8,
+        "from": "fraa",
+        "candidates": [
+          "fraa",
+          "frå"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "kom",
+        "accepted": [
+          "kom"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "fraa",
+        "accepted": [
+          "frå"
+        ]
+      },
+      {
+        "at": 13,
+        "from": "byen",
+        "accepted": [
+          "byen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c22",
+    "book": "constructed-22",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nno",
+    "original": "Ho las «fraa» høgt, bokstav for bokstav.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 8,
+        "from": "fraa",
+        "candidates": [
+          "fraa",
+          "frå"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Ho",
+        "accepted": [
+          "Ho"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "las",
+        "accepted": [
+          "las"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "fraa",
+        "accepted": [
+          "fraa"
+        ]
+      },
+      {
+        "at": 14,
+        "from": "høgt",
+        "accepted": [
+          "høgt"
+        ]
+      },
+      {
+        "at": 20,
+        "from": "bokstav",
+        "accepted": [
+          "bokstav"
+        ]
+      },
+      {
+        "at": 28,
+        "from": "for",
+        "accepted": [
+          "for"
+        ]
+      },
+      {
+        "at": 32,
+        "from": "bokstav",
+        "accepted": [
+          "bokstav"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c23",
+    "book": "constructed-23",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nno",
+    "original": "Det var ein stor baat.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 17,
+        "from": "baat",
+        "candidates": [
+          "baat",
+          "båt"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Det",
+        "accepted": [
+          "Det"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "var",
+        "accepted": [
+          "var"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "ein",
+        "accepted": [
+          "ein"
+        ]
+      },
+      {
+        "at": 12,
+        "from": "stor",
+        "accepted": [
+          "stor"
+        ]
+      },
+      {
+        "at": 17,
+        "from": "baat",
+        "accepted": [
+          "båt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c24",
+    "book": "constructed-24",
+    "author": "Codex-constructed-contrasts",
+    "split": "dev",
+    "lang": "nno",
+    "original": "Han heiter Baat til etternamn.",
+    "nouncaps": false,
+    "source": "Constructed model-labelled contrasts, not independent historical evidence",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development before model query",
+    "rank_targets": [
+      {
+        "at": 11,
+        "from": "Baat",
+        "candidates": [
+          "Baat",
+          "Båt"
+        ]
+      }
+    ],
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "heiter",
+        "accepted": [
+          "heiter"
+        ]
+      },
+      {
+        "at": 11,
+        "from": "Baat",
+        "accepted": [
+          "Baat"
+        ]
+      },
+      {
+        "at": 16,
+        "from": "til",
+        "accepted": [
+          "til"
+        ]
+      },
+      {
+        "at": 20,
+        "from": "etternamn",
+        "accepted": [
+          "etternamn"
+        ]
+      }
+    ]
+  }
+]

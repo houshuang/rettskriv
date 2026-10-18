@@ -102,6 +102,7 @@ Both tools refuse to overwrite output; unadjudicated packets cannot be scored as
 gold even with `--development`.
 
 Local evidence for this review is in ignored `out/comparison/` (source archives,
-builds, frozen packets, raw analyses and overlap results). Human adjudication and a
-constrained neural ranker comparison remain unperformed. These measurements do not
+builds, frozen packets, raw analyses and overlap results). Human adjudication remains
+unperformed. A subsequent [constrained-ranker experiment](context-ranker-comparison.md)
+tests constructed contrasts; it is not a historical accuracy benchmark. These measurements do not
 justify replacing the deterministic engine or advertising a new accuracy figure.
