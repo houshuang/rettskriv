@@ -13,6 +13,7 @@ CSV columns: source, target, when, note, origin.
     prev=a|b           the previous word (lower case, as printed) is one of these
     next=a|b           the next word is one of these (prev/next stop at punctuation)
     nextany=a|b        the next word, even across punctuation
+    nextbreak=a|b      the next word, with punctuation between
     notprev2=a|b       the word before the previous one is none of these
     prevout=a|b        the previous word's modern form is one of these
     nextout=a|b        the next word's modern form is one of these

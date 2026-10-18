@@ -229,7 +229,7 @@ vide,vite,lower;nouncaps;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|faa|
 vide,=,,,core
 ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;next=ikke|det|hvad|hvor|hvem|hvorledes|hvorfor|om|nok|vel|jo|ogsaa|godt|alt|intet|ret|saa|mere|bedre|ej|ei|kun|blot|slet|endnu|nu|dog|vist|ingenting|noget|hvilken|hvilket|hvilke|ikkun|hvorfra|hvortil|naar,present of vite,core
 ved,vet,lower;prev=det|dette|hvad|saa|nok|jo|vel|ikke|nu;next=jeg|du|han|hun|vi|man|de|i,present of vite (inverted),core
-ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;nextany=at,"jeg ved, at" (the comma rules out the preposition),core
+ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;nextbreak=at,"jeg ved, at" (the comma rules out the preposition),core
 ved,=,,,core
 vidste,visste,,,core
 vidst,visst,,,core
@@ -365,6 +365,7 @@ fuld,full,,,core
 let,lett,,,core
 tæt,tett,,,core
 hvide,hvite,,,core
+høi,=,cap;mid;nouncaps,Høi = a mound,acceptance
 høi,høy,,,core
 høit,høyt,,,core
 høie,høye,,,core
@@ -413,7 +414,6 @@ ankerne,ankrene,,anchors (ankene = the appeals),acceptance
 hegle,=,,hegle (card flax; criticise) is not hekle,acceptance
 myg,myk,,supple,acceptance
 felden,=,,felden = the coat (pelsen); fellen is the trap,acceptance
-høi,=,cap;mid;nouncaps,Høi = a mound,acceptance
 endskjønt,enskjønt,,,acceptance
 omendskjønt,omenskjønt,,,acceptance
 gaaer,går,,,acceptance
@@ -444,3 +444,9 @@ drømme,drømmer,cap;mid;nouncaps,,acceptance
 kalve,kalver,cap;mid;nouncaps,,acceptance
 vinde,vinder,cap;mid;nouncaps,winds (vinde = to wind),acceptance
 krøbne,krøpet,,,acceptance
+mose,=,cap,Moses (mose = moss),acceptance
+hel,=,cap;mid,Hel the goddess and realm (hel = whole),acceptance
+lee,=,cap,name,acceptance
+hun,=,cap;mid;nouncaps,"a capital Hun mid-sentence is the female (hunn), never the pronoun",acceptance
+løn,=,cap;mid;nouncaps,i Løn = in secret,acceptance
+leg,=,,leg = play or a resting place (leie),acceptance

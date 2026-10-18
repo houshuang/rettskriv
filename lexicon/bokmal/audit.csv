@@ -152,7 +152,6 @@ skue,=,,keep:,audit:nob-inbank-r1-00
 erkebispen,=,,keep:,audit:nob-inbank-r1-00
 frimodig,=,,keep:,audit:nob-inbank-r1-00
 forsømt,=,,keep:,audit:nob-inbank-r1-00
-leg,lek,,,audit:nob-inbank-r1-00
 dovne,=,,keep:,audit:nob-inbank-r1-00
 samtlige,=,,keep:,audit:nob-inbank-r1-00
 galer,=,,keep:,audit:nob-inbank-r1-00
@@ -326,7 +325,6 @@ skildre,=,,keep:,audit:nob-inbank-r1-00
 brevduen,=,,keep:,audit:nob-inbank-r1-00
 bøsse,=,,keep:,audit:nob-inbank-r1-00
 lien,=,,keep:,audit:nob-inbank-r1-00
-dale,=,,context: daler (noun pl) | dale (verb),audit:nob-inbank-r1-00
 varlig,=,,keep:,audit:nob-inbank-r1-00
 bisp,=,,keep:,audit:nob-inbank-r1-00
 straffer,=,,keep:,audit:nob-inbank-r1-00
@@ -349,7 +347,6 @@ trekantede,=,,keep:,audit:nob-inbank-r1-00
 understøttet,=,,keep:,audit:nob-inbank-r1-00
 almene,=,,keep:,audit:nob-inbank-r1-00
 mile,mil,,plural of mil,audit:nob-inbank-r1-00
-lee,le,,,audit:nob-inbank-r1-00
 omhyggelige,=,,keep:,audit:nob-inbank-r1-00
 forvist,=,,context: forvisst (certainly) | forvist (banished),audit:nob-inbank-r1-00
 tilvirke,=,,keep:,audit:nob-inbank-r1-00
@@ -832,6 +829,883 @@ kjølende,=,,keep:,audit:nob-inbank-r2-00
 forynget,=,,keep:,audit:nob-inbank-r2-00
 balsamisk,=,,keep:,audit:nob-inbank-r2-00
 trefold,=,,keep:,audit:nob-inbank-r2-00
+der,=,,keep:,audit:nob-inbank-r3-00
+hans,=,,keep:,audit:nob-inbank-r3-00
+min,=,,keep:,audit:nob-inbank-r3-00
+deres,=,,keep:,audit:nob-inbank-r3-00
+stod,=,,keep:,audit:nob-inbank-r3-00
+vel,=,,keep:,audit:nob-inbank-r3-00
+din,=,,keep:,audit:nob-inbank-r3-00
+engang,=,,keep:,audit:nob-inbank-r3-00
+ganske,=,,keep:,audit:nob-inbank-r3-00
+bad,=,,keep:,audit:nob-inbank-r3-00
+tale,=,,keep:,audit:nob-inbank-r3-00
+omtrent,=,,keep:,audit:nob-inbank-r3-00
+enten,=,,keep:,audit:nob-inbank-r3-00
+hverken,=,,keep:,audit:nob-inbank-r3-00
+hvilken,=,,keep:,audit:nob-inbank-r3-00
+bære,=,,keep:,audit:nob-inbank-r3-00
+svenske,=,,keep:,audit:nob-inbank-r3-00
+hellige,=,,keep:,audit:nob-inbank-r3-00
+vendte,=,,keep:,audit:nob-inbank-r3-00
+fremmede,=,,keep:,audit:nob-inbank-r3-00
+skjønt,=,,keep:,audit:nob-inbank-r3-00
+levende,=,,keep:,audit:nob-inbank-r3-00
+tør,=,,context: tørr (adj) | tør (verb),audit:nob-inbank-r3-00
+neppe,=,,keep:,audit:nob-inbank-r3-00
+bringe,=,,keep:,audit:nob-inbank-r3-00
+skjønne,=,,keep:,audit:nob-inbank-r3-00
+øvrige,=,,keep:,audit:nob-inbank-r3-00
+ben,=,,keep:,audit:nob-inbank-r3-00
+overalt,=,,keep:,audit:nob-inbank-r3-00
+vis,=,,context: viss (adj) | vis (adj),audit:nob-inbank-r3-00
+gut,=,,keep:,audit:nob-inbank-r3-00
+te,=,,keep:,audit:nob-inbank-r3-00
+fat,=,,keep:,audit:nob-inbank-r3-00
+bød,=,,keep:,audit:nob-inbank-r3-00
+glade,=,,keep:,audit:nob-inbank-r3-00
+bestandig,=,,keep:,audit:nob-inbank-r3-00
+ex,=,,keep:,audit:nob-inbank-r3-00
+franske,=,,keep:,audit:nob-inbank-r3-00
+hør,=,,keep:,audit:nob-inbank-r3-00
+hurtig,=,,keep:,audit:nob-inbank-r3-00
+tjene,=,,keep:,audit:nob-inbank-r3-00
+vende,=,,keep:,audit:nob-inbank-r3-00
+uhyre,=,,keep:,audit:nob-inbank-r3-00
+farer,=,,keep:,audit:nob-inbank-r3-00
+taler,=,,keep:,audit:nob-inbank-r3-00
+lide,=,,keep:,audit:nob-inbank-r3-00
+vender,=,,keep:,audit:nob-inbank-r3-00
+fin,=,,keep:,audit:nob-inbank-r3-00
+bedrøvet,=,,keep:,audit:nob-inbank-r3-00
+flittig,=,,keep:,audit:nob-inbank-r3-00
+bringer,=,,keep:,audit:nob-inbank-r3-00
+love,=,,keep:,audit:nob-inbank-r3-00
+romerske,=,,keep:,audit:nob-inbank-r3-00
+sand,=,,keep:,audit:nob-inbank-r3-00
+lignende,=,,keep:,audit:nob-inbank-r3-00
+bandt,=,,keep:,audit:nob-inbank-r3-00
+inderlig,=,,keep:,audit:nob-inbank-r3-00
+bestod,=,,keep:,audit:nob-inbank-r3-00
+dobbelt,=,,keep:,audit:nob-inbank-r3-00
+tilfreds,=,,keep:,audit:nob-inbank-r3-00
+springe,=,,keep:,audit:nob-inbank-r3-00
+danner,=,,keep:,audit:nob-inbank-r3-00
+milde,=,,keep:,audit:nob-inbank-r3-00
+blandede,=,,keep:,audit:nob-inbank-r3-00
+trofast,=,,keep:,audit:nob-inbank-r3-00
+sø,=,,keep:,audit:nob-inbank-r3-00
+tapre,=,,keep:,audit:nob-inbank-r3-00
+vakte,=,,keep:,audit:nob-inbank-r3-00
+nødig,=,,keep:,audit:nob-inbank-r3-00
+elske,=,,keep:,audit:nob-inbank-r3-00
+skolemesteren,=,,keep:,audit:nob-inbank-r3-00
+slemme,=,,keep:,audit:nob-inbank-r3-00
+frelse,=,,keep:,audit:nob-inbank-r3-00
+lærde,=,,keep:,audit:nob-inbank-r3-00
+redet,=,,keep:,audit:nob-inbank-r3-00
+kvad,=,,keep:,audit:nob-inbank-r3-00
+elskede,=,,keep:,audit:nob-inbank-r3-00
+forskjelligartet,=,,keep:,audit:nob-inbank-r3-00
+blodige,=,,keep:,audit:nob-inbank-r3-00
+bi,=,,keep:,audit:nob-inbank-r3-00
+passende,=,,keep:,audit:nob-inbank-r3-00
+jage,=,,keep:,audit:nob-inbank-r3-00
+sogn,=,,keep:,audit:nob-inbank-r3-00
+tusende,=,,awaiting verification of tusen.,audit:nob-inbank-r3-00
+fore,=,,keep:,audit:nob-inbank-r3-00
+hønen,=,,keep:,audit:nob-inbank-r3-00
+munter,=,,keep:,audit:nob-inbank-r3-00
+bruse,=,,keep:,audit:nob-inbank-r3-00
+heftig,=,,keep:,audit:nob-inbank-r3-00
+rose,=,,keep:,audit:nob-inbank-r3-00
+blide,=,,keep:,audit:nob-inbank-r3-00
+fangen,=,,context: fanget (part) | fangen (noun),audit:nob-inbank-r3-00
+herlig,=,,keep:,audit:nob-inbank-r3-00
+stred,=,,keep:,audit:nob-inbank-r3-00
+vov,=,,keep:,audit:nob-inbank-r3-00
+trofaste,=,,keep:,audit:nob-inbank-r3-00
+styrter,=,,keep:,audit:nob-inbank-r3-00
+frelst,=,,keep:,audit:nob-inbank-r3-00
+friste,=,,keep:,audit:nob-inbank-r3-00
+gaupen,=,,keep:,audit:nob-inbank-r3-00
+forekom,=,,keep:,audit:nob-inbank-r3-00
+geistlige,=,,keep:,audit:nob-inbank-r3-00
+hastig,=,,keep:,audit:nob-inbank-r3-00
+ond,=,,keep:,audit:nob-inbank-r3-00
+dømme,=,,keep:,audit:nob-inbank-r3-00
+skjønneste,=,,keep:,audit:nob-inbank-r3-00
+lund,=,,keep:,audit:nob-inbank-r3-00
+klinger,=,,keep:,audit:nob-inbank-r3-00
+hersker,=,,keep:,audit:nob-inbank-r3-00
+dannes,=,,keep:,audit:nob-inbank-r3-00
+skiltes,=,,keep:,audit:nob-inbank-r3-00
+takker,=,,keep:,audit:nob-inbank-r3-00
+latinske,=,,keep:,audit:nob-inbank-r3-00
+dristig,=,,keep:,audit:nob-inbank-r3-00
+verdslige,=,,keep:,audit:nob-inbank-r3-00
+duer,=,,keep:,audit:nob-inbank-r3-00
+bæ,=,,keep:,audit:nob-inbank-r3-00
+hjertelig,=,,keep:,audit:nob-inbank-r3-00
+bestille,=,,keep:,audit:nob-inbank-r3-00
+blomstrende,=,,keep:,audit:nob-inbank-r3-00
+vinder,=,,context: vinner (verb) | vinder (noun),audit:nob-inbank-r3-00
+velsigne,=,,keep:,audit:nob-inbank-r3-00
+anvende,=,,keep:,audit:nob-inbank-r3-00
+anvendes,=,,keep:,audit:nob-inbank-r3-00
+hurtigere,=,,keep:,audit:nob-inbank-r3-00
+forunderlig,=,,keep:,audit:nob-inbank-r3-00
+fatte,=,,keep:,audit:nob-inbank-r3-00
+forene,=,,keep:,audit:nob-inbank-r3-00
+sulte,=,,keep:,audit:nob-inbank-r3-00
+usle,=,,keep:,audit:nob-inbank-r3-00
+lyriske,=,,keep:,audit:nob-inbank-r3-00
+fordrer,=,,keep:,audit:nob-inbank-r3-00
+skare,=,,keep:,audit:nob-inbank-r3-00
+tyrkiske,=,,keep:,audit:nob-inbank-r3-00
+tyst,=,,keep:,audit:nob-inbank-r3-00
+ingensteds,=,,keep:,audit:nob-inbank-r3-00
+velsignet,=,,keep:,audit:nob-inbank-r3-00
+forstandig,=,,keep:,audit:nob-inbank-r3-00
+villet,=,,keep:,audit:nob-inbank-r3-00
+blidt,=,,keep:,audit:nob-inbank-r3-00
+est,=,,keep:,audit:nob-inbank-r3-00
+lystige,=,,keep:,audit:nob-inbank-r3-00
+nedenunder,=,,keep:,audit:nob-inbank-r3-00
+tappert,=,,keep:,audit:nob-inbank-r3-00
+vokset,=,,keep:,audit:nob-inbank-r3-00
+trøste,=,,keep:,audit:nob-inbank-r3-00
+fødte,=,,keep:,audit:nob-inbank-r3-00
+mangle,=,,keep:,audit:nob-inbank-r3-00
+mag,=,,keep:,audit:nob-inbank-r3-00
+kjærlige,=,,keep:,audit:nob-inbank-r3-00
+stander,=,,keep:,audit:nob-inbank-r3-00
+forfølge,=,,keep:,audit:nob-inbank-r3-00
+forekommer,=,,keep:,audit:nob-inbank-r3-00
+steile,=,,keep:,audit:nob-inbank-r3-00
+fordums,=,,keep:,audit:nob-inbank-r3-00
+kjært,=,,keep:,audit:nob-inbank-r3-00
+doven,=,,keep:,audit:nob-inbank-r3-00
+stakket,=,,keep:,audit:nob-inbank-r3-00
+ærlige,=,,keep:,audit:nob-inbank-r3-00
+ømme,=,,keep:,audit:nob-inbank-r3-00
+skadelige,=,,keep:,audit:nob-inbank-r3-00
+tie,=,,keep:,audit:nob-inbank-r3-00
+render,=,,keep:,audit:nob-inbank-r3-00
+skylder,=,,keep:,audit:nob-inbank-r3-00
+nordligste,=,,keep:,audit:nob-inbank-r3-00
+skinne,=,,keep:,audit:nob-inbank-r3-00
+kastes,=,,keep:,audit:nob-inbank-r3-00
+bukke,=,,keep:,audit:nob-inbank-r3-00
+føder,=,,keep:,audit:nob-inbank-r3-00
+mandig,=,,keep:,audit:nob-inbank-r3-00
+adskilte,=,,keep:,audit:nob-inbank-r3-00
+fagert,=,,keep:,audit:nob-inbank-r3-00
+middelskolen,=,,keep:,audit:nob-inbank-r3-00
+erfare,=,,keep:,audit:nob-inbank-r3-00
+tin,=,,keep:,audit:nob-inbank-r3-00
+svømmende,=,,keep:,audit:nob-inbank-r3-00
+tier,=,,keep:,audit:nob-inbank-r3-00
+stores,=,,keep:,audit:nob-inbank-r3-00
+fredløs,=,,keep:,audit:nob-inbank-r3-00
+skotske,=,,keep:,audit:nob-inbank-r3-00
+bestemmes,=,,keep:,audit:nob-inbank-r3-00
+slutningen,=,,keep:,audit:nob-inbank-r3-00
+lynild,=,,keep:,audit:nob-inbank-r3-00
+bevise,=,,keep:,audit:nob-inbank-r3-00
+ge,=,,keep:,audit:nob-inbank-r3-00
+strengeste,=,,keep:,audit:nob-inbank-r3-00
+gravet,=,,keep:,audit:nob-inbank-r3-00
+voldte,=,,keep:,audit:nob-inbank-r3-00
+vester,=,,keep:,audit:nob-inbank-r3-00
+birkebeiner,=,,keep:,audit:nob-inbank-r3-00
+nordre,=,,keep:,audit:nob-inbank-r3-00
+briste,=,,keep:,audit:nob-inbank-r3-00
+livlige,=,,keep:,audit:nob-inbank-r3-00
+fattes,=,,keep:,audit:nob-inbank-r3-00
+verdslig,=,,keep:,audit:nob-inbank-r3-00
+gjerrige,=,,keep:,audit:nob-inbank-r3-00
+tidende,=,,keep:,audit:nob-inbank-r3-00
+kirkelige,=,,keep:,audit:nob-inbank-r3-00
+poetisk,=,,keep:,audit:nob-inbank-r3-00
+befaling,=,,keep:,audit:nob-inbank-r3-00
+formere,=,,keep:,audit:nob-inbank-r3-00
+guddommelige,=,,keep:,audit:nob-inbank-r3-00
+listig,=,,keep:,audit:nob-inbank-r3-00
+borge,=,,keep:,audit:nob-inbank-r3-00
+skytten,=,,keep:,audit:nob-inbank-r3-00
+skarer,=,,keep:,audit:nob-inbank-r3-00
+trykkende,=,,keep:,audit:nob-inbank-r3-00
+belærende,=,,keep:,audit:nob-inbank-r3-00
+bortførte,=,,keep:,audit:nob-inbank-r3-00
+sæl,=,,keep:,audit:nob-inbank-r3-00
+lukkes,=,,keep:,audit:nob-inbank-r3-00
+slip,=,,keep:,audit:nob-inbank-r3-00
+sjeldent,=,,keep:,audit:nob-inbank-r3-00
+hint,=,,keep:,audit:nob-inbank-r3-00
+fjære,=,,context: fjær (feather) | fjære (ebb),audit:nob-inbank-r3-00
+ranke,=,,keep:,audit:nob-inbank-r3-00
+dyrkes,=,,keep:,audit:nob-inbank-r3-00
+uren,=,,keep:,audit:nob-inbank-r3-00
+forfølger,=,,keep:,audit:nob-inbank-r3-00
+fremstille,=,,keep:,audit:nob-inbank-r3-00
+bruser,=,,keep:,audit:nob-inbank-r3-00
+gild,=,,keep:,audit:nob-inbank-r3-00
+sanke,=,,keep:,audit:nob-inbank-r3-00
+fromt,=,,keep:,audit:nob-inbank-r3-00
+ussel,=,,keep:,audit:nob-inbank-r3-00
+dømmende,=,,keep:,audit:nob-inbank-r3-00
+sæter,=,,keep:,audit:nob-inbank-r3-00
+muld,=,,keep:,audit:nob-inbank-r3-00
+forbandt,=,,keep:,audit:nob-inbank-r3-00
+besværlig,=,,keep:,audit:nob-inbank-r3-00
+ræv,=,,awaiting verification of rev. fox in these books,audit:nob-inbank-r3-00
+flor,=,,keep:,audit:nob-inbank-r3-00
+narre,=,,keep:,audit:nob-inbank-r3-00
+stemt,=,,keep:,audit:nob-inbank-r3-00
+henvendte,=,,keep:,audit:nob-inbank-r3-00
+volde,=,,keep:,audit:nob-inbank-r3-00
+hyppig,=,,keep:,audit:nob-inbank-r3-00
+fremstiller,=,,keep:,audit:nob-inbank-r3-00
+moe,=,,keep:,audit:nob-inbank-r3-00
+hi,=,,keep:,audit:nob-inbank-r3-00
+skynd,=,,keep:,audit:nob-inbank-r3-00
+stormende,=,,keep:,audit:nob-inbank-r3-00
+dragen,=,,context: dratt (part) | dragen (noun),audit:nob-inbank-r3-00
+billeder,=,,keep:,audit:nob-inbank-r3-00
+førstningen,=,,keep:,audit:nob-inbank-r3-00
+tinder,=,,keep:,audit:nob-inbank-r3-00
+fluks,=,,keep:,audit:nob-inbank-r3-00
+bager,=,,keep:,audit:nob-inbank-r3-00
+fortærer,=,,keep:,audit:nob-inbank-r3-00
+bevares,=,,keep:,audit:nob-inbank-r3-00
+fjerneste,=,,keep:,audit:nob-inbank-r3-00
+kløve,=,,keep:,audit:nob-inbank-r3-00
+ruge,=,,keep:,audit:nob-inbank-r3-00
+sparsomt,=,,keep:,audit:nob-inbank-r3-00
+stifte,=,,keep:,audit:nob-inbank-r3-00
+geistlig,=,,keep:,audit:nob-inbank-r3-00
+forener,=,,keep:,audit:nob-inbank-r3-00
+tornerosen,=,,keep:,audit:nob-inbank-r3-00
+behagelige,=,,keep:,audit:nob-inbank-r3-00
+forbitret,=,,keep:,audit:nob-inbank-r3-00
+arve,=,,keep:,audit:nob-inbank-r3-00
+lier,=,,keep:,audit:nob-inbank-r3-00
+glemmes,=,,keep:,audit:nob-inbank-r3-00
+fjernere,=,,keep:,audit:nob-inbank-r3-00
+fryde,=,,keep:,audit:nob-inbank-r3-00
+storme,=,,keep:,audit:nob-inbank-r3-00
+beror,=,,keep:,audit:nob-inbank-r3-00
+tindrende,=,,keep:,audit:nob-inbank-r3-00
+uforandret,=,,keep:,audit:nob-inbank-r3-00
+nordamerikanske,=,,keep:,audit:nob-inbank-r3-00
+plebeierne,=,,keep:,audit:nob-inbank-r3-00
+underrette,=,,keep:,audit:nob-inbank-r3-00
+bande,=,,keep:,audit:nob-inbank-r3-00
+egn,=,,keep:,audit:nob-inbank-r3-00
+mons,=,,keep:,audit:nob-inbank-r3-00
+dreven,=,,keep:,audit:nob-inbank-r3-00
+bundne,=,,keep:,audit:nob-inbank-r3-00
+forfattet,=,,keep:,audit:nob-inbank-r3-00
+betegner,=,,keep:,audit:nob-inbank-r3-00
+prosaiske,=,,keep:,audit:nob-inbank-r3-00
+furuen,=,,keep:,audit:nob-inbank-r3-00
+lydige,=,,keep:,audit:nob-inbank-r3-00
+tarvelig,=,,keep:,audit:nob-inbank-r3-00
+bu,=,,keep:,audit:nob-inbank-r3-00
+mælte,=,,keep:,audit:nob-inbank-r3-00
+grenaderen,=,,keep:,audit:nob-inbank-r3-00
+gjenlød,=,,keep:,audit:nob-inbank-r3-00
+hengiven,=,,keep:,audit:nob-inbank-r3-00
+kappes,=,,keep:,audit:nob-inbank-r3-00
+lyner,=,,keep:,audit:nob-inbank-r3-00
+pryder,=,,keep:,audit:nob-inbank-r3-00
+brister,=,,keep:,audit:nob-inbank-r3-00
+id,=,,keep:,audit:nob-inbank-r3-00
+tinge,=,,keep:,audit:nob-inbank-r3-00
+rivende,=,,keep:,audit:nob-inbank-r3-00
+skrider,=,,keep:,audit:nob-inbank-r3-00
+nedsatte,=,,keep:,audit:nob-inbank-r3-00
+elsk,=,,keep:,audit:nob-inbank-r3-00
+underholde,=,,keep:,audit:nob-inbank-r3-00
+mishandle,=,,keep:,audit:nob-inbank-r3-00
+kreaturene,=,,keep:,audit:nob-inbank-r3-00
+flokke,=,,keep:,audit:nob-inbank-r3-00
+spanierne,=,,keep:,audit:nob-inbank-r3-00
+fornemmer,=,,keep:,audit:nob-inbank-r3-00
+ryk,=,,keep:,audit:nob-inbank-r3-00
+stig,=,,keep:,audit:nob-inbank-r3-00
+pinte,=,,keep:,audit:nob-inbank-r3-00
+strakt,=,,keep:,audit:nob-inbank-r3-00
+lumsk,=,,keep:,audit:nob-inbank-r3-00
+bestige,=,,keep:,audit:nob-inbank-r3-00
+grim,=,,keep:,audit:nob-inbank-r3-00
+slumrende,=,,keep:,audit:nob-inbank-r3-00
+bidraget,=,,keep:,audit:nob-inbank-r3-00
+evangelisk,=,,keep:,audit:nob-inbank-r3-00
+forenes,=,,keep:,audit:nob-inbank-r3-00
+nordpolen,=,,keep:,audit:nob-inbank-r3-00
+snes,=,,keep:,audit:nob-inbank-r3-00
+erkebisp,=,,keep:,audit:nob-inbank-r3-00
+spartanerne,=,,keep:,audit:nob-inbank-r3-00
+ubeskrivelig,=,,keep:,audit:nob-inbank-r3-00
+bestyrelse,=,,keep:,audit:nob-inbank-r3-00
+dømmer,=,,keep:,audit:nob-inbank-r3-00
+ulydige,=,,keep:,audit:nob-inbank-r3-00
+overmodig,=,,keep:,audit:nob-inbank-r3-00
+guddommelig,=,,keep:,audit:nob-inbank-r3-00
+ustraffet,=,,keep:,audit:nob-inbank-r3-00
+troende,=,,keep:,audit:nob-inbank-r3-00
+adskillig,=,,keep:,audit:nob-inbank-r3-00
+bal,=,,keep:,audit:nob-inbank-r3-00
+kneise,=,,keep:,audit:nob-inbank-r3-00
+fremføre,=,,keep:,audit:nob-inbank-r3-00
+tumler,=,,keep:,audit:nob-inbank-r3-00
+styrkende,=,,keep:,audit:nob-inbank-r3-00
+ikveld,=,,awaiting verification of i kveld.,audit:nob-inbank-r3-00
+blunde,=,,keep:,audit:nob-inbank-r3-00
+lid,=,,keep:,audit:nob-inbank-r3-00
+islandske,=,,keep:,audit:nob-inbank-r3-00
+maleriske,=,,keep:,audit:nob-inbank-r3-00
+unyttig,=,,keep:,audit:nob-inbank-r3-00
+forbedrede,=,,keep:,audit:nob-inbank-r3-00
+sydpolen,=,,keep:,audit:nob-inbank-r3-00
+bøssen,=,,keep:,audit:nob-inbank-r3-00
+forføre,=,,keep:,audit:nob-inbank-r3-00
+laver,=,,keep:,audit:nob-inbank-r3-00
+dømmes,=,,keep:,audit:nob-inbank-r3-00
+besynderlig,=,,keep:,audit:nob-inbank-r3-00
+tvungen,=,,keep:,audit:nob-inbank-r3-00
+steil,=,,keep:,audit:nob-inbank-r3-00
+strunk,=,,keep:,audit:nob-inbank-r3-00
+drevne,=,,keep:,audit:nob-inbank-r3-00
+feile,=,,keep:,audit:nob-inbank-r3-00
+overmodige,=,,keep:,audit:nob-inbank-r3-00
+alten,=,,keep:,audit:nob-inbank-r3-00
+furet,=,,keep:,audit:nob-inbank-r3-00
+øves,=,,keep:,audit:nob-inbank-r3-00
+bekvemt,=,,keep:,audit:nob-inbank-r3-00
+floden,=,,keep:,audit:nob-inbank-r3-00
+lavet,=,,keep:,audit:nob-inbank-r3-00
+røvet,=,,keep:,audit:nob-inbank-r3-00
+begraves,=,,keep:,audit:nob-inbank-r3-00
+seende,=,,keep:,audit:nob-inbank-r3-00
+forvandles,=,,keep:,audit:nob-inbank-r3-00
+kristelig,=,,keep:,audit:nob-inbank-r3-00
+stumme,=,,keep:,audit:nob-inbank-r3-00
+forleden,=,,keep:,audit:nob-inbank-r3-00
+deiligere,=,,keep:,audit:nob-inbank-r3-00
+medlidende,=,,keep:,audit:nob-inbank-r3-00
+ubudne,=,,keep:,audit:nob-inbank-r3-00
+overtroiske,=,,keep:,audit:nob-inbank-r3-00
+modent,=,,keep:,audit:nob-inbank-r3-00
+særegen,=,,keep:,audit:nob-inbank-r3-00
+tilbørlig,=,,keep:,audit:nob-inbank-r3-00
+bod,=,,context: bot (fine) | bod (booth),audit:nob-inbank-r3-00
+roende,=,,keep:,audit:nob-inbank-r3-00
+tilstedeværende,=,,keep:,audit:nob-inbank-r3-00
+higer,=,,keep:,audit:nob-inbank-r3-00
+urokkelig,=,,keep:,audit:nob-inbank-r3-00
+dagningen,=,,keep:,audit:nob-inbank-r3-00
+livligere,=,,keep:,audit:nob-inbank-r3-00
+lignes,=,,keep:,audit:nob-inbank-r3-00
+nos,=,,keep:,audit:nob-inbank-r3-00
+fiskes,=,,keep:,audit:nob-inbank-r3-00
+varmeste,=,,keep:,audit:nob-inbank-r3-00
+slaviske,=,,keep:,audit:nob-inbank-r3-00
+klingende,=,,keep:,audit:nob-inbank-r3-00
+derpå,=,,keep:,audit:nob-inbank-r3-00
+konsuler,=,,keep:,audit:nob-inbank-r3-00
+virksomt,=,,keep:,audit:nob-inbank-r3-00
+forlede,=,,keep:,audit:nob-inbank-r3-00
+hulkende,=,,keep:,audit:nob-inbank-r3-00
+pikke,=,,keep:,audit:nob-inbank-r3-00
+knurre,=,,keep:,audit:nob-inbank-r3-00
+stade,=,,keep:,audit:nob-inbank-r3-00
+barsk,=,,keep:,audit:nob-inbank-r3-00
+istemte,=,,keep:,audit:nob-inbank-r3-00
+sønder,=,,keep:,audit:nob-inbank-r3-00
+sæle,=,,keep:,audit:nob-inbank-r3-00
+spillende,=,,keep:,audit:nob-inbank-r3-00
+hagel,=,,keep:,audit:nob-inbank-r3-00
+ivrigste,=,,keep:,audit:nob-inbank-r3-00
+nyttigere,=,,keep:,audit:nob-inbank-r3-00
+arne,=,,keep:,audit:nob-inbank-r3-00
+fordrev,=,,keep:,audit:nob-inbank-r3-00
+vaklende,=,,keep:,audit:nob-inbank-r3-00
+svulmer,=,,keep:,audit:nob-inbank-r3-00
+fremkom,=,,keep:,audit:nob-inbank-r3-00
+vog,=,,keep:,audit:nob-inbank-r3-00
+træler,=,,keep:,audit:nob-inbank-r3-00
+latinsk,=,,keep:,audit:nob-inbank-r3-00
+golde,=,,keep:,audit:nob-inbank-r3-00
+fremragende,=,,keep:,audit:nob-inbank-r3-00
+omvendte,=,,keep:,audit:nob-inbank-r3-00
+blunder,=,,keep:,audit:nob-inbank-r3-00
+reformerte,=,,keep:,audit:nob-inbank-r3-00
+selja,=,,keep:,audit:nob-inbank-r3-00
+konventet,=,,keep:,audit:nob-inbank-r3-00
+overflødige,=,,keep:,audit:nob-inbank-r3-00
+uforstandige,=,,keep:,audit:nob-inbank-r3-00
+slynge,=,,keep:,audit:nob-inbank-r3-00
+fjortende,=,,keep:,audit:nob-inbank-r3-00
+undervises,=,,keep:,audit:nob-inbank-r3-00
+legemet,=,,keep:,audit:nob-inbank-r3-00
+rode,=,,keep:,audit:nob-inbank-r3-00
+savnede,=,,keep:,audit:nob-inbank-r3-00
+lempelig,=,,keep:,audit:nob-inbank-r3-00
+fastende,=,,keep:,audit:nob-inbank-r3-00
+visner,=,,keep:,audit:nob-inbank-r3-00
+urene,=,,keep:,audit:nob-inbank-r3-00
+valle,=,,keep:,audit:nob-inbank-r3-00
+feiet,=,,keep:,audit:nob-inbank-r3-00
+forstummer,=,,keep:,audit:nob-inbank-r3-00
+skyndsomt,=,,keep:,audit:nob-inbank-r3-00
+tordner,=,,keep:,audit:nob-inbank-r3-00
+anrettet,=,,keep:,audit:nob-inbank-r3-00
+beile,=,,keep:,audit:nob-inbank-r3-00
+bayerske,=,,keep:,audit:nob-inbank-r3-00
+underste,=,,keep:,audit:nob-inbank-r3-00
+høste,=,,keep:,audit:nob-inbank-r3-00
+besørget,=,,keep:,audit:nob-inbank-r3-00
+vulkanske,=,,keep:,audit:nob-inbank-r3-00
+lign,=,,keep:,audit:nob-inbank-r3-00
+tyende,=,,keep:,audit:nob-inbank-r3-00
+underholdt,=,,keep:,audit:nob-inbank-r3-00
+skytte,=,,keep:,audit:nob-inbank-r3-00
+billedet,=,,keep:,audit:nob-inbank-r3-00
+tilberedes,=,,keep:,audit:nob-inbank-r3-00
+barbarisk,=,,keep:,audit:nob-inbank-r3-00
+rov,=,,keep:,audit:nob-inbank-r3-00
+toppe,=,,keep:,audit:nob-inbank-r3-00
+underhuset,=,,keep:,audit:nob-inbank-r3-00
+uegennyttig,=,,keep:,audit:nob-inbank-r3-00
+smigre,=,,keep:,audit:nob-inbank-r3-00
+deromkring,=,,keep:,audit:nob-inbank-r3-00
+helbredes,=,,keep:,audit:nob-inbank-r3-00
+forfølges,=,,keep:,audit:nob-inbank-r3-00
+istemmer,=,,keep:,audit:nob-inbank-r3-00
+ar,=,,keep:,audit:nob-inbank-r3-00
+næ,=,,keep:,audit:nob-inbank-r3-00
+forære,=,,keep:,audit:nob-inbank-r3-00
+godmodige,=,,keep:,audit:nob-inbank-r3-00
+juble,=,,keep:,audit:nob-inbank-r3-00
+uheldigvis,=,,keep:,audit:nob-inbank-r3-00
+gjenlyder,=,,keep:,audit:nob-inbank-r3-00
+belyste,=,,keep:,audit:nob-inbank-r3-00
+bekvem,=,,keep:,audit:nob-inbank-r3-00
+meddelte,=,,keep:,audit:nob-inbank-r3-00
+rost,=,,keep:,audit:nob-inbank-r3-00
+rammede,=,,keep:,audit:nob-inbank-r3-00
+beretter,=,,keep:,audit:nob-inbank-r3-00
+fnysende,=,,keep:,audit:nob-inbank-r3-00
+tilintetgjøre,=,,keep:,audit:nob-inbank-r3-00
+sær,=,,keep:,audit:nob-inbank-r3-00
+fortryllende,=,,keep:,audit:nob-inbank-r3-00
+ærgjerrige,=,,keep:,audit:nob-inbank-r3-00
+tiltagende,=,,keep:,audit:nob-inbank-r3-00
+forskjønne,=,,keep:,audit:nob-inbank-r3-00
+splittede,=,,keep:,audit:nob-inbank-r3-00
+barbariske,=,,keep:,audit:nob-inbank-r3-00
+beleire,=,,keep:,audit:nob-inbank-r3-00
+næringsveiene,=,,keep:,audit:nob-inbank-r3-00
+forsømmer,=,,keep:,audit:nob-inbank-r3-00
+republikansk,=,,keep:,audit:nob-inbank-r3-00
+bevilge,=,,keep:,audit:nob-inbank-r3-00
+kurfyrsten,=,,keep:,audit:nob-inbank-r3-00
+henseende,=,,keep:,audit:nob-inbank-r3-00
+skjødet,=,,keep:,audit:nob-inbank-r3-00
+stallare,=,,keep:,audit:nob-inbank-r3-00
+odelsting,=,,keep:,audit:nob-inbank-r3-00
+vord,=,,keep:,audit:nob-inbank-r3-00
+salvede,=,,keep:,audit:nob-inbank-r3-00
+forførte,=,,keep:,audit:nob-inbank-r3-00
+egensindig,=,,keep:,audit:nob-inbank-r3-00
+formuende,=,,keep:,audit:nob-inbank-r3-00
+dysse,=,,keep:,audit:nob-inbank-r3-00
+tosse,=,,keep:,audit:nob-inbank-r3-00
+segne,=,,keep:,audit:nob-inbank-r3-00
+hvilende,=,,keep:,audit:nob-inbank-r3-00
+ilende,=,,keep:,audit:nob-inbank-r3-00
+grue,=,,keep:,audit:nob-inbank-r3-00
+helbreder,=,,keep:,audit:nob-inbank-r3-00
+plumpe,=,,keep:,audit:nob-inbank-r3-01
+omringe,=,,keep:,audit:nob-inbank-r3-01
+æret,=,,keep:,audit:nob-inbank-r3-01
+stridig,=,,keep:,audit:nob-inbank-r3-01
+ufravendt,=,,keep:,audit:nob-inbank-r3-01
+tiltaler,=,,keep:,audit:nob-inbank-r3-01
+nornen,=,,keep:,audit:nob-inbank-r3-01
+bevingede,=,,keep:,audit:nob-inbank-r3-01
+armes,=,,keep:,audit:nob-inbank-r3-01
+punktlig,=,,keep:,audit:nob-inbank-r3-01
+ernærer,=,,keep:,audit:nob-inbank-r3-01
+materier,=,,keep:,audit:nob-inbank-r3-01
+renses,=,,keep:,audit:nob-inbank-r3-01
+ave,=,,keep:,audit:nob-inbank-r3-01
+heltemodige,=,,keep:,audit:nob-inbank-r3-01
+landfast,=,,keep:,audit:nob-inbank-r3-01
+avler,=,,keep:,audit:nob-inbank-r3-01
+ørne,=,,awaiting verification of ørner. plural,audit:nob-inbank-r3-01
+tilje,=,,keep:,audit:nob-inbank-r3-01
+tidender,=,,keep:,audit:nob-inbank-r3-01
+søndre,=,,keep:,audit:nob-inbank-r3-01
+stallar,=,,keep:,audit:nob-inbank-r3-01
+vestgoterne,=,,keep:,audit:nob-inbank-r3-01
+solte,=,,awaiting verification of solgte.,audit:nob-inbank-r3-01
+ubehagelige,=,,keep:,audit:nob-inbank-r3-01
+bestyrelsen,=,,keep:,audit:nob-inbank-r3-01
+skammelige,=,,keep:,audit:nob-inbank-r3-01
+plantes,=,,keep:,audit:nob-inbank-r3-01
+udødelige,=,,keep:,audit:nob-inbank-r3-01
+overbeviste,=,,keep:,audit:nob-inbank-r3-01
+trøster,=,,keep:,audit:nob-inbank-r3-01
+beklage,=,,keep:,audit:nob-inbank-r3-01
+tarv,=,,keep:,audit:nob-inbank-r3-01
+hev,=,,keep:,audit:nob-inbank-r3-01
+ødsle,=,,keep:,audit:nob-inbank-r3-01
+leiet,=,,keep:,audit:nob-inbank-r3-01
+rørig,=,,keep:,audit:nob-inbank-r3-01
+stukken,=,,awaiting verification of stukket.,audit:nob-inbank-r3-01
+mortensaften,=,,keep:,audit:nob-inbank-r3-01
+sanker,=,,keep:,audit:nob-inbank-r3-01
+overkomme,=,,keep:,audit:nob-inbank-r3-01
+kneisende,=,,keep:,audit:nob-inbank-r3-01
+usigelig,=,,keep:,audit:nob-inbank-r3-01
+vordende,=,,keep:,audit:nob-inbank-r3-01
+yppig,=,,keep:,audit:nob-inbank-r3-01
+lønnes,=,,keep:,audit:nob-inbank-r3-01
+snedige,=,,keep:,audit:nob-inbank-r3-01
+varslende,=,,keep:,audit:nob-inbank-r3-01
+venden,=,,keep:,audit:nob-inbank-r3-01
+fremførte,=,,keep:,audit:nob-inbank-r3-01
+pleies,=,,keep:,audit:nob-inbank-r3-01
+luende,=,,keep:,audit:nob-inbank-r3-01
+berettiget,=,,keep:,audit:nob-inbank-r3-01
+famle,=,,keep:,audit:nob-inbank-r3-01
+sturen,=,,keep:,audit:nob-inbank-r3-01
+lystelig,=,,keep:,audit:nob-inbank-r3-01
+rankt,=,,keep:,audit:nob-inbank-r3-01
+fornyes,=,,keep:,audit:nob-inbank-r3-01
+livligste,=,,keep:,audit:nob-inbank-r3-01
+betydeligste,=,,keep:,audit:nob-inbank-r3-01
+prosaisk,=,,keep:,audit:nob-inbank-r3-01
+glimrer,=,,keep:,audit:nob-inbank-r3-01
+utilfreds,=,,keep:,audit:nob-inbank-r3-01
+adler,=,,keep:,audit:nob-inbank-r3-01
+østlig,=,,keep:,audit:nob-inbank-r3-01
+nordvestlige,=,,keep:,audit:nob-inbank-r3-01
+skarpest,=,,keep:,audit:nob-inbank-r3-01
+godtgjort,=,,keep:,audit:nob-inbank-r3-01
+uveisomme,=,,keep:,audit:nob-inbank-r3-01
+underskrive,=,,keep:,audit:nob-inbank-r3-01
+fade,=,,awaiting verification of fat. old plural of fad,audit:nob-inbank-r3-01
+milevidt,=,,keep:,audit:nob-inbank-r3-01
+gny,=,,keep:,audit:nob-inbank-r3-01
+sådanne,=,,keep:,audit:nob-inbank-r3-01
+fremom,=,,keep:,audit:nob-inbank-r3-01
+tungsindig,=,,keep:,audit:nob-inbank-r3-01
+sæte,=,,awaiting verification of sete.,audit:nob-inbank-r3-01
+overhuset,=,,keep:,audit:nob-inbank-r3-01
+tilbyder,=,,awaiting verification of tilbyr.,audit:nob-inbank-r3-01
+defensor,=,,keep:,audit:nob-inbank-r3-01
+underrettet,=,,keep:,audit:nob-inbank-r3-01
+roses,=,,keep:,audit:nob-inbank-r3-01
+uforstandig,=,,keep:,audit:nob-inbank-r3-01
+betal,=,,keep:,audit:nob-inbank-r3-01
+halshugget,=,,keep:,audit:nob-inbank-r3-01
+lak,=,,keep:,audit:nob-inbank-r3-01
+vanke,=,,keep:,audit:nob-inbank-r3-01
+rødkjelken,=,,keep:,audit:nob-inbank-r3-01
+overskue,=,,keep:,audit:nob-inbank-r3-01
+eia,=,,keep:,audit:nob-inbank-r3-01
+bydende,=,,keep:,audit:nob-inbank-r3-01
+kobberrød,=,,keep:,audit:nob-inbank-r3-01
+knøs,=,,keep:,audit:nob-inbank-r3-01
+ledsages,=,,keep:,audit:nob-inbank-r3-01
+betro,=,,keep:,audit:nob-inbank-r3-01
+ton,=,,keep:,audit:nob-inbank-r3-01
+menige,=,,keep:,audit:nob-inbank-r3-01
+hauge,=,,context: hage | haug | name,audit:nob-inbank-r3-01
+giftes,=,,keep:,audit:nob-inbank-r3-01
+fremvise,=,,keep:,audit:nob-inbank-r3-01
+stolteste,=,,keep:,audit:nob-inbank-r3-01
+ungdommelige,=,,keep:,audit:nob-inbank-r3-01
+klippefaste,=,,keep:,audit:nob-inbank-r3-01
+rokkes,=,,keep:,audit:nob-inbank-r3-01
+kjærest,=,,keep:,audit:nob-inbank-r3-01
+faderlig,=,,keep:,audit:nob-inbank-r3-01
+lev,=,,keep:,audit:nob-inbank-r3-01
+hindres,=,,keep:,audit:nob-inbank-r3-01
+juris,=,,keep:,audit:nob-inbank-r3-01
+hyppigst,=,,keep:,audit:nob-inbank-r3-01
+overveie,=,,keep:,audit:nob-inbank-r3-01
+datum,=,,keep:,audit:nob-inbank-r3-01
+godtgjøre,=,,keep:,audit:nob-inbank-r3-01
+kristkirken,=,,keep:,audit:nob-inbank-r3-01
+krumt,=,,keep:,audit:nob-inbank-r3-01
+akka,=,,keep:,audit:nob-inbank-r3-01
+racer,=,,awaiting verification of raser.,audit:nob-inbank-r3-01
+fordoble,=,,keep:,audit:nob-inbank-r3-01
+uskikket,=,,keep:,audit:nob-inbank-r3-01
+kosteligste,=,,keep:,audit:nob-inbank-r3-01
+vikle,=,,keep:,audit:nob-inbank-r3-01
+romanske,=,,keep:,audit:nob-inbank-r3-01
+pavelig,=,,keep:,audit:nob-inbank-r3-01
+skarn,=,,keep:,audit:nob-inbank-r3-01
+foræring,=,,keep:,audit:nob-inbank-r3-01
+livsens,=,,keep:,audit:nob-inbank-r3-01
+jyden,=,,keep:,audit:nob-inbank-r3-01
+knurren,=,,keep:,audit:nob-inbank-r3-01
+legt,=,,awaiting verification of lekt.,audit:nob-inbank-r3-01
+halshugg,=,,keep:,audit:nob-inbank-r3-01
+jages,=,,keep:,audit:nob-inbank-r3-01
+kelter,=,,keep:,audit:nob-inbank-r3-01
+historieskriver,=,,keep:,audit:nob-inbank-r3-01
+borgerstand,=,,keep:,audit:nob-inbank-r3-01
+henvise,=,,keep:,audit:nob-inbank-r3-01
+jam,=,,keep:,audit:nob-inbank-r3-01
+bortved,=,,keep:,audit:nob-inbank-r3-01
+dølske,=,,keep:,audit:nob-inbank-r3-01
+underdommer,=,,keep:,audit:nob-inbank-r3-01
+firedobbelt,=,,keep:,audit:nob-inbank-r3-01
+upartisk,=,,keep:,audit:nob-inbank-r3-01
+elskelig,=,,keep:,audit:nob-inbank-r3-01
+forblindet,=,,keep:,audit:nob-inbank-r3-01
+hak,=,,keep:,audit:nob-inbank-r3-01
+ster,=,,keep: ocr hyphenation fragment,audit:nob-inbank-r3-01
+rosenrød,=,,keep:,audit:nob-inbank-r3-01
+tik,=,,keep:,audit:nob-inbank-r3-01
+traktere,=,,keep:,audit:nob-inbank-r3-01
+brunlig,=,,keep:,audit:nob-inbank-r3-01
+erle,=,,keep:,audit:nob-inbank-r3-01
+frier,=,,keep:,audit:nob-inbank-r3-01
+mist,=,,context: mistet (perf) | mist (imperative),audit:nob-inbank-r3-01
+forurettede,=,,keep:,audit:nob-inbank-r3-01
+klaren,=,,awaiting verification of klare.,audit:nob-inbank-r3-01
+tjæret,=,,keep:,audit:nob-inbank-r3-01
+forskjønnes,=,,keep:,audit:nob-inbank-r3-01
+fritter,=,,keep:,audit:nob-inbank-r3-01
+forræderske,=,,keep:,audit:nob-inbank-r3-01
+betjente,=,,context: betjenter (noun pl) | betjente (verb past),audit:nob-inbank-r3-01
+nedstemte,=,,keep:,audit:nob-inbank-r3-01
+knurrende,=,,keep:,audit:nob-inbank-r3-01
+flettede,=,,keep:,audit:nob-inbank-r3-01
+stablede,=,,keep:,audit:nob-inbank-r3-01
+forsonet,=,,keep:,audit:nob-inbank-r3-01
+sommeraften,=,,keep:,audit:nob-inbank-r3-01
+skymt,=,,context: skumt (adj dim) | skymt (noun),audit:nob-inbank-r3-01
+levner,=,,keep:,audit:nob-inbank-r3-01
+kjæres,=,,keep:,audit:nob-inbank-r3-01
+ørkesløse,=,,keep:,audit:nob-inbank-r3-01
+loge,=,,keep:,audit:nob-inbank-r3-01
+ynker,=,,keep:,audit:nob-inbank-r3-01
+gjærende,=,,keep:,audit:nob-inbank-r3-01
+mismodige,=,,keep:,audit:nob-inbank-r3-01
+profetiske,=,,keep:,audit:nob-inbank-r3-01
+fyrstelig,=,,keep:,audit:nob-inbank-r3-01
+ubarmhjertig,=,,keep:,audit:nob-inbank-r3-01
+ubekymrede,=,,keep:,audit:nob-inbank-r3-01
+vitterlig,=,,keep:,audit:nob-inbank-r3-01
+rislende,=,,keep:,audit:nob-inbank-r3-01
+lokkende,=,,keep:,audit:nob-inbank-r3-01
+beklagelige,=,,keep:,audit:nob-inbank-r3-01
+sammenlagte,=,,keep:,audit:nob-inbank-r3-01
+svinges,=,,keep:,audit:nob-inbank-r3-01
+udyrket,=,,keep:,audit:nob-inbank-r3-01
+tilskrive,=,,keep:,audit:nob-inbank-r3-01
+bene,=,,keep:,audit:nob-inbank-r3-01
+anviser,=,,keep:,audit:nob-inbank-r3-01
+ukyndig,=,,keep:,audit:nob-inbank-r3-01
+vrimler,=,,keep:,audit:nob-inbank-r3-01
+apostolisk,=,,keep:,audit:nob-inbank-r3-01
+styrtes,=,,keep:,audit:nob-inbank-r3-01
+gyselig,=,,keep:,audit:nob-inbank-r3-01
+driste,=,,keep:,audit:nob-inbank-r3-01
+velfortjente,=,,keep:,audit:nob-inbank-r3-01
+tilintetgjort,=,,keep:,audit:nob-inbank-r3-01
+skyldfri,=,,keep:,audit:nob-inbank-r3-01
+torve,=,,keep:,audit:nob-inbank-r3-01
+am,=,,keep:,audit:nob-inbank-r3-01
+henviste,=,,keep:,audit:nob-inbank-r3-01
+kjærligste,=,,keep:,audit:nob-inbank-r3-01
+orienten,=,,keep:,audit:nob-inbank-r3-01
+gjendrive,=,,keep:,audit:nob-inbank-r3-01
+helligste,=,,keep:,audit:nob-inbank-r3-01
+huslig,=,,keep:,audit:nob-inbank-r3-01
+yngle,=,,keep:,audit:nob-inbank-r3-01
+landsfolket,=,,keep:,audit:nob-inbank-r3-01
+kirkestaten,=,,keep:,audit:nob-inbank-r3-01
+saltes,=,,keep:,audit:nob-inbank-r3-01
+uforglemmelige,=,,keep:,audit:nob-inbank-r3-01
+velklingende,=,,keep:,audit:nob-inbank-r3-01
+gyselige,=,,keep:,audit:nob-inbank-r3-01
+uegennyttige,=,,keep:,audit:nob-inbank-r3-01
+statelig,=,,keep:,audit:nob-inbank-r3-01
+barnekammeret,=,,keep:,audit:nob-inbank-r3-01
+voven,=,,keep:,audit:nob-inbank-r3-01
+budt,=,,keep:,audit:nob-inbank-r3-01
+medbeiler,=,,keep:,audit:nob-inbank-r3-01
+aftenstund,=,,keep:,audit:nob-inbank-r3-01
+benveien,=,,keep:,audit:nob-inbank-r3-01
+hjorder,=,,keep:,audit:nob-inbank-r3-01
+vesterlandene,=,,keep:,audit:nob-inbank-r3-01
+rælingen,=,,keep:,audit:nob-inbank-r3-01
+kjælne,=,,keep:,audit:nob-inbank-r3-01
+levnetsmidler,=,,keep:,audit:nob-inbank-r3-01
+ynde,=,,keep:,audit:nob-inbank-r3-01
+arbeidsklassen,=,,keep:,audit:nob-inbank-r3-01
+tiøre,=,,keep:,audit:nob-inbank-r3-01
+bagler,=,,keep:,audit:nob-inbank-r3-01
+regnte,=,,keep:,audit:nob-inbank-r3-01
+tordne,=,,keep:,audit:nob-inbank-r3-01
+muhammedanerne,=,,keep:,audit:nob-inbank-r3-01
+habsburgske,=,,keep:,audit:nob-inbank-r3-01
+strype,=,,keep:,audit:nob-inbank-r3-01
+solt,=,,awaiting verification of solgt.,audit:nob-inbank-r3-01
+signet,=,,keep:,audit:nob-inbank-r3-01
+aur,=,,keep:,audit:nob-inbank-r3-01
+høgstnattes,=,,keep:,audit:nob-inbank-r3-01
+lilja,=,,keep:,audit:nob-inbank-r3-01
+hedenold,=,,keep:,audit:nob-inbank-r3-01
+utidige,=,,keep:,audit:nob-inbank-r3-01
+urette,=,,keep:,audit:nob-inbank-r3-01
+forbarmet,=,,keep:,audit:nob-inbank-r3-01
+fordømme,=,,keep:,audit:nob-inbank-r3-01
+vantrives,=,,keep:,audit:nob-inbank-r3-01
+ynke,=,,keep:,audit:nob-inbank-r3-01
+iberegnet,=,,keep:,audit:nob-inbank-r3-01
+rin,=,,keep: ocr hyphenation fragment,audit:nob-inbank-r3-01
+møl,=,,keep:,audit:nob-inbank-r3-01
+pral,=,,keep:,audit:nob-inbank-r3-01
+bel,=,,keep:,audit:nob-inbank-r3-01
+risler,=,,keep:,audit:nob-inbank-r3-01
+mina,=,,keep:,audit:nob-inbank-r3-01
+forknytte,=,,keep:,audit:nob-inbank-r3-01
+fælere,=,,keep:,audit:nob-inbank-r3-01
+ubuden,=,,keep:,audit:nob-inbank-r3-01
+herifra,=,,keep:,audit:nob-inbank-r3-01
+galere,=,,keep:,audit:nob-inbank-r3-01
+snurrig,=,,keep:,audit:nob-inbank-r3-01
+kramse,=,,keep:,audit:nob-inbank-r3-01
+flittigste,=,,keep:,audit:nob-inbank-r3-01
+gemene,=,,keep:,audit:nob-inbank-r3-01
+hjemkomne,=,,keep:,audit:nob-inbank-r3-01
+gjøs,=,,keep: gjøs = gyse past; no valid modern target in bank,audit:nob-inbank-r3-01
+fult,=,,keep:,audit:nob-inbank-r3-01
+dunkleste,=,,keep:,audit:nob-inbank-r3-01
+linden,=,,keep:,audit:nob-inbank-r3-01
+aftenskumringen,=,,keep:,audit:nob-inbank-r3-01
+kløftede,=,,keep:,audit:nob-inbank-r3-01
+gjorder,=,,keep:,audit:nob-inbank-r3-01
+hauglagte,=,,keep:,audit:nob-inbank-r3-01
+drister,=,,keep:,audit:nob-inbank-r3-01
+sydfra,=,,keep:,audit:nob-inbank-r3-01
+klerk,=,,keep:,audit:nob-inbank-r3-01
+skjemtsom,=,,keep:,audit:nob-inbank-r3-01
+fyndige,=,,keep:,audit:nob-inbank-r3-01
+falbød,=,,keep:,audit:nob-inbank-r3-01
+forvirrede,=,,keep:,audit:nob-inbank-r3-01
+terske,=,,keep:,audit:nob-inbank-r3-01
+arild,=,,keep:,audit:nob-inbank-r3-01
+nordom,=,,keep:,audit:nob-inbank-r3-01
+rugende,=,,keep:,audit:nob-inbank-r3-01
+godslige,=,,keep:,audit:nob-inbank-r3-01
+berømmelige,=,,keep:,audit:nob-inbank-r3-01
+kapitel,=,,awaiting verification of kapittel.,audit:nob-inbank-r3-01
+vinkende,=,,keep:,audit:nob-inbank-r3-01
+dreiende,=,,keep:,audit:nob-inbank-r3-01
+evjen,=,,keep:,audit:nob-inbank-r3-01
+førstkommende,=,,keep:,audit:nob-inbank-r3-01
+tossen,=,,keep:,audit:nob-inbank-r3-01
+henkastet,=,,keep:,audit:nob-inbank-r3-01
+dristigere,=,,keep:,audit:nob-inbank-r3-01
+solblanke,=,,keep:,audit:nob-inbank-r3-01
+østlandske,=,,keep:,audit:nob-inbank-r3-01
+naturhistoriske,=,,keep:,audit:nob-inbank-r3-01
+sammenstyrtede,=,,keep:,audit:nob-inbank-r3-01
+piner,=,,keep:,audit:nob-inbank-r3-01
+klaret,=,,keep:,audit:nob-inbank-r3-01
+dadler,=,,keep:,audit:nob-inbank-r3-01
+ærbødige,=,,keep:,audit:nob-inbank-r3-01
+beskuelsen,=,,keep:,audit:nob-inbank-r3-01
+stridbar,=,,keep:,audit:nob-inbank-r3-01
+syriske,=,,keep:,audit:nob-inbank-r3-01
+kjøer,=,,awaiting verification of kyr.,audit:nob-inbank-r3-01
+harve,=,,keep:,audit:nob-inbank-r3-01
+avind,=,,keep:,audit:nob-inbank-r3-01
+foreskrev,=,,keep:,audit:nob-inbank-r3-01
+segner,=,,keep:,audit:nob-inbank-r3-01
+frede,=,,keep:,audit:nob-inbank-r3-01
+betegnende,=,,keep:,audit:nob-inbank-r3-01
+uøvet,=,,keep:,audit:nob-inbank-r3-01
+kroppe,=,,awaiting verification of kropper.,audit:nob-inbank-r3-01
+herjende,=,,keep:,audit:nob-inbank-r3-01
+tykkest,=,,keep:,audit:nob-inbank-r3-01
+meridian,=,,keep:,audit:nob-inbank-r3-01
+julianske,=,,keep:,audit:nob-inbank-r3-01
+seigeste,=,,keep:,audit:nob-inbank-r3-01
+mangedobbelt,=,,keep:,audit:nob-inbank-r3-01
+fornærmer,=,,keep:,audit:nob-inbank-r3-01
+dyrkbart,=,,keep:,audit:nob-inbank-r3-01
+stemmeberettiget,=,,keep:,audit:nob-inbank-r3-01
+underretten,=,,keep:,audit:nob-inbank-r3-01
+gulerlen,=,,keep:,audit:nob-inbank-r3-01
+forkaster,=,,keep:,audit:nob-inbank-r3-01
+beseirede,=,,keep:,audit:nob-inbank-r3-01
+yppe,=,,keep:,audit:nob-inbank-r3-01
+fredsommelige,=,,keep:,audit:nob-inbank-r3-01
+frieste,=,,keep:,audit:nob-inbank-r3-01
+jevngod,=,,keep:,audit:nob-inbank-r3-01
+tømre,=,,keep:,audit:nob-inbank-r3-01
+klove,=,,awaiting verification of klover.,audit:nob-inbank-r3-01
+velvillige,=,,keep:,audit:nob-inbank-r3-01
+forben,=,,keep:,audit:nob-inbank-r3-01
+lykkeligvis,=,,keep:,audit:nob-inbank-r3-01
+slummer,=,,keep:,audit:nob-inbank-r3-01
+gjure,=,,keep:,audit:nob-inbank-r3-01
+rykkes,=,,keep:,audit:nob-inbank-r3-01
+bob,=,,keep:,audit:nob-inbank-r3-01
+sydsiden,=,,keep:,audit:nob-inbank-r3-01
+begjærer,=,,keep:,audit:nob-inbank-r3-01
+kufte,=,,keep:,audit:nob-inbank-r3-01
+luftninger,=,,keep:,audit:nob-inbank-r3-01
+legemer,=,,keep:,audit:nob-inbank-r3-01
+kafferne,=,,keep:,audit:nob-inbank-r3-01
+bøsser,=,,keep:,audit:nob-inbank-r3-01
+hurraer,=,,keep:,audit:nob-inbank-r3-01
+baskende,=,,keep:,audit:nob-inbank-r3-01
+styrtning,=,,keep:,audit:nob-inbank-r3-01
+vallen,=,,keep:,audit:nob-inbank-r3-01
+favnende,=,,keep:,audit:nob-inbank-r3-01
+soli,=,,keep:,audit:nob-inbank-r3-01
+mers,=,,keep:,audit:nob-inbank-r3-01
+overskuer,=,,keep:,audit:nob-inbank-r3-01
+frosta,=,,keep:,audit:nob-inbank-r3-01
+blodbryllupet,=,,keep:,audit:nob-inbank-r3-01
+hauges,=,,keep:,audit:nob-inbank-r3-01
+underskrives,=,,keep:,audit:nob-inbank-r3-01
+føniker,=,,keep:,audit:nob-inbank-r3-01
+geist,=,,keep:,audit:nob-inbank-r3-01
+ridderlig,=,,keep:,audit:nob-inbank-r3-01
+arvekonge,=,,keep:,audit:nob-inbank-r3-01
+presbyterianske,=,,keep:,audit:nob-inbank-r3-01
+alba,=,,keep:,audit:nob-inbank-r3-01
+bøhmisk,=,,keep:,audit:nob-inbank-r3-01
+handelsforbindelse,=,,keep:,audit:nob-inbank-r3-01
+anklages,=,,keep:,audit:nob-inbank-r3-01
+gjeten,=,,keep:,audit:nob-inbank-r3-01
+vit,=,,keep:,audit:nob-inbank-r3-01
+folen,=,,keep:,audit:nob-inbank-r3-01
+snyltedyr,=,,keep:,audit:nob-inbank-r3-01
+gildre,=,,keep:,audit:nob-inbank-r3-01
+kleven,=,,keep:,audit:nob-inbank-r3-01
+primsignet,=,,keep:,audit:nob-inbank-r3-01
+enevold,=,,keep:,audit:nob-inbank-r3-01
+kommanderende,=,,keep:,audit:nob-inbank-r3-01
+ljot,=,,keep:,audit:nob-inbank-r3-01
+oratoriske,=,,keep:,audit:nob-inbank-r3-01
+gjenfødes,=,,keep:,audit:nob-inbank-r3-01
 dens,=,,keep:,audit:nob-left-r1-00
 al,=,,keep:,audit:nob-left-r1-00
 derved,=,,keep:,audit:nob-left-r1-00
@@ -880,7 +1754,6 @@ spørge,spørre,,,audit:nob-left-r1-00
 verdens,=,,keep:,audit:nob-left-r1-00
 smukke,=,,keep:,audit:nob-left-r1-00
 saasom,=,,keep:,audit:nob-left-r1-00
-vinde,=,,"verifier disagreed (=: also vinde (hoist/wind), modern vinde); was vinne",audit:nob-left-r1-00
 jordens,=,,keep:,audit:nob-left-r1-00
 spidsen,=,,keep:,audit:nob-left-r1-00
 folkets,=,,keep:,audit:nob-left-r1-00
@@ -924,7 +1797,6 @@ forlod,forlot,,,audit:nob-left-r1-00
 ægypten,=,,keep:,audit:nob-left-r1-00
 villie,vilje,,,audit:nob-left-r1-00
 fridtjov,=,,keep:,audit:nob-left-r1-00
-faaer,får,,,audit:nob-left-r1-00
 vundet,=,,"verifier disagreed (=: also vinde (hoist) participle, e.g. vundet den op); was vunnet",audit:nob-left-r1-00
 tordenskjold,=,,keep:,audit:nob-left-r1-00
 besluttede,besluttet,,,audit:nob-left-r1-00
@@ -985,7 +1857,7 @@ maaskee,=,,keep:,audit:nob-left-r1-00
 lovede,lovte,,,audit:nob-left-r1-00
 kirkens,=,,keep:,audit:nob-left-r1-00
 raade,råde,,,audit:nob-left-r1-00
-ilede,ilte,,,audit:nob-left-r1-00
+ilede,=,,rejected target 'ilte': not a modern bank form.,audit:nob-left-r1-00
 keiserens,=,,keep:,audit:nob-left-r1-00
 æt,ætt,,,audit:nob-left-r1-00
 bryde,bryte,,,audit:nob-left-r1-00
@@ -1842,7 +2714,7 @@ indbildningskraft,=,,rejected target 'innbildningskraft': not a modern bank form
 italiens,=,,keep:,audit:nob-left-r1-02
 sibirien,=,,keep:,audit:nob-left-r1-02
 indførtes,=,,keep:,audit:nob-left-r1-02
-odelsthinget,odelstinget,,,audit:nob-left-r1-02
+odelsthinget,=,,rejected target 'odelstinget': not a modern bank form.,audit:nob-left-r1-02
 pct,=,,keep: abbr,audit:nob-left-r1-02
 boer,=,,verifier disagreed (=: boer also noun (Boer)); was bor,audit:nob-left-r1-02
 overordentlige,=,,keep:,audit:nob-left-r1-02
@@ -2026,7 +2898,7 @@ omkuld,=,,keep:,audit:nob-left-r1-02
 bestaae,bestå,,,audit:nob-left-r1-02
 befriede,befridde,,,audit:nob-left-r1-02
 itide,=,,rejected target 'i tide': not a modern bank form.,audit:nob-left-r1-02
-skikkede,=,,verifier disagreed (=: also adj plural skikkede (suited) and skikke=send); was skikket,audit:nob-left-r1-02
+skikkede,=,,rejected target 'skikket': not a modern bank form.,audit:nob-left-r1-02
 vaager,våker,,,audit:nob-left-r1-02
 konstantin,=,,keep: name,audit:nob-left-r1-02
 sjelens,=,,keep:,audit:nob-left-r1-02
@@ -2179,7 +3051,6 @@ marscherede,marsjerte,,,audit:nob-left-r1-02
 augustenborg,=,,keep: name,audit:nob-left-r1-02
 jagthund,jakthund,,,audit:nob-left-r1-02
 fundne,funne,,,audit:nob-left-r1-02
-skatte,=,,keep:,audit:nob-left-r1-02
 ey,=,,keep:,audit:nob-left-r1-02
 frøia,=,,keep: name,audit:nob-left-r1-02
 sigurds,=,,keep: name,audit:nob-left-r1-02
@@ -2267,7 +3138,6 @@ nation,=,,keep: spelling example,audit:nob-left-r1-02
 marias,=,,keep: name,audit:nob-left-r1-02
 duelighed,=,,rejected target 'duelighet': not a modern bank form.,audit:nob-left-r1-02
 bestyre,=,,keep:,audit:nob-left-r1-02
-myg,mygg,,,audit:nob-left-r1-02
 grædt,grått,,,audit:nob-left-r1-02
 sommerfugle,sommerfugler,,,audit:nob-left-r1-02
 opstillede,oppstilte,,,audit:nob-left-r1-02
@@ -2916,7 +3786,7 @@ opmuntring,oppmuntring,,,audit:nob-left-r1-04
 lærers,=,,keep:,audit:nob-left-r1-04
 flye,=,,keep:,audit:nob-left-r1-04
 koldeste,kaldeste,,,audit:nob-left-r1-04
-letsindighed,=,,verifier disagreed (lettsindighet: misspelt; lettsindighet); was letsindighet,audit:nob-left-r1-04
+letsindighed,=,,rejected target 'letsindighet': not a modern bank form.,audit:nob-left-r1-04
 sinklar,=,,keep:,audit:nob-left-r1-04
 alvildes,=,,keep:,audit:nob-left-r1-04
 valney,=,,keep:,audit:nob-left-r1-04
@@ -3213,7 +4083,7 @@ erkjendt,erkjent,,,audit:nob-left-r1-04
 ungdoms,=,,keep:,audit:nob-left-r1-04
 bautastene,=,,keep:,audit:nob-left-r1-04
 bygningsmaade,=,,keep:,audit:nob-left-r1-04
-mærkværdigste,merkverdigste,,,audit:nob-left-r1-04
+mærkværdigste,=,,rejected target 'merkverdigste': not a modern bank form.,audit:nob-left-r1-04
 friheds,frihets,,genitive,audit:nob-left-r1-04
 stormens,=,,keep:,audit:nob-left-r1-04
 natlige,=,,keep:,audit:nob-left-r1-04
@@ -5415,7 +6285,7 @@ bidsler,=,,keep: uncertain,audit:nob-left-r1-09
 nonneseter,=,,keep: name,audit:nob-left-r1-09
 spidsbuet,spissbuet,,,audit:nob-left-r1-09
 værdigere,=,,rejected target 'verdigere': not a modern bank form.,audit:nob-left-r1-09
-hvidstammede,hvitstammede,,,audit:nob-left-r1-09
+hvidstammede,=,,rejected target 'hvitstammede': not a modern bank form.,audit:nob-left-r1-09
 vangs,=,,keep: name,audit:nob-left-r1-09
 tilhugne,=,,keep: uncertain,audit:nob-left-r1-09
 tredobbelte,=,,keep: already modern,audit:nob-left-r1-09
@@ -5502,7 +6372,7 @@ constantinopel,=,,keep: name,audit:nob-left-r1-09
 hardeknut,=,,keep: name,audit:nob-left-r1-09
 opdragelsen,oppdragelsen,,,audit:nob-left-r1-09
 ophjalp,=,,keep: no norm form,audit:nob-left-r1-09
-agerdyrkningen,agerdyrkingen,,,audit:nob-left-r1-09
+agerdyrkningen,=,,rejected target 'agerdyrkingen': not a modern bank form.,audit:nob-left-r1-09
 gottfried,=,,keep: name,audit:nob-left-r1-09
 christina,=,,keep: name,audit:nob-left-r1-09
 ingensinde,=,,keep: archaic,audit:nob-left-r1-09
@@ -5943,7 +6813,7 @@ ivei,i vei,,,audit:nob-left-r1-10
 næsset,=,,rejected target 'nesset': not a modern bank form.,audit:nob-left-r1-10
 inkje,=,,keep: dialect,audit:nob-left-r1-10
 chaluppen,=,,keep: foreign,audit:nob-left-r1-10
-afdage,av dage,,,audit:nob-left-r1-10
+afdage,=,,rejected target 'av dage': not a modern bank form.,audit:nob-left-r1-10
 mormors,=,,keep:,audit:nob-left-r1-10
 udgravet,utgravd,,,audit:nob-left-r1-10
 rummer,=,,keep:,audit:nob-left-r1-10
@@ -8282,7 +9152,7 @@ rangsyge,=,,keep:,audit:nob-left-r1-14
 forarger,=,,keep:,audit:nob-left-r1-14
 skjødesynd,=,,keep:,audit:nob-left-r1-14
 forudsaae,forutså,,,audit:nob-left-r1-14
-lægte,=,,verifier disagreed (=: also noun lægte (lath) -> lekte); was legte,audit:nob-left-r1-14
+lægte,=,,rejected target 'legte': not a modern bank form.,audit:nob-left-r1-14
 kulild,=,,keep:,audit:nob-left-r1-14
 palladset,=,,keep:,audit:nob-left-r1-14
 ihenseende,i henseende,,,audit:nob-left-r1-14
@@ -8870,7 +9740,7 @@ eftergivende,ettergivende,,,audit:nob-left-r1-16
 tarkvinius,=,,keep:,audit:nob-left-r1-16
 afbødede,avbøtte,,,audit:nob-left-r1-16
 etruskernes,=,,keep:,audit:nob-left-r1-16
-leirede,leiret,,,audit:nob-left-r1-16
+leirede,=,,rejected target 'leiret': not a modern bank form.,audit:nob-left-r1-16
 gajus,=,,keep:,audit:nob-left-r1-16
 fiendes,=,,keep:,audit:nob-left-r1-16
 solbakken,=,,keep:,audit:nob-left-r1-16
@@ -9095,7 +9965,7 @@ huseret,=,,keep:,audit:nob-left-r1-16
 knutssøn,=,,keep:,audit:nob-left-r1-16
 slotsherre,=,,keep:,audit:nob-left-r1-16
 bispegodset,=,,keep:,audit:nob-left-r1-16
-misligt,mislig,,,audit:nob-left-r1-16
+misligt,=,,rejected target 'mislig': not a modern bank form.,audit:nob-left-r1-16
 bortrømte,=,,keep:,audit:nob-left-r1-16
 efterspore,etterspore,,,audit:nob-left-r1-16
 fyrstemagt,=,,keep:,audit:nob-left-r1-16
@@ -9364,7 +10234,7 @@ vingespidsen,vingespissen,,,audit:nob-left-r1-17
 rækkevis,rekkevis,,,audit:nob-left-r1-17
 dimensioner,dimensjoner,,,audit:nob-left-r1-17
 leveskik,leveskikk,,,audit:nob-left-r1-17
-henrunden,henrunnen,,,audit:nob-left-r1-17
+henrunden,=,,rejected target 'henrunnen': not a modern bank form.,audit:nob-left-r1-17
 almuer,=,,keep:,audit:nob-left-r1-17
 fremstikkende,=,,keep:,audit:nob-left-r1-17
 læderremme,lærremmer,,,audit:nob-left-r1-17
@@ -9420,7 +10290,7 @@ gisting,=,,keep: Old Norse,audit:nob-left-r1-17
 ganganda,=,,keep: Old Norse,audit:nob-left-r1-17
 udlevede,utlevde,,,audit:nob-left-r1-17
 optændte,opptente,,,audit:nob-left-r1-17
-opfriskede,=,,verifier disagreed (=: also past tense (opfriskede) -> oppfrisket); was oppfriskede,audit:nob-left-r1-17
+opfriskede,=,,rejected target 'oppfriskede': not a modern bank form.,audit:nob-left-r1-17
 aftrukne,=,,rejected target 'avtrukne': not a modern bank form.,audit:nob-left-r1-17
 hesteskifte,=,,keep:,audit:nob-left-r1-17
 gjestfrihedens,gjestfrihetens,,,audit:nob-left-r1-17
@@ -9467,7 +10337,7 @@ hedendommens,=,,keep:,audit:nob-left-r1-17
 kulturens,=,,keep:,audit:nob-left-r1-17
 havedyrkningen,=,,keep:,audit:nob-left-r1-17
 lønnende,=,,keep:,audit:nob-left-r1-17
-vidtløftigste,vidløftigste,,,audit:nob-left-r1-17
+vidtløftigste,=,,rejected target 'vidløftigste': not a modern bank form.,audit:nob-left-r1-17
 afdelte,avdelte,,,audit:nob-left-r1-17
 vildtvoxende,viltvoksende,,,audit:nob-left-r1-17
 munkelivs,=,,keep:,audit:nob-left-r1-17
@@ -9876,7 +10746,7 @@ formeret,formert,,,audit:nob-left-r1-18
 adspredes,=,,keep:,audit:nob-left-r1-18
 forvirredes,=,,keep:,audit:nob-left-r1-18
 brodersøns,=,,keep:,audit:nob-left-r1-18
-egennyttigen,egennyttig,,,audit:nob-left-r1-18
+egennyttigen,=,,rejected target 'egennyttig': not a modern bank form.,audit:nob-left-r1-18
 gomorrha,=,,keep:,audit:nob-left-r1-18
 vaabendygtige,våpendyktige,,,audit:nob-left-r1-18
 melchizedek,=,,keep:,audit:nob-left-r1-18
@@ -9893,7 +10763,7 @@ opstege,=,,keep:,audit:nob-left-r1-18
 straae,strå,,,audit:nob-left-r1-18
 qvægavl,kvegavl,,,audit:nob-left-r1-18
 betoges,=,,keep:,audit:nob-left-r1-18
-sønderreve,sønderrev,,,audit:nob-left-r1-18
+sønderreve,=,,rejected target 'sønderrev': not a modern bank form.,audit:nob-left-r1-18
 forsyns,=,,keep:,audit:nob-left-r1-18
 ebræer,=,,keep:,audit:nob-left-r1-18
 fædrenehuset,fedrenehuset,,,audit:nob-left-r1-18
@@ -9923,7 +10793,7 @@ prindsesse,prinsesse,,,audit:nob-left-r1-18
 viinbjerg,vinberg,,,audit:nob-left-r1-18
 prophetens,profetens,,,audit:nob-left-r1-18
 trudsler,trusler,,,audit:nob-left-r1-18
-bestege,besteg,,,audit:nob-left-r1-18
+bestege,=,,rejected target 'besteg': not a modern bank form.,audit:nob-left-r1-18
 billeddyrkelsen,=,,keep:,audit:nob-left-r1-18
 oprører,opprører,,,audit:nob-left-r1-18
 assyriens,=,,keep:,audit:nob-left-r1-18
@@ -10098,7 +10968,7 @@ kammerdøren,=,,keep:,audit:nob-left-r1-18
 snavs,=,,keep:,audit:nob-left-r1-18
 afstedkommet,avstedkommet,,,audit:nob-left-r1-18
 liniedandsere,linedansere,,,audit:nob-left-r1-18
-tilgave,tilgav,,,audit:nob-left-r1-18
+tilgave,=,,rejected target 'tilgav': not a modern bank form.,audit:nob-left-r1-18
 opgivende,=,,keep:,audit:nob-left-r1-18
 dagtyv,=,,keep:,audit:nob-left-r1-18
 mælkestuen,melkestuen,,,audit:nob-left-r1-18
@@ -10754,7 +11624,7 @@ havtorsken,=,,keep:,audit:nob-left-r1-19
 benfiske,=,,keep:,audit:nob-left-r1-19
 aborren,abboren,,,audit:nob-left-r1-19
 murten,=,,keep:,audit:nob-left-r1-19
-graadigste,grådigste,,,audit:nob-left-r1-19
+graadigste,=,,rejected target 'grådigste': not a modern bank form.,audit:nob-left-r1-19
 negenøinene,=,,keep:,audit:nob-left-r1-19
 sugeskive,=,,keep:,audit:nob-left-r1-19
 brystdelen,=,,keep:,audit:nob-left-r1-19
@@ -10936,7 +11806,7 @@ hagelskud,=,,keep:,audit:nob-left-r1-20
 kåka,=,,keep:,audit:nob-left-r1-20
 natteravnens,=,,keep:,audit:nob-left-r1-20
 natfugl,nattfugl,,,audit:nob-left-r1-20
-skovfuglen,skogfuglen,,,audit:nob-left-r1-20
+skovfuglen,=,,rejected target 'skogfuglen': not a modern bank form.,audit:nob-left-r1-20
 harehoved,=,,keep:,audit:nob-left-r1-20
 skovfuglens,skogfuglens,,,audit:nob-left-r1-20
 dandsere,dansere,,,audit:nob-left-r1-20
@@ -10953,7 +11823,7 @@ klippøer,klippeøyer,,,audit:nob-left-r1-20
 ægværene,eggværene,,,audit:nob-left-r1-20
 afskrækkende,avskrekkende,,,audit:nob-left-r1-20
 hvalernes,=,,keep:,audit:nob-left-r1-20
-fjeldtinde,fjelltinde,,,audit:nob-left-r1-20
+fjeldtinde,=,,rejected target 'fjelltinde': not a modern bank form.,audit:nob-left-r1-20
 stilladser,stillaser,,,audit:nob-left-r1-20
 lofottorsken,=,,keep:,audit:nob-left-r1-20
 rorboder,=,,keep:,audit:nob-left-r1-20
@@ -11184,7 +12054,7 @@ mellemgrækenland,=,,keep:,audit:nob-left-r1-20
 afgjordes,avgjordes,,,audit:nob-left-r1-20
 peloponnesiske,=,,keep:,audit:nob-left-r1-20
 halvottende,=,,keep:,audit:nob-left-r1-20
-forvovent,=,,verifier disagreed (=: neuter form needed (et forvovent Pak)); was forvoven,audit:nob-left-r1-20
+forvovent,=,,rejected target 'forvoven': not a modern bank form.,audit:nob-left-r1-20
 scævola,=,,keep:,audit:nob-left-r1-20
 landeiendomme,landeiendommer,,,audit:nob-left-r1-20
 nedrives,=,,keep:,audit:nob-left-r1-20
@@ -11880,7 +12750,7 @@ rensdyrjægere,reinsdyrjegere,,,audit:nob-left-r1-22
 styrtninger,=,,keep:,audit:nob-left-r1-22
 høifjeldets,høyfjellets,,,audit:nob-left-r1-22
 solbrændte,solbrente,,,audit:nob-left-r1-22
-fjeldegnene,fjellegnene,,,audit:nob-left-r1-22
+fjeldegnene,=,,rejected target 'fjellegnene': not a modern bank form.,audit:nob-left-r1-22
 renflok,reinflokk,,,audit:nob-left-r1-22
 varsimle,=,,keep:,audit:nob-left-r1-22
 skildvagter,skiltvakter,,,audit:nob-left-r1-22
@@ -12912,7 +13782,7 @@ indtages,inntas,,,audit:nob-left-r1-24
 begroves,=,,"verifier disagreed (=: past passive (ble begravet), not present); was begraves",audit:nob-left-r1-24
 muserne,musene,,,audit:nob-left-r1-24
 troværdighedens,troverdighetens,,,audit:nob-left-r1-24
-behændigste,behendigste,,,audit:nob-left-r1-24
+behændigste,=,,rejected target 'behendigste': not a modern bank form.,audit:nob-left-r1-24
 hovedegenskaber,=,,keep:,audit:nob-left-r1-24
 norræna,=,,keep:,audit:nob-left-r1-24
 periodebygning,=,,keep:,audit:nob-left-r1-24
@@ -13159,7 +14029,7 @@ dikteret,diktert,,,audit:nob-left-r1-24
 katholske,katolske,,,audit:nob-left-r2-00
 skoletrins,skoletrinns,,,audit:nob-left-r2-00
 fædrelandshistoriske,fedrelandshistoriske,,,audit:nob-left-r2-00
-storthinget,stortinget,,,audit:nob-left-r2-00
+storthinget,=,,rejected target 'stortinget': not a modern bank form.,audit:nob-left-r2-00
 förste,første,,,audit:nob-left-r2-00
 storthing,storting,,,audit:nob-left-r2-00
 naturbetragtninger,naturbetraktninger,,,audit:nob-left-r2-00
@@ -13372,7 +14242,7 @@ klæber,kleber,,,audit:nob-left-r2-00
 gardarik,=,,keep:,audit:nob-left-r2-00
 blegned,bleknet,,,audit:nob-left-r2-00
 spotted,spottet,,,audit:nob-left-r2-00
-iled,ilte,,,audit:nob-left-r2-00
+iled,=,,rejected target 'ilte': not a modern bank form.,audit:nob-left-r2-00
 svømmed,svømte,,,audit:nob-left-r2-00
 edens,=,,keep:,audit:nob-left-r2-00
 alterstenen,=,,keep:,audit:nob-left-r2-00
@@ -13409,7 +14279,7 @@ skjegte,skjekte,,,audit:nob-left-r2-00
 valgthingene,valgtingene,,,audit:nob-left-r2-00
 mythen,myten,,,audit:nob-left-r2-00
 phoebus,=,,keep:,audit:nob-left-r2-00
-froe,fro,,,audit:nob-left-r2-00
+froe,=,,rejected target 'fro': not a modern bank form.,audit:nob-left-r2-00
 hjartvar,=,,keep:,audit:nob-left-r2-00
 nous,=,,keep:,audit:nob-left-r2-00
 röst,røst,,,audit:nob-left-r2-00
@@ -15042,7 +15912,7 @@ tydsken,=,,keep:,audit:nob-left-r2-03
 börnene,barna,,,audit:nob-left-r2-03
 foraars,forårs,,,audit:nob-left-r2-03
 holster,=,,keep:,audit:nob-left-r2-03
-ingenlund,ingenlunde,,,audit:nob-left-r2-03
+ingenlund,=,,rejected target 'ingenlunde': not a modern bank form.,audit:nob-left-r2-03
 sunge,=,,keep:,audit:nob-left-r2-03
 sankedes,=,,keep:,audit:nob-left-r2-03
 ufærd,=,,keep:,audit:nob-left-r2-03
@@ -15586,7 +16456,7 @@ spirede,=,,keep:,audit:nob-left-r2-04
 agres,=,,keep:,audit:nob-left-r2-04
 lidendes,=,,keep:,audit:nob-left-r2-04
 bryllupsgjesterne,bryllupsgjestene,,,audit:nob-left-r2-04
-lægede,legte,,,audit:nob-left-r2-04
+lægede,=,,rejected target 'legte': not a modern bank form.,audit:nob-left-r2-04
 pindsedag,pinsedag,,,audit:nob-left-r2-04
 ændser,enser,,,audit:nob-left-r2-04
 lud,lut,,,audit:nob-left-r2-04
@@ -15866,7 +16736,7 @@ orkanens,=,,keep:,audit:nob-left-r2-05
 snekkes,=,,keep:,audit:nob-left-r2-05
 toneklangen,=,,keep:,audit:nob-left-r2-05
 fuglemund,=,,keep:,audit:nob-left-r2-05
-forjætter,forjetter,,,audit:nob-left-r2-05
+forjætter,=,,rejected target 'forjetter': not a modern bank form.,audit:nob-left-r2-05
 ankerfast,=,,keep:,audit:nob-left-r2-05
 laurviks,=,,keep:,audit:nob-left-r2-05
 raaderum,=,,keep:,audit:nob-left-r2-05
@@ -15977,14 +16847,14 @@ bægret,begeret,,,audit:nob-left-r2-05
 tankernes,tankenes,,,audit:nob-left-r2-05
 sommergrønne,=,,keep:,audit:nob-left-r2-05
 halvfyldte,=,,keep:,audit:nob-left-r2-05
-høimod,høymod,,,audit:nob-left-r2-05
+høimod,=,,rejected target 'høymod': not a modern bank form.,audit:nob-left-r2-05
 nynned,nynnet,,,audit:nob-left-r2-05
 ihøst,i høst,,,audit:nob-left-r2-05
 sandhedsord,sannhetsord,,,audit:nob-left-r2-05
 odelsgrund,odelsgrunn,,,audit:nob-left-r2-05
 trauget,=,,keep:,audit:nob-left-r2-05
 skiløberkor,skiløperkor,,,audit:nob-left-r2-05
-mured,muret,,,audit:nob-left-r2-05
+mured,=,,rejected target 'muret': not a modern bank form.,audit:nob-left-r2-05
 egeløv,=,,keep:,audit:nob-left-r2-05
 linné,=,,keep:,audit:nob-left-r2-05
 birkebeinssang,=,,keep:,audit:nob-left-r2-05
@@ -16532,7 +17402,7 @@ nytaarssang,nyttårssang,,,audit:nob-left-r2-06
 jødedrengen,=,,keep:,audit:nob-left-r2-06
 hædersminde,=,,rejected target 'hedersminne': not a modern bank form.,audit:nob-left-r2-06
 rænke,renke,,,audit:nob-left-r2-06
-huusfaderen,husfaderen,,,audit:nob-left-r2-06
+huusfaderen,=,,rejected target 'husfaderen': not a modern bank form.,audit:nob-left-r2-06
 mæcener,mesener,,,audit:nob-left-r2-06
 gemeen,gemen,,,audit:nob-left-r2-06
 søfarten,=,,keep:,audit:nob-left-r2-06
@@ -16783,7 +17653,7 @@ diges,dikes,,,audit:nob-left-r2-07
 skjødes,=,,keep:,audit:nob-left-r2-07
 ildned,ildnet,,,audit:nob-left-r2-07
 beregned,beregnet,,,audit:nob-left-r2-07
-pønsed,pønset,,,audit:nob-left-r2-07
+pønsed,=,,rejected target 'pønset': not a modern bank form.,audit:nob-left-r2-07
 smutted,smuttet,,,audit:nob-left-r2-07
 ligskjorten,likskjorten,,,audit:nob-left-r2-07
 bjelketag,bjelketak,,,audit:nob-left-r2-07
@@ -16894,7 +17764,7 @@ strikkepinde,strikkepinner,,,audit:nob-left-r2-07
 hermelinskaabe,hermelinskåpe,,,audit:nob-left-r2-07
 kvind,kvinne,,,audit:nob-left-r2-07
 bege,beke,,,audit:nob-left-r2-07
-flyed,flydde,,,audit:nob-left-r2-07
+flyed,=,,rejected target 'flydde': not a modern bank form.,audit:nob-left-r2-07
 stifted,stiftet,,,audit:nob-left-r2-07
 skjoldmærke,skjoldmerke,,,audit:nob-left-r2-07
 vægkartet,veggkartet,,,audit:nob-left-r2-07
@@ -16981,7 +17851,7 @@ læned,lente,,,audit:nob-left-r2-07
 hælvten,helvten,,,audit:nob-left-r2-07
 guldkjeden,gullkjeden,,,audit:nob-left-r2-07
 lulled,lullet,,,audit:nob-left-r2-07
-krønikebog,krønikebok,,,audit:nob-left-r2-07
+krønikebog,=,,rejected target 'krønikebok': not a modern bank form.,audit:nob-left-r2-07
 kirkestævne,kirkestevne,,,audit:nob-left-r2-07
 indvirket,=,,keep:,audit:nob-left-r2-07
 vaagenat,våkenatt,,,audit:nob-left-r2-07
@@ -17103,7 +17973,7 @@ slingrebret,slingrebrett,,,audit:nob-left-r2-07
 lufttæt,lufttett,,,audit:nob-left-r2-07
 hundevagt,hundevakt,,,audit:nob-left-r2-07
 losed,loset,,,audit:nob-left-r2-07
-bedaged,bedaget,,,audit:nob-left-r2-07
+bedaged,=,,rejected target 'bedaget': not a modern bank form.,audit:nob-left-r2-07
 rormand,rormann,,,audit:nob-left-r2-07
 skindene,skinnene,,,audit:nob-left-r2-07
 aaklæ,åkle,,,audit:nob-left-r2-07
@@ -17145,8 +18015,8 @@ fjeldryggen,fjellryggen,,,audit:nob-left-r2-07
 udsigtspunktet,utsiktspunktet,,,audit:nob-left-r2-07
 skyl,skyll,,,audit:nob-left-r2-07
 fjeldbæk,fjellbekk,,,audit:nob-left-r2-07
-bæv,bev,,,audit:nob-left-r2-07
-soled,solet,,,audit:nob-left-r2-07
+bæv,=,,rejected target 'bev': not a modern bank form.,audit:nob-left-r2-07
+soled,=,,rejected target 'solet': not a modern bank form.,audit:nob-left-r2-07
 sprætt,sprett,,,audit:nob-left-r2-07
 vierkjærret,=,,keep:,audit:nob-left-r2-07
 skøierstreg,skøyerstrek,,,audit:nob-left-r2-07
@@ -17213,7 +18083,7 @@ exersis,eksersis,,,audit:nob-left-r2-08
 stamped,stampet,,,audit:nob-left-r2-08
 tætned,tetnet,,,audit:nob-left-r2-08
 vigen,=,,"verifier disagreed (=: Vigen is a name (Terje Vigen, place names)); was viken",audit:nob-left-r2-08
-haled,halet,,,audit:nob-left-r2-08
+haled,=,,rejected target 'halet': not a modern bank form.,audit:nob-left-r2-08
 lægdsfolk,legdsfolk,,,audit:nob-left-r2-08
 trutned,trutnet,,,audit:nob-left-r2-08
 skyfrit,skyfritt,,,audit:nob-left-r2-08
@@ -17303,7 +18173,7 @@ guldvægt,gullvekt,,,audit:nob-left-r2-08
 alvorsfulde,alvorsfulle,,,audit:nob-left-r2-08
 lykkespil,lykkespill,,,audit:nob-left-r2-08
 struber,struper,,,audit:nob-left-r2-08
-huled,hulet,,,audit:nob-left-r2-08
+huled,=,,rejected target 'hulet': not a modern bank form.,audit:nob-left-r2-08
 fiskersøn,fiskersønn,,,audit:nob-left-r2-08
 forskjønned,forskjønnet,,,audit:nob-left-r2-08
 slavelænker,slavelenker,,,audit:nob-left-r2-08
@@ -17356,7 +18226,7 @@ skjærmende,skjermende,,,audit:nob-left-r2-08
 spiræ,=,,keep: plant name spirea,audit:nob-left-r2-08
 kvæges,kveges,,,audit:nob-left-r2-08
 eied,=,,context: eide (past) | eid (participle),audit:nob-left-r2-08
-annammed,annammet,,,audit:nob-left-r2-08
+annammed,=,,rejected target 'annammet': not a modern bank form.,audit:nob-left-r2-08
 fornemmed,fornemmet,,,audit:nob-left-r2-08
 raved,ravet,,,audit:nob-left-r2-08
 genierne,geniene,,,audit:nob-left-r2-08
@@ -17374,11 +18244,11 @@ vemodsfulde,vemodsfulle,,,audit:nob-left-r2-08
 vildnis,villnis,,,audit:nob-left-r2-08
 liigklokken,likklokken,,,audit:nob-left-r2-08
 indvier,innvier,,,audit:nob-left-r2-08
-forherliged,forherliget,,,audit:nob-left-r2-08
+forherliged,=,,rejected target 'forherliget': not a modern bank form.,audit:nob-left-r2-08
 prøved,=,,verifier disagreed (=: prøvet is only adj today; pret prøvde / part prøvd); was prøvet,audit:nob-left-r2-08
 snigen,=,,keep: unclear,audit:nob-left-r2-08
 spindelvæven,spindelveven,,,audit:nob-left-r2-08
-leired,leiret,,,audit:nob-left-r2-08
+leired,=,,rejected target 'leiret': not a modern bank form.,audit:nob-left-r2-08
 sorgfuldt,sorgfullt,,,audit:nob-left-r2-08
 fristad,=,,"verifier disagreed (=: fristad also 'free city' (Danish sense), not only fristed); was fristed",audit:nob-left-r2-08
 udkaarer,utkårer,,,audit:nob-left-r2-08
@@ -17457,6 +18327,951 @@ quand,=,,keep: French,audit:nob-left-r2-08
 tyrannerne,tyrannene,,,audit:nob-left-r2-08
 trælles,trelles,,,audit:nob-left-r2-08
 præses,preses,,,audit:nob-left-r2-08
+hen,=,,keep:,audit:nob-left-r3-00
+dets,=,,keep:,audit:nob-left-r3-00
+kommen,=,,awaiting verification of kommet.,audit:nob-left-r3-00
+slig,=,,keep:,audit:nob-left-r3-00
+dertil,=,,keep:,audit:nob-left-r3-00
+skjød,=,,context: skjøt (verb) | skjød (noun),audit:nob-left-r3-00
+hvo,=,,keep:,audit:nob-left-r3-00
+ak,=,,keep:,audit:nob-left-r3-00
+sag,=,,context: sak | sag (saw),audit:nob-left-r3-00
+bange,=,,keep:,audit:nob-left-r3-00
+hug,=,,context: hugg | hug,audit:nob-left-r3-00
+undertiden,=,,keep:,audit:nob-left-r3-00
+arme,=,,context: armer (noun) | arme (adj),audit:nob-left-r3-00
+derfra,=,,keep:,audit:nob-left-r3-00
+stundom,=,,keep:,audit:nob-left-r3-00
+komne,=,,awaiting verification of kommet.,audit:nob-left-r3-00
+hist,=,,keep:,audit:nob-left-r3-00
+sagte,=,,awaiting verification of sakte.,audit:nob-left-r3-00
+sjæl,=,,awaiting verification of sjel.,audit:nob-left-r3-00
+nyt,=,,context: nytt (adj) | nyt (verb),audit:nob-left-r3-00
+otte,=,,awaiting verification of åtte.,audit:nob-left-r3-00
+formedelst,=,,keep:,audit:nob-left-r3-00
+hvorved,=,,keep:,audit:nob-left-r3-00
+skat,=,,awaiting verification of skatt.,audit:nob-left-r3-00
+mon,=,,keep:,audit:nob-left-r3-00
+hede,=,,context: hete (noun/verb) | hede (heath),audit:nob-left-r3-00
+stortinget,=,,keep:,audit:nob-left-r3-00
+hine,=,,keep:,audit:nob-left-r3-00
+hvorfra,=,,keep:,audit:nob-left-r3-00
+flyve,=,,keep:,audit:nob-left-r3-00
+koldt,=,,awaiting verification of kaldt.,audit:nob-left-r3-00
+fromme,=,,keep:,audit:nob-left-r3-00
+flyver,=,,keep:,audit:nob-left-r3-00
+troe,=,,awaiting verification of tro.,audit:nob-left-r3-00
+hin,=,,keep:,audit:nob-left-r3-00
+hunde,=,,awaiting verification of hunder.,audit:nob-left-r3-00
+hul,=,,context: hull (noun) | hul (adj),audit:nob-left-r3-00
+hvortil,=,,keep:,audit:nob-left-r3-00
+monne,=,,keep:,audit:nob-left-r3-00
+vovede,=,,awaiting verification of vågde.,audit:nob-left-r3-00
+hiin,=,,keep:,audit:nob-left-r3-00
+skridt,=,,awaiting verification of skritt.,audit:nob-left-r3-00
+befalede,=,,awaiting verification of befalte.,audit:nob-left-r3-00
+simpel,=,,keep:,audit:nob-left-r3-00
+ager,=,,context: åker | aker,audit:nob-left-r3-00
+sydlige,=,,keep:,audit:nob-left-r3-00
+troer,=,,awaiting verification of tror.,audit:nob-left-r3-00
+herfra,=,,keep:,audit:nob-left-r3-00
+herved,=,,keep:,audit:nob-left-r3-00
+hedenske,=,,keep:,audit:nob-left-r3-00
+spil,=,,awaiting verification of spill.,audit:nob-left-r3-00
+skjæren,=,,keep:,audit:nob-left-r3-00
+vove,=,,awaiting verification of våge.,audit:nob-left-r3-00
+billede,=,,awaiting verification of bilde.,audit:nob-left-r3-00
+eiede,=,,awaiting verification of eide.,audit:nob-left-r3-00
+adskillige,=,,keep:,audit:nob-left-r3-00
+sæde,=,,awaiting verification of sete.,audit:nob-left-r3-00
+mæt,=,,awaiting verification of mett.,audit:nob-left-r3-00
+sæt,=,,awaiting verification of sett.,audit:nob-left-r3-00
+vover,=,,awaiting verification of våger.,audit:nob-left-r3-00
+bispen,=,,keep:,audit:nob-left-r3-00
+brav,=,,keep:,audit:nob-left-r3-00
+vorde,=,,keep:,audit:nob-left-r3-00
+navne,=,,awaiting verification of navn.,audit:nob-left-r3-00
+behøvede,=,,awaiting verification of behøvde.,audit:nob-left-r3-00
+ste,=,,keep: ocr,audit:nob-left-r3-00
+selvlyd,=,,keep:,audit:nob-left-r3-00
+skeet,=,,awaiting verification of skjedd.,audit:nob-left-r3-00
+fremad,=,,keep:,audit:nob-left-r3-00
+møder,=,,awaiting verification of møter.,audit:nob-left-r3-00
+behøve,=,,keep:,audit:nob-left-r3-00
+stillet,=,,keep:,audit:nob-left-r3-00
+heri,=,,keep:,audit:nob-left-r3-00
+kammerater,=,,keep:,audit:nob-left-r3-00
+iler,=,,keep:,audit:nob-left-r3-00
+henved,=,,keep:,audit:nob-left-r3-00
+ansees,=,,awaiting verification of anses.,audit:nob-left-r3-00
+nærværende,=,,keep:,audit:nob-left-r3-00
+anfører,=,,keep:,audit:nob-left-r3-00
+mistede,=,,awaiting verification of mistet.,audit:nob-left-r3-00
+raa,=,,awaiting verification of rå.,audit:nob-left-r3-00
+toge,=,,awaiting verification of tok.,audit:nob-left-r3-00
+legte,=,,awaiting verification of lekte.,audit:nob-left-r3-00
+visselig,=,,keep:,audit:nob-left-r3-00
+navnlig,=,,keep:,audit:nob-left-r3-00
+iland,=,,awaiting verification of i land.,audit:nob-left-r3-00
+enge,=,,awaiting verification of enger.,audit:nob-left-r3-00
+løftede,=,,awaiting verification of løftet.,audit:nob-left-r3-00
+forsynet,=,,keep:,audit:nob-left-r3-00
+herefter,=,,keep:,audit:nob-left-r3-00
+dernede,=,,keep:,audit:nob-left-r3-00
+frembringe,=,,keep:,audit:nob-left-r3-00
+snak,=,,awaiting verification of snakk.,audit:nob-left-r3-00
+fro,=,,keep:,audit:nob-left-r3-00
+hvorom,=,,keep:,audit:nob-left-r3-00
+fad,=,,awaiting verification of fat.,audit:nob-left-r3-00
+finnerne,=,,awaiting verification of finnene.,audit:nob-left-r3-00
+klokkerne,=,,awaiting verification of klokkene.,audit:nob-left-r3-00
+sluttede,=,,awaiting verification of sluttet.,audit:nob-left-r3-00
+slemt,=,,keep:,audit:nob-left-r3-00
+faret,=,,keep:,audit:nob-left-r3-00
+ingenlunde,=,,keep:,audit:nob-left-r3-00
+takkede,=,,awaiting verification of takket.,audit:nob-left-r3-00
+behøves,=,,keep:,audit:nob-left-r3-00
+regjerede,=,,awaiting verification of regjerte.,audit:nob-left-r3-00
+henad,=,,keep:,audit:nob-left-r3-00
+fød,=,,awaiting verification of født.,audit:nob-left-r3-00
+navnkundige,=,,keep:,audit:nob-left-r3-00
+hvasse,=,,keep:,audit:nob-left-r3-00
+forstandige,=,,keep:,audit:nob-left-r3-00
+kristelige,=,,keep:,audit:nob-left-r3-00
+tit,=,,keep:,audit:nob-left-r3-00
+meddele,=,,keep:,audit:nob-left-r3-00
+nedad,=,,keep:,audit:nob-left-r3-00
+glide,=,,keep:,audit:nob-left-r3-00
+ok,=,,keep:,audit:nob-left-r3-00
+smukkere,=,,keep:,audit:nob-left-r3-00
+bedrøvede,=,,context: bedrøvet (verb) | bedrøvede (adj),audit:nob-left-r3-00
+regjere,=,,keep:,audit:nob-left-r3-00
+hoppede,=,,awaiting verification of hoppet.,audit:nob-left-r3-00
+rykkede,=,,awaiting verification of rykket.,audit:nob-left-r3-00
+besteg,=,,keep:,audit:nob-left-r3-00
+skikket,=,,keep:,audit:nob-left-r3-00
+hentede,=,,awaiting verification of hentet.,audit:nob-left-r3-00
+frembringer,=,,keep:,audit:nob-left-r3-00
+befalet,=,,awaiting verification of befalt.,audit:nob-left-r3-00
+ringere,=,,keep:,audit:nob-left-r3-00
+vande,=,,awaiting verification of vanne.,audit:nob-left-r3-00
+arbeidede,=,,awaiting verification of arbeidet.,audit:nob-left-r3-00
+simpelt,=,,keep:,audit:nob-left-r3-00
+munke,=,,awaiting verification of munker.,audit:nob-left-r3-00
+huen,=,,keep:,audit:nob-left-r3-00
+fylder,=,,awaiting verification of fyller.,audit:nob-left-r3-00
+fornødne,=,,keep:,audit:nob-left-r3-00
+forreste,=,,keep:,audit:nob-left-r3-00
+adskiller,=,,keep:,audit:nob-left-r3-00
+lutter,=,,keep:,audit:nob-left-r3-00
+langtfra,=,,awaiting verification of langt fra.,audit:nob-left-r3-00
+smukkeste,=,,keep:,audit:nob-left-r3-00
+brøde,=,,keep:,audit:nob-left-r3-00
+dreiede,=,,awaiting verification of dreide.,audit:nob-left-r3-00
+flyttede,=,,awaiting verification of flyttet.,audit:nob-left-r3-00
+forsamlede,=,,context: forsamlet (verb) | forsamlede (adj),audit:nob-left-r3-00
+kammerat,=,,keep:,audit:nob-left-r3-00
+herligste,=,,keep:,audit:nob-left-r3-00
+fordrede,=,,awaiting verification of fordret.,audit:nob-left-r3-00
+slagen,=,,keep:,audit:nob-left-r3-00
+yndest,=,,keep:,audit:nob-left-r3-00
+skreven,=,,awaiting verification of skrevet.,audit:nob-left-r3-00
+nærende,=,,keep:,audit:nob-left-r3-00
+tilkommer,=,,keep:,audit:nob-left-r3-00
+nødes,=,,keep:,audit:nob-left-r3-00
+kjøn,=,,context: kjønn (noun) | kjøn (adj),audit:nob-left-r3-00
+liflig,=,,keep:,audit:nob-left-r3-00
+barnlige,=,,keep:,audit:nob-left-r3-00
+barnlig,=,,keep:,audit:nob-left-r3-00
+omvende,=,,keep:,audit:nob-left-r3-00
+manglede,=,,awaiting verification of manglet.,audit:nob-left-r3-00
+huer,=,,keep:,audit:nob-left-r3-00
+bedet,=,,awaiting verification of bedt.,audit:nob-left-r3-00
+tales,=,,keep:,audit:nob-left-r3-00
+formanede,=,,awaiting verification of formante.,audit:nob-left-r3-00
+nedstammede,=,,awaiting verification of nedstammet.,audit:nob-left-r3-00
+befale,=,,keep:,audit:nob-left-r3-00
+overgav,=,,keep:,audit:nob-left-r3-00
+fornam,=,,keep:,audit:nob-left-r3-00
+lagte,=,,awaiting verification of lagt.,audit:nob-left-r3-00
+befaler,=,,keep:,audit:nob-left-r3-00
+strømmede,=,,awaiting verification of strømmet.,audit:nob-left-r3-00
+besynderlige,=,,keep:,audit:nob-left-r3-00
+bevirkede,=,,rejected target 'bevirket': not a modern bank form.,audit:nob-left-r3-00
+stansede,=,,awaiting verification of stanset.,audit:nob-left-r3-00
+kjørne,=,,keep:,audit:nob-left-r3-00
+forestod,=,,keep:,audit:nob-left-r3-00
+spotte,=,,keep:,audit:nob-left-r3-00
+gruelig,=,,keep:,audit:nob-left-r3-00
+tilkommende,=,,keep:,audit:nob-left-r3-00
+bitterlig,=,,keep:,audit:nob-left-r3-00
+erindrer,=,,keep:,audit:nob-left-r3-00
+nærværelse,=,,keep:,audit:nob-left-r3-00
+tankerne,=,,keep:,audit:nob-left-r3-00
+fjed,=,,keep:,audit:nob-left-r3-00
+drages,=,,keep:,audit:nob-left-r3-00
+odelstinget,=,,keep:,audit:nob-left-r3-00
+virkede,=,,awaiting verification of virket.,audit:nob-left-r3-00
+hvast,=,,keep:,audit:nob-left-r3-00
+forglemt,=,,keep:,audit:nob-left-r3-00
+besværlige,=,,keep:,audit:nob-left-r3-00
+sukkede,=,,awaiting verification of sukket.,audit:nob-left-r3-00
+frydes,=,,keep:,audit:nob-left-r3-00
+fornødent,=,,keep:,audit:nob-left-r3-00
+slagne,=,,keep:,audit:nob-left-r3-00
+skride,=,,keep:,audit:nob-left-r3-00
+stridbare,=,,keep:,audit:nob-left-r3-00
+utallig,=,,keep:,audit:nob-left-r3-00
+gjordes,=,,keep:,audit:nob-left-r3-00
+skikke,=,,keep:,audit:nob-left-r3-00
+behage,=,,keep:,audit:nob-left-r3-00
+smuttede,=,,awaiting verification of smuttet.,audit:nob-left-r3-00
+trapperne,=,,awaiting verification of trappene.,audit:nob-left-r3-00
+omgav,=,,keep:,audit:nob-left-r3-00
+bolde,=,,keep:,audit:nob-left-r3-00
+vestenfor,=,,keep:,audit:nob-left-r3-00
+yndige,=,,keep:,audit:nob-left-r3-00
+dyrkede,=,,keep:,audit:nob-left-r3-00
+forklaret,=,,keep:,audit:nob-left-r3-00
+bevirker,=,,keep:,audit:nob-left-r3-00
+fremsatte,=,,keep:,audit:nob-left-r3-00
+orkede,=,,awaiting verification of orket.,audit:nob-left-r3-00
+velsign,=,,keep:,audit:nob-left-r3-00
+gjøen,=,,keep:,audit:nob-left-r3-00
+vindes,=,,keep:,audit:nob-left-r3-00
+berøve,=,,keep:,audit:nob-left-r3-00
+oventil,=,,keep:,audit:nob-left-r3-00
+agede,=,,keep:,audit:nob-left-r3-00
+seirede,=,,awaiting verification of seiret.,audit:nob-left-r3-00
+hedde,=,,awaiting verification of heter.,audit:nob-left-r3-00
+desmere,=,,keep:,audit:nob-left-r3-00
+ugudelige,=,,keep:,audit:nob-left-r3-00
+omkomme,=,,keep:,audit:nob-left-r3-00
+strøet,=,,awaiting verification of strødd.,audit:nob-left-r3-00
+ubetydelige,=,,keep:,audit:nob-left-r3-00
+buden,=,,keep:,audit:nob-left-r3-00
+prydelse,=,,keep:,audit:nob-left-r3-00
+nedentil,=,,keep:,audit:nob-left-r3-00
+ankomne,=,,keep:,audit:nob-left-r3-00
+mangesteds,=,,keep:,audit:nob-left-r3-00
+undertvungne,=,,keep:,audit:nob-left-r3-00
+avles,=,,keep:,audit:nob-left-r3-00
+gamlen,=,,keep:,audit:nob-left-r3-00
+sølvpenge,=,,keep:,audit:nob-left-r3-00
+gudelige,=,,keep:,audit:nob-left-r3-00
+ban,=,,keep:,audit:nob-left-r3-00
+truffen,=,,awaiting verification of truffet.,audit:nob-left-r3-00
+huskede,=,,awaiting verification of husket.,audit:nob-left-r3-00
+rullede,=,,awaiting verification of rullet.,audit:nob-left-r3-00
+ovenover,=,,keep:,audit:nob-left-r3-00
+ombytte,=,,keep:,audit:nob-left-r3-00
+østerland,=,,keep:,audit:nob-left-r3-00
+dragne,=,,context: dratt (verb) | dragne (adj),audit:nob-left-r3-00
+befrier,=,,keep:,audit:nob-left-r3-00
+sunken,=,,awaiting verification of sunket.,audit:nob-left-r3-00
+stegen,=,,awaiting verification of steget.,audit:nob-left-r3-00
+reves,=,,awaiting verification of rives.,audit:nob-left-r3-00
+dettes,=,,keep:,audit:nob-left-r3-00
+regjerer,=,,keep:,audit:nob-left-r3-00
+forbunden,=,,keep:,audit:nob-left-r3-00
+tiest,=,,keep:,audit:nob-left-r3-00
+spottede,=,,awaiting verification of spottet.,audit:nob-left-r3-00
+slikkede,=,,awaiting verification of slikket.,audit:nob-left-r3-00
+hitte,=,,keep:,audit:nob-left-r3-00
+kjørene,=,,keep:,audit:nob-left-r3-00
+slide,=,,keep:,audit:nob-left-r3-00
+oldnorske,=,,keep:,audit:nob-left-r3-00
+idelige,=,,keep:,audit:nob-left-r3-00
+vidende,=,,keep:,audit:nob-left-r3-00
+sydøstlige,=,,keep:,audit:nob-left-r3-00
+derværende,=,,keep:,audit:nob-left-r3-00
+lydt,=,,keep:,audit:nob-left-r3-00
+hindrede,=,,awaiting verification of hindret.,audit:nob-left-r3-00
+legemlige,=,,keep:,audit:nob-left-r3-00
+enfoldige,=,,keep:,audit:nob-left-r3-00
+sammesteds,=,,keep:,audit:nob-left-r3-00
+støvdragere,=,,keep:,audit:nob-left-r3-00
+forvoven,=,,keep:,audit:nob-left-r3-00
+svævede,=,,awaiting verification of svevde.,audit:nob-left-r3-00
+foræringer,=,,keep:,audit:nob-left-r3-00
+tilgav,=,,keep:,audit:nob-left-r3-00
+samtykkede,=,,awaiting verification of samtykket.,audit:nob-left-r3-00
+forsage,=,,keep:,audit:nob-left-r3-00
+mildelig,=,,keep:,audit:nob-left-r3-00
+derborte,=,,keep:,audit:nob-left-r3-00
+nyttede,=,,awaiting verification of nyttet.,audit:nob-left-r3-00
+sønderrev,=,,keep:,audit:nob-left-r3-00
+sprungen,=,,awaiting verification of sprunget.,audit:nob-left-r3-00
+ilte,=,,keep:,audit:nob-left-r3-00
+legemlig,=,,keep:,audit:nob-left-r3-00
+slumre,=,,keep:,audit:nob-left-r3-00
+handelsstad,=,,keep:,audit:nob-left-r3-00
+tinde,=,,keep:,audit:nob-left-r3-00
+etsteds,=,,keep:,audit:nob-left-r3-00
+støvdragerne,=,,keep:,audit:nob-left-r3-00
+behager,=,,keep:,audit:nob-left-r3-00
+trykkede,=,,awaiting verification of trykket.,audit:nob-left-r3-00
+evangeliske,=,,keep:,audit:nob-left-r3-00
+puttede,=,,awaiting verification of puttet.,audit:nob-left-r3-00
+kyssede,=,,awaiting verification of kysset.,audit:nob-left-r3-00
+tiede,=,,awaiting verification of tidde.,audit:nob-left-r3-00
+forsikrede,=,,awaiting verification of forsikret.,audit:nob-left-r3-00
+undredes,=,,keep:,audit:nob-left-r3-00
+polisk,=,,keep:,audit:nob-left-r3-00
+varet,=,,keep:,audit:nob-left-r3-00
+mødig,=,,keep:,audit:nob-left-r3-00
+tørrer,=,,keep:,audit:nob-left-r3-00
+prange,=,,keep:,audit:nob-left-r3-00
+sagerne,=,,context: sakene | sagene (saws),audit:nob-left-r3-00
+viede,=,,keep:,audit:nob-left-r3-00
+adskille,=,,keep:,audit:nob-left-r3-00
+tindre,=,,keep:,audit:nob-left-r3-00
+bryggerne,=,,context: bryggene | bryggerne (brewers),audit:nob-left-r3-00
+erholdt,=,,keep:,audit:nob-left-r3-00
+prædikede,=,,awaiting verification of prekte.,audit:nob-left-r3-00
+fødemidler,=,,keep:,audit:nob-left-r3-00
+adskilles,=,,keep:,audit:nob-left-r3-00
+sydligere,=,,keep:,audit:nob-left-r3-00
+befatte,=,,keep:,audit:nob-left-r3-00
+holdte,=,,awaiting verification of holdt.,audit:nob-left-r3-00
+syndige,=,,keep:,audit:nob-left-r3-00
+beskikket,=,,keep:,audit:nob-left-r3-00
+sluppen,=,,awaiting verification of sluppet.,audit:nob-left-r3-00
+klippede,=,,awaiting verification of klippet.,audit:nob-left-r3-00
+grueligt,=,,keep:,audit:nob-left-r3-00
+tarvelige,=,,keep:,audit:nob-left-r3-00
+forglemmer,=,,keep:,audit:nob-left-r3-00
+omfavnede,=,,awaiting verification of omfavnet.,audit:nob-left-r3-00
+iførte,=,,keep:,audit:nob-left-r3-00
+omringede,=,,awaiting verification of omringet.,audit:nob-left-r3-00
+røden,=,,keep:,audit:nob-left-r3-00
+ynder,=,,keep:,audit:nob-left-r3-00
+dadle,=,,keep:,audit:nob-left-r3-00
+sovnede,=,,awaiting verification of sovnet.,audit:nob-left-r3-00
+sydlig,=,,keep:,audit:nob-left-r3-00
+plyndrede,=,,awaiting verification of plyndret.,audit:nob-left-r3-00
+sikkerlig,=,,keep:,audit:nob-left-r3-00
+vunden,=,,awaiting verification of vunnet.,audit:nob-left-r3-00
+foregav,=,,keep:,audit:nob-left-r3-00
+kullede,=,,keep:,audit:nob-left-r3-00
+sælen,=,,keep:,audit:nob-left-r3-00
+blottede,=,,context: blottet (verb) | blottede (adj),audit:nob-left-r3-00
+helliget,=,,keep:,audit:nob-left-r3-00
+meddeler,=,,keep:,audit:nob-left-r3-00
+pavelige,=,,keep:,audit:nob-left-r3-00
+forsamles,=,,keep:,audit:nob-left-r3-00
+spreder,=,,keep:,audit:nob-left-r3-00
+koning,=,,keep:,audit:nob-left-r3-00
+faderlige,=,,keep:,audit:nob-left-r3-00
+tilvende,=,,keep:,audit:nob-left-r3-00
+tilbeder,=,,keep:,audit:nob-left-r3-00
+groe,=,,awaiting verification of gro.,audit:nob-left-r3-00
+bevirke,=,,keep:,audit:nob-left-r3-00
+berøvede,=,,context: berøvet (verb) | berøvede (adj),audit:nob-left-r3-00
+nordenfra,=,,keep:,audit:nob-left-r3-00
+fangerne,=,,keep:,audit:nob-left-r3-00
+anordnet,=,,keep:,audit:nob-left-r3-00
+redelige,=,,keep:,audit:nob-left-r3-00
+bedraget,=,,keep:,audit:nob-left-r3-00
+babyloniske,=,,keep:,audit:nob-left-r3-00
+svævende,=,,awaiting verification of svevende.,audit:nob-left-r3-00
+modnere,=,,keep:,audit:nob-left-r3-00
+helde,=,,awaiting verification of helle.,audit:nob-left-r3-00
+knurrede,=,,awaiting verification of knurret.,audit:nob-left-r3-00
+bevar,=,,keep:,audit:nob-left-r3-00
+fremspringende,=,,keep:,audit:nob-left-r3-00
+ryger,=,,keep:,audit:nob-left-r3-00
+røvede,=,,keep:,audit:nob-left-r3-00
+eggede,=,,keep:,audit:nob-left-r3-00
+heftigste,=,,keep:,audit:nob-left-r3-00
+nordligere,=,,keep:,audit:nob-left-r3-00
+danskes,=,,keep:,audit:nob-left-r3-00
+barnligt,=,,keep:,audit:nob-left-r3-00
+skjemtsomme,=,,keep:,audit:nob-left-r3-00
+kantede,=,,keep:,audit:nob-left-r3-00
+omstyrtede,=,,context: omstyrtet (verb) | omstyrtede (adj),audit:nob-left-r3-00
+lededes,=,,keep:,audit:nob-left-r3-00
+blomstrede,=,,awaiting verification of blomstret.,audit:nob-left-r3-00
+lærvillig,=,,keep:,audit:nob-left-r3-00
+beskue,=,,keep:,audit:nob-left-r3-00
+grum,=,,keep:,audit:nob-left-r3-00
+stockholmske,=,,keep:,audit:nob-left-r3-00
+henhøre,=,,keep:,audit:nob-left-r3-00
+erholder,=,,keep:,audit:nob-left-r3-00
+laves,=,,keep:,audit:nob-left-r3-00
+fødemiddel,=,,keep:,audit:nob-left-r3-00
+næres,=,,keep:,audit:nob-left-r3-00
+rytteri,=,,keep:,audit:nob-left-r3-00
+ledsage,=,,keep:,audit:nob-left-r3-00
+voksede,=,,awaiting verification of vokste.,audit:nob-left-r3-00
+ubetinget,=,,keep:,audit:nob-left-r3-00
+beskattende,=,,keep:,audit:nob-left-r3-00
+egennyttig,=,,keep:,audit:nob-left-r3-00
+trøstede,=,,awaiting verification of trøstet.,audit:nob-left-r3-00
+beundrede,=,,awaiting verification of beundret.,audit:nob-left-r3-00
+buket,=,,awaiting verification of bukett.,audit:nob-left-r3-00
+græssede,=,,keep:,audit:nob-left-r3-00
+snappede,=,,awaiting verification of snappet.,audit:nob-left-r3-00
+gjet,=,,context: gjett (imp) | gjet (noun),audit:nob-left-r3-00
+lyttede,=,,awaiting verification of lyttet.,audit:nob-left-r3-00
+stimlede,=,,awaiting verification of stimlet.,audit:nob-left-r3-00
+behageligste,=,,keep:,audit:nob-left-r3-00
+betydeligere,=,,keep:,audit:nob-left-r3-00
+gyser,=,,keep:,audit:nob-left-r3-00
+omhandlede,=,,keep:,audit:nob-left-r3-00
+ridderlige,=,,keep:,audit:nob-left-r3-00
+leiret,=,,keep:,audit:nob-left-r3-00
+tilstedes,=,,keep:,audit:nob-left-r3-00
+lifligt,=,,keep:,audit:nob-left-r3-00
+nødsaget,=,,keep:,audit:nob-left-r3-00
+fordrevne,=,,keep:,audit:nob-left-r3-00
+kjærere,=,,keep:,audit:nob-left-r3-00
+østerlandske,=,,keep:,audit:nob-left-r3-00
+bibringe,=,,keep:,audit:nob-left-r3-00
+kantrede,=,,awaiting verification of kantret.,audit:nob-left-r3-00
+tye,=,,keep:,audit:nob-left-r3-00
+seilbare,=,,keep:,audit:nob-left-r3-00
+sommesteds,=,,keep:,audit:nob-left-r3-00
+dyrkningen,=,,keep:,audit:nob-left-r3-00
+prud,=,,keep:,audit:nob-left-r3-00
+zink,=,,awaiting verification of sink.,audit:nob-left-r3-00
+hørende,=,,keep:,audit:nob-left-r3-00
+orme,=,,awaiting verification of ormer.,audit:nob-left-r3-00
+ulvestuen,=,,keep:,audit:nob-left-r3-00
+herred,=,,keep:,audit:nob-left-r3-00
+forsømme,=,,keep:,audit:nob-left-r3-00
+vankede,=,,awaiting verification of vanket.,audit:nob-left-r3-00
+anføres,=,,keep:,audit:nob-left-r3-00
+elskelige,=,,keep:,audit:nob-left-r3-00
+fremviste,=,,keep:,audit:nob-left-r3-00
+nidkjær,=,,keep:,audit:nob-left-r3-00
+adspredt,=,,keep:,audit:nob-left-r3-00
+sva,=,,keep: ocr,audit:nob-left-r3-00
+dundrede,=,,awaiting verification of dundret.,audit:nob-left-r3-00
+smutte,=,,keep:,audit:nob-left-r3-00
+smutter,=,,keep:,audit:nob-left-r3-00
+mumlede,=,,awaiting verification of mumlet.,audit:nob-left-r3-00
+hulkede,=,,awaiting verification of hulket.,audit:nob-left-r3-00
+glimrede,=,,awaiting verification of glimret.,audit:nob-left-r3-00
+besørger,=,,keep:,audit:nob-left-r3-00
+tillukkede,=,,keep:,audit:nob-left-r3-00
+ubillig,=,,keep:,audit:nob-left-r3-00
+lettroende,=,,keep:,audit:nob-left-r3-00
+biet,=,,keep:,audit:nob-left-r3-00
+ugjerne,=,,keep:,audit:nob-left-r3-00
+vrimlede,=,,awaiting verification of vrimlet.,audit:nob-left-r3-00
+vaiede,=,,awaiting verification of vaiet.,audit:nob-left-r3-00
+vredt,=,,keep:,audit:nob-left-r3-00
+sugningen,=,,keep:,audit:nob-left-r3-00
+dumpede,=,,awaiting verification of dumpet.,audit:nob-left-r3-00
+vege,=,,awaiting verification of vek.,audit:nob-left-r3-00
+skiftede,=,,awaiting verification of skiftet.,audit:nob-left-r3-00
+viseste,=,,keep:,audit:nob-left-r3-00
+understøttede,=,,awaiting verification of understøttet.,audit:nob-left-r3-00
+speidende,=,,keep:,audit:nob-left-r3-00
+bedaget,=,,keep:,audit:nob-left-r3-00
+fyrige,=,,keep:,audit:nob-left-r3-00
+sydost,=,,keep:,audit:nob-left-r3-00
+sædet,=,,awaiting verification of setet.,audit:nob-left-r3-00
+triner,=,,keep:,audit:nob-left-r3-00
+forvisset,=,,keep:,audit:nob-left-r3-00
+befordres,=,,keep:,audit:nob-left-r3-00
+bedrøve,=,,keep:,audit:nob-left-r3-00
+yndigste,=,,keep:,audit:nob-left-r3-00
+nidkjære,=,,keep:,audit:nob-left-r3-00
+anretter,=,,keep:,audit:nob-left-r3-00
+lastdyr,=,,keep:,audit:nob-left-r3-00
+fornøden,=,,keep:,audit:nob-left-r3-00
+lidte,=,,keep:,audit:nob-left-r3-00
+babylonierne,=,,keep:,audit:nob-left-r3-00
+karter,=,,keep:,audit:nob-left-r3-00
+overdraget,=,,awaiting verification of overdratt.,audit:nob-left-r3-00
+tvungne,=,,keep:,audit:nob-left-r3-00
+iilte,=,,rejected target 'ilte': not a modern bank form.,audit:nob-left-r3-00
+bevirket,=,,keep:,audit:nob-left-r3-00
+puniske,=,,keep:,audit:nob-left-r3-00
+vesterland,=,,keep:,audit:nob-left-r3-00
+sagtnede,=,,awaiting verification of saktnet.,audit:nob-left-r3-00
+herredet,=,,keep:,audit:nob-left-r3-00
+sprede,=,,keep:,audit:nob-left-r3-00
+omfattede,=,,awaiting verification of omfattet.,audit:nob-left-r3-00
+undergivne,=,,keep:,audit:nob-left-r3-00
+bestyres,=,,keep:,audit:nob-left-r3-00
+beskikkes,=,,keep:,audit:nob-left-r3-00
+treen,=,,keep:,audit:nob-left-r3-00
+regjeres,=,,keep:,audit:nob-left-r3-00
+anstiller,=,,keep:,audit:nob-left-r3-00
+forbarme,=,,keep:,audit:nob-left-r3-00
+helligholde,=,,keep:,audit:nob-left-r3-00
+annamme,=,,keep:,audit:nob-left-r3-00
+travede,=,,awaiting verification of travet.,audit:nob-left-r3-00
+yrede,=,,awaiting verification of yret.,audit:nob-left-r3-00
+plukkede,=,,awaiting verification of plukket.,audit:nob-left-r3-00
+plumpede,=,,awaiting verification of plumpet.,audit:nob-left-r3-00
+forvolde,=,,keep:,audit:nob-left-r3-00
+fortryder,=,,keep:,audit:nob-left-r3-00
+inderligste,=,,keep:,audit:nob-left-r3-00
+ærgrede,=,,awaiting verification of ergret.,audit:nob-left-r3-00
+muret,=,,keep:,audit:nob-left-r3-00
+vundne,=,,awaiting verification of vunne.,audit:nob-left-r3-00
+tørring,=,,keep:,audit:nob-left-r3-01
+fremmenfor,=,,keep:,audit:nob-left-r3-01
+kvidre,=,,context: kvidre (inf) | kvidrer (pres),audit:nob-left-r3-01
+grumt,=,,keep:,audit:nob-left-r3-01
+lavede,=,,keep:,audit:nob-left-r3-01
+vrinskede,=,,awaiting verification of vrinsket.,audit:nob-left-r3-01
+bebudede,=,,awaiting verification of bebudet.,audit:nob-left-r3-01
+raslede,=,,awaiting verification of raslet.,audit:nob-left-r3-01
+gyse,=,,keep:,audit:nob-left-r3-01
+nordenom,=,,keep:,audit:nob-left-r3-01
+savnes,=,,keep:,audit:nob-left-r3-01
+seiersæle,=,,keep:,audit:nob-left-r3-01
+folkesagnet,=,,keep:,audit:nob-left-r3-01
+herredag,=,,keep:,audit:nob-left-r3-01
+hyrede,=,,keep:,audit:nob-left-r3-01
+angav,=,,keep:,audit:nob-left-r3-01
+strandede,=,,context: strandet | strandede,audit:nob-left-r3-01
+tillagde,=,,keep:,audit:nob-left-r3-01
+sumpige,=,,keep:,audit:nob-left-r3-01
+sumpig,=,,keep:,audit:nob-left-r3-01
+tilbørlige,=,,keep:,audit:nob-left-r3-01
+karsk,=,,keep:,audit:nob-left-r3-01
+dundren,=,,keep:,audit:nob-left-r3-01
+jorddyrkning,=,,keep:,audit:nob-left-r3-01
+byd,=,,keep:,audit:nob-left-r3-01
+studeringer,=,,keep:,audit:nob-left-r3-01
+forglemte,=,,keep:,audit:nob-left-r3-01
+overskjære,=,,keep:,audit:nob-left-r3-01
+lystes,=,,keep:,audit:nob-left-r3-01
+fastede,=,,awaiting verification of fastet.,audit:nob-left-r3-01
+eene,=,,awaiting verification of ene.,audit:nob-left-r3-01
+eeg,=,,keep:,audit:nob-left-r3-01
+godvillig,=,,keep:,audit:nob-left-r3-01
+østerlandsk,=,,keep:,audit:nob-left-r3-01
+annammet,=,,keep:,audit:nob-left-r3-01
+uartig,=,,keep:,audit:nob-left-r3-01
+bebo,=,,context: bebo (inf) | bebor (pres),audit:nob-left-r3-01
+helligholdes,=,,keep:,audit:nob-left-r3-01
+henlagte,=,,keep:,audit:nob-left-r3-01
+hjulpne,=,,awaiting verification of hjulpet.,audit:nob-left-r3-01
+pønser,=,,keep:,audit:nob-left-r3-01
+forvolder,=,,keep:,audit:nob-left-r3-01
+toede,=,,keep:,audit:nob-left-r3-01
+langmodig,=,,keep:,audit:nob-left-r3-01
+forbarmede,=,,awaiting verification of forbarmet.,audit:nob-left-r3-01
+tosser,=,,keep:,audit:nob-left-r3-01
+skjønnes,=,,keep:,audit:nob-left-r3-01
+logrede,=,,awaiting verification of logret.,audit:nob-left-r3-01
+stirrede,=,,awaiting verification of stirret.,audit:nob-left-r3-01
+steges,=,,keep:,audit:nob-left-r3-01
+higende,=,,keep:,audit:nob-left-r3-01
+skjelmsstykker,=,,keep:,audit:nob-left-r3-01
+faderløs,=,,keep:,audit:nob-left-r3-01
+sugning,=,,keep:,audit:nob-left-r3-01
+duftede,=,,awaiting verification of duftet.,audit:nob-left-r3-01
+steger,=,,keep:,audit:nob-left-r3-01
+bespiser,=,,keep:,audit:nob-left-r3-01
+skvatrede,=,,awaiting verification of skvatret.,audit:nob-left-r3-01
+funklede,=,,awaiting verification of funklet.,audit:nob-left-r3-01
+forblindede,=,,keep:,audit:nob-left-r3-01
+hevnede,=,,awaiting verification of hevnet.,audit:nob-left-r3-01
+forvarede,=,,keep:,audit:nob-left-r3-01
+rettest,=,,keep:,audit:nob-left-r3-01
+ravede,=,,awaiting verification of ravet.,audit:nob-left-r3-01
+herderne,=,,keep:,audit:nob-left-r3-01
+snublede,=,,awaiting verification of snublet.,audit:nob-left-r3-01
+forlene,=,,keep:,audit:nob-left-r3-01
+udyrkede,=,,keep:,audit:nob-left-r3-01
+foranstaltede,=,,rejected target 'foranstaltet': not a modern bank form.,audit:nob-left-r3-01
+befares,=,,keep:,audit:nob-left-r3-01
+østerlandene,=,,keep:,audit:nob-left-r3-01
+nedrevne,=,,keep:,audit:nob-left-r3-01
+hulet,=,,keep:,audit:nob-left-r3-01
+smukkest,=,,keep:,audit:nob-left-r3-01
+nøder,=,,keep:,audit:nob-left-r3-01
+nødtvungne,=,,keep:,audit:nob-left-r3-01
+glimtede,=,,awaiting verification of glimtet.,audit:nob-left-r3-01
+fremsprang,=,,keep:,audit:nob-left-r3-01
+hengav,=,,keep:,audit:nob-left-r3-01
+forborgne,=,,keep:,audit:nob-left-r3-01
+koningen,=,,keep:,audit:nob-left-r3-01
+voss,=,,keep:,audit:nob-left-r3-01
+undertiiden,=,,rejected target 'undertiden': not a modern bank form.,audit:nob-left-r3-01
+berømmeligt,=,,keep:,audit:nob-left-r3-01
+uordener,=,,keep:,audit:nob-left-r3-01
+henrettede,=,,keep:,audit:nob-left-r3-01
+bundsforvandte,=,,keep:,audit:nob-left-r3-01
+vederfares,=,,keep:,audit:nob-left-r3-01
+rørlige,=,,keep:,audit:nob-left-r3-01
+billiger,=,,keep:,audit:nob-left-r3-01
+kjedes,=,,keep:,audit:nob-left-r3-01
+hungre,=,,keep:,audit:nob-left-r3-01
+vedkomme,=,,keep:,audit:nob-left-r3-01
+forbauses,=,,keep:,audit:nob-left-r3-01
+pranger,=,,keep:,audit:nob-left-r3-01
+belagte,=,,keep:,audit:nob-left-r3-01
+bebuder,=,,keep:,audit:nob-left-r3-01
+krusede,=,,keep:,audit:nob-left-r3-01
+kraftesløse,=,,keep:,audit:nob-left-r3-01
+grenede,=,,keep:,audit:nob-left-r3-01
+sønderrevne,=,,keep:,audit:nob-left-r3-01
+kjelden,=,,keep:,audit:nob-left-r3-01
+omstyrte,=,,keep:,audit:nob-left-r3-01
+styrelsen,=,,keep:,audit:nob-left-r3-01
+tilveiebringe,=,,keep:,audit:nob-left-r3-01
+føiede,=,,awaiting verification of føyet.,audit:nob-left-r3-01
+huger,=,,keep:,audit:nob-left-r3-01
+seir,=,,awaiting verification of seier.,audit:nob-left-r3-01
+tillokkende,=,,keep:,audit:nob-left-r3-01
+ubestet,=,,keep:,audit:nob-left-r3-01
+gesandter,=,,keep:,audit:nob-left-r3-01
+overbevises,=,,keep:,audit:nob-left-r3-01
+blikke,=,,keep:,audit:nob-left-r3-01
+forherliget,=,,keep:,audit:nob-left-r3-01
+fôr,=,,keep:,audit:nob-left-r3-01
+beskikker,=,,keep:,audit:nob-left-r3-01
+besynge,=,,keep:,audit:nob-left-r3-01
+snelt,=,,keep:,audit:nob-left-r3-01
+anordne,=,,keep:,audit:nob-left-r3-01
+formane,=,,keep:,audit:nob-left-r3-01
+uforskyldt,=,,keep:,audit:nob-left-r3-01
+skammeligste,=,,keep:,audit:nob-left-r3-01
+prisede,=,,keep:,audit:nob-left-r3-01
+ustraffelig,=,,keep:,audit:nob-left-r3-01
+ufeilbare,=,,keep:,audit:nob-left-r3-01
+ufeilbar,=,,keep:,audit:nob-left-r3-01
+fremadskridende,=,,keep:,audit:nob-left-r3-01
+flaa,=,,awaiting verification of flå.,audit:nob-left-r3-01
+neiede,=,,awaiting verification of neiet.,audit:nob-left-r3-01
+skyggede,=,,awaiting verification of skygget.,audit:nob-left-r3-01
+holdende,=,,keep:,audit:nob-left-r3-01
+snurrige,=,,keep:,audit:nob-left-r3-01
+verkede,=,,awaiting verification of verket.,audit:nob-left-r3-01
+slupne,=,,awaiting verification of sluppet.,audit:nob-left-r3-01
+hinkede,=,,awaiting verification of hinket.,audit:nob-left-r3-01
+fossede,=,,awaiting verification of fosset.,audit:nob-left-r3-01
+ænsede,=,,awaiting verification of enset.,audit:nob-left-r3-01
+glinsede,=,,awaiting verification of glinset.,audit:nob-left-r3-01
+forbudne,=,,keep:,audit:nob-left-r3-01
+nedgrov,=,,keep:,audit:nob-left-r3-01
+sildige,=,,keep:,audit:nob-left-r3-01
+fattedes,=,,keep:,audit:nob-left-r3-01
+skumrede,=,,awaiting verification of skumret.,audit:nob-left-r3-01
+berøves,=,,keep:,audit:nob-left-r3-01
+lyede,=,,keep:,audit:nob-left-r3-01
+tilhugge,=,,keep:,audit:nob-left-r3-01
+tøvede,=,,awaiting verification of tøvet.,audit:nob-left-r3-01
+frelsende,=,,keep:,audit:nob-left-r3-01
+knirkede,=,,awaiting verification of knirket.,audit:nob-left-r3-01
+strøelse,=,,keep:,audit:nob-left-r3-01
+bortgiftede,=,,keep:,audit:nob-left-r3-01
+trine,=,,keep:,audit:nob-left-r3-01
+tildel,=,,awaiting verification of til del.,audit:nob-left-r3-01
+sydligt,=,,keep:,audit:nob-left-r3-01
+gesandt,=,,keep:,audit:nob-left-r3-01
+praler,=,,keep:,audit:nob-left-r3-01
+sammensvoret,=,,keep:,audit:nob-left-r3-01
+vuggede,=,,awaiting verification of vugget.,audit:nob-left-r3-01
+beskadigede,=,,context: beskadiget | beskadigede,audit:nob-left-r3-01
+sluttelig,=,,keep:,audit:nob-left-r3-01
+lunnerne,=,,keep:,audit:nob-left-r3-01
+teltes,=,,keep:,audit:nob-left-r3-01
+fagrere,=,,keep:,audit:nob-left-r3-01
+fortroligste,=,,keep:,audit:nob-left-r3-01
+vindende,=,,keep:,audit:nob-left-r3-01
+vendiske,=,,keep:,audit:nob-left-r3-01
+blommen,=,,keep:,audit:nob-left-r3-01
+axelen,=,,awaiting verification of akselen.,audit:nob-left-r3-01
+overtydende,=,,keep:,audit:nob-left-r3-01
+signende,=,,keep:,audit:nob-left-r3-01
+levne,=,,keep:,audit:nob-left-r3-01
+gnaver,=,,keep:,audit:nob-left-r3-01
+frembød,=,,keep:,audit:nob-left-r3-01
+skrumpede,=,,awaiting verification of skrumpet.,audit:nob-left-r3-01
+flage,=,,keep:,audit:nob-left-r3-01
+durede,=,,awaiting verification of duret.,audit:nob-left-r3-01
+ombytning,=,,keep:,audit:nob-left-r3-01
+blafrede,=,,awaiting verification of blafret.,audit:nob-left-r3-01
+umildt,=,,keep:,audit:nob-left-r3-01
+favnes,=,,keep:,audit:nob-left-r3-01
+tindrer,=,,keep:,audit:nob-left-r3-01
+lastede,=,,keep:,audit:nob-left-r3-01
+omslynger,=,,keep:,audit:nob-left-r3-01
+uadskillelig,=,,keep:,audit:nob-left-r3-01
+støtterne,=,,keep:,audit:nob-left-r3-01
+forbarmende,=,,keep:,audit:nob-left-r3-01
+flydde,=,,keep:,audit:nob-left-r3-01
+hjertelige,=,,keep:,audit:nob-left-r3-01
+iilsomt,=,,rejected target 'ilsomt': not a modern bank form.,audit:nob-left-r3-01
+svømning,=,,keep:,audit:nob-left-r3-01
+følelig,=,,keep:,audit:nob-left-r3-01
+nidding,=,,keep:,audit:nob-left-r3-01
+omstyrtet,=,,keep:,audit:nob-left-r3-01
+omstyrtes,=,,keep:,audit:nob-left-r3-01
+ifører,=,,keep:,audit:nob-left-r3-01
+formoder,=,,keep:,audit:nob-left-r3-01
+skjøtter,=,,keep:,audit:nob-left-r3-01
+gnavet,=,,keep:,audit:nob-left-r3-01
+vedkom,=,,keep:,audit:nob-left-r3-01
+overtydede,=,,keep:,audit:nob-left-r3-01
+forlystes,=,,keep:,audit:nob-left-r3-01
+bedes,=,,keep:,audit:nob-left-r3-01
+sammentrykket,=,,keep:,audit:nob-left-r3-01
+egnene,=,,keep:,audit:nob-left-r3-01
+sydøstlig,=,,keep:,audit:nob-left-r3-01
+vrider,=,,keep:,audit:nob-left-r3-01
+middelpunkt,=,,keep:,audit:nob-left-r3-01
+forunderligste,=,,keep:,audit:nob-left-r3-01
+fasteste,=,,keep:,audit:nob-left-r3-01
+ertser,=,,keep:,audit:nob-left-r3-01
+svovl,=,,keep:,audit:nob-left-r3-01
+mavesaften,=,,keep:,audit:nob-left-r3-01
+plumpere,=,,keep:,audit:nob-left-r3-01
+vendende,=,,keep:,audit:nob-left-r3-01
+forgrene,=,,keep:,audit:nob-left-r3-01
+fangende,=,,keep:,audit:nob-left-r3-01
+nordende,=,,keep:,audit:nob-left-r3-01
+jorddyrkningen,=,,keep:,audit:nob-left-r3-01
+flittigere,=,,keep:,audit:nob-left-r3-01
+forkuet,=,,keep:,audit:nob-left-r3-01
+trukne,=,,keep:,audit:nob-left-r3-01
+legemligt,=,,keep:,audit:nob-left-r3-01
+hedere,=,,keep:,audit:nob-left-r3-01
+nedsablede,=,,keep:,audit:nob-left-r3-01
+tiltvang,=,,keep:,audit:nob-left-r3-01
+forbarmelse,=,,keep:,audit:nob-left-r3-01
+syndefri,=,,keep:,audit:nob-left-r3-01
+heiset,=,,keep:,audit:nob-left-r3-01
+heima,=,,keep:,audit:nob-left-r3-01
+stilnede,=,,awaiting verification of stilnet.,audit:nob-left-r3-01
+urede,=,,keep:,audit:nob-left-r3-01
+skreden,=,,keep:,audit:nob-left-r3-01
+sinder,=,,keep:,audit:nob-left-r3-01
+droges,=,,keep:,audit:nob-left-r3-01
+halet,=,,keep:,audit:nob-left-r3-01
+knive,=,,keep:,audit:nob-left-r3-01
+voldene,=,,keep:,audit:nob-left-r3-01
+ryggesløst,=,,keep:,audit:nob-left-r3-01
+bøhmerne,=,,keep:,audit:nob-left-r3-01
+monarkisk,=,,keep:,audit:nob-left-r3-01
+stemmerne,=,,keep:,audit:nob-left-r3-01
+henrykker,=,,keep:,audit:nob-left-r3-01
+voren,=,,keep:,audit:nob-left-r3-01
+broderlige,=,,keep:,audit:nob-left-r3-01
+kunstlet,=,,keep:,audit:nob-left-r3-01
+snoer,=,,keep:,audit:nob-left-r3-01
+svæven,=,,keep:,audit:nob-left-r3-01
+ihukom,=,,keep:,audit:nob-left-r3-01
+formeres,=,,keep:,audit:nob-left-r3-01
+bespottede,=,,context: bespottet | bespottede,audit:nob-left-r3-01
+spyttede,=,,awaiting verification of spyttet.,audit:nob-left-r3-01
+bortreise,=,,keep:,audit:nob-left-r3-01
+fortrydelig,=,,keep:,audit:nob-left-r3-01
+hitter,=,,keep:,audit:nob-left-r3-01
+knartede,=,,keep:,audit:nob-left-r3-01
+ljomede,=,,awaiting verification of ljomet.,audit:nob-left-r3-01
+pludrede,=,,awaiting verification of pludret.,audit:nob-left-r3-01
+hittede,=,,rejected target 'hittet': not a modern bank form.,audit:nob-left-r3-01
+ilsomt,=,,keep:,audit:nob-left-r3-01
+tilfrossen,=,,keep:,audit:nob-left-r3-01
+daanede,=,,awaiting verification of dånet.,audit:nob-left-r3-01
+lossede,=,,awaiting verification of losset.,audit:nob-left-r3-01
+dryssede,=,,awaiting verification of drysset.,audit:nob-left-r3-01
+stønnede,=,,awaiting verification of stønnet.,audit:nob-left-r3-01
+kalkunske,=,,keep:,audit:nob-left-r3-01
+sæler,=,,keep:,audit:nob-left-r3-01
+isede,=,,keep:,audit:nob-left-r3-01
+ruslede,=,,awaiting verification of ruslet.,audit:nob-left-r3-01
+haglede,=,,awaiting verification of haglet.,audit:nob-left-r3-01
+gnaven,=,,keep:,audit:nob-left-r3-01
+forsagte,=,,keep:,audit:nob-left-r3-01
+forkast,=,,keep:,audit:nob-left-r3-01
+asianske,=,,keep:,audit:nob-left-r3-01
+tjelde,=,,keep:,audit:nob-left-r3-01
+sønderreven,=,,keep:,audit:nob-left-r3-01
+oppebiende,=,,keep:,audit:nob-left-r3-01
+sløvede,=,,keep:,audit:nob-left-r3-01
+lydes,=,,keep:,audit:nob-left-r3-01
+fralagt,=,,keep:,audit:nob-left-r3-01
+tjenstvillige,=,,keep:,audit:nob-left-r3-01
+henkastede,=,,context: henkastet | henkastede,audit:nob-left-r3-01
+norskes,=,,keep:,audit:nob-left-r3-01
+moderhjerte,=,,keep:,audit:nob-left-r3-01
+befattede,=,,context: befattet | befattede,audit:nob-left-r3-01
+hilsende,=,,keep:,audit:nob-left-r3-01
+tilberedelser,=,,keep:,audit:nob-left-r3-01
+forsynlige,=,,keep:,audit:nob-left-r3-01
+besørgede,=,,context: besørget | besørgede,audit:nob-left-r3-01
+hyndet,=,,keep:,audit:nob-left-r3-01
+forjagede,=,,context: forjaget | forjagede,audit:nob-left-r3-01
+tysser,=,,keep:,audit:nob-left-r3-01
+gnavent,=,,keep:,audit:nob-left-r3-01
+rokkende,=,,keep:,audit:nob-left-r3-01
+fortoninger,=,,keep:,audit:nob-left-r3-01
+henfører,=,,keep:,audit:nob-left-r3-01
+stakkede,=,,keep:,audit:nob-left-r3-01
+sirater,=,,keep:,audit:nob-left-r3-01
+ublandede,=,,keep:,audit:nob-left-r3-01
+flyerne,=,,keep:,audit:nob-left-r3-01
+stager,=,,keep:,audit:nob-left-r3-01
+underbare,=,,keep:,audit:nob-left-r3-01
+alpinske,=,,keep:,audit:nob-left-r3-01
+bugede,=,,keep:,audit:nob-left-r3-01
+spredes,=,,keep:,audit:nob-left-r3-01
+bispehue,=,,keep:,audit:nob-left-r3-01
+middelpunktet,=,,keep:,audit:nob-left-r3-01
+bølgede,=,,awaiting verification of bølget.,audit:nob-left-r3-01
+ubetimelige,=,,keep:,audit:nob-left-r3-01
+gisning,=,,keep:,audit:nob-left-r3-01
+tærske,=,,keep:,audit:nob-left-r3-01
+melkede,=,,keep:,audit:nob-left-r3-01
+bibringer,=,,keep:,audit:nob-left-r3-01
+sederne,=,,keep:,audit:nob-left-r3-01
+fortørne,=,,keep:,audit:nob-left-r3-01
+ester,=,,keep:,audit:nob-left-r3-01
+redebon,=,,keep:,audit:nob-left-r3-01
+bortføres,=,,keep:,audit:nob-left-r3-01
+belagde,=,,keep:,audit:nob-left-r3-01
+understod,=,,keep:,audit:nob-left-r3-01
+ac,=,,keep:,audit:nob-left-r3-01
+fordringsløse,=,,keep:,audit:nob-left-r3-01
+besang,=,,keep:,audit:nob-left-r3-01
+tilsagt,=,,keep:,audit:nob-left-r3-01
+vanart,=,,keep:,audit:nob-left-r3-01
+vægrede,=,,awaiting verification of vegret.,audit:nob-left-r3-01
+formildede,=,,rejected target 'formildet': not a modern bank form.,audit:nob-left-r3-01
+henrive,=,,keep:,audit:nob-left-r3-01
+pralende,=,,keep:,audit:nob-left-r3-01
+formastelige,=,,keep:,audit:nob-left-r3-01
+løsgav,=,,keep:,audit:nob-left-r3-01
+gjenboen,=,,keep:,audit:nob-left-r3-01
+benede,=,,keep:,audit:nob-left-r3-01
+gjøer,=,,keep:,audit:nob-left-r3-01
+syer,=,,keep:,audit:nob-left-r3-01
+henhører,=,,keep:,audit:nob-left-r3-01
+selvgjort,=,,keep:,audit:nob-left-r3-01
+kløer,=,,keep:,audit:nob-left-r3-01
+oppebiede,=,,keep:,audit:nob-left-r3-01
+forivret,=,,keep:,audit:nob-left-r3-01
+nemme,=,,keep:,audit:nob-left-r3-01
+ubetingede,=,,keep:,audit:nob-left-r3-01
+kollede,=,,keep:,audit:nob-left-r3-01
+nedskriver,=,,keep:,audit:nob-left-r3-01
+uøvede,=,,keep:,audit:nob-left-r3-01
+boldt,=,,keep:,audit:nob-left-r3-01
+forsamler,=,,keep:,audit:nob-left-r3-01
+forarbeidede,=,,keep:,audit:nob-left-r3-01
+trinitatis,=,,keep:,audit:nob-left-r3-01
+bærbuske,=,,keep:,audit:nob-left-r3-01
+kløves,=,,keep:,audit:nob-left-r3-01
+zinken,=,,keep:,audit:nob-left-r3-01
+fremdrevne,=,,keep:,audit:nob-left-r3-01
+fremkomne,=,,keep:,audit:nob-left-r3-01
+galden,=,,keep:,audit:nob-left-r3-01
+sammentrykt,=,,keep:,audit:nob-left-r3-01
+skarnbasser,=,,keep:,audit:nob-left-r3-01
+overstyr,=,,awaiting verification of over styr.,audit:nob-left-r3-01
+huling,=,,keep:,audit:nob-left-r3-01
+vestenom,=,,keep:,audit:nob-left-r3-01
+skyggende,=,,keep:,audit:nob-left-r3-01
+halvfemte,=,,keep:,audit:nob-left-r3-01
+tonede,=,,awaiting verification of tonet.,audit:nob-left-r3-01
+overskuede,=,,awaiting verification of overskuet.,audit:nob-left-r3-01
+skaanede,=,,awaiting verification of skånet.,audit:nob-left-r3-01
+ubestigelige,=,,keep:,audit:nob-left-r3-01
+bekvemmest,=,,keep:,audit:nob-left-r3-01
+vederstyggelige,=,,keep:,audit:nob-left-r3-01
+kapitaler,=,,keep:,audit:nob-left-r3-01
+undertvungen,=,,keep:,audit:nob-left-r3-01
+sydkyst,=,,keep:,audit:nob-left-r3-01
+braminske,=,,keep:,audit:nob-left-r3-01
+forherligede,=,,rejected target 'forherliget': not a modern bank form.,audit:nob-left-r3-01
+vestligere,=,,keep:,audit:nob-left-r3-01
+pønse,=,,keep:,audit:nob-left-r3-01
+smykkede,=,,keep:,audit:nob-left-r3-01
+virkes,=,,keep:,audit:nob-left-r3-01
+statsstyrer,=,,keep:,audit:nob-left-r3-01
+henhørte,=,,keep:,audit:nob-left-r3-01
+medbeilere,=,,keep:,audit:nob-left-r3-01
+krigede,=,,keep:,audit:nob-left-r3-01
+nedsablet,=,,keep:,audit:nob-left-r3-01
+bryste,=,,keep:,audit:nob-left-r3-01
+fordunklet,=,,keep:,audit:nob-left-r3-01
+klingrende,=,,keep:,audit:nob-left-r3-01
+anno,=,,keep:,audit:nob-left-r3-01
+berømmelig,=,,keep:,audit:nob-left-r3-01
+glemmende,=,,keep:,audit:nob-left-r3-01
+helligere,=,,keep:,audit:nob-left-r3-01
+omstyrter,=,,keep:,audit:nob-left-r3-01
+klirrede,=,,awaiting verification of klirret.,audit:nob-left-r3-01
+blokke,=,,keep:,audit:nob-left-r3-01
+dukkerne,=,,keep:,audit:nob-left-r3-01
+gjøder,=,,keep:,audit:nob-left-r3-01
+dampede,=,,awaiting verification of dampet.,audit:nob-left-r3-01
+tildømt,=,,keep:,audit:nob-left-r3-01
+sorteste,=,,keep:,audit:nob-left-r3-01
+morende,=,,keep:,audit:nob-left-r3-01
+segnede,=,,awaiting verification of segnet.,audit:nob-left-r3-01
+kvik,=,,keep:,audit:nob-left-r3-01
+gig,=,,keep:,audit:nob-left-r3-01
+forstrakte,=,,keep:,audit:nob-left-r3-01
+barnligere,=,,keep:,audit:nob-left-r3-01
+hentyde,=,,keep:,audit:nob-left-r3-01
+gyldede,=,,awaiting verification of gyllet.,audit:nob-left-r3-01
+betids,=,,keep:,audit:nob-left-r3-01
+østligere,=,,keep:,audit:nob-left-r3-01
+disputere,=,,keep:,audit:nob-left-r3-01
+skjemtende,=,,keep:,audit:nob-left-r3-01
+tifold,=,,keep:,audit:nob-left-r3-01
+grumsede,=,,keep:,audit:nob-left-r3-01
+ombytter,=,,keep:,audit:nob-left-r3-01
+verg,=,,keep:,audit:nob-left-r3-01
+hviles,=,,keep:,audit:nob-left-r3-01
+kristner,=,,keep:,audit:nob-left-r3-01
+jordegodser,=,,keep:,audit:nob-left-r3-01
+gjenføde,=,,keep:,audit:nob-left-r3-01
+tilrev,=,,keep:,audit:nob-left-r3-01
+burgundiske,=,,keep:,audit:nob-left-r3-01
+luxemburgske,=,,keep:,audit:nob-left-r3-01
+godtgjorde,=,,keep:,audit:nob-left-r3-01
+lasterne,=,,keep:,audit:nob-left-r3-01
+amter,=,,keep:,audit:nob-left-r3-01
+forelagte,=,,keep:,audit:nob-left-r3-01
+forbindende,=,,keep:,audit:nob-left-r3-01
+fara,=,,keep:,audit:nob-left-r3-01
+døver,=,,keep:,audit:nob-left-r3-01
+bø,=,,keep:,audit:nob-left-r3-01
+selvbudne,=,,keep:,audit:nob-left-r3-01
+herdebrede,=,,keep:,audit:nob-left-r3-01
+sogne,=,,keep:,audit:nob-left-r3-01
+votere,=,,keep:,audit:nob-left-r3-01
+anholdes,=,,keep:,audit:nob-left-r3-01
+foranstaltes,=,,keep:,audit:nob-left-r3-01
+forholdes,=,,keep:,audit:nob-left-r3-01
+mishage,=,,keep:,audit:nob-left-r3-01
+fund,=,,keep:,audit:nob-left-r3-01
+uformuende,=,,keep:,audit:nob-left-r3-01
+beklemte,=,,keep:,audit:nob-left-r3-01
+beskuer,=,,keep:,audit:nob-left-r3-01
+heldende,=,,keep:,audit:nob-left-r3-01
+teer,=,,keep:,audit:nob-left-r3-01
+bestukne,=,,keep:,audit:nob-left-r3-01
+tilkomme,=,,keep:,audit:nob-left-r3-01
+rebus,=,,keep:,audit:nob-left-r3-01
+eeder,=,,rejected target 'eder': not a modern bank form.,audit:nob-left-r3-01
+skraldede,=,,awaiting verification of skrallet.,audit:nob-left-r3-01
+kræmtede,=,,awaiting verification of kremtet.,audit:nob-left-r3-01
+dæmrede,=,,awaiting verification of demret.,audit:nob-left-r3-01
+qvik,=,,rejected target 'kvik': not a modern bank form.,audit:nob-left-r3-01
+finderne,=,,awaiting verification of finnene.,audit:nob-left-r3-01
+ederne,=,,awaiting verification of edene.,audit:nob-left-r3-01
+bævrede,=,,awaiting verification of bevret.,audit:nob-left-r3-01
+væge,=,,awaiting verification of veke.,audit:nob-left-r3-01
+ljod,=,,keep:,audit:nob-left-r3-01
+nyd,=,,rejected target 'nyt': not a modern bank form.,audit:nob-left-r3-01
+aandede,=,,awaiting verification of åndet.,audit:nob-left-r3-01
+bævede,=,,awaiting verification of bevet.,audit:nob-left-r3-01
+græmme,=,,awaiting verification of gremme.,audit:nob-left-r3-01
 sit,sitt,,,audit:nob-rule-00
 ret,rett,,,audit:nob-rule-00
 mit,mitt,,,audit:nob-rule-00
@@ -17537,7 +19352,7 @@ dyb,dyp,,,audit:nob-rule-00
 dræbte,drepte,,,audit:nob-rule-00
 aaben,åpen,,,audit:nob-rule-00
 værd,verd,,,audit:nob-rule-00
-hænde,hende,,,audit:nob-rule-00
+hænde,=,,rejected target 'hende': not a modern bank form.,audit:nob-rule-00
 udbrød,utbrøt,,,audit:nob-rule-00
 henimod,henimot,,,audit:nob-rule-00
 smuk,=,,keep: smukk not a normal modern form,audit:nob-rule-00
@@ -17589,7 +19404,6 @@ kvinder,kvinner,,,audit:nob-rule-00
 væsen,vesen,,,audit:nob-rule-00
 maader,måter,,,audit:nob-rule-00
 fortælles,fortelles,,,audit:nob-rule-00
-løn,lønn,,,audit:nob-rule-00
 krøb,krøp,,,audit:nob-rule-00
 skræk,skrekk,,,audit:nob-rule-00
 krog,krok,,,audit:nob-rule-00
@@ -17888,8 +19702,7 @@ dragt,drakt,,,audit:nob-rule-00
 stof,stoff,,,audit:nob-rule-00
 frænde,frende,,,audit:nob-rule-00
 indføre,innføre,,,audit:nob-rule-00
-endskjønt,ennskjønt,,,audit:nob-rule-00
-anseet,anset,,,audit:nob-rule-00
+anseet,=,,rejected target 'anset': not a modern bank form.,audit:nob-rule-00
 vidner,vitner,,,audit:nob-rule-00
 læsning,lesning,,,audit:nob-rule-00
 færdighed,ferdighet,,,audit:nob-rule-00
@@ -18193,7 +20006,7 @@ sindet,sinnet,,,audit:nob-rule-r1-00
 december,desember,,,audit:nob-rule-r1-00
 fængslet,fengslet,,,audit:nob-rule-r1-00
 røgen,røyken,,,audit:nob-rule-r1-00
-foder,fôr,,,audit:nob-rule-r1-00
+foder,=,,rejected target 'fôr': not a modern bank form.,audit:nob-rule-r1-00
 forligte,forlikte,,,audit:nob-rule-r1-00
 lænker,lenker,,,audit:nob-rule-r1-00
 stald,stall,,,audit:nob-rule-r1-00
@@ -18312,7 +20125,6 @@ besidde,besitte,,,audit:nob-rule-r1-00
 krigsskib,krigsskip,,,audit:nob-rule-r1-00
 republik,republikk,,,audit:nob-rule-r1-00
 sækken,sekken,,,audit:nob-rule-r1-00
-eengang,engang,,,audit:nob-rule-r1-00
 indeholdt,inneholdt,,,audit:nob-rule-r1-00
 frugtbart,fruktbart,,,audit:nob-rule-r1-00
 skamfuld,skamfull,,,audit:nob-rule-r1-00
@@ -18687,7 +20499,7 @@ bogtrykkeri,boktrykkeri,,,audit:nob-rule-r1-01
 høiesteret,høyesterett,,,audit:nob-rule-r1-01
 frihedskamp,frihetskamp,,,audit:nob-rule-r1-01
 egede,=,,keep: name Egede,audit:nob-rule-r1-01
-christelige,kristelige,,,audit:nob-rule-r1-01
+christelige,=,,rejected target 'kristelige': not a modern bank form.,audit:nob-rule-r1-01
 overvundet,overvunnet,,,audit:nob-rule-r1-01
 ligedan,likedan,,,audit:nob-rule-r1-01
 slagteren,slakteren,,,audit:nob-rule-r1-01
@@ -18759,7 +20571,6 @@ linned,=,,keep: Linned = lintøy; engine linnet dubious,audit:nob-rule-r1-01
 hensigten,hensikten,,,audit:nob-rule-r1-01
 bægeret,begeret,,,audit:nob-rule-r1-01
 øxer,økser,,,audit:nob-rule-r1-01
-omendskjønt,omennskjønt,,,audit:nob-rule-r1-01
 næppe,neppe,,,audit:nob-rule-r1-01
 aabenbar,åpenbar,,,audit:nob-rule-r1-01
 ægteskab,ekteskap,,,audit:nob-rule-r1-01
@@ -18836,7 +20647,6 @@ ligegyldighed,likegyldighet,,,audit:nob-rule-r1-01
 paaskud,påskudd,,,audit:nob-rule-r1-01
 hensigter,hensikter,,,audit:nob-rule-r1-01
 høvedsmand,høvedsmann,,,audit:nob-rule-r1-01
-felden,fellen,,,audit:nob-rule-r1-01
 bagover,bakover,,,audit:nob-rule-r1-01
 frygtsomme,fryktsomme,,,audit:nob-rule-r1-01
 udskaarne,utskårne,,,audit:nob-rule-r1-01
@@ -18878,7 +20688,6 @@ stirred,stirret,,,audit:nob-rule-r1-01
 fremlabberne,fremlabbene,,,audit:nob-rule-r1-01
 samfundslære,samfunnslære,,,audit:nob-rule-r1-01
 undskylde,unnskylde,,,audit:nob-rule-r1-01
-overvunden,overvunnen,,,audit:nob-rule-r1-01
 skaf,skaff,,,audit:nob-rule-r1-01
 qvinder,kvinner,,,audit:nob-rule-r1-01
 skjeldsord,skjellsord,,,audit:nob-rule-r1-01
@@ -20169,7 +21978,6 @@ hærfærd,hærferd,,,audit:nob-rule-r1-04
 arveret,arverett,,,audit:nob-rule-r1-04
 indfundet,innfunnet,,,audit:nob-rule-r1-04
 fortabelse,fortapelse,,,audit:nob-rule-r1-04
-trolde,trolle,,,audit:nob-rule-r1-04
 haandledet,håndleddet,,,audit:nob-rule-r1-04
 langskibene,langskipene,,,audit:nob-rule-r1-04
 udelukke,utelukke,,,audit:nob-rule-r1-04
@@ -20835,7 +22643,7 @@ kjæften,kjeften,,,audit:nob-rule-r1-05
 næsebor,nesebor,,,audit:nob-rule-r1-05
 overfaldes,overfalles,,,audit:nob-rule-r1-05
 fjeldsletter,fjellsletter,,,audit:nob-rule-r1-05
-jernværker,jernverker,,,audit:nob-rule-r1-05
+jernværker,=,,rejected target 'jernverker': not a modern bank form.,audit:nob-rule-r1-05
 brødføde,brødfø,,infinitive,audit:nob-rule-r1-05
 støbte,støpte,,,audit:nob-rule-r1-05
 bæveren,beveren,,,audit:nob-rule-r1-05
@@ -21083,7 +22891,7 @@ bagtalelse,baktalelse,,,audit:nob-rule-r1-06
 udplyndre,utplyndre,,,audit:nob-rule-r1-06
 frugtsommelig,fruktsommelig,,,audit:nob-rule-r1-06
 lovmæssig,lovmessig,,,audit:nob-rule-r1-06
-eenfoldige,enfoldige,,,audit:nob-rule-r1-06
+eenfoldige,=,,rejected target 'enfoldige': not a modern bank form.,audit:nob-rule-r1-06
 levit,levitt,,,audit:nob-rule-r1-06
 farisæere,fariseere,,,audit:nob-rule-r1-06
 huusbonden,husbonden,,,audit:nob-rule-r1-06
@@ -21679,9 +23487,9 @@ utilgjængelige,utilgjengelige,,,audit:nob-rule-r1-07
 menneskesamfund,menneskesamfunn,,,audit:nob-rule-r1-07
 sundheden,sunnheten,,,audit:nob-rule-r1-07
 ufravigelig,ufravikelig,,,audit:nob-rule-r1-07
-omvexlinger,omvekslinger,,,audit:nob-rule-r1-07
+omvexlinger,=,,rejected target 'omvekslinger': not a modern bank form.,audit:nob-rule-r1-07
 indhøste,innhøste,,,audit:nob-rule-r1-07
-sædelige,sedelige,,,audit:nob-rule-r1-07
+sædelige,=,,rejected target 'sedelige': not a modern bank form.,audit:nob-rule-r1-07
 bomuldstøi,bomullstøy,,,audit:nob-rule-r1-07
 gaardbrugeren,gårdbrukeren,,,audit:nob-rule-r1-07
 gage,gasje,,,audit:nob-rule-r1-07
@@ -21965,7 +23773,7 @@ tilendebragte,tilendebrakte,,,audit:nob-rule-r1-08
 fastsætte,fastsette,,,audit:nob-rule-r1-08
 principer,prinsipper,,,audit:nob-rule-r1-08
 andeel,andel,,,audit:nob-rule-r1-08
-formeentlig,formentlig,,,audit:nob-rule-r1-08
+formeentlig,=,,rejected target 'formentlig': not a modern bank form.,audit:nob-rule-r1-08
 exemplerne,eksemplene,,,audit:nob-rule-r1-08
 kvægende,kvegende,,,audit:nob-rule-r1-08
 æmne,emne,,,audit:nob-rule-r1-08
@@ -21974,7 +23782,7 @@ jævnligen,jevnlig,,,audit:nob-rule-r1-08
 personerne,personene,,,audit:nob-rule-r1-08
 chria,=,,keep: foreign/Greek chria,audit:nob-rule-r1-08
 brocken,=,,keep: name Brocken,audit:nob-rule-r1-08
-zirater,sirater,,,audit:nob-rule-r1-08
+zirater,=,,rejected target 'sirater': not a modern bank form.,audit:nob-rule-r1-08
 lidenskaberne,lidenskapene,,,audit:nob-rule-r1-08
 modsætninger,motsetninger,,,audit:nob-rule-r1-08
 alliance,allianse,,,audit:nob-rule-r1-08
@@ -22276,7 +24084,6 @@ manddrabere,manndrapere,,,audit:nob-rule-r1-08
 fylkingerne,fylkingene,,,audit:nob-rule-r1-08
 banehug,banehugg,,,audit:nob-rule-r1-08
 manddrab,manndrap,,,audit:nob-rule-r1-08
-ankerne,ankene,,,audit:nob-rule-r1-08
 blødagtig,=,,"keep: blødagtig (soft, effeminate) no bank form; bløtaktig is different meaning",audit:nob-rule-r1-08
 modløshed,motløshet,,,audit:nob-rule-r1-08
 hædersmænd,hedersmenn,,,audit:nob-rule-r1-08
@@ -22537,7 +24344,7 @@ mend,menn,,,audit:nob-rule-r1-09
 foraarsages,forårsakes,,,audit:nob-rule-r1-09
 sledder,sleder,,plural of slede,audit:nob-rule-r1-09
 omringed,omringet,,,audit:nob-rule-r1-09
-meere,mere,,,audit:nob-rule-r1-09
+meere,=,,rejected target 'mere': not a modern bank form.,audit:nob-rule-r1-09
 hoffærdige,hofferdige,,,audit:nob-rule-r1-09
 tvistighed,tvistighet,,,audit:nob-rule-r1-09
 forstvæsenet,forstvesenet,,,audit:nob-rule-r1-09
@@ -22804,7 +24611,7 @@ fladtrykt,flattrykt,,,audit:nob-rule-r1-09
 ocean,osean,,,audit:nob-rule-r1-09
 udskibning,utskipning,,,audit:nob-rule-r1-09
 indeklemte,inneklemte,,,audit:nob-rule-r1-09
-forfærdiges,forferdiges,,,audit:nob-rule-r1-09
+forfærdiges,=,,rejected target 'forferdiges': not a modern bank form.,audit:nob-rule-r1-09
 fristæder,fristeder,,,audit:nob-rule-r1-09
 madjord,matjord,,,audit:nob-rule-r1-09
 bergværkerne,bergverkene,,,audit:nob-rule-r1-09
@@ -23011,7 +24818,7 @@ heiloerne,heiloene,,,audit:nob-rule-r1-10
 svævet,svevet,,,audit:nob-rule-r1-10
 graamaage,gråmåke,,,audit:nob-rule-r1-10
 klække,klekke,,,audit:nob-rule-r1-10
-kjælden,kjelden,,,audit:nob-rule-r1-10
+kjælden,=,,rejected target 'kjelden': not a modern bank form.,audit:nob-rule-r1-10
 vilddyrene,villdyrene,,,audit:nob-rule-r1-10
 vagtsomme,vaktsomme,,,audit:nob-rule-r1-10
 vandtæt,vanntett,,,audit:nob-rule-r1-10
@@ -23190,7 +24997,6 @@ oversee,overse,,,audit:nob-rule-r1-10
 kilderne,kildene,,,audit:nob-rule-r1-10
 befæster,befester,,,audit:nob-rule-r1-10
 skybrud,skybrudd,,,audit:nob-rule-r1-10
-krøbne,krøpne,,,audit:nob-rule-r1-10
 regndraaber,regndråper,,,audit:nob-rule-r1-10
 antændelser,antennelser,,,audit:nob-rule-r1-10
 gnider,gnir,,,audit:nob-rule-r1-10
@@ -23674,7 +25480,7 @@ kjæmpegran,kjempegran,,engine k error,audit:nob-rule-r1-11
 flags,=,,keep: genitive of flag (flaggs),audit:nob-rule-r1-11
 famled,famlet,,,audit:nob-rule-r1-11
 høifjeld,høyfjell,,,audit:nob-rule-r1-11
-skikked,skikket,,,audit:nob-rule-r1-11
+skikked,=,,rejected target 'skikket': not a modern bank form.,audit:nob-rule-r1-11
 sjøgræsset,sjøgresset,,,audit:nob-rule-r1-11
 landed,landet,,,audit:nob-rule-r1-11
 isfjeld,isfjell,,,audit:nob-rule-r1-11
@@ -24103,7 +25909,7 @@ lægedommen,legedommen,,,audit:nob-rule-r1-12
 udmaie,utmaie,,,audit:nob-rule-r1-12
 storsnudet,storsnutet,,,audit:nob-rule-r1-12
 spærrerne,sperrene,,,audit:nob-rule-r1-12
-fodrappere,fotrappere,,,audit:nob-rule-r1-12
+fodrappere,=,,rejected target 'fotrappere': not a modern bank form.,audit:nob-rule-r1-12
 idrætterne,idrettene,,,audit:nob-rule-r1-12
 belgtræderen,belgtrederen,,,audit:nob-rule-r1-12
 guldhaar,gullhår,,,audit:nob-rule-r1-12
@@ -24499,11 +26305,11 @@ macht,makt,,,audit:nob-rule-r1-13
 troscap,troskap,,,audit:nob-rule-r1-13
 watn,=,,verifier disagreed (=: Old Swedish quotation); was vann,audit:nob-rule-r1-13
 enæ,ene,,,audit:nob-rule-r1-13
-omwende,omvende,,,audit:nob-rule-r1-13
-skow,skov,,,audit:nob-rule-r1-13
+omwende,=,,rejected target 'omvende': not a modern bank form.,audit:nob-rule-r1-13
+skow,=,,rejected target 'skov': not a modern bank form.,audit:nob-rule-r1-13
 gred,gråt,,græd,audit:nob-rule-r1-13
 hwor,hvor,,,audit:nob-rule-r1-13
-skicke,skikke,,,audit:nob-rule-r1-13
+skicke,=,,rejected target 'skikke': not a modern bank form.,audit:nob-rule-r1-13
 mact,makt,,,audit:nob-rule-r1-13
 fortørned,fortørnet,,,audit:nob-rule-r1-13
 fuldkommed,fullkommet,,,audit:nob-rule-r1-13
@@ -24544,7 +26350,7 @@ hærmændene,=,,keep: title,audit:nob-rule-r1-13
 forfatterinde,forfatterinne,,,audit:nob-rule-r1-13
 samfundstilstand,samfunnstilstand,,,audit:nob-rule-r1-13
 digtsamlinger,diktsamlinger,,,audit:nob-rule-r1-13
-skjæmtende,skjemtende,,,audit:nob-rule-r1-13
+skjæmtende,=,,rejected target 'skjemtende': not a modern bank form.,audit:nob-rule-r1-13
 ufuldendte,ufullendte,,,audit:nob-rule-r1-13
 arkæologi,arkeologi,,,audit:nob-rule-r1-13
 postil,postill,,,audit:nob-rule-r1-13
@@ -24597,7 +26403,7 @@ maccabæerne,makkabeerne,,,audit:nob-rule-r1-13
 bryllupsgjæsterne,bryllupsgjestene,,,audit:nob-rule-r1-13
 uvæsentlige,uvesentlige,,,audit:nob-rule-r1-13
 lucæ,=,,keep: Lucæ is genitive of Lukas,audit:nob-rule-r1-13
-apocryphiske,apokryfiske,,,audit:nob-rule-r1-13
+apocryphiske,=,,rejected target 'apokryfiske': not a modern bank form.,audit:nob-rule-r1-13
 prædik,=,,keep: Bible book abbreviation Prædikeren,audit:nob-rule-r1-13
 kløgtige,kløktige,,,audit:nob-rule-r1-13
 dybets,dypets,,,audit:nob-rule-r1-13
@@ -24622,7 +26428,7 @@ udstikkes,utstikkes,,,audit:nob-rule-r1-13
 harpespil,harpespill,,,audit:nob-rule-r1-13
 mistænkeligheden,mistenkeligheten,,,audit:nob-rule-r1-13
 neddæmpet,neddempet,,,audit:nob-rule-r1-13
-besteeg,besteg,,,audit:nob-rule-r1-13
+besteeg,=,,rejected target 'besteg': not a modern bank form.,audit:nob-rule-r1-13
 gudshuus,gudshus,,,audit:nob-rule-r1-13
 ægteskaberne,ekteskapene,,,audit:nob-rule-r1-13
 maccabæer,makkabeer,,,audit:nob-rule-r1-13
@@ -24829,7 +26635,6 @@ medchristne,medkristne,,,audit:nob-rule-r1-13
 forløben,forløpen,,,audit:nob-rule-r1-13
 skrøbeligste,skrøpeligste,,,audit:nob-rule-r1-13
 istandsættelse,istandsettelse,,,audit:nob-rule-r1-13
-hegle,hekle,,,audit:nob-rule-r1-13
 bundgarn,bunngarn,,,audit:nob-rule-r1-13
 grækeren,grekeren,,,audit:nob-rule-r1-13
 juveleer,juveler,,,audit:nob-rule-r1-13
@@ -24992,7 +26797,7 @@ vaadlændte,våtlendte,,,audit:nob-rule-r1-14
 mærkeligheder,merkeligheter,,,audit:nob-rule-r1-14
 fjeldskaret,fjellskaret,,,audit:nob-rule-r1-14
 forstæder,forsteder,,,audit:nob-rule-r1-14
-bergværker,bergverker,,,audit:nob-rule-r1-14
+bergværker,=,,rejected target 'bergverker': not a modern bank form.,audit:nob-rule-r1-14
 vindruerne,vindruene,,,audit:nob-rule-r1-14
 chinesiske,kinesiske,,,audit:nob-rule-r1-14
 canton,=,,keep: name Canton,audit:nob-rule-r1-14
@@ -25061,7 +26866,7 @@ træramme,treramme,,,audit:nob-rule-r1-14
 hinde,=,,context: hinne (membrane) | hind,audit:nob-rule-r1-14
 høisædesstolperne,høysetesstolpene,,,audit:nob-rule-r1-14
 fodskamler,fotskamler,,,audit:nob-rule-r1-14
-tjældede,tjeldede,,,audit:nob-rule-r1-14
+tjældede,=,,rejected target 'tjeldede': not a modern bank form.,audit:nob-rule-r1-14
 tjæld,tjeld,,,audit:nob-rule-r1-14
 tepperne,teppene,,,audit:nob-rule-r1-14
 lækkerheder,lekkerheter,,,audit:nob-rule-r1-14
@@ -25960,7 +27765,7 @@ hegt,hekt,,,audit:nob-rule-r1-16
 dækning,=,,context: dekking (bordet) | dekning,audit:nob-rule-r1-16
 fremsætting,fremsetting,,,audit:nob-rule-r1-16
 kjeldertrappen,kjellertrappen,,,audit:nob-rule-r1-16
-rebhelden,rephelden,,,audit:nob-rule-r1-16
+rebhelden,=,,rejected target 'rephelden': not a modern bank form.,audit:nob-rule-r1-16
 vedpinden,vedpinnen,,,audit:nob-rule-r1-16
 sækkebaandet,sekkebåndet,,,audit:nob-rule-r1-16
 godbid,godbit,,,audit:nob-rule-r1-16
@@ -26891,7 +28696,7 @@ kjælkerne,kjelkene,,,audit:nob-rule-r1-17
 spikked,spikket,,,audit:nob-rule-r1-17
 tyristikkerne,tyristikkene,,,audit:nob-rule-r1-17
 skjæfted,skjeftet,,,audit:nob-rule-r1-17
-stilled,stillet,,,audit:nob-rule-r1-17
+stilled,=,,rejected target 'stillet': not a modern bank form.,audit:nob-rule-r1-17
 finderløn,finnerlønn,,,audit:nob-rule-r1-17
 rosinerne,rosinene,,,audit:nob-rule-r1-17
 rendesnaren,rennesnaren,,,audit:nob-rule-r1-17
@@ -27387,7 +29192,7 @@ forretningsstrøg,forretningsstrøk,,,audit:nob-rule-r1-18
 oldermænd,oldermenn,,,audit:nob-rule-r1-18
 lærlingerne,lærlingene,,,audit:nob-rule-r1-18
 kjøbmandsstanden,kjøpmannsstanden,,,audit:nob-rule-r1-18
-befaled,befalet,,,audit:nob-rule-r1-18
+befaled,=,,rejected target 'befalet': not a modern bank form.,audit:nob-rule-r1-18
 pligttro,plikttro,,,audit:nob-rule-r1-18
 vied,viet,,,audit:nob-rule-r1-18
 masserne,massene,,,audit:nob-rule-r1-18
@@ -27491,7 +29296,7 @@ husmandsstuen,husmannsstuen,,,audit:nob-rule-r1-19
 stræved,strevet,,,audit:nob-rule-r1-19
 stændig,stadig,,støt og stadig,audit:nob-rule-r1-19
 ildsint,illsint,,,audit:nob-rule-r1-19
-bied,biet,,,audit:nob-rule-r1-19
+bied,=,,rejected target 'biet': not a modern bank form.,audit:nob-rule-r1-19
 barneflok,barneflokk,,,audit:nob-rule-r1-19
 sulted,sultet,,,audit:nob-rule-r1-19
 kjæledæggen,kjæledeggen,,,audit:nob-rule-r1-19
@@ -27719,13 +29524,13 @@ gipsmodel,gipsmodell,,,audit:nob-rule-r1-19
 undfanget,unnfanget,,,audit:nob-rule-r1-19
 lovtalerne,lovtalene,,,audit:nob-rule-r1-19
 udbrudene,utbruddene,,,audit:nob-rule-r1-19
-stiils,stills,,,audit:nob-rule-r1-19
+stiils,=,,rejected target 'stills': not a modern bank form.,audit:nob-rule-r1-19
 tildække,tildekke,,,audit:nob-rule-r1-19
 knivseg,knivsegg,,,audit:nob-rule-r1-19
 udskyder,utskyter,,,audit:nob-rule-r1-19
 udstikkende,utstikkende,,,audit:nob-rule-r1-19
 bundløse,bunnløse,,,audit:nob-rule-r1-19
-uoverseelig,uoverselig,,,audit:nob-rule-r1-19
+uoverseelig,=,,rejected target 'uoverselig': not a modern bank form.,audit:nob-rule-r1-19
 hjælpeløshed,hjelpeløshet,,,audit:nob-rule-r1-19
 lænd,lend,,,audit:nob-rule-r1-19
 lodjerne,lodjene,,,audit:nob-rule-r1-19
@@ -27789,7 +29594,7 @@ taageskyer,tåkeskyer,,,audit:nob-rule-r1-19
 naturfænomener,naturfenomener,,,audit:nob-rule-r1-19
 azurblaa,asurblå,,,audit:nob-rule-r1-19
 orgelpiber,orgelpiper,,,audit:nob-rule-r1-19
-uoverseeligt,uoverselig,,,audit:nob-rule-r1-19
+uoverseeligt,=,,rejected target 'uoverselig': not a modern bank form.,audit:nob-rule-r1-19
 curs,kurs,,,audit:nob-rule-r1-19
 pragtbygninger,praktbygninger,,,audit:nob-rule-r1-19
 pillerne,pillene,,,audit:nob-rule-r1-19
@@ -28033,7 +29838,7 @@ deelviis,delvis,,,audit:nob-rule-r1-20
 nedlæggelse,nedleggelse,,,audit:nob-rule-r1-20
 menneskerettighederne,menneskerettighetene,,,audit:nob-rule-r1-20
 hierarchiet,hierarkiet,,,audit:nob-rule-r1-20
-vaticanske,vatikanske,,,audit:nob-rule-r1-20
+vaticanske,=,,rejected target 'vatikanske': not a modern bank form.,audit:nob-rule-r1-20
 bandstraaler,bannstråler,,,audit:nob-rule-r1-20
 unddragelse,unndragelse,,,audit:nob-rule-r1-20
 raadsforsamlingerne,rådsforsamlingene,,,audit:nob-rule-r1-20
@@ -28299,3 +30104,93 @@ brystnaalen,brystnålen,,,audit:nob-rule-r2-00
 nedfælde,nedfelle,,,audit:nob-rule-r2-00
 forraadet,forrådet,,,audit:nob-rule-r2-00
 smaabrødre,småbrødre,,,audit:nob-rule-r2-00
+godhed,godhet,,,audit:nob-rule-r3-00
+tøi,tøy,,,audit:nob-rule-r3-00
+skaber,skaper,,,audit:nob-rule-r3-00
+statsraadet,statsrådet,,,audit:nob-rule-r3-00
+tøiet,tøyet,,,audit:nob-rule-r3-00
+øvrighed,øvrighet,,,audit:nob-rule-r3-00
+formaar,formår,,,audit:nob-rule-r3-00
+utaalmodig,utålmodig,,,audit:nob-rule-r3-00
+fiendtligt,fiendtlig,,,audit:nob-rule-r3-00
+laasen,låsen,,,audit:nob-rule-r3-00
+kirkegaarden,kirkegården,,,audit:nob-rule-r3-00
+flittighed,flittighet,,,audit:nob-rule-r3-00
+fyrtøi,fyrtøy,,,audit:nob-rule-r3-00
+paradiis,paradis,,,audit:nob-rule-r3-00
+baas,=,,context: bås | bas,audit:nob-rule-r3-00
+skjærgaarden,skjærgården,,,audit:nob-rule-r3-00
+ubehageligheder,ubehageligheter,,,audit:nob-rule-r3-00
+deilighed,deilighet,,,audit:nob-rule-r3-00
+maaner,måner,,,audit:nob-rule-r3-00
+trykkefrihed,trykkefrihet,,,audit:nob-rule-r3-00
+knappenaal,knappenål,,,audit:nob-rule-r3-00
+livagtig,livaktig,,,audit:nob-rule-r3-00
+fiskeredskaber,fiskeredskaper,,,audit:nob-rule-r3-00
+offentligt,offentlig,,,audit:nob-rule-r3-00
+vaaning,våning,,,audit:nob-rule-r3-00
+graalysningen,grålysningen,,,audit:nob-rule-r3-00
+paahør,påhør,,,audit:nob-rule-r3-00
+fordøielsen,fordøyelsen,,,audit:nob-rule-r3-00
+undergaa,undergå,,,audit:nob-rule-r3-00
+graatassen,gråtassen,,,audit:nob-rule-r3-00
+barndomsaar,barndomsår,,,audit:nob-rule-r3-00
+foreslaa,foreslå,,,audit:nob-rule-r3-00
+brunagtig,brunaktig,,,audit:nob-rule-r3-00
+paavist,påvist,,,audit:nob-rule-r3-00
+fyrtaarn,fyrtårn,,,audit:nob-rule-r3-00
+bibelselskaber,bibelselskaper,,,audit:nob-rule-r3-00
+amphibier,amfibier,,,audit:nob-rule-r3-00
+maaket,måket,,,audit:nob-rule-r3-00
+paabud,påbud,,,audit:nob-rule-r3-00
+vaaker,våker,,,audit:nob-rule-r3-00
+blaane,blåne,,,audit:nob-rule-r3-00
+smørøie,smørøye,,,audit:nob-rule-r3-00
+braater,bråter,,,audit:nob-rule-r3-00
+skrivergaarden,skrivergården,,,audit:nob-rule-r3-00
+oversaa,overså,,,audit:nob-rule-r3-00
+sedelighed,sedelighet,,,audit:nob-rule-r3-00
+redeligt,redelig,,,audit:nob-rule-r3-00
+braak,bråk,,,audit:nob-rule-r3-00
+overmaal,overmål,,,audit:nob-rule-r3-00
+selvraadighed,selvrådighet,,,audit:nob-rule-r3-00
+skraane,skråne,,,audit:nob-rule-r3-00
+tvilraadig,tvilrådig,,,audit:nob-rule-r3-00
+øi,øy,,,audit:nob-rule-r3-00
+skaarene,skårene,,,audit:nob-rule-r3-00
+utaalmodigheden,utålmodigheten,,,audit:nob-rule-r3-00
+sløifer,sløyfer,,,audit:nob-rule-r3-00
+festligheder,festligheter,,,audit:nob-rule-r3-00
+sirlighed,sirlighet,,,audit:nob-rule-r3-00
+viinranke,vinranke,,,audit:nob-rule-r3-00
+forhaaner,forhåner,,,audit:nob-rule-r3-00
+skaansomhed,skånsomhet,,,audit:nob-rule-r3-00
+skolegaarden,skolegården,,,audit:nob-rule-r3-00
+mismodighed,mismodighet,,,audit:nob-rule-r3-00
+aarevingede,årevingede,,,audit:nob-rule-r3-00
+vaarsildfiske,vårsildfiske,,,audit:nob-rule-r3-00
+tøistykke,tøystykke,,,audit:nob-rule-r3-00
+heldæ,=,,keep: old Norse quote,audit:nob-rule-r3-00
+aargang,årgang,,,audit:nob-rule-r3-00
+stiim,stim,,,audit:nob-rule-r3-00
+staahei,ståhei,,,audit:nob-rule-r3-00
+vaarlige,vårlige,,,audit:nob-rule-r3-00
+eneraadende,enerådende,,,audit:nob-rule-r3-00
+stavnsbaand,stavnsbånd,,,audit:nob-rule-r3-00
+høireparti,høyreparti,,,audit:nob-rule-r3-00
+braakte,bråkte,,,audit:nob-rule-r3-00
+forstaas,forstås,,,audit:nob-rule-r3-00
+smaatroll,småtroll,,,audit:nob-rule-r3-00
+sprøitende,sprøytende,,,audit:nob-rule-r3-00
+soløiet,soløyet,,,audit:nob-rule-r3-00
+braaker,bråker,,,audit:nob-rule-r3-00
+høistakker,høystakker,,,audit:nob-rule-r3-00
+maanedsdagen,månedsdagen,,,audit:nob-rule-r3-00
+lovlighed,lovlighet,,,audit:nob-rule-r3-00
+henviisningen,henvisningen,,,audit:nob-rule-r3-00
+pøbelagtige,pøbelaktige,,,audit:nob-rule-r3-00
+piinlig,pinlig,,,audit:nob-rule-r3-00
+billedligt,billedlig,,,audit:nob-rule-r3-00
+saligheder,saligheter,,,audit:nob-rule-r3-00
+skaaltaler,skåltaler,,,audit:nob-rule-r3-00
+vedholdenhed,vedholdenhet,,,audit:nob-rule-r3-00

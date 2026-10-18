@@ -50,7 +50,7 @@ PRONOUN_OBJECTS = {"sig", "ham", "hende", "dem", "os", "mig", "dig", "eder", "je
 
 ROOT = Path(__file__).resolve().parent.parent
 NAME_SHARE = 0.5
-BREAK = re.compile(r"[,.;:!?()«»\"“”—–]")
+BREAK = re.compile(r"[,.;:!?()«»\"“”—–-]")
 # Capitalised mid-sentence in a book that capitalises nouns, these still are what they say.
 CAPITAL_FUNCTION_WORDS = {"i", "de", "dem", "deres", "eder", "eders", "jeg"}
 MODALS = {"kan", "skal", "vil", "maa", "må", "kunde", "skulde", "vilde", "maatte", "måtte", "kunne", "skulle",
@@ -109,12 +109,13 @@ class Engine:
                     continue
                 prev = tokens[i - 1] if i else None
                 nxt = tokens[i + 1] if i + 1 < len(tokens) else None
-                if prev is not None and prev.lower in TITLES and not token.initial:
+                if prev is not None and prev.lower in TITLES and not token.initial and token.lower not in self.lexicon:
                     self.names.add(token.text)
                 # next to a known proper name (Jonas Lie, Ole Berg): a full name
+                # (only for forms that are no known word: «Jesu Hænder» makes no name of Hænder)
                 for other in (prev, nxt):
                     if other is not None and other.capitalised and self.bank.proper_only(other.text):
-                        if not token.initial or not self.bank.common(token.lower):
+                        if not self.bank.common(token.lower) and token.lower not in self.lexicon:
                             self.names.add(token.text)
                 if self.bank.proper_only(token.text):
                     self.names.add(token.text)
@@ -176,10 +177,12 @@ class Engine:
                 if before_prev is not None and before_prev.lower in values:
                     return False
                 continue
-            if key == "nextany":
+            if key in ("nextany", "nextbreak"):
                 pos = words.index(i)
                 if pos + 1 >= len(words) or tokens[words[pos + 1]].lower not in values:
                     return False
+                if key == "nextbreak" and nxt is not None:
+                    return False  # nextbreak needs punctuation between ("ved, at")
                 continue
             if key in ("prev", "notprev", "prevout", "prevtags", "prevhas"):
                 other = prev
@@ -330,6 +333,14 @@ class Engine:
         """Set tokens[i].out. Returns False if the decision needs the second pass."""
         token = tokens[i]
         low = token.lower
+        if (
+            not self.nouncaps and token.capitalised and not token.initial and not token.upper
+            and low not in CAPITAL_FUNCTION_WORDS and low not in KEEP_CAPITAL
+        ):
+            # a book that writes nouns in lower case: a capital mid-sentence is a name
+            token.out = token.text
+            token.reason = "name"
+            return True
         if (
             self.nouncaps and token.capitalised and not token.initial and not token.upper
             and low not in CAPITAL_FUNCTION_WORDS and low not in KEEP_CAPITAL
