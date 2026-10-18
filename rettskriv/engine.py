@@ -368,14 +368,25 @@ class Engine:
             return capital
         return low
 
+    def is_name(self, other: Token) -> bool:
+        """A capitalised word the book or the bank knows as a name (Jens, Peder), the
+        genitive of one (Vincents) or a patronymic (Knutssøn)."""
+        if not other.capitalised or other.lower in CAPITAL_FUNCTION_WORDS:
+            return False
+        text = other.text
+        if text in self.names or self.bank.proper_only(text) or "prop" in self.bank.tags(text):
+            return True
+        if text.endswith("s") and len(text) > 3 and "prop" in self.bank.tags(text[:-1]):
+            return True
+        return not self.bank.common(other.lower) and any(
+            other.lower.endswith(s) and len(other.lower) > len(s) + 2 for s in PATRONYMIC
+        )
+
     def in_name(self, prev: Token | None, nxt: Token | None) -> bool:
         """Whether a capitalised word belongs to a name: it follows a name (Peder Kjæmpe,
         Knutssøn Baat) or precedes a patronymic (Mord Valgardssøn)."""
         def name(other: Token | None) -> bool:
-            return (
-                other is not None and other.capitalised and not self.bank.common(other.lower)
-                and (other.text in self.names or self.bank.proper_only(other.text) or patronymic(other))
-            )
+            return other is not None and self.is_name(other)
 
         def patronymic(other: Token | None) -> bool:
             return (
@@ -403,6 +414,19 @@ class Engine:
         """Set tokens[i].out. Returns False if the decision needs the second pass."""
         token = tokens[i]
         low = token.lower
+        if token.text == "I" and (prev := self.neighbours(tokens, i, words)[0]) is not None and self.is_name(prev):
+            # Otto I, Christian I: a numeral after a name, not the pronoun
+            token.out = token.text
+            token.reason = "literal"
+            return True
+        if (
+            i + 2 < len(tokens) and tokens[i + 1].text == "-" and tokens[i + 2].word
+            and token.capitalised and self.is_name(tokens[i + 2])
+        ):
+            # the first part of a hyphenated name (Gange-Rolf)
+            token.out = token.text
+            token.reason = "name"
+            return True
         if self.literal(tokens, i):
             token.out = token.text
             token.reason = "literal"

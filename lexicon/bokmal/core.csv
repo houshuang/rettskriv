@@ -6,6 +6,7 @@ saa,så,,,core
 ogsaa,også,,,core
 sig,si,prev=og;next=til|ham|hende|dem|mig|os|det,imperative of sige (og sig til ham),core
 sig,=,initial,Sig at sentence start can be the imperative of sige (say),core
+sig,=,next=mig|os|dig|mej,sig mig: tell me (si meg) or reflexive,acceptance
 sig,seg,,,core
 mig,meg,,,core
 dig,deg,,,core
@@ -520,3 +521,12 @@ ti,=,cap;mid,capital Ti: dialect tid or ten,acceptance
 veed,=,cap;mid;nouncaps,Veed: firewood (ved) or knows (vet),acceptance
 veed,vet,,knows,acceptance
 blade,=,,leaves or to leaf through (blade),acceptance
+roe,ro,,rest (Ro) or to row (ro); roe (beet) is rare in the readers,acceptance
+rind,=,cap,giantess Rind (name),acceptance
+rind,rinn,,,acceptance
+bage,=,prev=til,til bage: tilbake,acceptance
+bage,bake,,,acceptance
+bryder,=,next=sig|mig|dig|os|eder|jer,bryde sig om (bry seg) or a wave breaks,acceptance
+bryder,bryter,,,acceptance
+ryggestød,=,,back support (ryggstø) or a blow,acceptance
+albustød,=,,elbow rest or a nudge,acceptance
