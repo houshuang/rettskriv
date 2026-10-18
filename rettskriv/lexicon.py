@@ -39,6 +39,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LEXICON = ROOT / "lexicon"
 
+FLAG_KEYS = {"nouncaps", "nonouncaps", "cap", "lower", "mid", "initial", "prevbreak", "nextlower"}
+VALUE_KEYS = {"before", "prev", "next", "nextany", "nextbreak", "notprev2", "prev2",
+              "nextend", "prevout", "nextout", "nexttags", "prevtags", "nexthas", "prevhas",
+              "notnext", "notprev"}
+
 CONTEXT_KEYS = {"prevout", "nextout", "nexttags", "prevtags", "nexthas", "prevhas"}
 
 
@@ -63,11 +68,24 @@ class Entry:
 def parse_when(text: str) -> tuple[tuple[str, frozenset[str] | None], ...]:
     clauses = []
     for clause in filter(None, (c.strip() for c in text.split(";"))):
-        if "=" in clause:
-            key, values = clause.split("=", 1)
-            clauses.append((key.strip(), frozenset(v.strip() for v in values.split("|"))))
+        key, sep, raw = clause.partition("=")
+        key = key.strip()
+        if key in FLAG_KEYS and not sep:
+            values = None
+        elif key in VALUE_KEYS and sep:
+            parts = [v.strip() for v in raw.split("|")]
+            if not all(parts):
+                raise ValueError(f"empty condition value: {clause!r}")
+            values = frozenset(parts)
+            if key == "before" and (len(values) != 1 or not raw.strip().isdigit()):
+                raise ValueError(f"before requires one year: {clause!r}")
         else:
-            clauses.append((clause, None))
+            raise ValueError(f"unknown or malformed condition: {clause!r}")
+        clauses.append((key, values))
+    flags = {key for key, _ in clauses}
+    for pair in ({"cap", "lower"}, {"initial", "mid"}, {"nouncaps", "nonouncaps"}):
+        if pair <= flags:
+            raise ValueError(f"contradictory conditions: {text!r}")
     return tuple(clauses)
 
 
@@ -85,12 +103,18 @@ def load(lang: str) -> dict[str, list[Entry]]:
                 source = row["source"].strip()
                 if not source or source.startswith("#"):
                     continue
+                try:
+                    when = parse_when(row.get("when") or "")
+                    if not row["target"].strip():
+                        raise ValueError("empty target")
+                except ValueError as exc:
+                    raise ValueError(f"{path}:{number}: {exc}") from exc
                 if source.lower() in curated:
                     continue
                 entry = Entry(
                     source=source.lower(),
                     target=row["target"].strip(),
-                    when=parse_when(row.get("when") or ""),
+                    when=when,
                     note=(row.get("note") or "").strip(),
                     origin=(row.get("origin") or "").strip(),
                     line=f"{path.name}:{number}",

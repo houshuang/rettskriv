@@ -15,7 +15,6 @@ giver,gir,prev=han|hun|de|jeg|du|vi|man|der|og|gud|det|saa|da|nu|ham,noun Giver 
 giver,=,,noun Giver (donor) -> gir would be wrong,homograph
 skreg,skrek,prev=han|hun|de|jeg|du|vi|man|der|og|saa|da|nu,noun Skreg (a scream) = skrik,homograph
 skreg,=,,noun Skreg (a scream) = skrik,homograph
-lader,lar,lower;notnext=til|som,lader til / lader som = later; Lader = barns,homograph
 lader,=,,lader til / lader som = later; Lader = barns,homograph
 hundrede,hundre,notprev=den|det,ordinal hundrede (hundredth),homograph
 hundrede,=,,ordinal hundrede (hundredth),homograph
@@ -345,3 +344,4 @@ huusven,husvenn,lower,periodical title Norsk Huusven,homograph
 huusven,=,,periodical title Norsk Huusven,homograph
 gout,gout,lower,proper name (den mægtige Gout); also French,homograph
 gout,=,,proper name (den mægtige Gout); also French,homograph
+voksede,=,,Waxing and growing require lexical disambiguation; preserve until resolved,robustness-review

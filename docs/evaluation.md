@@ -1,5 +1,9 @@
 # Evaluation
 
+The numeric results below describe commit `ce74a11`, not the subsequent robustness
+changes. They are model judgments on development and small external samples, not a
+human-adjudicated estimate or a semantic guarantee. See [robustness.md](robustness.md).
+
 ## Method
 
 Every round drew fresh random paragraphs (four per book, at least 40 words, never a
@@ -98,5 +102,7 @@ were looked up first (`prepare()`). One Opus reviewer, same brief.
   *gøre*, *gennem*, *åbne*, *Øjeblik*), because those forms were never audited and their
   rule chains are not trusted. This is the cost of "when in doubt, leave it".
 
-On unseen text, then: about as safe, noticeably less complete. A survey and one audit
-round over the new text's forms closes most of the gap.
+On this small external sample, no meaning errors were reported and coverage was lower.
+Zero errors in 907 changes has a one-sided 95% binomial upper error bound of about
+0.33%, even assuming independent observations and perfect judging. It does not
+establish equal safety on unseen authors or genres.

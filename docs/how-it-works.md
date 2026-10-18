@@ -77,8 +77,8 @@ once and stored:
 Forms seen once get a compound proposal (`tools/compounds.py`) in their packet; about
 one in ten proposals is wrong, so they only reach text through the auditor and verifier.
 
-A rule result is applied without audit only when its chain is trusted
-(`data/trusted-chains.json`, ≥ 99.5% over ≥ 30 audited forms, or the reforms' own letter
+A rule result, including a candidate used by grammar, is applied without audit only when its chain is trusted
+(`data/trusted-chains.json`, one-sided 95% exact binomial precision lower bound ≥ 99.5%, with ≥ 30 audited forms, or the reforms' own letter
 equivalences). Anything else is "pending": left as printed until audited.
 
 The audits were run with Claude models (Sonnet auditors, Opus verifiers and screeners)
@@ -124,7 +124,7 @@ parallel EPUB per book); they need that builder (`RETTSKRIV_LESEBOK_SCRIPTS`) an
 examples. `tools/swap_site.py out/<x>.next` swaps a finished build into `out/<x>`
 atomically, so a reader never sees a half-written folder.
 
-A new book from the same period is mostly covered by the existing lexicon (about 98.7% of
+In the development corpus, a book is mostly covered by the existing lexicon (about 98.7% of
 the lexicon-decided words in each reader also occur in the others). Its new forms are
 "pending" and left as printed unless their rule chain is trusted. To cover them: a survey,
 a packets round with an auditor and a verifier, `tools/ingest.py`, rebuild.

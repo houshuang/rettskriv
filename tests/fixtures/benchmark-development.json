@@ -1,0 +1,394 @@
+[
+  {
+    "id": "loading",
+    "book": "loading",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nob",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": true,
+    "original": "han lader Geværet",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "han",
+        "accepted": [
+          "han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "lader",
+        "accepted": [
+          "lader"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "Geværet",
+        "accepted": [
+          "geværet"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "waxing",
+    "book": "waxing",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nob",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": true,
+    "original": "Han voksede Bordet.",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "voksede",
+        "accepted": [
+          "vokset"
+        ]
+      },
+      {
+        "at": 12,
+        "from": "Bordet",
+        "accepted": [
+          "bordet"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plural",
+    "book": "plural",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nob",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": true,
+    "original": "de sige det",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "de",
+        "accepted": [
+          "de"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "sige",
+        "accepted": [
+          "sier"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "det",
+        "accepted": [
+          "det"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plural-ta",
+    "book": "plural-ta",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nob",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": true,
+    "original": "de tage det",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "de",
+        "accepted": [
+          "de"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "tage",
+        "accepted": [
+          "tar"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "det",
+        "accepted": [
+          "det"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "modal",
+    "book": "modal",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nob",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": true,
+    "original": "de skulle sige det",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "de",
+        "accepted": [
+          "de"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "skulle",
+        "accepted": [
+          "skulle"
+        ]
+      },
+      {
+        "at": 10,
+        "from": "sige",
+        "accepted": [
+          "si"
+        ]
+      },
+      {
+        "at": 15,
+        "from": "det",
+        "accepted": [
+          "det"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "surname",
+    "book": "surname",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nob",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": true,
+    "original": "Jeg saae Hr. Baat.",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Jeg",
+        "accepted": [
+          "Jeg"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "saae",
+        "accepted": [
+          "så"
+        ]
+      },
+      {
+        "at": 9,
+        "from": "Hr",
+        "accepted": [
+          "Hr"
+        ]
+      },
+      {
+        "at": 13,
+        "from": "Baat",
+        "accepted": [
+          "Baat"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ordinary",
+    "book": "ordinary",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nob",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": true,
+    "original": "Han gik ud af Huset.",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Han",
+        "accepted": [
+          "Han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "gik",
+        "accepted": [
+          "gikk"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "ud",
+        "accepted": [
+          "ut"
+        ]
+      },
+      {
+        "at": 11,
+        "from": "af",
+        "accepted": [
+          "av"
+        ]
+      },
+      {
+        "at": 14,
+        "from": "Huset",
+        "accepted": [
+          "huset"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "preposition",
+    "book": "preposition",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nob",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": true,
+    "original": "han ved Havet",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "han",
+        "accepted": [
+          "han"
+        ]
+      },
+      {
+        "at": 4,
+        "from": "ved",
+        "accepted": [
+          "ved"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "Havet",
+        "accepted": [
+          "havet"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nynorsk-perfect",
+    "book": "nynorsk-perfect",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nno",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": false,
+    "original": "Eg hev set det.",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "Eg",
+        "accepted": [
+          "Eg"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "hev",
+        "accepted": [
+          "har"
+        ]
+      },
+      {
+        "at": 7,
+        "from": "set",
+        "accepted": [
+          "set"
+        ]
+      },
+      {
+        "at": 11,
+        "from": "det",
+        "accepted": [
+          "det"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nynorsk-past",
+    "book": "nynorsk-past",
+    "author": "constructed-regression-fixtures",
+    "split": "dev",
+    "lang": "nno",
+    "source": "Constructed during code review; not independent historical evidence",
+    "nouncaps": false,
+    "original": "ho saag paa deg",
+    "reviewer_kind": "model",
+    "reviewed_by": "Codex development",
+    "decisions": [
+      {
+        "at": 0,
+        "from": "ho",
+        "accepted": [
+          "ho"
+        ]
+      },
+      {
+        "at": 3,
+        "from": "saag",
+        "accepted": [
+          "såg"
+        ]
+      },
+      {
+        "at": 8,
+        "from": "paa",
+        "accepted": [
+          "på"
+        ]
+      },
+      {
+        "at": 12,
+        "from": "deg",
+        "accepted": [
+          "deg"
+        ]
+      }
+    ]
+  }
+]

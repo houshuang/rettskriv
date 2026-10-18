@@ -137,6 +137,13 @@ class Engine:
 
     # -- per word ---------------------------------------------------------
 
+    def trusted_target(self, low: str) -> str | None:
+        target = self.rule_target(low)
+        if not isinstance(target, tuple):
+            return None
+        signature = "+".join(sorted(set(target[1]) - self.obligatory)) or "obligatory"
+        return target[0] if signature in self.trusted else None
+
     def rule_target(self, low: str):
         """The unique non-archaic bank respelling of low, or a reason string."""
         if low in self._cand:
@@ -260,8 +267,7 @@ class Engine:
             return None
         if self.bank.common(low) and not self.archaism.archaic(low):
             return low
-        target = self.rule_target(low)
-        return target[0] if isinstance(target, tuple) else None
+        return self.trusted_target(low)
 
     def weak_past(self, low: str) -> str | None:
         """Modern past tense of an old weak past in -ede: svarede -> svarte, kastede -> kastet."""
@@ -270,11 +276,23 @@ class Engine:
         infinitive = self.modern_lower(low[:-2])
         if not infinitive or "verb:inf" not in self.bank.tags(infinitive):
             return None
-        stem = infinitive[:-1] if infinitive.endswith("e") else infinitive
-        forms = [f for f in (stem + "et", stem + "te", stem + "de") if "verb:pret" in self.bank.tags(f)]
+        lemmas = {a.lemma for a in self.bank.analyses(infinitive)
+                  if "verb" in a.tags.split() and "inf" in a.tags.split() and "pass" not in a.tags.split()}
+        if len(lemmas) != 1:
+            return None  # Frequency must not select between different lexemes.
+        forms = sorted(self.bank.inflect(infinitive, "verb:inf", "verb:pret"))
         if not forms:
             return None
-        return max(forms, key=lambda f: self.archaism.freq.get(f, (0.0, 0.0))[1])
+        # Keep the established weak-inflection preference when several paradigm
+        # forms are valid; frequency alone must not introduce a different reading
+        # (heldede -> hellet, not the frequent helte).
+        stem = infinitive[:-1] if infinitive.endswith("e") else infinitive
+        regular = set(forms) & {stem + "et", stem + "te", stem + "de"}
+        if regular:
+            forms = sorted(regular)
+        elif len(forms) != 1:
+            return None
+        return max(forms, key=lambda f: (self.archaism.freq.get(f, (0.0, 0.0))[1], f.endswith("et"), f))
 
     def plural_present(self, low: str) -> str | None:
         """Modern present of an old plural present (vi komme -> vi kommer)."""
@@ -284,13 +302,18 @@ class Engine:
         if not infinitive:
             return None
         tags = self.bank.tags(infinitive) - MINOR_TAGS
+        source_tags = self.bank.tags(low) - MINOR_TAGS
+        if low != infinitive and source_tags and source_tags <= {"verb:inf", "verb:imp"}:
+            # A respelled verb can acquire a new homograph (sige -> si, also a
+            # determiner). Keep the source's unambiguous verb analysis.
+            tags &= {"verb:inf", "verb:imp"}
         if self.nouncaps:
             tags -= {"subst"}
         # an -e form that can also be an adjective (åpne) is checked in context
         if not tags or not tags <= {"verb:inf", "verb:imp", "adj"} or "verb:inf" not in tags:
             return None
-        present = infinitive + "r"
-        return present if "verb:pres" in self.bank.tags(present) else None
+        forms = self.bank.inflect(infinitive, "verb:inf", "verb:pres")
+        return next(iter(forms)) if len(forms) == 1 else None
 
     def grammar_candidate(self, low: str) -> bool:
         # a curated or audited row for an -ede form is the answer (legede is lekte, not leget)
@@ -309,10 +332,11 @@ class Engine:
         nxt = next_token.lower if next_token is not None else None
         past = self.weak_past(low) if low not in self.lexicon else None
         if past:
-            respelled = self.modern_lower(low)
-            adjective = respelled is not None and "adj:part" in self.bank.tags(respelled)
-            verb_context = prev in SUBJECTS or nxt in OBJECTS
-            if not adjective or nxt in PRONOUN_OBJECTS or (verb_context and prev not in DETERMINERS):
+            # Absence of an adjective candidate is not evidence for a verb:
+            # untrusted spellings may have been withheld upstream. Require an
+            # explicit subject or inverted subject/object, not "og" or a suffix.
+            verb_context = prev in {"jeg", "du", "han", "hun", "vi", "de", "man"}
+            if nxt in PRONOUN_OBJECTS or (verb_context and prev not in DETERMINERS):
                 token.out = self.case(token, past)
                 token.reason = "grammar:weak-past"
                 return True
@@ -445,6 +469,13 @@ class Engine:
         """Set tokens[i].out. Returns False if the decision needs the second pass."""
         token = tokens[i]
         low = token.lower
+        # Abbreviated titles contain a sentence-looking period; do not respell
+        # the following name merely because sentence detection marked it initial.
+        if token.capitalised and i >= 2 and tokens[i - 2].lower in TITLES:
+            gap = tokens[i - 1].text
+            if re.fullmatch(r"\.\s+", gap):
+                token.out, token.reason = token.text, "name"
+                return True
         if token.text == "I" and (prev := self.neighbours(tokens, i, words)[0]) is not None and self.is_name(prev):
             # Otto I, Christian I: a numeral after a name, not the pronoun
             token.out = token.text
@@ -542,10 +573,20 @@ class Engine:
                 token.meta["candidates"] = target.split(":", 1)[1]
         return True
 
-    def modernise(self, text: str, verse: bool = False) -> Result:
+    def modernise(self, text: str, verse: bool = False,
+                  protected: list[tuple[int, int]] | None = None) -> Result:
+        """Modernise text, preserving tokens overlapping explicit character spans."""
+        spans = protected or []
+        for start, end in spans:
+            if not (0 <= start < end <= len(text)):
+                raise ValueError(f"invalid protected span: {(start, end)}")
         tokens = tokenise(text, verse=verse)
+        for token in tokens:
+            if token.word and any(token.start < end and token.start + len(token.text) > start
+                                  for start, end in spans):
+                token.out, token.reason = token.text, "protected"
         words = [i for i, t in enumerate(tokens) if t.word]
-        pending = [i for i in words if not self.decide(tokens, i, words, second_pass=False)]
+        pending = [i for i in words if tokens[i].out is None and not self.decide(tokens, i, words, second_pass=False)]
         for i in pending:
             self.decide(tokens, i, words, second_pass=True)
         result = Result(join(tokens), tokens)

@@ -2,7 +2,7 @@
 
 Spelling modernisation for historical Norwegian: Dano-Norwegian and riksmål (about
 1800–1930) to modern bokmål, and landsmål to modern nynorsk. Same words, today's
-spelling and inflection, and **never a change of meaning**: when the program is not sure,
+spelling and inflection, with **meaning preservation as the goal, not a guarantee**: when the program is not sure,
 it leaves the word as printed.
 
 > Glatsnogen er rødbrun, med sorte Flekker paa Hovedet og to mindre langs efter Ryggen.
@@ -35,15 +35,16 @@ python3 -m rettskriv --lookup book.txt         # first fetch N-gram data for new
 ```
 
 ```python
-from rettskriv import modernise, modernise_result, prepare
+from rettskriv import modernise, book_engine, prepare
 
 modernise("Han gik ud af Huset.", nouncaps=True)       # 'Han gikk ut av huset.'
 modernise("Eg hev set det.", lang="nno")               # 'Eg har set det.'
 
 book = [...]                                           # every paragraph of the book
 prepare(book)                                          # optional, network: N-gram data for new forms
+reader = book_engine(book)                             # learn book context once
 for paragraph in book:
-    result = modernise_result(paragraph, context=book)
+    result = reader.modernise(paragraph)
     result.text, result.changes                        # changes: [{"at", "from", "to", "why"}]
 ```
 
@@ -52,7 +53,7 @@ are capitalised and which capitalised words are names. Python 3.11 or newer.
 
 ## How good it is
 
-Measured by Claude Opus reviewers on fresh random paragraphs, judging every change
+Historical results for `ce74a11`, measured by Claude Opus reviewers on fresh random paragraphs, judging every change
 ([details](docs/evaluation.md)):
 
 | | Corpus it was built on | Four unseen books (Hamsun, Ibsen, Wergeland, 1840–1900) |
@@ -67,10 +68,10 @@ Measured by Claude Opus reviewers on fresh random paragraphs, judging every chan
 (The corpus column is the latest release; the unseen books were measured one round
 earlier, before about 120 context rows were added.)
 
-On text like the corpus it is close to finished. On unseen text it stays as safe but
-leaves more old spelling: an author's own forms that the lexicon has never seen are left
-as printed unless a trusted rule covers them. One audit round over a new text's forms
-(see [how it works](docs/how-it-works.md)) closes most of that gap.
+These model-reviewed samples do not establish an independent error guarantee.
+The robustness changes after `ce74a11` have not yet received human acceptance review.
+On unseen text the evaluated version leaves more old spelling: an author's own forms that the lexicon has never seen are left
+as printed unless a trusted rule covers them. A new corpus needs its own held-out evaluation; adding audited forms may improve coverage.
 
 ## Known weaknesses
 
@@ -112,8 +113,8 @@ as printed unless a trusted rule covers them. One audit round over a new text's 
 
 Per word, in order: a curated, context-conditioned lexicon; name protection; forms
 the modern word bank already allows (unless the NB N-gram shows the form died out after
-1910); respelling rules, applied only when their chain has proved ≥ 99.5% precise in the
-audits; and grammar rules for the *-ede* past and plural verbs. The lexicon was built by
+1910); respelling rules, applied only when their chain has a one-sided 95% precision lower bound of ≥ 99.5% in the
+audits (obligatory letter rules are an explicit policy exception); and grammar rules for the *-ede* past and plural verbs. The lexicon was built by
 running every form of the corpus through Sonnet auditors, Opus verifiers and an Opus
 homograph screen, then fixing every error the acceptance reviewers found.
 [docs/how-it-works.md](docs/how-it-works.md) has the details, the lexicon format and the
@@ -150,7 +151,9 @@ If you know of other work, please open an issue.
 
 ## Status
 
-Finished in October 2026 for its original purpose. Issues and pull requests with lexicon
+Built in October 2026 for its original corpus; robustness work is ongoing.
+See [robustness and benchmarking](docs/robustness.md) for safeguards, evaluation
+commands, and the human review still required. Issues and pull requests with lexicon
 corrections are welcome; a correction is a row in `lexicon/<norm>/core.csv`.
 
 ## Licence
