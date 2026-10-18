@@ -386,7 +386,7 @@ røra,=,,keep: valid nn word,audit:nno-inbank-r2-00
 saknad,=,,keep: valid nn word,audit:nno-inbank-r2-00
 laver,=,,keep: valid nn word,audit:nno-inbank-r2-00
 stakkar,=,,keep: valid nn word,audit:nno-inbank-r2-00
-slut,=,,awaiting verification of slutt. noun in all uses,audit:nno-inbank-r2-00
+slut,slutt,,noun in all uses,audit:nno-inbank-r2-00
 tunn,=,,keep: valid nn word,audit:nno-inbank-r2-00
 ljomar,=,,keep: valid nn word,audit:nno-inbank-r2-00
 strøyma,=,,keep: valid nn word,audit:nno-inbank-r2-00
@@ -2642,14 +2642,14 @@ vinters,=,,keep:,audit:nno-left-r2-00
 fra,=,,keep:,audit:nno-left-r2-00
 hverken,=,,keep:,audit:nno-left-r2-00
 heder,=,,keep:,audit:nno-left-r2-00
-botnad,=,,awaiting verification of botna. pp -ad,audit:nno-left-r2-00
+botnad,botna,,pp -ad,audit:nno-left-r2-00
 globjart,=,,keep:,audit:nno-left-r2-00
 laaka,=,,keep:,audit:nno-left-r2-00
 modlaus,=,,keep:,audit:nno-left-r2-00
 syningom,=,,keep:,audit:nno-left-r2-00
-tiderna,=,,awaiting verification of tidene. pl def,audit:nno-left-r2-00
+tiderna,tidene,,pl def,audit:nno-left-r2-00
 liderna,=,,keep:,audit:nno-left-r2-00
-blandad,=,,awaiting verification of blanda. pp -ad,audit:nno-left-r2-00
+blandad,blanda,,pp -ad,audit:nno-left-r2-00
 fagraste,=,,keep:,audit:nno-left-r2-00
 fjuka,=,,keep:,audit:nno-left-r2-00
 fjukande,=,,keep:,audit:nno-left-r2-00
@@ -2665,19 +2665,19 @@ trúlovar,=,,keep:,audit:nno-left-r2-00
 hó,=,,keep:,audit:nno-left-r2-00
 slíte,=,,keep:,audit:nno-left-r2-00
 havfrú,=,,keep:,audit:nno-left-r2-00
-reisi,=,,awaiting verification of reisa. fem def,audit:nno-left-r2-00
+reisi,reisa,,fem def,audit:nno-left-r2-00
 dalom,=,,keep:,audit:nno-left-r2-00
 maakaa,=,,keep:,audit:nno-left-r2-00
 kem,=,,keep:,audit:nno-left-r2-00
 komin,=,,keep:,audit:nno-left-r2-00
 ind,=,,keep:,audit:nno-left-r2-00
 somaar,=,,keep:,audit:nno-left-r2-00
-heimreisi,=,,awaiting verification of heimreisa. fem def,audit:nno-left-r2-00
+heimreisi,heimreisa,,fem def,audit:nno-left-r2-00
 mere,=,,keep:,audit:nno-left-r2-00
 siden,=,,keep:,audit:nno-left-r2-00
 grassvorden,=,,keep:,audit:nno-left-r2-00
 allan,=,,keep:,audit:nno-left-r2-00
-aksi,=,,awaiting verification of aksa. fem def,audit:nno-left-r2-00
+aksi,aksa,,fem def,audit:nno-left-r2-00
 kunnigt,=,,keep:,audit:nno-left-r2-00
 stopel,=,,keep:,audit:nno-left-r2-00
 storo,=,,keep:,audit:nno-left-r2-00
@@ -2691,13 +2691,13 @@ fredlege,=,,keep:,audit:nno-left-r2-00
 kappstig,=,,keep:,audit:nno-left-r2-00
 dunar,=,,keep:,audit:nno-left-r2-00
 bryningom,=,,keep:,audit:nno-left-r2-00
-merkesteinarne,=,,awaiting verification of merkesteinane.,audit:nno-left-r2-00
+merkesteinarne,merkesteinane,,,audit:nno-left-r2-00
 reikande,=,,keep:,audit:nno-left-r2-00
-grenderna,=,,awaiting verification of grendene. pl def,audit:nno-left-r2-00
-vollarne,=,,awaiting verification of vollane.,audit:nno-left-r2-00
-kollarne,=,,awaiting verification of kollane.,audit:nno-left-r2-00
-kropparne,=,,awaiting verification of kroppane.,audit:nno-left-r2-00
-forklaarat,=,,awaiting verification of forklara. pp -at,audit:nno-left-r2-00
+grenderna,grendene,,pl def,audit:nno-left-r2-00
+vollarne,vollane,,,audit:nno-left-r2-00
+kollarne,kollane,,,audit:nno-left-r2-00
+kropparne,kroppane,,,audit:nno-left-r2-00
+forklaarat,=,,"verifier disagreed (forklåra: forklaarat = transfigured (forklåra), not forklara = explain); was forklara",audit:nno-left-r2-00
 heppa,=,,keep:,audit:nno-left-r2-00
 gjenger,=,,context: gjeng (verb) | gjengar (noun),audit:nno-left-r2-00
 skodar,=,,keep:,audit:nno-left-r2-00
@@ -2747,11 +2747,11 @@ egentlig,=,,keep:,audit:nno-left-r2-00
 tendrad,=,,rejected target 'tendra': not a modern bank form. pp -ad,audit:nno-left-r2-00
 dugstore,=,,keep:,audit:nno-left-r2-00
 daadstore,=,,keep:,audit:nno-left-r2-00
-federne,=,,awaiting verification of fedrane. pl def,audit:nno-left-r2-00
+federne,fedrane,,pl def,audit:nno-left-r2-00
 stender,=,,keep:,audit:nno-left-r2-00
-strenderna,=,,awaiting verification of strendene. pl def,audit:nno-left-r2-00
-daarad,=,,awaiting verification of dåra. pp -ad,audit:nno-left-r2-00
-forsonad,=,,awaiting verification of forsona. pp -ad,audit:nno-left-r2-00
+strenderna,strendene,,pl def,audit:nno-left-r2-00
+daarad,dåra,,pp -ad,audit:nno-left-r2-00
+forsonad,forsona,,pp -ad,audit:nno-left-r2-00
 tiljamnat,=,,keep:,audit:nno-left-r2-00
 ruskutt,=,,keep:,audit:nno-left-r2-00
 fatik,=,,keep:,audit:nno-left-r2-00
@@ -2782,7 +2782,7 @@ storadelen,=,,keep:,audit:nno-left-r2-00
 heid,=,,keep:,audit:nno-left-r2-00
 agt,=,,keep:,audit:nno-left-r2-00
 ripleheidi,=,,keep:,audit:nno-left-r2-00
-strenderne,=,,awaiting verification of strendene. pl def,audit:nno-left-r2-00
+strenderne,strendene,,pl def,audit:nno-left-r2-00
 sem,=,,keep:,audit:nno-left-r2-00
 gjevi,=,,keep:,audit:nno-left-r2-00
 skoddæ,=,,keep:,audit:nno-left-r2-00
@@ -2806,7 +2806,7 @@ attegoume,=,,keep:,audit:nno-left-r2-00
 sankte,=,,keep:,audit:nno-left-r2-00
 mikkjel,=,,keep:,audit:nno-left-r2-00
 gjerningsord,=,,keep:,audit:nno-left-r2-00
-tufterne,=,,awaiting verification of tuftene. pl def,audit:nno-left-r2-00
+tufterne,tuftene,,pl def,audit:nno-left-r2-00
 grønne,=,,keep:,audit:nno-left-r2-00
 seilet,=,,keep:,audit:nno-left-r2-00
 dygtig,=,,keep:,audit:nno-left-r2-00
@@ -2887,7 +2887,7 @@ sprætt,=,,keep:,audit:nno-left-r2-00
 hogna,=,,keep:,audit:nno-left-r2-00
 røi,=,,keep:,audit:nno-left-r2-00
 kappas,=,,keep:,audit:nno-left-r2-00
-slutad,=,,awaiting verification of sluta. pp -ad,audit:nno-left-r2-00
+slutad,sluta,,pp -ad,audit:nno-left-r2-00
 skjin,=,,keep:,audit:nno-left-r2-00
 tælan,=,,keep:,audit:nno-left-r2-00
 retnaa,=,,keep:,audit:nno-left-r2-00
@@ -2958,9 +2958,9 @@ vetta,=,,keep:,audit:nno-left-r2-00
 grendom,=,,keep:,audit:nno-left-r2-00
 umsyn,=,,keep:,audit:nno-left-r2-00
 kvida,=,,keep:,audit:nno-left-r2-00
-uvedr,=,,awaiting verification of uvêr.,audit:nno-left-r2-00
-vistnog,=,,awaiting verification of visst nok.,audit:nno-left-r2-00
-strævar,=,,awaiting verification of strevar.,audit:nno-left-r2-00
+uvedr,uvêr,,,audit:nno-left-r2-00
+vistnog,visst nok,,,audit:nno-left-r2-00
+strævar,strevar,,,audit:nno-left-r2-00
 kapast,=,,keep:,audit:nno-left-r2-00
 klædnad,=,,keep:,audit:nno-left-r2-00
 skrøyta,=,,keep:,audit:nno-left-r2-00
@@ -2968,11 +2968,11 @@ fedra,=,,keep:,audit:nno-left-r2-00
 baarutte,=,,keep:,audit:nno-left-r2-00
 sellar,=,,keep:,audit:nno-left-r2-00
 hyggjer,=,,keep:,audit:nno-left-r2-00
-heimferdi,=,,awaiting verification of heimferda. fem def,audit:nno-left-r2-00
+heimferdi,heimferda,,fem def,audit:nno-left-r2-00
 mødor,=,,keep:,audit:nno-left-r2-00
-milerna,=,,awaiting verification of milene. pl def,audit:nno-left-r2-00
+milerna,milene,,pl def,audit:nno-left-r2-00
 høgferd,=,,keep:,audit:nno-left-r2-00
-ætterna,=,,awaiting verification of ættene. pl def,audit:nno-left-r2-00
+ætterna,ættene,,pl def,audit:nno-left-r2-00
 nyst,=,,keep:,audit:nno-left-r2-00
 gløymdest,=,,keep:,audit:nno-left-r2-00
 grever,=,,keep:,audit:nno-left-r2-00
@@ -2988,11 +2988,11 @@ læste,=,,keep:,audit:nno-left-r2-00
 nordhavet,=,,keep:,audit:nno-left-r2-00
 raudgylte,=,,keep:,audit:nno-left-r2-00
 skvala,=,,keep:,audit:nno-left-r2-00
-fjellbruni,=,,awaiting verification of fjellbruna. fem def,audit:nno-left-r2-00
+fjellbruni,fjellbruna,,fem def,audit:nno-left-r2-00
 ferdasong,=,,keep:,audit:nno-left-r2-00
 baaror,=,,keep:,audit:nno-left-r2-00
 hausttankar,=,,keep:,audit:nno-left-r2-00
-vonerna,=,,awaiting verification of vonene. pl def,audit:nno-left-r2-00
+vonerna,vonene,,pl def,audit:nno-left-r2-00
 eiende,=,,keep:,audit:nno-left-r2-00
 rjupa,=,,keep:,audit:nno-left-r2-00
 reide,=,,keep:,audit:nno-left-r2-00
@@ -3003,7 +3003,7 @@ give,=,,keep:,audit:nno-left-r2-00
 kvilstaden,=,,keep:,audit:nno-left-r2-00
 lofotfolket,=,,keep:,audit:nno-left-r2-00
 kjelden,=,,keep:,audit:nno-left-r2-00
-gaasi,=,,awaiting verification of gåsa. fem def,audit:nno-left-r2-00
+gaasi,gåsa,,fem def,audit:nno-left-r2-00
 lauparseglet,=,,keep:,audit:nno-left-r2-00
 kurlar,=,,keep:,audit:nno-left-r2-00
 toneferd,=,,keep:,audit:nno-left-r2-00
@@ -3043,7 +3043,7 @@ sadlar,=,,keep:,audit:nno-left-r2-00
 bitaling,=,,keep:,audit:nno-left-r2-00
 svint,=,,keep:,audit:nno-left-r2-00
 ikringum,=,,keep:,audit:nno-left-r2-00
-straalarne,=,,awaiting verification of strålane. pl def,audit:nno-left-r2-00
+straalarne,strålane,,pl def,audit:nno-left-r2-00
 taarett,=,,keep:,audit:nno-left-r2-00
 himlens,=,,keep:,audit:nno-left-r2-00
 himils,=,,keep:,audit:nno-left-r2-00
@@ -3077,14 +3077,14 @@ folkemugen,=,,keep:,audit:nno-left-r2-00
 skotteslaget,=,,keep:,audit:nno-left-r2-00
 gamallkaarne,=,,keep:,audit:nno-left-r2-00
 hallom,=,,keep:,audit:nno-left-r2-00
-skyerne,=,,awaiting verification of skyene. pl def,audit:nno-left-r2-00
+skyerne,skyene,,pl def,audit:nno-left-r2-00
 stuk,=,,keep:,audit:nno-left-r2-00
 føtenn,=,,keep:,audit:nno-left-r2-00
 kongestasen,=,,keep:,audit:nno-left-r2-00
 semsbryggja,=,,keep:,audit:nno-left-r2-00
 gjentur,=,,keep:,audit:nno-left-r2-00
 haringfela,=,,keep:,audit:nno-left-r2-00
-fjellbygdi,=,,awaiting verification of fjellbygda. fem def,audit:nno-left-r2-00
+fjellbygdi,fjellbygda,,fem def,audit:nno-left-r2-00
 plassmannen,=,,keep:,audit:nno-left-r2-00
 fródevers,=,,keep:,audit:nno-left-r2-00
 binna,=,,keep:,audit:nno-left-r2-00
@@ -3096,34 +3096,34 @@ lae,=,,keep:,audit:nno-left-r2-00
 luktæ,=,,keep:,audit:nno-left-r2-00
 ossta,=,,keep:,audit:nno-left-r2-00
 litlo,=,,keep:,audit:nno-left-r2-00
-dagjin,=,,awaiting verification of dagen.,audit:nno-left-r2-01
+dagjin,dagen,,,audit:nno-left-r2-01
 neburin,=,,"keep: dialect, glossed",audit:nno-left-r2-01
 ingjei,=,,keep: unclear dialect,audit:nno-left-r2-01
 hjadlar,=,,keep: dialect verb,audit:nno-left-r2-01
-liæ,=,,awaiting verification of lia.,audit:nno-left-r2-01
-solæ,=,,awaiting verification of sola.,audit:nno-left-r2-01
+liæ,lia,,,audit:nno-left-r2-01
+solæ,sola,,,audit:nno-left-r2-01
 bergje,=,,keep: unclear,audit:nno-left-r2-01
-fjedl,=,,awaiting verification of fjell.,audit:nno-left-r2-01
+fjedl,fjell,,,audit:nno-left-r2-01
 utyve,=,,keep: dialect preposition,audit:nno-left-r2-01
 aldre,=,,context: aldri (adv) | alder (noun),audit:nno-left-r2-01
 sunde,=,,keep: unclear,audit:nno-left-r2-01
-endelæ,=,,awaiting verification of endeleg.,audit:nno-left-r2-01
+endelæ,endeleg,,,audit:nno-left-r2-01
 fjaking,=,,keep: dialect gloss,audit:nno-left-r2-01
 kveming,=,,keep: dialect gloss,audit:nno-left-r2-01
 svel,=,,keep: dialect gloss,audit:nno-left-r2-01
-bodn,=,,awaiting verification of born.,audit:nno-left-r2-01
+bodn,born,,,audit:nno-left-r2-01
 ratla,=,,keep: dialect verb,audit:nno-left-r2-01
 folesson,=,,keep: name,audit:nno-left-r2-01
 stiklesta,=,,keep: place name,audit:nno-left-r2-01
-merkjesmann,=,,awaiting verification of merkesmann.,audit:nno-left-r2-01
-bakkjen,=,,awaiting verification of bakken.,audit:nno-left-r2-01
-sogo,=,,awaiting verification of soga.,audit:nno-left-r2-01
-endaone,=,,awaiting verification of endå.,audit:nno-left-r2-01
+merkjesmann,merkesmann,,,audit:nno-left-r2-01
+bakkjen,bakken,,,audit:nno-left-r2-01
+sogo,soga,,,audit:nno-left-r2-01
+endaone,endå,,,audit:nno-left-r2-01
 ulvedansen,=,,keep: title,audit:nno-left-r2-01
 ky,=,,keep: old plural,audit:nno-left-r2-01
 honn,=,,keep: dialect,audit:nno-left-r2-01
 grase,=,,keep: unclear,audit:nno-left-r2-01
-rume,=,,awaiting verification of rjome.,audit:nno-left-r2-01
+rume,rjome,,,audit:nno-left-r2-01
 ovfoldom,=,,keep: dialect gloss,audit:nno-left-r2-01
 stogo,=,,keep: dialect,audit:nno-left-r2-01
 hedning,=,,keep: hedning not in norm,audit:nno-left-r2-01
@@ -3136,61 +3136,61 @@ derpaa,=,,keep: derpå not in norm,audit:nno-left-r2-01
 molli,=,,keep: unclear,audit:nno-left-r2-01
 tregunne,=,,keep: dialect gloss,audit:nno-left-r2-01
 hosleis,=,,keep: dialect,audit:nno-left-r2-01
-myllom,=,,awaiting verification of mellom.,audit:nno-left-r2-01
+myllom,mellom,,,audit:nno-left-r2-01
 avsta,=,,keep: unclear,audit:nno-left-r2-01
-jori,=,,awaiting verification of jorda.,audit:nno-left-r2-01
+jori,jorda,,,audit:nno-left-r2-01
 bergji,=,,keep: unclear,audit:nno-left-r2-01
-tii,=,,awaiting verification of tida.,audit:nno-left-r2-01
+tii,tida,,,audit:nno-left-r2-01
 frous,=,,keep: unclear,audit:nno-left-r2-01
-roue,=,,awaiting verification of raude.,audit:nno-left-r2-01
-bekkjen,=,,awaiting verification of bekken.,audit:nno-left-r2-01
+roue,raude,,,audit:nno-left-r2-01
+bekkjen,bekken,,,audit:nno-left-r2-01
 minnes,=,,context: minnast (verb) | til minnes,audit:nno-left-r2-01
 fatikmannen,=,,keep: dialect,audit:nno-left-r2-01
-strængjen,=,,awaiting verification of strengen.,audit:nno-left-r2-01
+strængjen,strengen,,,audit:nno-left-r2-01
 torebankar,=,,keep: unclear,audit:nno-left-r2-01
 glae,=,,context: glede (noun) | glade (adj),audit:nno-left-r2-01
 taarutt,=,,keep: dialect gloss,audit:nno-left-r2-01
 fouk,=,,keep: unclear,audit:nno-left-r2-01
 oto,=,,keep: unclear,audit:nno-left-r2-01
 reii,=,,keep: unclear,audit:nno-left-r2-01
-vaarvers,=,,awaiting verification of vårvers.,audit:nno-left-r2-01
-grasi,=,,awaiting verification of graset.,audit:nno-left-r2-01
-fløytur,=,,awaiting verification of fløyter.,audit:nno-left-r2-01
-somaardag,=,,awaiting verification of sommardag.,audit:nno-left-r2-01
+vaarvers,vårvers,,,audit:nno-left-r2-01
+grasi,graset,,,audit:nno-left-r2-01
+fløytur,fløyter,,,audit:nno-left-r2-01
+somaardag,sommardag,,,audit:nno-left-r2-01
 fynni,=,,keep: dialect gloss,audit:nno-left-r2-01
-louvi,=,,awaiting verification of lauvet.,audit:nno-left-r2-01
-midjom,=,,awaiting verification of mellom.,audit:nno-left-r2-01
-haagt,=,,awaiting verification of høgt.,audit:nno-left-r2-01
-skolv,=,,awaiting verification of skalv.,audit:nno-left-r2-01
+louvi,lauvet,,,audit:nno-left-r2-01
+midjom,mellom,,,audit:nno-left-r2-01
+haagt,høgt,,,audit:nno-left-r2-01
+skolv,skalv,,,audit:nno-left-r2-01
 hjuringskog,=,,keep: place name,audit:nno-left-r2-01
 gille,=,,keep: unclear,audit:nno-left-r2-01
-kjænde,=,,awaiting verification of kjende.,audit:nno-left-r2-01
+kjænde,kjende,,,audit:nno-left-r2-01
 terar,=,,keep: unclear,audit:nno-left-r2-01
 tjønnar,=,,keep: tjønner not in norm,audit:nno-left-r2-01
 utyvi,=,,keep: unclear,audit:nno-left-r2-01
-housten,=,,awaiting verification of hausten.,audit:nno-left-r2-01
+housten,hausten,,,audit:nno-left-r2-01
 kuld,=,,keep: unclear,audit:nno-left-r2-01
-hændi,=,,awaiting verification of henda.,audit:nno-left-r2-01
+hændi,=,,"verifier disagreed (handa: dative sg of hand, def sg is handa); was henda",audit:nno-left-r2-01
 settest,=,,keep: unclear,audit:nno-left-r2-01
 kniktane,=,,keep: dialect,audit:nno-left-r2-01
 sømri,=,,keep: unclear,audit:nno-left-r2-01
 hevne,=,,keep: dialect,audit:nno-left-r2-01
-hoggje,=,,awaiting verification of hogge.,audit:nno-left-r2-01
+hoggje,=,,"verifier disagreed (=: noun hogg (blows), not verb hogge); was hogge",audit:nno-left-r2-01
 kynningane,=,,keep: dialect,audit:nno-left-r2-01
-bet,=,,awaiting verification of betre.,audit:nno-left-r2-01
-fruva,=,,awaiting verification of frua.,audit:nno-left-r2-01
-konnig,=,,awaiting verification of kunnig.,audit:nno-left-r2-01
+bet,=,,verifier disagreed (=: bet also pret of bite / noun bet); was betre,audit:nno-left-r2-01
+fruva,frua,,,audit:nno-left-r2-01
+konnig,kunnig,,,audit:nno-left-r2-01
 okkon,=,,keep: dialect pronoun,audit:nno-left-r2-01
 monno,=,,keep: dialect,audit:nno-left-r2-01
-doue,=,,awaiting verification of daude.,audit:nno-left-r2-01
-heimi,=,,awaiting verification of heime.,audit:nno-left-r2-01
+doue,daude,,,audit:nno-left-r2-01
+heimi,heime,,,audit:nno-left-r2-01
 droumkvæi,=,,keep: title,audit:nno-left-r2-01
 vokstro,=,,keep: unclear,audit:nno-left-r2-01
-moir,=,,awaiting verification of mor.,audit:nno-left-r2-01
+moir,mor,,,audit:nno-left-r2-01
 ont,=,,keep: unclear,audit:nno-left-r2-01
-droume,=,,awaiting verification of draumar.,audit:nno-left-r2-01
-fro,=,,awaiting verification of frod.,audit:nno-left-r2-01
-vegjine,=,,awaiting verification of vegane.,audit:nno-left-r2-01
+droume,draumar,,,audit:nno-left-r2-01
+fro,=,,verifier disagreed (=: fro also = glad (other reading)); was frod,audit:nno-left-r2-01
+vegjine,vegane,,,audit:nno-left-r2-01
 soum,=,,keep: unclear,audit:nno-left-r2-01
 stænd,=,,keep: stend not in norm,audit:nno-left-r2-01
 fære,=,,keep: unclear,audit:nno-left-r2-01
@@ -3212,20 +3212,20 @@ besøge,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 søfjoren,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 øverste,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 havfrúva,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
-gjønni,=,,awaiting verification of gjerne.,audit:nno-left-r2-01
+gjønni,gjerne,,,audit:nno-left-r2-01
 ere,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 voko,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 kolbjørn,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
-endda,=,,awaiting verification of endå.,audit:nno-left-r2-01
-fek,=,,awaiting verification of fekk.,audit:nno-left-r2-01
-nætter,=,,awaiting verification of netter.,audit:nno-left-r2-01
-fedrene,=,,awaiting verification of fedrane.,audit:nno-left-r2-01
+endda,endå,,,audit:nno-left-r2-01
+fek,fekk,,,audit:nno-left-r2-01
+nætter,netter,,,audit:nno-left-r2-01
+fedrene,fedrane,,,audit:nno-left-r2-01
 baarut,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 klungo,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
-sungo,=,,awaiting verification of song.,audit:nno-left-r2-01
+sungo,song,,,audit:nno-left-r2-01
 kjendar,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 mund,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
-spræk,=,,awaiting verification of sprek.,audit:nno-left-r2-01
+spræk,sprek,,,audit:nno-left-r2-01
 mækre,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 fornøielse,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 haustvisa,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
@@ -3247,27 +3247,27 @@ jevnt,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 vestmenner,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 mòle,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 talleiv,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
-fatigdom,=,,awaiting verification of fattigdom.,audit:nno-left-r2-01
+fatigdom,fattigdom,,,audit:nno-left-r2-01
 stama,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
 stâna,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
-gjèra,=,,awaiting verification of gjera.,audit:nno-left-r2-01
+gjèra,gjera,,,audit:nno-left-r2-01
 usturteleg,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 menneskjen,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 sète,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 bère,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 synke,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-gjætar,=,,awaiting verification of gjetar.,audit:nno-left-r2-01
-sùmar,=,,awaiting verification of sumar.,audit:nno-left-r2-01
+gjætar,gjetar,,,audit:nno-left-r2-01
+sùmar,sumar,,,audit:nno-left-r2-01
 mùn,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-bjøllor,=,,awaiting verification of bjøller.,audit:nno-left-r2-01
+bjøllor,bjøller,,,audit:nno-left-r2-01
 øykinn,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 buferdslefsa,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 lofot,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 framgangs,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-fèr,=,,awaiting verification of fer.,audit:nno-left-r2-01
+fèr,fer,,,audit:nno-left-r2-01
 lòte,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 sùmtid,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-skjorerne,=,,awaiting verification of skjorene.,audit:nno-left-r2-01
+skjorerne,skjorene,,,audit:nno-left-r2-01
 ansigt,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 óttast,=,,rejected target 'ottast': not a modern bank form.,audit:nno-left-r2-01
 trívd,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
@@ -3277,16 +3277,16 @@ mósen,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 fyrkja,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 vyr,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 hòldet,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-tòrde,=,,awaiting verification of torde.,audit:nno-left-r2-01
-svòlten,=,,awaiting verification of svolten.,audit:nno-left-r2-01
+tòrde,torde,,,audit:nno-left-r2-01
+svòlten,svolten,,,audit:nno-left-r2-01
 uden,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 òta,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 sturlison,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-sòv,=,,awaiting verification of sov.,audit:nno-left-r2-01
-ròva,=,,awaiting verification of rova.,audit:nno-left-r2-01
+sòv,sov,,,audit:nno-left-r2-01
+ròva,rova,,,audit:nno-left-r2-01
 nón,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 bòd,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-ól,=,,awaiting verification of ol.,audit:nno-left-r2-01
+ól,ol,,,audit:nno-left-r2-01
 illehuga,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 kluftande,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 reidug,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
@@ -3302,9 +3302,9 @@ bògna,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 kòv,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 gjøter,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
 hauststemna,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-millomtidi,=,,awaiting verification of mellomtida.,audit:nno-left-r2-01
+millomtidi,mellomtida,,,audit:nno-left-r2-01
 indledende,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
-titelblad,=,,awaiting verification of tittelblad.,audit:nno-left-r2-01
+titelblad,tittelblad,,,audit:nno-left-r2-01
 mannelivet,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 rædsel,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 skikker,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
@@ -3315,21 +3315,21 @@ aasbjørn,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 nordanfjellske,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 lunde,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 verbroder,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-amtmenner,=,,awaiting verification of amtmenn.,audit:nno-left-r2-01
+amtmenner,amtmenn,,,audit:nno-left-r2-01
 olve,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 sæmund,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 uppskrivi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 munkholmen,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 bispens,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-folkemagt,=,,awaiting verification of folkemakt.,audit:nno-left-r2-01
+folkemagt,folkemakt,,,audit:nno-left-r2-01
 nevndemenner,=,,keep: nevndemenn not in norm,audit:nno-left-r2-01
 domkapitlet,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 bergenhus,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-bispesætet,=,,awaiting verification of bispesetet.,audit:nno-left-r2-01
-utførde,=,,awaiting verification of utførte.,audit:nno-left-r2-01
-kongeliki,=,,awaiting verification of kongeriket.,audit:nno-left-r2-01
+bispesætet,bispesetet,,,audit:nno-left-r2-01
+utførde,utførte,,,audit:nno-left-r2-01
+kongeliki,=,,"verifier disagreed (=: kongelik = royal corpses, not kongerike); was kongeriket",audit:nno-left-r2-01
 erverike,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-greivskap,=,,awaiting verification of grevskap.,audit:nno-left-r2-01
+greivskap,grevskap,,,audit:nno-left-r2-01
 kolbjørnsdotter,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 kommercelæster,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 dein,=,,keep: German,audit:nno-left-r2-01
@@ -3337,73 +3337,73 @@ was,=,,keep: German,audit:nno-left-r2-01
 wer,=,,keep: German,audit:nno-left-r2-01
 bold,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 inki,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-fuldkommen,=,,awaiting verification of fullkomen.,audit:nno-left-r2-01
-tøi,=,,awaiting verification of tøy.,audit:nno-left-r2-01
+fuldkommen,fullkomen,,,audit:nno-left-r2-01
+tøi,tøy,,,audit:nno-left-r2-01
 forladt,=,,keep: Danish gloss,audit:nno-left-r2-01
-kraftfulde,=,,awaiting verification of kraftfulle.,audit:nno-left-r2-01
+kraftfulde,kraftfulle,,,audit:nno-left-r2-01
 udt,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-svarat,=,,awaiting verification of svara.,audit:nno-left-r2-01
+svarat,svara,,,audit:nno-left-r2-01
 varat,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 snelda,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-bredarne,=,,awaiting verification of bredane.,audit:nno-left-r2-01
-starad,=,,awaiting verification of stara.,audit:nno-left-r2-01
+bredarne,bredane,,,audit:nno-left-r2-01
+starad,stara,,,audit:nno-left-r2-01
 reipat,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-plagad,=,,awaiting verification of plaga.,audit:nno-left-r2-01
-kransad,=,,awaiting verification of kransa.,audit:nno-left-r2-01
-huskad,=,,awaiting verification of huska.,audit:nno-left-r2-01
-snildaste,=,,awaiting verification of snillaste.,audit:nno-left-r2-01
-turkad,=,,awaiting verification of turka.,audit:nno-left-r2-01
+plagad,plaga,,,audit:nno-left-r2-01
+kransad,kransa,,,audit:nno-left-r2-01
+huskad,huska,,,audit:nno-left-r2-01
+snildaste,snillaste,,,audit:nno-left-r2-01
+turkad,turka,,,audit:nno-left-r2-01
 kartat,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-lundarne,=,,awaiting verification of lundane.,audit:nno-left-r2-01
-møyarne,=,,awaiting verification of møyane.,audit:nno-left-r2-01
-trillad,=,,awaiting verification of trilla.,audit:nno-left-r2-01
-naglad,=,,awaiting verification of nagla.,audit:nno-left-r2-01
-tullad,=,,awaiting verification of tulla.,audit:nno-left-r2-01
-tjørni,=,,awaiting verification of tjørna.,audit:nno-left-r2-01
-gygri,=,,awaiting verification of gygra.,audit:nno-left-r2-01
-nasarne,=,,awaiting verification of nasane.,audit:nno-left-r2-01
-skimtad,=,,awaiting verification of skimta.,audit:nno-left-r2-01
-frægdi,=,,awaiting verification of frægda.,audit:nno-left-r2-01
+lundarne,lundane,,,audit:nno-left-r2-01
+møyarne,møyane,,,audit:nno-left-r2-01
+trillad,trilla,,,audit:nno-left-r2-01
+naglad,nagla,,,audit:nno-left-r2-01
+tullad,tulla,,,audit:nno-left-r2-01
+tjørni,tjørna,,,audit:nno-left-r2-01
+gygri,gygra,,,audit:nno-left-r2-01
+nasarne,nasane,,,audit:nno-left-r2-01
+skimtad,skimta,,,audit:nno-left-r2-01
+frægdi,frægda,,,audit:nno-left-r2-01
 veere,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-holti,=,,awaiting verification of holtet.,audit:nno-left-r2-01
+holti,holtet,,,audit:nno-left-r2-01
 skjeri,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-taarine,=,,awaiting verification of tårane.,audit:nno-left-r2-01
+taarine,tårane,,,audit:nno-left-r2-01
 skarvi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 rivi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 drosi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-fleiri,=,,awaiting verification of fleire.,audit:nno-left-r2-01
+fleiri,fleire,,,audit:nno-left-r2-01
 vaai,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-seti,=,,awaiting verification of sete.,audit:nno-left-r2-01
-gulli,=,,awaiting verification of gullet.,audit:nno-left-r2-01
+seti,sete,,,audit:nno-left-r2-01
+gulli,gullet,,,audit:nno-left-r2-01
 fjeldrand,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-eigeformi,=,,awaiting verification of eigeforma.,audit:nno-left-r2-01
+eigeformi,eigeforma,,,audit:nno-left-r2-01
 velsignad,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-forteent,=,,awaiting verification of fortent.,audit:nno-left-r2-01
-plukkad,=,,awaiting verification of plukka.,audit:nno-left-r2-01
-sukkad,=,,awaiting verification of sukka.,audit:nno-left-r2-01
-ravad,=,,awaiting verification of rava.,audit:nno-left-r2-01
-blodi,=,,awaiting verification of blodet.,audit:nno-left-r2-01
+forteent,fortent,,,audit:nno-left-r2-01
+plukkad,plukka,,,audit:nno-left-r2-01
+sukkad,sukka,,,audit:nno-left-r2-01
+ravad,rava,,,audit:nno-left-r2-01
+blodi,blodet,,,audit:nno-left-r2-01
 spilda,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 ungdomsminni,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-saknat,=,,awaiting verification of sakna.,audit:nno-left-r2-01
+saknat,sakna,,,audit:nno-left-r2-01
 styrdt,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-signad,=,,awaiting verification of signa.,audit:nno-left-r2-01
+signad,signa,,,audit:nno-left-r2-01
 rømdi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 leikarne,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 høi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-sverdi,=,,awaiting verification of sverda.,audit:nno-left-r2-01
+sverdi,sverda,,,audit:nno-left-r2-01
 synsrandi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 budt,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-øyværingarne,=,,awaiting verification of øyværingane.,audit:nno-left-r2-01
+øyværingarne,øyværingane,,,audit:nno-left-r2-01
 uheld,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
 øyri,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
-fastad,=,,awaiting verification of fasta.,audit:nno-left-r2-01
-siglingi,=,,awaiting verification of siglinga.,audit:nno-left-r2-01
-stivnad,=,,awaiting verification of stivna.,audit:nno-left-r2-01
-uppnemnd,=,,awaiting verification of oppnemnd.,audit:nno-left-r2-01
-forvanskad,=,,awaiting verification of forvanska.,audit:nno-left-r2-01
-underklassarne,=,,awaiting verification of underklassane.,audit:nno-left-r2-01
-tilverkad,=,,awaiting verification of tilverka.,audit:nno-left-r2-01
+fastad,fasta,,,audit:nno-left-r2-01
+siglingi,siglinga,,,audit:nno-left-r2-01
+stivnad,stivna,,,audit:nno-left-r2-01
+uppnemnd,oppnemnd,,,audit:nno-left-r2-01
+forvanskad,forvanska,,,audit:nno-left-r2-01
+underklassarne,underklassane,,,audit:nno-left-r2-01
+tilverkad,tilverka,,,audit:nno-left-r2-01
 tochter,=,,keep: German,audit:nno-left-r2-01
 auch,=,,keep: German,audit:nno-left-r2-01
 seele,=,,keep: German,audit:nno-left-r2-01

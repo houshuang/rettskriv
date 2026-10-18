@@ -60,7 +60,8 @@ class NeverChangeMeaning(unittest.TestCase):
 
     def test_capital_kunde_is_a_customer(self):
         self.assertEqual(modern("han kunde ikke"), "han kunne ikke")
-        self.assertEqual(modern("en god Kunde"), "en god kunde")
+        # left as printed, so the capital stays too
+        self.assertEqual(modern("en god Kunde"), "en god Kunde")
 
     def test_noun_tag_and_verb_tag(self):
         self.assertEqual(modern("under Taget"), "under taket")

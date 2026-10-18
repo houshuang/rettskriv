@@ -4,6 +4,7 @@ af,av,,,core
 paa,på,,,core
 saa,så,,,core
 ogsaa,også,,,core
+sig,=,initial,Sig at sentence start can be the imperative of sige (say),core
 sig,seg,,,core
 mig,meg,,,core
 dig,deg,,,core
@@ -91,6 +92,7 @@ saadan,sådan,,,core
 saadant,sådant,,,core
 saadanne,sådanne,,,core
 altsaa,altså,,,core
+baade,båter,prev=vore|mine|dine|sine|hans|hendes|deres|disse|to|tre|fire|mange|alle|smaa|store,boats,core
 baade,både,,,core
 tillige,tillike,,,core
 alligevel,allikevel,,,core
@@ -119,7 +121,7 @@ bagefter,bakefter,,,core
 ere,er,,plural present of være,core
 vare,var,lower;prev=de|vi|i|der|som|alle|begge|disse|hvilke|mange|flere|nogle|baade,plural past of være after a plural subject,core
 vare,=,,,core
-have,har,lower;prev=vi|de|i|som|der,plural present,core
+have,har,lower;prev=vi|de|i|som|der;notprev2=kan|skal|vil|maa|kunde|skulde|vilde|maatte|skulle|kunne|ville|måtte|bør|tør|lod|fik|fikk|monne,plural present (not after an inverted modal),core
 have,ha,lower;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|faa|aa,infinitive,core
 have,har,lower;next=vi|i|de;notprev=at|vil|skal|kan|maa|kunde|skulde|vilde|skulle|kunne|ville,inverted plural present,core
 have,hage,cap;mid;nouncaps,garden,core
@@ -132,6 +134,7 @@ blev,ble,,,core
 bleve,ble,,,core
 bleven,blitt,,,core
 blevet,blitt,,,core
+været,=,prev=i|om|af|av|til|for|det|godt|slet,the weather / the air,core
 været,vært,,,core
 kunde,kunne,lower,modal past (Kunde = customer),core
 kunde,kunne,initial,,core
@@ -175,9 +178,12 @@ saae,så,,,core
 staa,stå,,,core
 staar,står,,,core
 staaet,stått,,,core
-lade,la,,,core
+lade,la,lower;prev=at|aa|vil|skal|kan|maa|kunde|skulde|vilde|maatte|bør|tør|ville|skulle|kunne,infinitive (Lade = barn or place),core
+lade,=,,,core
 lader,lar,,,core
-lad,la,,,core
+lad,la,lower;next=os|mig|dig|ham|hende|dem|det|være|sig|eder|dette|den|ingen|nogen|alle|mine|dine|hans|faa|komme|gaa|staa|blive|ham|Gud|gud,imperative (lad = lazy otherwise),core
+lad,la,initial;next=os|mig|dig|ham|hende|dem|det|være|sig|eder|dette|den|ingen|nogen|alle|mine|dine|hans|faa|komme|gaa|staa|blive|Gud|gud|en|et|vor|din|min,imperative,core
+lad,=,,,core
 lod,lot,lower,,core
 lod,=,,,core
 ladet,latt,,,core
@@ -221,8 +227,9 @@ kjendte,kjente,,,core
 kjendt,kjent,,,core
 vide,vite,lower;nouncaps;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|faa|aa,infinitive (vide = wide),core
 vide,=,,,core
-ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;next=ikke|det|at|hvad|hvor|hvem|hvorledes|hvorfor|om|nok|vel|jo|ogsaa|godt|alt|intet|ret|saa|mere|bedre|ej|ei|kun|blot|slet|endnu|nu|dog|vist|ingenting|noget|hvilken|hvilket|hvilke|ikkun|hvorfra|hvortil|naar,present of vite,core
+ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;next=ikke|det|hvad|hvor|hvem|hvorledes|hvorfor|om|nok|vel|jo|ogsaa|godt|alt|intet|ret|saa|mere|bedre|ej|ei|kun|blot|slet|endnu|nu|dog|vist|ingenting|noget|hvilken|hvilket|hvilke|ikkun|hvorfra|hvortil|naar,present of vite,core
 ved,vet,lower;prev=det|dette|hvad|saa|nok|jo|vel|ikke|nu;next=jeg|du|han|hun|vi|man|de|i,present of vite (inverted),core
+ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;nextany=at,"jeg ved, at" (the comma rules out the preposition),core
 ved,=,,,core
 vidste,visste,,,core
 vidst,visst,,,core
@@ -401,3 +408,39 @@ at,=,,conjunction,core
 i,dere,cap;mid,pronoun I = you (plural); the preposition is lower case,core
 i,dere,initial;nexttags=verb:pres|verb:pret|verb:inf|verb:imp,pronoun at sentence start before a verb,core
 i,=,,,core
+# From the acceptance reads (18 Oct 2026)
+ankerne,ankrene,,anchors (ankene = the appeals),acceptance
+hegle,=,,hegle (card flax; criticise) is not hekle,acceptance
+myg,myk,,supple,acceptance
+felden,=,,felden = the coat (pelsen); fellen is the trap,acceptance
+høi,=,cap;mid;nouncaps,Høi = a mound,acceptance
+endskjønt,enskjønt,,,acceptance
+omendskjønt,omenskjønt,,,acceptance
+gaaer,går,,,acceptance
+staaer,står,,,acceptance
+faaer,får,,,acceptance
+seer,ser,lower,,acceptance
+eengang,en gang,,,acceptance
+overvunden,overvunnet,,,acceptance
+forsaavidt,for så vidt,,,acceptance
+fald,fall,,,acceptance
+kat,katt,,,acceptance
+sex,seks,lower,,acceptance
+kjød,kjøtt,,,acceptance
+kjødet,kjøttet,,,acceptance
+mad,mat,cap;nouncaps,food,acceptance
+dage,dager,cap;mid;nouncaps,plural (dage = to dawn),acceptance
+skove,skoger,cap;mid;nouncaps,,acceptance
+skovene,skogene,,,acceptance
+dale,daler,cap;mid;nouncaps,,acceptance
+krige,kriger,cap;mid;nouncaps,,acceptance
+stakke,stakker,cap;mid;nouncaps,,acceptance
+favne,favner,cap;mid;nouncaps,,acceptance
+skatte,skatter,cap;mid;nouncaps,,acceptance
+taarne,tårn,,,acceptance
+trolde,troll,,,acceptance
+katte,katter,cap;mid;nouncaps,,acceptance
+drømme,drømmer,cap;mid;nouncaps,,acceptance
+kalve,kalver,cap;mid;nouncaps,,acceptance
+vinde,vinder,cap;mid;nouncaps,winds (vinde = to wind),acceptance
+krøbne,krøpet,,,acceptance

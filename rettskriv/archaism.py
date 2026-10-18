@@ -33,10 +33,12 @@ def connect() -> sqlite3.Connection:
     return conn
 
 
-def fetch(words: list[str], lang: str, batch: int = 20) -> None:
-    """Fill the cache for words not yet in it. Case-sensitive lower-case lookups."""
+def fetch(words: list[str], lang: str, batch: int = 10, refresh_zero: bool = False) -> None:
+    """Fill the cache for words not yet in it (case-sensitive). The API answers at most
+    10 terms per request; refresh_zero re-asks words cached with no counts at all."""
     conn = connect()
-    have = {w for (w,) in conn.execute("SELECT word FROM freq WHERE lang=?", (lang,))}
+    query_have = "SELECT word FROM freq WHERE lang=?" + (" AND (old > 0 OR new > 0)" if refresh_zero else "")
+    have = {w for (w,) in conn.execute(query_have, (lang,))}
     todo = [w for w in dict.fromkeys(words) if w not in have and "," not in w]
     for i in range(0, len(todo), batch):
         chunk = todo[i : i + batch]

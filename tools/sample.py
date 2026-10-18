@@ -55,7 +55,7 @@ def main() -> None:
             for t in result.tokens:
                 if t.word and t.out != t.text:
                     change_id += 1
-                    changes.append({"n": change_id, "from": t.text, "to": t.out, "why": t.reason})
+                    changes.append({"n": change_id, "at": t.start, "from": t.text, "to": t.out, "why": t.reason})
                     marked.append(f"{t.out}⟨{change_id}⟩")
                 else:
                     marked.append(t.out if t.word and t.out is not None else t.text)

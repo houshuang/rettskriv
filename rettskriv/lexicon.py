@@ -11,7 +11,9 @@ CSV columns: source, target, when, note, origin.
     cap / lower        the token is capitalised / lower case
     mid / initial      the token is mid-sentence / sentence- or line-initial
     prev=a|b           the previous word (lower case, as printed) is one of these
-    next=a|b           the next word is one of these
+    next=a|b           the next word is one of these (prev/next stop at punctuation)
+    nextany=a|b        the next word, even across punctuation
+    notprev2=a|b       the word before the previous one is none of these
     prevout=a|b        the previous word's modern form is one of these
     nextout=a|b        the next word's modern form is one of these
     nexttags=t|u       every bank tag of the next word's modern form is one of these

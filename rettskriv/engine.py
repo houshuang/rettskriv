@@ -19,6 +19,7 @@ Order for each word:
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter
 from pathlib import Path
 from dataclasses import dataclass, field
@@ -48,7 +49,12 @@ PLURAL_SUBJECTS = {"vi", "de"}
 PRONOUN_OBJECTS = {"sig", "ham", "hende", "dem", "os", "mig", "dig", "eder", "jeg", "du", "han", "hun", "vi", "man"}
 
 ROOT = Path(__file__).resolve().parent.parent
-NAME_SHARE = 0.3
+NAME_SHARE = 0.5
+BREAK = re.compile(r"[,.;:!?()«»\"“”—–]")
+# Capitalised mid-sentence in a book that capitalises nouns, these still are what they say.
+CAPITAL_FUNCTION_WORDS = {"i", "de", "dem", "deres", "eder", "eders", "jeg"}
+MODALS = {"kan", "skal", "vil", "maa", "må", "kunde", "skulde", "vilde", "maatte", "måtte", "kunne", "skulle",
+          "ville", "bør", "tør", "lod", "lade", "fik", "fikk", "monne", "gad", "turde", "burde"}
 
 # Tags too rare to block a reading: letters as symbols, abbreviations, interjections.
 MINOR_TAGS = frozenset({"symb", "fork", "interj"})
@@ -135,11 +141,22 @@ class Engine:
         self._cand[low] = result
         return result
 
+    @staticmethod
+    def neighbours(tokens: list[Token], i: int, words: list[int]):
+        """The previous and next word, or None when punctuation stands between."""
+        pos = words.index(i)
+        prev = nxt = None
+        if pos > 0 and not BREAK.search("".join(t.text for t in tokens[words[pos - 1] + 1 : i])):
+            prev = tokens[words[pos - 1]]
+        if pos + 1 < len(words) and not BREAK.search("".join(t.text for t in tokens[i + 1 : words[pos + 1]])):
+            nxt = tokens[words[pos + 1]]
+        return prev, nxt
+
     def matches(self, entry: lexmod.Entry, tokens: list[Token], i: int, words: list[int]) -> bool:
         token = tokens[i]
+        prev, nxt = self.neighbours(tokens, i, words)
         pos = words.index(i)
-        prev = tokens[words[pos - 1]] if pos > 0 else None
-        nxt = tokens[words[pos + 1]] if pos + 1 < len(words) else None
+        before_prev = tokens[words[pos - 2]] if prev is not None and pos > 1 else None
         for key, values in entry.when:
             if key == "before" and not (self.year and self.year < int(next(iter(values)))):
                 return False
@@ -155,6 +172,15 @@ class Engine:
                 return False
             if key == "initial" and not token.initial:
                 return False
+            if key == "notprev2":
+                if before_prev is not None and before_prev.lower in values:
+                    return False
+                continue
+            if key == "nextany":
+                pos = words.index(i)
+                if pos + 1 >= len(words) or tokens[words[pos + 1]].lower not in values:
+                    return False
+                continue
             if key in ("prev", "notprev", "prevout", "prevtags", "prevhas"):
                 other = prev
             elif key in ("next", "notnext", "nextout", "nexttags", "nexthas"):
@@ -226,8 +252,9 @@ class Engine:
         token = tokens[i]
         low = token.lower
         pos = words.index(i)
-        prev = tokens[words[pos - 1]].lower if pos > 0 else None
-        nxt = tokens[words[pos + 1]].lower if pos + 1 < len(words) else None
+        prev_token, next_token = self.neighbours(tokens, i, words)
+        prev = prev_token.lower if prev_token is not None else None
+        nxt = next_token.lower if next_token is not None else None
         past = self.weak_past(low)
         if past:
             respelled = self.modern_lower(low)
@@ -239,15 +266,34 @@ class Engine:
                 return True
             return False
         present = self.plural_present(low)
-        after = tokens[words[pos + 1]] if pos + 1 < len(words) else None
-        inverted = after is not None and (after.lower == "vi" or after.text == "I")
-        if present and (inverted or prev in PLURAL_SUBJECTS or (prev == "i" and tokens[words[pos - 1]].text == "I")):
-            if prev == "de" and pos > 1 and tokens[words[pos - 2]].lower in {"alle", "og", "for", "af", "med", "til", "paa"}:
+        after = next_token
+        inverted = after is not None and (after.lower == "vi" or after.text == "I") and prev not in MODALS
+        subject = prev in PLURAL_SUBJECTS or (prev == "i" and prev_token.text == "I")
+        if present and (inverted or subject):
+            before = tokens[words[pos - 2]].lower if subject and pos > 1 else None
+            # "skulle vi have", "fik de gaa": after an inverted verb the verb is an infinitive
+            if before in MODALS or self.bank.tags(before or "") & {"verb:pres", "verb:pret"}:
+                return False
+            if prev == "de" and before in {"alle", "og", "for", "af", "med", "til", "paa"}:
                 return False
             token.out = self.case(token, present)
             token.reason = "grammar:plural-present"
             return True
         return False
+
+    def noun_reading(self, low: str) -> bool:
+        """Whether the old form or any modern form found for it can be a noun or name."""
+        forms = {low}
+        for entry in self.lexicon.get(low, []):
+            if not entry.keep:
+                forms.update(entry.target.split())
+        target = self.rule_target(low)
+        if isinstance(target, tuple):
+            forms.add(target[0])
+        elif target.startswith("ambiguous:"):
+            forms.update(target.split(":", 1)[1].split("|"))
+        unknown = all(not self.bank.tags(f) for f in forms)
+        return unknown or any(self.bank.tags(f) & {"subst", "prop"} for f in forms)
 
     def case(self, token: Token, target: str) -> str:
         """Case for a modern form: initial capitals stay, noun capitals go."""
@@ -258,25 +304,42 @@ class Engine:
         if token.initial:
             return target[:1].upper() + target[1:]
         low = target.lower()
+        capital = target[:1].upper() + target[1:]
+        # in a book that writes nouns in lower case, a capital mid-sentence marks a name
+        if not self.nouncaps and token.lower not in CAPITAL_FUNCTION_WORDS:
+            return capital
         if token.text in self.names or token.lower in KEEP_CAPITAL or low in KEEP_CAPITAL:
-            return target[:1].upper() + target[1:]
+            return capital
         tags = self.bank.tags(low)
         if not tags or "prop" in tags and not (tags - {"prop"}):
-            return target[:1].upper() + target[1:]
-        if "prop" in tags:
-            # both a name and a common word (Ola, Lie, Dag): a name if modern text
-            # writes it capitalised at least 30% as often as lower case
-            capital = target[:1].upper() + target[1:]
-            if capital not in self.archaism.freq or (
-                self.archaism.modern(capital) >= NAME_SHARE * self.archaism.modern(low)
-            ):
+            return capital
+        # a name if modern text writes the form capitalised at least half as often as
+        # lower case (Mose, Laban, Lee score above 1; nouns 0.01–0.15, from sentence starts)
+        pairs = [(capital, low)]
+        if token.lower == low:
+            pairs.append((token.text, token.lower))
+        for upper_form, lower_form in pairs:
+            upper_use = self.archaism.modern(upper_form)
+            if upper_use > 0 and upper_use >= NAME_SHARE * self.archaism.modern(lower_form):
                 return capital
+        if "prop" in tags and capital not in self.archaism.freq and token.text not in self.archaism.freq:
+            return capital
         return low
 
     def decide(self, tokens: list[Token], i: int, words: list[int], second_pass: bool) -> bool:
         """Set tokens[i].out. Returns False if the decision needs the second pass."""
         token = tokens[i]
         low = token.lower
+        if (
+            self.nouncaps and token.capitalised and not token.initial and not token.upper
+            and low not in CAPITAL_FUNCTION_WORDS and low not in KEEP_CAPITAL
+            and not self.noun_reading(low)
+        ):
+            # capitalised mid-sentence but no noun or name reading: a noun we do not know
+            # (Hun = the female, Grim, Trofast); leave it as printed
+            token.out = token.text
+            token.reason = "name"
+            return True
         entries = self.lexicon.get(low)
         if entries:
             if not second_pass and any(e.contextual for e in entries):
@@ -284,7 +347,7 @@ class Engine:
             for entry in entries:
                 if self.matches(entry, tokens, i, words):
                     if entry.keep:
-                        token.out = self.case(token, token.text) if token.capitalised else token.text
+                        token.out = token.text
                         token.reason = f"lexicon-keep:{entry.line}"
                     else:
                         token.out = self.case(token, entry.target)
@@ -307,8 +370,10 @@ class Engine:
             token.reason = "short"
             return True
         if self.bank.common(low):
-            token.out = self.case(token, token.text)
-            token.reason = "archaic-unresolved" if self.archaism.archaic(low) else "modern"
+            if self.archaism.archaic(low):
+                token.out, token.reason = token.text, "archaic-unresolved"
+            else:
+                token.out, token.reason = self.case(token, token.text), "modern"
             return True
         target = self.rule_target(low)
         if isinstance(target, tuple):
