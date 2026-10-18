@@ -1,0 +1,389 @@
+source,target,when,note,origin
+# Function words and pronouns
+af,av,,,core
+paa,på,,,core
+saa,så,,,core
+ogsaa,også,,,core
+sig,seg,,,core
+mig,meg,,,core
+dig,deg,,,core
+os,oss,,,core
+hende,=,prev=kan,kan hende = maybe,core
+hende,=,prev=det|skulde|skal|vil|vilde|kunde|kan|maa|maatte|at,verb (happen),core
+hende,henne,,pronoun her,core
+hendes,hennes,,,core
+eder,dere,,,core
+eders,deres,,,core
+vor,vår,,,core
+vort,vårt,,,core
+vore,våre,,,core
+vores,våres,,,core
+nogen,noen,,,core
+noget,noe,,,core
+nogle,noen,,,core
+nogensinde,noensinne,,,core
+nogenlunde,noenlunde,,,core
+intet,intet,,already modern,core
+anden,annen,lower,,core
+anden,annen,initial,,core
+anden,=,,Anden = the duck,core
+andet,annet,,,core
+hvad,hva,,,core
+hvor,hvor,,,core
+naar,når,,,core
+hvorledes,hvordan,,,core
+efter,etter,,,core
+efterat,etter at,,,core
+mellem,mellom,,,core
+imellem,imellom,,,core
+gjennem,gjennom,,,core
+igjennem,igjennom,,,core
+igjen,igjen,,,core
+endnu,ennå,,,core
+end,enn,,,core
+endog,endog,,,core
+nu,nå,,,core
+aldrig,aldri,,,core
+altid,alltid,,,core
+ud,ut,,,core
+ind,inn,,,core
+op,opp,,,core
+ned,ned,,,core
+udenfor,utenfor,,,core
+indenfor,innenfor,,,core
+uden,uten,,,core
+inden,innen,,,core
+imod,imot,,,core
+mod,mot,,,core
+derimod,derimot,,,core
+medens,mens,,,core
+blandt,blant,,,core
+lidt,litt,,,core
+lidet,lite,,,core
+liden,liten,,,core
+megen,mye,,,core
+meget,meget,,still standard,core
+mere,mer,,,core
+mest,mest,,,core
+selv,selv,,,core
+kun,=,,kun is still valid; keep,core
+thi,=,,word substitution (for) is not made,core
+ei,=,,word substitution (ikke) is not made,core
+blot,=,,word substitution (bare) is not made,core
+atter,=,,word substitution (igjen) is not made,core
+tilsidst,til sist,,,core
+tilbage,tilbake,,,core
+afsted,av sted,,,core
+istand,i stand,,,core
+idag,i dag,,,core
+igaar,i går,,,core
+imorgen,i morgen,,,core
+iaften,i aften,,,core
+iaar,i år,,,core
+ifjor,i fjor,,,core
+ihjel,ihjel,,,core
+ligesom,likesom,,,core
+ligesaa,likeså,,,core
+lige,like,,,core
+ligeledes,likeledes,,,core
+saaledes,således,,,core
+saadan,sådan,,,core
+saadant,sådant,,,core
+saadanne,sådanne,,,core
+altsaa,altså,,,core
+baade,både,,,core
+tillige,tillike,,,core
+alligevel,allikevel,,,core
+desuden,dessuten,,,core
+derefter,deretter,,,core
+derpaa,derpå,,,core
+deraf,derav,,,core
+derud,derut,,,core
+hvoraf,hvorav,,,core
+hvorpaa,hvorpå,,,core
+hvorefter,hvoretter,,,core
+netop,nettopp,,,core
+førend,før,,,core
+idet,idet,,,core
+især,især,,,core
+endda,enda,,,core
+stedse,=,,archaic but no modern spelling of the same word,core
+strax,straks,,,core
+just,just,,,core
+dels,dels,,,core
+samt,samt,,,core
+bag,bak,,,core
+bagefter,bakefter,,,core
+#
+# Verbs: be, have, become
+ere,er,,plural present of være,core
+vare,var,lower;prev=de|vi|i|der|som|alle|begge|disse|hvilke|mange|flere|nogle|baade,plural past of være after a plural subject,core
+vare,=,,,core
+have,har,lower;prev=vi|de|i|som|der,plural present,core
+have,ha,lower;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|faa|aa,infinitive,core
+have,hage,cap;mid;nouncaps,garden,core
+have,=,,,core
+havde,hadde,,,core
+havt,hatt,,,core
+blive,bli,,,core
+bliver,blir,,,core
+blev,ble,,,core
+bleve,ble,,,core
+bleven,blitt,,,core
+blevet,blitt,,,core
+været,vært,,,core
+kunde,kunne,lower,modal past (Kunde = customer),core
+kunde,kunne,initial,,core
+kunde,=,,,core
+skulde,skulle,,,core
+vilde,ville,,,core
+maatte,måtte,,,core
+turde,turde,,,core
+sagde,sa,,,core
+sige,si,,,core
+siger,sier,,,core
+sagt,sagt,,,core
+tage,ta,,,core
+tager,tar,,,core
+tog,tok,lower;nouncaps,past of ta (Tog = train is capitalised),core
+tog,=,,,core
+taget,tatt,lower;nouncaps,past participle (Taget = the roof),core
+taget,taket,cap;mid;nouncaps,the roof,core
+taget,=,,,core
+tag,ta,lower;nouncaps,imperative,core
+tag,tak,cap;mid;nouncaps,roof,core
+tag,=,,,core
+give,gi,,,core
+giver,gir,,,core
+givet,gitt,,,core
+gav,ga,,,core
+gaa,gå,,,core
+gaar,går,,,core
+gaaet,gått,,,core
+gik,gikk,,,core
+gaae,gå,,,core
+faa,få,,,core
+faar,får,,,core
+faaet,fått,,,core
+faae,få,,,core
+fik,fikk,,,core
+see,se,,,core
+seer,ser,,,core
+seet,sett,,,core
+saae,så,,,core
+staa,stå,,,core
+staar,står,,,core
+staaet,stått,,,core
+lade,la,,,core
+lader,lar,,,core
+lad,la,,,core
+lod,lot,lower,,core
+lod,=,,,core
+ladet,latt,,,core
+lagde,la,,,core
+lagt,lagt,,,core
+lægge,legge,,,core
+lægger,legger,,,core
+sætte,sette,,,core
+sætter,setter,,,core
+satte,satte,,,core
+sidde,sitte,,,core
+sidder,sitter,,,core
+sad,satt,,,core
+siddet,sittet,,,core
+ligge,ligge,,,core
+laa,lå,,,core
+falde,falle,,,core
+falder,faller,,,core
+faldt,falt,,,core
+faldet,falt,,,core
+holde,holde,,,core
+kalde,kalle,,,core
+kalder,kaller,,,core
+kaldte,kalte,,,core
+kaldet,kalt,,,core
+kaldes,kalles,,,core
+kaldtes,kaltes,,,core
+finde,finne,,,core
+finder,finner,,,core
+fandt,fant,,,core
+fundet,funnet,,,core
+findes,finnes,,,core
+fandtes,fantes,,,core
+begynde,begynne,,,core
+begynder,begynner,,,core
+begyndte,begynte,,,core
+begyndt,begynt,,,core
+kjende,kjenne,,,core
+kjender,kjenner,,,core
+kjendte,kjente,,,core
+kjendt,kjent,,,core
+vide,vite,lower;nouncaps;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|faa|aa,infinitive (vide = wide),core
+vide,=,,,core
+ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;next=ikke|det|at|hvad|hvor|hvem|hvorledes|hvorfor|om|nok|vel|jo|ogsaa|godt|alt|intet|ret|saa|mere|bedre|ej|ei|kun|blot|slet|endnu|nu|dog|vist|ingenting|noget|hvilken|hvilket|hvilke|ikkun|hvorfra|hvortil|naar,present of vite,core
+ved,vet,lower;prev=det|dette|hvad|saa|nok|jo|vel|ikke|nu;next=jeg|du|han|hun|vi|man|de|i,present of vite (inverted),core
+ved,=,,,core
+vidste,visste,,,core
+vidst,visst,,,core
+spurgte,spurte,,,core
+spurgt,spurt,,,core
+troede,trodde,,,core
+levede,levde,,,core
+boede,bodde,,,core
+døde,døde,,,core
+raabte,ropte,,,core
+raabe,rope,,,core
+slog,slo,,,core
+slaa,slå,,,core
+slaar,slår,,,core
+slaaet,slått,,,core
+drog,drog,,,core
+drage,dra,lower;nouncaps,verb (Drage = dragon/kite),core
+drage,=,,,core
+drager,drar,lower;nouncaps,,core
+drager,=,,,core
+bragte,brakte,,,core
+bragt,brakt,,,core
+søgte,søkte,,,core
+søge,søke,,,core
+fulgte,fulgte,,,core
+skreg,skrek,,,core
+greb,grep,,,core
+gribe,gripe,,,core
+løb,løp,,,core
+løbe,løpe,,,core
+løber,løper,,,core
+mødte,møtte,,,core
+møde,møte,,,core
+bruge,bruke,,,core
+bruger,bruker,,,core
+brugte,brukte,,,core
+brugt,brukt,,,core
+tænke,tenke,,,core
+tænkte,tenkte,,,core
+tænker,tenker,,,core
+læse,lese,,,core
+læser,leser,,,core
+læste,leste,,,core
+lære,lære,,,core
+fortælle,fortelle,,,core
+fortalte,fortalte,,,core
+hjælpe,hjelpe,,,core
+hjalp,hjalp,,,core
+#
+# Nouns and adjectives with a changed form
+aar,år,,,core
+hoved,hode,,,core
+hovedet,hodet,,,core
+hoveder,hoder,,,core
+øie,øye,,,core
+øine,øyne,,,core
+øinene,øynene,,,core
+øiet,øyet,,,core
+øieblik,øyeblikk,,,core
+øiebliket,øyeblikket,,,core
+klæder,klær,cap;nouncaps,clothes,core
+klæder,=,,,core
+klæde,klede,,,core
+træ,tre,,,core
+træer,trær,,,core
+træet,treet,,,core
+sne,=,,still valid bokmål,core
+sneen,=,,,core
+veiret,været,,the weather,core
+veir,vær,,,core
+hus,hus,,,core
+børn,barn,,plural,core
+børnene,barna,,,core
+børnenes,barnas,,,core
+fader,far,notprev=gud|vor|himmelske|hellige|kjære;mid,,core
+fader,=,,,core
+faderen,faren,,,core
+moder,mor,,,core
+moderen,moren,,,core
+broder,bror,,,core
+broderen,broren,,,core
+brødre,brødre,,,core
+datter,datter,,,core
+søn,sønn,,,core
+mand,mann,,,core
+manden,mannen,,,core
+mænd,menn,,,core
+mændene,mennene,,,core
+haand,hånd,,,core
+haanden,hånden,,,core
+hænder,hender,,,core
+hænderne,hendene,,,core
+fod,fot,,,core
+fødder,føtter,,,core
+fødderne,føttene,,,core
+skib,skip,,,core
+skibe,skip,,plural,core
+skibet,skipet,,,core
+skibene,skipene,,,core
+vand,vann,,,core
+vandet,vannet,,,core
+guld,gull,,,core
+sølv,sølv,,,core
+sten,stein,,,core
+stenen,steinen,,,core
+stene,steiner,,,core
+plads,plass,,,core
+sprog,språk,,,core
+sproget,språket,,,core
+rige,rike,,,core
+riget,riket,,,core
+nat,natt,,,core
+natten,natten,,,core
+ven,venn,,,core
+vennen,vennen,,,core
+gaard,gård,,,core
+gaarden,gården,,,core
+penge,penger,,,core
+tid,tid,,,core
+magt,makt,,,core
+skov,skog,,,core
+skoven,skogen,,,core
+fugle,fugler,,,core
+fuglene,fuglene,,,core
+glæde,glede,,,core
+mængde,mengde,,,core
+grund,grunn,,,core
+hundrede,hundre,,,core
+tusinde,tusen,,,core
+fyrretyve,førti,,,core
+halvtredsindstyve,femti,,,core
+fuld,full,,,core
+let,lett,,,core
+tæt,tett,,,core
+hvide,hvite,,,core
+høi,høy,,,core
+høit,høyt,,,core
+høie,høye,,,core
+høiere,høyere,,,core
+høieste,høyeste,,,core
+smaa,små,,,core
+bedst,best,,,core
+bedste,beste,,,core
+sidste,siste,,,core
+længe,lenge,,,core
+længer,lenger,,,core
+længere,lenger,,,core
+næste,neste,,,core
+næsten,nesten,,,core
+rigtig,riktig,,,core
+#
+# Names and foreign words that rules would mangle
+luther,=,,name,core
+och,=,,Swedish,core
+oc,=,,Old Norse/Danish,core
+eg,=,,landsmål pronoun or oak,core
+dei,=,,landsmål,core
+ein,=,,landsmål,core
+so,=,,landsmål,core
+dog,dog,,,core
+daa,da,,,core
+# Infinitive marker: at before a word that can only be an infinitive
+at,å,lower;nexttags=verb:inf|verb:imp,infinitive marker,core
+at,Å,initial;nexttags=verb:inf|verb:imp,infinitive marker,core
+at,=,,conjunction,core

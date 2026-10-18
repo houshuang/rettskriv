@@ -1,0 +1,7 @@
+data/ordbank/*.tar.gz
+data/ordbank/2022*/
+data/cache/
+out/
+__pycache__/
+*.pyc
+.venv/
