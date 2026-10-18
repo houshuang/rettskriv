@@ -63,7 +63,7 @@ def main() -> None:
                     ):
                         key = (t.lower, "in-bank", f"{ratio:.3f}")
                         left[lang][key] += 1
-                    elif t.reason in ("unknown", "ambiguous", "archaic-unresolved"):
+                    elif t.reason in ("unknown", "ambiguous", "archaic-unresolved", "pending"):
                         key = (t.lower, t.reason, t.meta.get("candidates", ""))
                         left[lang][key] += 1
                     else:

@@ -339,167 +339,233 @@ veike,=,,"keep: valid nn form, same word",audit:nno-inbank-r1-00
 adelege,=,,"keep: valid nn form, same word",audit:nno-inbank-r1-00
 adelsveldet,=,,"keep: valid nn form, same word",audit:nno-inbank-r1-00
 herregardar,=,,"keep: valid nn form, same word",audit:nno-inbank-r1-00
+døkk,=,,keep: valid nn word,audit:nno-inbank-r2-00
+tor,=,,keep: valid nn word,audit:nno-inbank-r2-00
+leikande,=,,keep: valid nn word,audit:nno-inbank-r2-00
+elsk,=,,keep: valid nn word,audit:nno-inbank-r2-00
+drøymer,=,,keep: valid nn word,audit:nno-inbank-r2-00
+nut,=,,keep: valid nn word,audit:nno-inbank-r2-00
+livsens,=,,keep: valid nn word,audit:nno-inbank-r2-00
+helge,=,,keep: valid nn word,audit:nno-inbank-r2-00
+ljoset,=,,keep: valid nn word,audit:nno-inbank-r2-00
+tjeld,=,,keep: valid nn word,audit:nno-inbank-r2-00
+sprett,=,,keep: valid nn word,audit:nno-inbank-r2-00
+dagsens,=,,keep: valid nn word,audit:nno-inbank-r2-00
+høyr,=,,keep: valid nn word,audit:nno-inbank-r2-00
+tore,=,,keep: valid nn word,audit:nno-inbank-r2-00
+dyre,=,,keep: valid nn word,audit:nno-inbank-r2-00
+lom,=,,keep: valid nn word,audit:nno-inbank-r2-00
+kyste,=,,keep: valid nn word,audit:nno-inbank-r2-00
+bløma,=,,keep: valid nn word,audit:nno-inbank-r2-00
+milde,=,,keep: valid nn word,audit:nno-inbank-r2-00
+bøling,=,,keep: valid nn word,audit:nno-inbank-r2-00
+feite,=,,keep: valid nn word,audit:nno-inbank-r2-00
+ljosa,=,,keep: valid nn word,audit:nno-inbank-r2-00
+an,=,,keep: valid nn word,audit:nno-inbank-r2-00
+brand,=,,keep: valid nn word,audit:nno-inbank-r2-00
+hamar,=,,keep: valid nn word,audit:nno-inbank-r2-00
+gaman,=,,keep: valid nn word,audit:nno-inbank-r2-00
+herren,=,,keep: valid nn word,audit:nno-inbank-r2-00
+møyar,=,,keep: valid nn word,audit:nno-inbank-r2-00
+ljom,=,,keep: valid nn word,audit:nno-inbank-r2-00
+austlandet,=,,keep: valid nn word,audit:nno-inbank-r2-00
+kvast,=,,keep: valid nn word,audit:nno-inbank-r2-00
+fylla,=,,keep: valid nn word,audit:nno-inbank-r2-00
+svad,=,,keep: valid nn word,audit:nno-inbank-r2-00
+skard,=,,keep: valid nn word,audit:nno-inbank-r2-00
+søkja,=,,keep: valid nn word,audit:nno-inbank-r2-00
+klo,=,,keep: valid nn word,audit:nno-inbank-r2-00
+drys,=,,keep: valid nn word,audit:nno-inbank-r2-00
+beid,=,,keep: valid nn word,audit:nno-inbank-r2-00
+krulla,=,,keep: valid nn word,audit:nno-inbank-r2-00
+bleike,=,,keep: valid nn word,audit:nno-inbank-r2-00
+dage,=,,keep: valid nn word,audit:nno-inbank-r2-00
+nyt,=,,context: nytt (adj) | nyt (verb),audit:nno-inbank-r2-00
+endelaus,=,,keep: valid nn word,audit:nno-inbank-r2-00
+røra,=,,keep: valid nn word,audit:nno-inbank-r2-00
+saknad,=,,keep: valid nn word,audit:nno-inbank-r2-00
+laver,=,,keep: valid nn word,audit:nno-inbank-r2-00
+stakkar,=,,keep: valid nn word,audit:nno-inbank-r2-00
+slut,=,,awaiting verification of slutt. noun in all uses,audit:nno-inbank-r2-00
+tunn,=,,keep: valid nn word,audit:nno-inbank-r2-00
+ljomar,=,,keep: valid nn word,audit:nno-inbank-r2-00
+strøyma,=,,keep: valid nn word,audit:nno-inbank-r2-00
+gagns,=,,keep: valid nn word,audit:nno-inbank-r2-00
+ampe,=,,keep: valid nn word,audit:nno-inbank-r2-00
+ær,=,,keep: valid nn word,audit:nno-inbank-r2-00
+bart,=,,keep: valid nn word,audit:nno-inbank-r2-00
+eim,=,,keep: valid nn word,audit:nno-inbank-r2-00
+kveik,=,,keep: valid nn word,audit:nno-inbank-r2-00
+lundar,=,,keep: valid nn word,audit:nno-inbank-r2-00
+gløder,=,,keep: valid nn word,audit:nno-inbank-r2-00
+bøle,=,,keep: valid nn word,audit:nno-inbank-r2-00
+tullar,=,,keep: valid nn word,audit:nno-inbank-r2-00
+bølingen,=,,keep: valid nn word,audit:nno-inbank-r2-00
+sprengde,=,,keep: valid nn word,audit:nno-inbank-r2-00
+tulla,=,,keep: valid nn word,audit:nno-inbank-r2-00
+kappast,=,,keep: valid nn word,audit:nno-inbank-r2-00
+ungt,=,,keep: valid nn word,audit:nno-inbank-r2-00
+brur,=,,keep: valid nn word,audit:nno-inbank-r2-00
+sumardagen,=,,keep: valid nn word,audit:nno-inbank-r2-00
+spil,=,,keep: valid nn word,audit:nno-inbank-r2-00
+stangar,=,,keep: valid nn word,audit:nno-inbank-r2-00
+plagar,=,,keep: valid nn word,audit:nno-inbank-r2-00
+mala,=,,keep: valid nn word,audit:nno-inbank-r2-00
+hen,=,,keep: valid nn word,audit:nno-inbank-r2-00
+vissa,=,,keep: valid nn word,audit:nno-inbank-r2-00
+titt,=,,keep: valid nn word,audit:nno-inbank-r2-00
+blømde,=,,keep: valid nn word,audit:nno-inbank-r2-00
+rost,=,,keep: valid nn word,audit:nno-inbank-r2-00
+eftan,=,,keep: valid nn word,audit:nno-inbank-r2-00
+øyre,=,,keep: valid nn word,audit:nno-inbank-r2-00
 inkje,=,,keep:,audit:nno-left-r1-00
-um,=,,awaiting verification of om.,audit:nno-left-r1-00
-skulde,=,,awaiting verification of skulle.,audit:nno-left-r1-00
+um,om,,,audit:nno-left-r1-00
+skulde,skulle,,,audit:nno-left-r1-00
 fyr,=,,context: for | før,audit:nno-left-r1-00
-yver,=,,awaiting verification of over.,audit:nno-left-r1-00
-hev,=,,awaiting verification of har.,audit:nno-left-r1-00
+yver,over,,,audit:nno-left-r1-00
+hev,har,,,audit:nno-left-r1-00
 hava,=,,context: ha | har,audit:nno-left-r1-00
 liksom,=,,keep:,audit:nno-left-r1-00
-fyrr,=,,awaiting verification of før.,audit:nno-left-r1-00
-myket,=,,awaiting verification of mykje.,audit:nno-left-r1-00
-honom,=,,awaiting verification of han.,audit:nno-left-r1-00
+fyrr,før,,,audit:nno-left-r1-00
+myket,mykje,,,audit:nno-left-r1-00
+honom,han,,,audit:nno-left-r1-00
 taka,=,,keep:,audit:nno-left-r1-00
-tvo,=,,awaiting verification of to.,audit:nno-left-r1-00
-voret,=,,awaiting verification of vore.,audit:nno-left-r1-00
-bønderne,=,,awaiting verification of bøndene.,audit:nno-left-r1-00
-kunde,=,,awaiting verification of kunne.,audit:nno-left-r1-00
-ihop,=,,awaiting verification of i hop.,audit:nno-left-r1-00
+tvo,to,,,audit:nno-left-r1-00
+voret,vore,,,audit:nno-left-r1-00
+bønderne,bøndene,,,audit:nno-left-r1-00
+kunde,kunne,,,audit:nno-left-r1-00
+ihop,i hop,,,audit:nno-left-r1-00
 dæ,=,,keep:,audit:nno-left-r1-00
-millom,=,,awaiting verification of mellom.,audit:nno-left-r1-00
-nordmennerne,=,,awaiting verification of nordmennene.,audit:nno-left-r1-00
-deim,=,,awaiting verification of dei.,audit:nno-left-r1-00
-tri,=,,awaiting verification of tre.,audit:nno-left-r1-00
-nokot,=,,awaiting verification of noko.,audit:nno-left-r1-00
+millom,mellom,,,audit:nno-left-r1-00
+nordmennerne,nordmennene,,,audit:nno-left-r1-00
+deim,dei,,,audit:nno-left-r1-00
+tri,tre,,,audit:nno-left-r1-00
+nokot,noko,,,audit:nno-left-r1-00
 fær,=,,context: fer | får,audit:nno-left-r1-00
-magt,=,,awaiting verification of makt.,audit:nno-left-r1-00
-gjeva,=,,awaiting verification of gje.,audit:nno-left-r1-00
-burt,=,,awaiting verification of bort.,audit:nno-left-r1-00
-fenget,=,,awaiting verification of fått.,audit:nno-left-r1-00
-heren,=,,awaiting verification of hæren.,audit:nno-left-r1-00
-ikki,=,,awaiting verification of ikkje.,audit:nno-left-r1-00
-ganga,=,,awaiting verification of gå.,audit:nno-left-r1-00
-segja,=,,awaiting verification of seie.,audit:nno-left-r1-00
+magt,makt,,,audit:nno-left-r1-00
+burt,bort,,,audit:nno-left-r1-00
+fenget,fått,,,audit:nno-left-r1-00
+heren,hæren,,,audit:nno-left-r1-00
+ikki,ikkje,,,audit:nno-left-r1-00
 bm,=,,keep:,audit:nno-left-r1-00
-litet,=,,awaiting verification of lite.,audit:nno-left-r1-00
-gjenom,=,,awaiting verification of gjennom.,audit:nno-left-r1-00
+litet,lite,,,audit:nno-left-r1-00
+gjenom,gjennom,,,audit:nno-left-r1-00
 styrde,=,,keep:,audit:nno-left-r1-00
 ufred,=,,keep:,audit:nno-left-r1-00
-umkring,=,,awaiting verification of omkring.,audit:nno-left-r1-00
-stend,=,,awaiting verification of står.,audit:nno-left-r1-00
+umkring,omkring,,,audit:nno-left-r1-00
+stend,står,,,audit:nno-left-r1-00
 atter,=,,keep:,audit:nno-left-r1-00
-havt,=,,awaiting verification of hatt.,audit:nno-left-r1-00
-tidt,=,,awaiting verification of titt.,audit:nno-left-r1-00
-stormennerne,=,,awaiting verification of stormennene.,audit:nno-left-r1-00
-magti,=,,awaiting verification of makta.,audit:nno-left-r1-00
-soleids,=,,awaiting verification of soleis.,audit:nno-left-r1-00
-sume,=,,awaiting verification of somme.,audit:nno-left-r1-00
+havt,hatt,,,audit:nno-left-r1-00
+tidt,titt,,,audit:nno-left-r1-00
+stormennerne,stormennene,,,audit:nno-left-r1-00
+magti,makta,,,audit:nno-left-r1-00
+soleids,soleis,,,audit:nno-left-r1-00
+sume,somme,,,audit:nno-left-r1-00
 mæ,=,,keep:,audit:nno-left-r1-00
 hine,=,,keep:,audit:nno-left-r1-00
-annat,=,,awaiting verification of anna.,audit:nno-left-r1-00
-gamall,=,,awaiting verification of gamal.,audit:nno-left-r1-00
+annat,anna,,,audit:nno-left-r1-00
+gamall,gamal,,,audit:nno-left-r1-00
 undan,=,,keep:,audit:nno-left-r1-00
-floten,=,,awaiting verification of flåten.,audit:nno-left-r1-00
-difyr,=,,awaiting verification of difor.,audit:nno-left-r1-00
+floten,flåten,,,audit:nno-left-r1-00
+difyr,difor,,,audit:nno-left-r1-00
 lyt,=,,keep:,audit:nno-left-r1-00
-teket,=,,awaiting verification of teke.,audit:nno-left-r1-00
-sønerne,=,,awaiting verification of sønene.,audit:nno-left-r1-00
+teket,teke,,,audit:nno-left-r1-00
+sønerne,sønene,,,audit:nno-left-r1-00
 radt,=,,keep: ocr,audit:nno-left-r1-00
-lendmennerne,=,,awaiting verification of lendmennene.,audit:nno-left-r1-00
-høyra,=,,awaiting verification of høyre.,audit:nno-left-r1-00
-strakst,=,,awaiting verification of straks.,audit:nno-left-r1-00
-menner,=,,awaiting verification of menn.,audit:nno-left-r1-00
+lendmennerne,lendmennene,,,audit:nno-left-r1-00
+strakst,straks,,,audit:nno-left-r1-00
+menner,menn,,,audit:nno-left-r1-00
 likso,=,,keep:,audit:nno-left-r1-00
 leid,=,,keep:,audit:nno-left-r1-00
-nordmenner,=,,awaiting verification of nordmenn.,audit:nno-left-r1-00
+nordmenner,nordmenn,,,audit:nno-left-r1-00
 sae,=,,keep:,audit:nno-left-r1-00
 kjøbenhavn,=,,keep:,audit:nno-left-r1-00
 kongens,=,,keep:,audit:nno-left-r1-00
-mennerne,=,,awaiting verification of mennene.,audit:nno-left-r1-00
+mennerne,mennene,,,audit:nno-left-r1-00
 verja,=,,keep:,audit:nno-left-r1-00
-tridje,=,,awaiting verification of tredje.,audit:nno-left-r1-00
-flote,=,,awaiting verification of flåte.,audit:nno-left-r1-00
-imillom,=,,awaiting verification of imellom.,audit:nno-left-r1-00
-misste,=,,awaiting verification of miste.,audit:nno-left-r1-00
-vinna,=,,awaiting verification of vinne.,audit:nno-left-r1-00
+tridje,tredje,,,audit:nno-left-r1-00
+flote,flåte,,,audit:nno-left-r1-00
+imillom,imellom,,,audit:nno-left-r1-00
+misste,miste,,,audit:nno-left-r1-00
 lika,=,,context: like | lika,audit:nno-left-r1-00
-burte,=,,awaiting verification of borte.,audit:nno-left-r1-00
-draga,=,,awaiting verification of dra.,audit:nno-left-r1-00
+burte,borte,,,audit:nno-left-r1-00
 dar,=,,keep:,audit:nno-left-r1-00
-ikke,=,,awaiting verification of ikkje.,audit:nno-left-r1-00
-ikring,=,,awaiting verification of omkring.,audit:nno-left-r1-00
+ikke,ikkje,,,audit:nno-left-r1-00
+ikring,=,,verifier disagreed (=: ikring is valid nynorsk; omkring is another word); was omkring,audit:nno-left-r1-00
 ingi,=,,context: inga | ingen,audit:nno-left-r1-00
-fylgja,=,,awaiting verification of fylgje.,audit:nno-left-r1-00
 foor,=,,context: for | fôr,audit:nno-left-r1-00
-grunnlogi,=,,awaiting verification of grunnlova.,audit:nno-left-r1-00
+grunnlogi,grunnlova,,,audit:nno-left-r1-00
 beint,=,,keep:,audit:nno-left-r1-00
-stødt,=,,awaiting verification of støtt.,audit:nno-left-r1-00
-igjenom,=,,awaiting verification of igjennom.,audit:nno-left-r1-00
-rædd,=,,awaiting verification of redd.,audit:nno-left-r1-00
+stødt,støtt,,,audit:nno-left-r1-00
+igjenom,igjennom,,,audit:nno-left-r1-00
+rædd,redd,,,audit:nno-left-r1-00
 norigs,=,,keep:,audit:nno-left-r1-00
-ero,=,,awaiting verification of er.,audit:nno-left-r1-00
-føterne,=,,awaiting verification of føtene.,audit:nno-left-r1-00
-hundrad,=,,awaiting verification of hundre.,audit:nno-left-r1-00
-liva,=,,awaiting verification of leve.,audit:nno-left-r1-00
+ero,er,,,audit:nno-left-r1-00
+føterne,føtene,,,audit:nno-left-r1-00
+hundrad,hundre,,,audit:nno-left-r1-00
 sesel,=,,keep:,audit:nno-left-r1-00
-vaapn,=,,awaiting verification of våpen.,audit:nno-left-r1-00
-likad,=,,awaiting verification of likte.,audit:nno-left-r1-00
-byrsa,=,,awaiting verification of børsa.,audit:nno-left-r1-00
+vaapn,våpen,,,audit:nno-left-r1-00
+likad,likte,,,audit:nno-left-r1-00
+byrsa,=,,verifier disagreed (=: can be indefinite ei byrsa -> børse); was børsa,audit:nno-left-r1-00
 ihel,=,,keep:,audit:nno-left-r1-00
-logerne,=,,awaiting verification of lovene.,audit:nno-left-r1-00
-skyna,=,,awaiting verification of skjøne.,audit:nno-left-r1-00
-eiget,=,,awaiting verification of eige.,audit:nno-left-r1-00
-norskt,=,,awaiting verification of norsk.,audit:nno-left-r1-00
+logerne,lovene,,,audit:nno-left-r1-00
+eiget,eige,,,audit:nno-left-r1-00
+norskt,norsk,,,audit:nno-left-r1-00
 slesvik,=,,keep:,audit:nno-left-r1-00
 ette,=,,keep:,audit:nno-left-r1-00
-bera,=,,awaiting verification of bere.,audit:nno-left-r1-00
-segjer,=,,awaiting verification of seier.,audit:nno-left-r1-00
+segjer,seier,,,audit:nno-left-r1-00
 utor,=,,keep:,audit:nno-left-r1-00
-henderne,=,,awaiting verification of hendene.,audit:nno-left-r1-00
-embættsmennerne,=,,awaiting verification of embetsmennene.,audit:nno-left-r1-00
+henderne,hendene,,,audit:nno-left-r1-00
+embættsmennerne,embetsmennene,,,audit:nno-left-r1-00
 kje,=,,keep:,audit:nno-left-r1-00
 manns,=,,keep:,audit:nno-left-r1-00
-gjevet,=,,awaiting verification of gjeve.,audit:nno-left-r1-00
-sleppa,=,,awaiting verification of sleppe.,audit:nno-left-r1-00
-stykkje,=,,awaiting verification of stykke.,audit:nno-left-r1-00
-etterkvart,=,,awaiting verification of etter kvart.,audit:nno-left-r1-00
-jamvæl,=,,awaiting verification of jamvel.,audit:nno-left-r1-00
+gjevet,gjeve,,,audit:nno-left-r1-00
+stykkje,stykke,,,audit:nno-left-r1-00
+etterkvart,etter kvart,,,audit:nno-left-r1-00
+jamvæl,jamvel,,,audit:nno-left-r1-00
 orknøyarne,=,,rejected target 'orknøyane': not a modern bank form.,audit:nno-left-r1-00
 trondhjem,=,,keep:,audit:nno-left-r1-00
-vaaro,=,,awaiting verification of var.,audit:nno-left-r1-00
-nog,=,,awaiting verification of nok.,audit:nno-left-r1-00
-soleides,=,,awaiting verification of soleis.,audit:nno-left-r1-00
-gjenget,=,,awaiting verification of gått.,audit:nno-left-r1-00
-vinstre,=,,awaiting verification of venstre.,audit:nno-left-r1-00
-utyver,=,,awaiting verification of utover.,audit:nno-left-r1-00
-kongsmagti,=,,awaiting verification of kongsmakta.,audit:nno-left-r1-00
-krunur,=,,awaiting verification of kroner.,audit:nno-left-r1-00
-embættsmenner,=,,awaiting verification of embetsmenn.,audit:nno-left-r1-00
+vaaro,var,,,audit:nno-left-r1-00
+nog,nok,,,audit:nno-left-r1-00
+soleides,soleis,,,audit:nno-left-r1-00
+gjenget,gått,,,audit:nno-left-r1-00
+vinstre,venstre,,,audit:nno-left-r1-00
+utyver,utover,,,audit:nno-left-r1-00
+kongsmagti,kongsmakta,,,audit:nno-left-r1-00
+krunur,kroner,,,audit:nno-left-r1-00
+embættsmenner,embetsmenn,,,audit:nno-left-r1-00
 plent,=,,keep:,audit:nno-left-r1-00
-difyre,=,,awaiting verification of difor.,audit:nno-left-r1-00
+difyre,difor,,,audit:nno-left-r1-00
 go,=,,keep:,audit:nno-left-r1-00
-likevæl,=,,awaiting verification of likevel.,audit:nno-left-r1-00
+likevæl,likevel,,,audit:nno-left-r1-00
 fager,=,,keep:,audit:nno-left-r1-00
-aarhundrad,=,,awaiting verification of hundreår.,audit:nno-left-r1-00
-lensvæsenet,=,,awaiting verification of lensvesenet.,audit:nno-left-r1-00
+aarhundrad,=,,verifier disagreed (=: hundreår is a different word formation); was hundreår,audit:nno-left-r1-00
+lensvæsenet,lensvesenet,,,audit:nno-left-r1-00
 riksdagen,=,,keep:,audit:nno-left-r1-00
-umfram,=,,awaiting verification of omfram.,audit:nno-left-r1-00
-samlat,=,,awaiting verification of samla.,audit:nno-left-r1-00
+umfram,omfram,,,audit:nno-left-r1-00
+samlat,samla,,,audit:nno-left-r1-00
 manneleg,=,,keep:,audit:nno-left-r1-00
-lendmenner,=,,awaiting verification of lendmenn.,audit:nno-left-r1-00
+lendmenner,lendmenn,,,audit:nno-left-r1-00
 danakongen,=,,keep:,audit:nno-left-r1-00
-framfyre,=,,awaiting verification of framfor.,audit:nno-left-r1-00
-burtetter,=,,awaiting verification of bortetter.,audit:nno-left-r1-00
+framfyre,framfor,,,audit:nno-left-r1-00
+burtetter,bortetter,,,audit:nno-left-r1-00
 visur,=,,keep:,audit:nno-left-r1-00
-sud,=,,awaiting verification of sør.,audit:nno-left-r1-00
-ofta,=,,awaiting verification of ofte.,audit:nno-left-r1-00
+sud,sør,,,audit:nno-left-r1-00
+ofta,ofte,,,audit:nno-left-r1-00
 ká,=,,keep:,audit:nno-left-r1-00
-fjorde,=,,awaiting verification of fjerde.,audit:nno-left-r1-00
-nettupp,=,,awaiting verification of nettopp.,audit:nno-left-r1-00
-klæde,=,,awaiting verification of klede.,audit:nno-left-r1-00
-heiltupp,=,,awaiting verification of heilt.,audit:nno-left-r1-00
+fjorde,fjerde,,,audit:nno-left-r1-00
+nettupp,nettopp,,,audit:nno-left-r1-00
+klæde,klede,,,audit:nno-left-r1-00
+heiltupp,=,,verifier disagreed (=: heiltupp is a different word from heilt (drops upp)); was heilt,audit:nno-left-r1-00
 honden,=,,keep:,audit:nno-left-r1-00
-stormenner,=,,awaiting verification of stormenn.,audit:nno-left-r1-00
-engelskmennerne,=,,awaiting verification of engelskmennene.,audit:nno-left-r1-00
-komet,=,,awaiting verification of kome.,audit:nno-left-r1-00
+stormenner,stormenn,,,audit:nno-left-r1-00
+engelskmennerne,engelskmennene,,,audit:nno-left-r1-00
+komet,kome,,,audit:nno-left-r1-00
 væn,=,,keep:,audit:nno-left-r1-00
 stirde,=,,keep:,audit:nno-left-r1-00
-spyrja,=,,awaiting verification of spørje.,audit:nno-left-r1-00
-røma,=,,awaiting verification of rømme.,audit:nno-left-r1-00
 trengdest,=,,keep:,audit:nno-left-r1-00
-braud,=,,awaiting verification of brød.,audit:nno-left-r1-00
-nòko,=,,awaiting verification of noko.,audit:nno-left-r1-00
+braud,brød,,,audit:nno-left-r1-00
+nòko,noko,,,audit:nno-left-r1-00
 bokrike,=,,keep:,audit:nno-left-r1-00
 bergjad,=,,keep:,audit:nno-left-r1-00
 finnmarki,=,,keep:,audit:nno-left-r1-00
@@ -509,287 +575,275 @@ holland,=,,keep:,audit:nno-left-r1-00
 rikskassa,=,,keep:,audit:nno-left-r1-00
 stathaldar,=,,keep:,audit:nno-left-r1-00
 kji,=,,keep:,audit:nno-left-r1-00
-myrke,=,,awaiting verification of mørke.,audit:nno-left-r1-00
+myrke,mørke,,,audit:nno-left-r1-00
 dessimillom,=,,keep:,audit:nno-left-r1-00
 einkvar,=,,keep:,audit:nno-left-r1-00
-stridt,=,,awaiting verification of stridd.,audit:nno-left-r1-00
-umogelegt,=,,awaiting verification of umogleg.,audit:nno-left-r1-00
-menneskje,=,,awaiting verification of menneske.,audit:nno-left-r1-00
-vortet,=,,awaiting verification of vorte.,audit:nno-left-r1-00
-kjeisaren,=,,awaiting verification of keisaren.,audit:nno-left-r1-00
-korleids,=,,awaiting verification of korleis.,audit:nno-left-r1-00
+stridt,=,,verifier disagreed (=: also adj strid neuter (stridt haar) -> stritt); was stridd,audit:nno-left-r1-00
+umogelegt,umogleg,,,audit:nno-left-r1-00
+menneskje,menneske,,,audit:nno-left-r1-00
+vortet,vorte,,,audit:nno-left-r1-00
+kjeisaren,keisaren,,,audit:nno-left-r1-00
+korleids,korleis,,,audit:nno-left-r1-00
 samstellte,=,,keep:,audit:nno-left-r1-00
 hin,=,,keep:,audit:nno-left-r1-00
-mangein,=,,awaiting verification of mang ein.,audit:nno-left-r1-00
-gjerer,=,,awaiting verification of gjer.,audit:nno-left-r1-00
-breide,=,,awaiting verification of breie.,audit:nno-left-r1-00
-breden,=,,awaiting verification of breen.,audit:nno-left-r1-00
-gomol,=,,awaiting verification of gamal.,audit:nno-left-r1-00
-greidt,=,,awaiting verification of greitt.,audit:nno-left-r1-00
-næste,=,,awaiting verification of neste.,audit:nno-left-r1-00
-bygderne,=,,awaiting verification of bygdene.,audit:nno-left-r1-00
-grét,=,,awaiting verification of gret.,audit:nno-left-r1-00
+mangein,mang ein,,,audit:nno-left-r1-00
+gjerer,gjer,,,audit:nno-left-r1-00
+breide,breie,,,audit:nno-left-r1-00
+breden,breen,,,audit:nno-left-r1-00
+gomol,gamal,,,audit:nno-left-r1-00
+greidt,greitt,,,audit:nno-left-r1-00
+næste,neste,,,audit:nno-left-r1-00
+bygderne,bygdene,,,audit:nno-left-r1-00
+grét,gret,,,audit:nno-left-r1-00
 kringsette,=,,keep:,audit:nno-left-r1-00
-soframt,=,,awaiting verification of såframt.,audit:nno-left-r1-00
-misst,=,,awaiting verification of mist.,audit:nno-left-r1-00
+soframt,såframt,,,audit:nno-left-r1-00
+misst,mist,,,audit:nno-left-r1-00
 unions,=,,keep:,audit:nno-left-r1-00
 gjente,=,,keep:,audit:nno-left-r1-00
-komo,=,,awaiting verification of kom.,audit:nno-left-r1-00
-liver,=,,awaiting verification of lever.,audit:nno-left-r1-00
-onnor,=,,awaiting verification of anna.,audit:nno-left-r1-00
-skjota,=,,awaiting verification of skyte.,audit:nno-left-r1-00
+komo,kom,,,audit:nno-left-r1-00
+liver,lever,,,audit:nno-left-r1-00
+onnor,anna,,,audit:nno-left-r1-00
 liveigne,=,,keep:,audit:nno-left-r1-00
-kanonur,=,,awaiting verification of kanonar.,audit:nno-left-r1-00
+kanonur,kanonar,,,audit:nno-left-r1-00
 uppatt,=,,keep:,audit:nno-left-r1-00
 vænt,=,,keep:,audit:nno-left-r1-00
-kyrkjur,=,,awaiting verification of kyrkjer.,audit:nno-left-r1-00
+kyrkjur,kyrkjer,,,audit:nno-left-r1-00
 ou,=,,keep:,audit:nno-left-r1-00
-hònom,=,,awaiting verification of han.,audit:nno-left-r1-00
-odelsbønderne,=,,awaiting verification of odelsbøndene.,audit:nno-left-r1-00
-trønderne,=,,awaiting verification of trønderane.,audit:nno-left-r1-00
+hònom,han,,,audit:nno-left-r1-00
+odelsbønderne,odelsbøndene,,,audit:nno-left-r1-00
+trønderne,trønderane,,,audit:nno-left-r1-00
 aarh,=,,keep:,audit:nno-left-r1-00
 holsten,=,,keep:,audit:nno-left-r1-00
 tordenskjold,=,,keep:,audit:nno-left-r1-00
-altid,=,,awaiting verification of alltid.,audit:nno-left-r1-00
+altid,alltid,,,audit:nno-left-r1-00
 andlitet,=,,keep:,audit:nno-left-r1-00
-skrivet,=,,awaiting verification of skrive.,audit:nno-left-r1-00
+skrivet,skrive,,,audit:nno-left-r1-00
 menneskja,=,,keep:,audit:nno-left-r1-00
-faarlegt,=,,awaiting verification of farleg.,audit:nno-left-r1-00
-kjering,=,,awaiting verification of kjerring.,audit:nno-left-r1-00
-idag,=,,awaiting verification of i dag.,audit:nno-left-r1-00
+faarlegt,farleg,,,audit:nno-left-r1-00
+kjering,kjerring,,,audit:nno-left-r1-00
+idag,i dag,,,audit:nno-left-r1-00
 allstødt,=,,keep:,audit:nno-left-r1-00
-sidurne,=,,awaiting verification of sidene.,audit:nno-left-r1-00
-dubbelt,=,,awaiting verification of dobbelt.,audit:nno-left-r1-00
-greida,=,,awaiting verification of greie.,audit:nno-left-r1-00
-myrkt,=,,awaiting verification of mørkt.,audit:nno-left-r1-00
+sidurne,sidene,,,audit:nno-left-r1-00
+dubbelt,dobbelt,,,audit:nno-left-r1-00
+greida,=,,verifier disagreed (=: also noun greida (heile greida) and pres. plural); was greie,audit:nno-left-r1-00
+myrkt,mørkt,,,audit:nno-left-r1-00
 pao,=,,keep:,audit:nno-left-r1-00
-vetren,=,,awaiting verification of vinteren.,audit:nno-left-r1-00
-æserne,=,,awaiting verification of æsene.,audit:nno-left-r1-00
+vetren,vinteren,,,audit:nno-left-r1-00
+æserne,æsene,,,audit:nno-left-r1-00
 jamteland,=,,keep:,audit:nno-left-r1-00
 yverkonge,=,,keep:,audit:nno-left-r1-00
-yvermagti,=,,awaiting verification of overmakta.,audit:nno-left-r1-00
-vedteket,=,,awaiting verification of vedteke.,audit:nno-left-r1-00
-negtad,=,,awaiting verification of nekta.,audit:nno-left-r1-00
+yvermagti,overmakta,,,audit:nno-left-r1-00
+vedteket,vedteke,,,audit:nno-left-r1-00
+negtad,nekta,,,audit:nno-left-r1-00
 odelstinget,=,,keep:,audit:nno-left-r1-00
-ikje,=,,awaiting verification of ikkje.,audit:nno-left-r1-00
-tome,=,,awaiting verification of tomme.,audit:nno-left-r1-00
+ikje,ikkje,,,audit:nno-left-r1-00
+tome,tomme,,,audit:nno-left-r1-00
 gjeite,=,,context: geita | geiter,audit:nno-left-r1-00
 andlit,=,,keep:,audit:nno-left-r1-00
 risa,=,,context: rise | ris,audit:nno-left-r1-00
 stella,=,,keep:,audit:nno-left-r1-00
-gangande,=,,awaiting verification of gåande.,audit:nno-left-r1-00
+gangande,gåande,,,audit:nno-left-r1-00
 guds,=,,keep:,audit:nno-left-r1-00
-faare,=,,awaiting verification of fare.,audit:nno-left-r1-00
+faare,fare,,,audit:nno-left-r1-00
 stadet,=,,keep:,audit:nno-left-r1-00
-hemna,=,,awaiting verification of hemne.,audit:nno-left-r1-00
-vunnet,=,,awaiting verification of vunne.,audit:nno-left-r1-00
+vunnet,vunne,,,audit:nno-left-r1-00
 lel,=,,keep: ocr,audit:nno-left-r1-00
 utav,=,,keep:,audit:nno-left-r1-00
-klædde,=,,awaiting verification of kledde.,audit:nno-left-r1-00
-braadt,=,,awaiting verification of brått.,audit:nno-left-r1-00
+klædde,kledde,,,audit:nno-left-r1-00
+braadt,brått,,,audit:nno-left-r1-00
 reid,=,,keep:,audit:nno-left-r1-00
 sveiv,=,,keep:,audit:nno-left-r1-00
-kaupte,=,,awaiting verification of kjøpte.,audit:nno-left-r1-00
-embætte,=,,awaiting verification of embete.,audit:nno-left-r1-00
-tingmennerne,=,,awaiting verification of tingmennene.,audit:nno-left-r1-00
+kaupte,kjøpte,,,audit:nno-left-r1-00
+embætte,embete,,,audit:nno-left-r1-00
+tingmennerne,tingmennene,,,audit:nno-left-r1-00
 preussen,=,,keep:,audit:nno-left-r1-00
-vikur,=,,awaiting verification of veker.,audit:nno-left-r1-00
-skulemeistaren,=,,awaiting verification of skulemeisteren.,audit:nno-left-r1-00
+vikur,veker,,,audit:nno-left-r1-00
+skulemeistaren,skulemeisteren,,,audit:nno-left-r1-00
 atte,=,,keep:,audit:nno-left-r1-00
 impf,=,,keep:,audit:nno-left-r1-00
 salamon,=,,keep:,audit:nno-left-r1-00
-yvertaket,=,,awaiting verification of overtaket.,audit:nno-left-r1-00
-saarad,=,,awaiting verification of såra.,audit:nno-left-r1-00
-bergja,=,,awaiting verification of berge.,audit:nno-left-r1-00
-sameleids,=,,awaiting verification of sameleis.,audit:nno-left-r1-00
+yvertaket,overtaket,,,audit:nno-left-r1-00
+saarad,såra,,,audit:nno-left-r1-00
+sameleids,sameleis,,,audit:nno-left-r1-00
 rognvald,=,,keep:,audit:nno-left-r1-00
-tridjeparten,=,,awaiting verification of tredjeparten.,audit:nno-left-r1-00
+tridjeparten,tredjeparten,,,audit:nno-left-r1-00
 nordanfjells,=,,keep:,audit:nno-left-r1-00
-utanfyr,=,,awaiting verification of utanfor.,audit:nno-left-r1-00
+utanfyr,utanfor,,,audit:nno-left-r1-00
 flydde,=,,keep:,audit:nno-left-r1-00
 herskip,=,,keep:,audit:nno-left-r1-00
 tambeskjelvar,=,,keep:,audit:nno-left-r1-00
-adelsmenner,=,,awaiting verification of adelsmenn.,audit:nno-left-r1-00
-flagdet,=,,awaiting verification of flagget.,audit:nno-left-r1-00
-deires,=,,awaiting verification of deira.,audit:nno-left-r1-00
-vedret,=,,awaiting verification of været.,audit:nno-left-r1-00
-bispar,=,,awaiting verification of biskopar.,audit:nno-left-r1-00
-sidste,=,,awaiting verification of siste.,audit:nno-left-r1-00
-kveda,=,,awaiting verification of kvede.,audit:nno-left-r1-00
-snjo,=,,awaiting verification of snø.,audit:nno-left-r1-00
-saud,=,,awaiting verification of sau.,audit:nno-left-r1-00
+adelsmenner,adelsmenn,,,audit:nno-left-r1-00
+flagdet,flagget,,,audit:nno-left-r1-00
+deires,deira,,,audit:nno-left-r1-00
+vedret,været,,,audit:nno-left-r1-00
+bispar,=,,verifier disagreed (=: bisp/bispar is valid nynorsk; biskop is another word); was biskopar,audit:nno-left-r1-00
+sidste,siste,,,audit:nno-left-r1-00
+snjo,snø,,,audit:nno-left-r1-00
+saud,=,,verifier disagreed (=: also past of sjoda / rushed (saud i kvervlar)); was sau,audit:nno-left-r1-00
 studde,=,,keep:,audit:nno-left-r1-00
-slog,=,,awaiting verification of slo.,audit:nno-left-r1-00
-lidi,=,,awaiting verification of lia.,audit:nno-left-r1-00
-brenna,=,,awaiting verification of brenne.,audit:nno-left-r1-00
-timber,=,,awaiting verification of tømmer.,audit:nno-left-r1-00
-slær,=,,awaiting verification of slår.,audit:nno-left-r1-00
-millomaldren,=,,awaiting verification of mellomalderen.,audit:nno-left-r1-00
+slog,slo,,,audit:nno-left-r1-00
+lidi,lia,,,audit:nno-left-r1-00
+timber,tømmer,,,audit:nno-left-r1-00
+slær,slår,,,audit:nno-left-r1-00
+millomaldren,mellomalderen,,,audit:nno-left-r1-00
 finnland,=,,keep:,audit:nno-left-r1-00
-bøkerne,=,,awaiting verification of bøkene.,audit:nno-left-r1-00
+bøkerne,bøkene,,,audit:nno-left-r1-00
 alli,=,,keep:,audit:nno-left-r1-00
 jeg,=,,keep:,audit:nno-left-r1-00
 døuen,=,,keep:,audit:nno-left-r1-00
 dan,=,,keep:,audit:nno-left-r1-00
 kaam,=,,keep:,audit:nno-left-r1-00
 lidet,=,,keep:,audit:nno-left-r1-00
-vikor,=,,awaiting verification of veker.,audit:nno-left-r1-00
-smidja,=,,awaiting verification of smia.,audit:nno-left-r1-00
-stòva,=,,awaiting verification of stova.,audit:nno-left-r1-00
+vikor,veker,,,audit:nno-left-r1-00
+smidja,=,,verifier disagreed (=: can be indefinite ei smidja -> smie); was smia,audit:nno-left-r1-00
+stòva,=,,verifier disagreed (=: can be indefinite (ei liti stòva) -> stove); was stova,audit:nno-left-r1-00
 sviakongen,=,,keep:,audit:nno-left-r1-00
-stellte,=,,awaiting verification of stelte.,audit:nno-left-r1-00
-kjeisar,=,,awaiting verification of keisar.,audit:nno-left-r1-00
-innførd,=,,awaiting verification of innført.,audit:nno-left-r1-00
-megtige,=,,awaiting verification of mektige.,audit:nno-left-r1-00
-innførde,=,,awaiting verification of innførte.,audit:nno-left-r1-00
-kaupmennerne,=,,awaiting verification of kjøpmennene.,audit:nno-left-r1-00
+stellte,stelte,,,audit:nno-left-r1-00
+kjeisar,keisar,,,audit:nno-left-r1-00
+innførd,innført,,,audit:nno-left-r1-00
+megtige,mektige,,,audit:nno-left-r1-00
+innførde,innførte,,,audit:nno-left-r1-00
+kaupmennerne,kjøpmennene,,,audit:nno-left-r1-00
 herfang,=,,keep:,audit:nno-left-r1-00
 gjøtaelvi,=,,keep:,audit:nno-left-r1-00
-varur,=,,awaiting verification of varer.,audit:nno-left-r1-00
-rædde,=,,awaiting verification of redde.,audit:nno-left-r1-00
-hanga,=,,awaiting verification of henge.,audit:nno-left-r1-00
-aalvor,=,,awaiting verification of alvor.,audit:nno-left-r1-00
+varur,varer,,,audit:nno-left-r1-00
+rædde,redde,,,audit:nno-left-r1-00
+aalvor,alvor,,,audit:nno-left-r1-00
 bergom,=,,keep:,audit:nno-left-r1-00
-bilæte,=,,awaiting verification of bilete.,audit:nno-left-r1-00
-semja,=,,awaiting verification of semje.,audit:nno-left-r1-00
-greide,=,,awaiting verification of greie.,audit:nno-left-r1-00
+bilæte,bilete,,,audit:nno-left-r1-00
+greide,greie,,,audit:nno-left-r1-00
 heimatter,=,,keep:,audit:nno-left-r1-00
 skildest,=,,keep:,audit:nno-left-r1-00
 eitkvart,=,,keep:,audit:nno-left-r1-00
 nokor,=,,keep:,audit:nno-left-r1-00
 uppfostrad,=,,keep:,audit:nno-left-r1-00
-breid,=,,awaiting verification of brei.,audit:nno-left-r1-00
-rikjet,=,,awaiting verification of riket.,audit:nno-left-r1-00
-raa,=,,awaiting verification of rå.,audit:nno-left-r1-00
-megtigt,=,,awaiting verification of mektig.,audit:nno-left-r1-00
+breid,brei,,,audit:nno-left-r1-00
+rikjet,riket,,,audit:nno-left-r1-00
+raa,=,,verifier disagreed (=: also noun råd (visste raa) and verb rå/råde); was rå,audit:nno-left-r1-00
+megtigt,mektig,,,audit:nno-left-r1-00
 danmarks,=,,keep:,audit:nno-left-r1-00
-haandi,=,,awaiting verification of handa.,audit:nno-left-r1-00
+haandi,handa,,,audit:nno-left-r1-00
 heimatt,=,,keep:,audit:nno-left-r1-00
-sudetter,=,,awaiting verification of søretter.,audit:nno-left-r1-00
-gott,=,,awaiting verification of godt.,audit:nno-left-r1-00
+sudetter,søretter,,,audit:nno-left-r1-00
+gott,godt,,,audit:nno-left-r1-00
 hono,=,,keep:,audit:nno-left-r1-00
 tæ,=,,keep:,audit:nno-left-r1-00
 skogjen,=,,keep:,audit:nno-left-r1-00
-hòvudet,=,,awaiting verification of hovudet.,audit:nno-left-r1-00
+hòvudet,hovudet,,,audit:nno-left-r1-00
 herferd,=,,keep:,audit:nno-left-r1-00
 gulatingslogi,=,,keep:,audit:nno-left-r1-00
 sunnanfjells,=,,keep:,audit:nno-left-r1-00
 leiding,=,,keep:,audit:nno-left-r1-00
 stormanns,=,,keep:,audit:nno-left-r1-00
-døypa,=,,awaiting verification of døype.,audit:nno-left-r1-00
 leidingsheren,=,,keep:,audit:nno-left-r1-00
-refste,=,,awaiting verification of refsa.,audit:nno-left-r1-00
+refste,refsa,,,audit:nno-left-r1-00
 gjæve,=,,keep:,audit:nno-left-r1-00
 svenskt,=,,keep:,audit:nno-left-r1-00
 danskt,=,,keep:,audit:nno-left-r1-00
-sakerne,=,,awaiting verification of sakene.,audit:nno-left-r1-00
-syrgde,=,,awaiting verification of sørgde.,audit:nno-left-r1-00
+sakerne,sakene,,,audit:nno-left-r1-00
+syrgde,sørgde,,,audit:nno-left-r1-00
 landskilet,=,,keep:,audit:nno-left-r1-00
 atters,=,,keep:,audit:nno-left-r1-00
-revolutionen,=,,awaiting verification of revolusjonen.,audit:nno-left-r1-00
+revolutionen,revolusjonen,,,audit:nno-left-r1-00
 kieler,=,,keep:,audit:nno-left-r1-00
-sanktion,=,,awaiting verification of sanksjon.,audit:nno-left-r1-00
+sanktion,sanksjon,,,audit:nno-left-r1-00
 gange,=,,keep:,audit:nno-left-r1-00
 elde,=,,keep:,audit:nno-left-r1-00
-gaar,=,,awaiting verification of går.,audit:nno-left-r1-00
-romet,=,,awaiting verification of rommet.,audit:nno-left-r1-00
-tvau,=,,awaiting verification of to.,audit:nno-left-r1-00
-fingo,=,,awaiting verification of fekk.,audit:nno-left-r1-00
-altsaman,=,,awaiting verification of alt saman.,audit:nno-left-r1-00
+gaar,går,,,audit:nno-left-r1-00
+romet,rommet,,,audit:nno-left-r1-00
+tvau,to,,,audit:nno-left-r1-00
+fingo,fekk,,,audit:nno-left-r1-00
+altsaman,alt saman,,,audit:nno-left-r1-00
 sidstpaa,=,,keep:,audit:nno-left-r1-00
-utigjenom,=,,awaiting verification of utigjennom.,audit:nno-left-r1-00
+utigjenom,utigjennom,,,audit:nno-left-r1-00
 vaapni,=,,keep:,audit:nno-left-r1-00
-staderne,=,,awaiting verification of stadene.,audit:nno-left-r1-00
-vorit,=,,awaiting verification of vore.,audit:nno-left-r1-00
-underlegt,=,,awaiting verification of underleg.,audit:nno-left-r1-00
+staderne,stadene,,,audit:nno-left-r1-00
+vorit,vore,,,audit:nno-left-r1-00
+underlegt,underleg,,,audit:nno-left-r1-00
 gild,=,,keep:,audit:nno-left-r1-00
-vitenskap,=,,awaiting verification of vitskap.,audit:nno-left-r1-00
-kaupmenner,=,,awaiting verification of kjøpmenn.,audit:nno-left-r1-00
-stydja,=,,awaiting verification of støtte.,audit:nno-left-r1-00
+vitenskap,vitskap,,,audit:nno-left-r1-00
+kaupmenner,kjøpmenn,,,audit:nno-left-r1-00
 samtykte,=,,keep:,audit:nno-left-r1-00
-herar,=,,awaiting verification of hærar.,audit:nno-left-r1-00
-haand,=,,awaiting verification of hand.,audit:nno-left-r1-00
-gaturne,=,,awaiting verification of gatene.,audit:nno-left-r1-00
-tilslutt,=,,awaiting verification of til slutt.,audit:nno-left-r1-00
+herar,hærar,,,audit:nno-left-r1-00
+haand,hand,,,audit:nno-left-r1-00
+gaturne,gatene,,,audit:nno-left-r1-00
+tilslutt,til slutt,,,audit:nno-left-r1-00
 lands,=,,keep:,audit:nno-left-r1-00
-kulur,=,,awaiting verification of kuler.,audit:nno-left-r1-00
+kulur,kuler,,,audit:nno-left-r1-00
 skynad,=,,keep:,audit:nno-left-r1-00
 dao,=,,keep:,audit:nno-left-r1-00
 ain,=,,keep:,audit:nno-left-r1-00
-bukkjen,=,,awaiting verification of bukken.,audit:nno-left-r1-00
+bukkjen,bukken,,,audit:nno-left-r1-00
 vordo,=,,keep:,audit:nno-left-r1-00
-næst,=,,awaiting verification of nest.,audit:nno-left-r1-00
-konungen,=,,awaiting verification of kongen.,audit:nno-left-r1-00
+næst,nest,,,audit:nno-left-r1-00
+konungen,kongen,,,audit:nno-left-r1-00
 forfælande,=,,keep:,audit:nno-left-r1-00
-spjot,=,,awaiting verification of spyd.,audit:nno-left-r1-00
+spjot,spyd,,,audit:nno-left-r1-00
 fylkes,=,,keep:,audit:nno-left-r1-00
-megtigaste,=,,awaiting verification of mektigaste.,audit:nno-left-r1-00
+megtigaste,mektigaste,,,audit:nno-left-r1-00
 raanrike,=,,keep:,audit:nno-left-r1-00
 haralds,=,,keep:,audit:nno-left-r1-00
 gullharald,=,,keep:,audit:nno-left-r1-00
-fallne,=,,awaiting verification of falne.,audit:nno-left-r1-00
-fyrutan,=,,awaiting verification of utan.,audit:nno-left-r1-00
-gaavur,=,,awaiting verification of gåver.,audit:nno-left-r1-00
-sjølvstendigt,=,,awaiting verification of sjølvstendig.,audit:nno-left-r1-00
-logboki,=,,awaiting verification of lovboka.,audit:nno-left-r1-00
+fallne,falne,,,audit:nno-left-r1-00
+fyrutan,=,,verifier disagreed (=: utan is another word (forutan exists)); was utan,audit:nno-left-r1-00
+gaavur,gåver,,,audit:nno-left-r1-00
+sjølvstendigt,sjølvstendig,,,audit:nno-left-r1-00
+logboki,lovboka,,,audit:nno-left-r1-00
 øyreting,=,,keep:,audit:nno-left-r1-00
-inntekterne,=,,awaiting verification of inntektene.,audit:nno-left-r1-00
-umsette,=,,awaiting verification of omsette.,audit:nno-left-r1-00
+inntekterne,inntektene,,,audit:nno-left-r1-00
+umsette,omsette,,,audit:nno-left-r1-00
 handfestning,=,,keep:,audit:nno-left-r1-00
-greiven,=,,awaiting verification of greven.,audit:nno-left-r1-00
-nationaliteten,=,,awaiting verification of nasjonaliteten.,audit:nno-left-r1-00
-flagd,=,,awaiting verification of flagg.,audit:nno-left-r1-00
-grunnlog,=,,awaiting verification of grunnlov.,audit:nno-left-r1-00
+greiven,greven,,,audit:nno-left-r1-00
+nationaliteten,nasjonaliteten,,,audit:nno-left-r1-00
+flagd,flagg,,,audit:nno-left-r1-00
+grunnlog,grunnlov,,,audit:nno-left-r1-00
 statsraads,=,,keep:,audit:nno-left-r1-00
 sagte,=,,keep:,audit:nno-left-r1-00
-nokk,=,,awaiting verification of nok.,audit:nno-left-r1-00
+nokk,nok,,,audit:nno-left-r1-00
 hass,=,,keep:,audit:nno-left-r1-00
 deruppe,=,,keep:,audit:nno-left-r1-00
 fjells,=,,keep:,audit:nno-left-r1-00
 bakfotom,=,,keep:,audit:nno-left-r1-00
-sidst,=,,awaiting verification of sist.,audit:nno-left-r1-00
+sidst,sist,,,audit:nno-left-r1-00
 luto,=,,keep:,audit:nno-left-r1-00
-saago,=,,awaiting verification of såg.,audit:nno-left-r1-00
-vilja,=,,awaiting verification of ville.,audit:nno-left-r1-00
-dauden,=,,awaiting verification of døden.,audit:nno-left-r1-00
+saago,såg,,,audit:nno-left-r1-00
+dauden,døden,,,audit:nno-left-r1-00
 uppatter,=,,keep:,audit:nno-left-r1-00
-likavel,=,,awaiting verification of likevel.,audit:nno-left-r1-00
-sidor,=,,awaiting verification of sider.,audit:nno-left-r1-00
-kruna,=,,awaiting verification of krona.,audit:nno-left-r1-00
+likavel,likevel,,,audit:nno-left-r1-00
+sidor,sider,,,audit:nno-left-r1-00
+kruna,=,,verifier disagreed (=: can be indefinite ei kruna -> krone); was krona,audit:nno-left-r1-00
 fyreaat,=,,keep:,audit:nno-left-r1-00
-kristnat,=,,awaiting verification of kristna.,audit:nno-left-r1-00
+kristnat,kristna,,,audit:nno-left-r1-00
 treiv,=,,keep:,audit:nno-left-r1-00
-inngjenom,=,,awaiting verification of inn gjennom.,audit:nno-left-r1-00
+inngjenom,inn gjennom,,,audit:nno-left-r1-00
 glytte,=,,keep:,audit:nno-left-r1-00
 kannhenda,=,,keep:,audit:nno-left-r1-00
 knipsund,=,,keep:,audit:nno-left-r1-00
-agta,=,,awaiting verification of akte.,audit:nno-left-r1-00
-gjesterne,=,,awaiting verification of gjestene.,audit:nno-left-r1-00
+gjesterne,gjestene,,,audit:nno-left-r1-00
 sleget,=,,keep:,audit:nno-left-r1-00
 hena,=,,keep:,audit:nno-left-r1-00
-aukat,=,,awaiting verification of auka.,audit:nno-left-r1-00
-tusund,=,,awaiting verification of tusen.,audit:nno-left-r1-00
-borgaranne,=,,awaiting verification of borgarane.,audit:nno-left-r1-00
+aukat,auka,,,audit:nno-left-r1-00
+tusund,tusen,,,audit:nno-left-r1-00
+borgaranne,borgarane,,,audit:nno-left-r1-00
 fribrev,=,,keep:,audit:nno-left-r1-00
-kongemagti,=,,awaiting verification of kongemakta.,audit:nno-left-r1-00
-herjat,=,,awaiting verification of herja.,audit:nno-left-r1-00
+kongemagti,kongemakta,,,audit:nno-left-r1-00
+herjat,herja,,,audit:nno-left-r1-00
 trænet,=,,keep:,audit:nno-left-r1-00
 dessmeir,=,,keep:,audit:nno-left-r1-00
-vitenskapen,=,,awaiting verification of vitskapen.,audit:nno-left-r1-00
+vitenskapen,vitskapen,,,audit:nno-left-r1-00
 targjei,=,,keep:,audit:nno-left-r1-00
 tjuge,=,,keep:,audit:nno-left-r1-00
-burtaat,=,,awaiting verification of bortåt.,audit:nno-left-r1-00
+burtaat,bortåt,,,audit:nno-left-r1-00
 dig,=,,keep:,audit:nno-left-r1-00
 skirne,=,,keep:,audit:nno-left-r1-00
-gjøre,=,,awaiting verification of gjere.,audit:nno-left-r1-00
+gjøre,=,,verifier disagreed (=: Danish quotes/glosses (gjøre daarlig figur)); was gjere,audit:nno-left-r1-00
 tottest,=,,keep:,audit:nno-left-r1-00
-kongjen,=,,awaiting verification of kongen.,audit:nno-left-r1-00
+kongjen,kongen,,,audit:nno-left-r1-00
 kjøkemeistaren,=,,keep:,audit:nno-left-r1-00
-rimelegt,=,,awaiting verification of rimeleg.,audit:nno-left-r1-00
-njota,=,,awaiting verification of nyte.,audit:nno-left-r1-00
+rimelegt,rimeleg,,,audit:nno-left-r1-00
 baa,=,,keep:,audit:nno-left-r1-00
-trulegt,=,,awaiting verification of truleg.,audit:nno-left-r1-00
-arbeie,=,,awaiting verification of arbeide.,audit:nno-left-r1-00
+trulegt,truleg,,,audit:nno-left-r1-00
+arbeie,=,,verifier disagreed (=: also noun (arbeie sitt = arbeidet)); was arbeide,audit:nno-left-r1-00
 leta,=,,keep:,audit:nno-left-r1-00
 itte,=,,keep:,audit:nno-left-r1-00
 jyggjer,=,,keep:,audit:nno-left-r1-00
@@ -797,98 +851,95 @@ kyri,=,,keep:,audit:nno-left-r1-00
 bliver,=,,keep:,audit:nno-left-r1-00
 noget,=,,keep:,audit:nno-left-r1-00
 baldvin,=,,keep:,audit:nno-left-r1-00
-islendske,=,,awaiting verification of islandske.,audit:nno-left-r1-00
+islendske,islandske,,,audit:nno-left-r1-00
 blaageit,=,,keep:,audit:nno-left-r1-00
-kòma,=,,awaiting verification of komme.,audit:nno-left-r1-00
-gòlvet,=,,awaiting verification of golvet.,audit:nno-left-r1-00
-engelsmannen,=,,awaiting verification of engelskmannen.,audit:nno-left-r1-00
-skræmd,=,,awaiting verification of skremd.,audit:nno-left-r1-00
-kvæde,=,,awaiting verification of kvede.,audit:nno-left-r1-00
-venerne,=,,awaiting verification of venene.,audit:nno-left-r1-00
+kòma,komme,,,audit:nno-left-r1-00
+gòlvet,golvet,,,audit:nno-left-r1-00
+engelsmannen,engelskmannen,,,audit:nno-left-r1-00
+skræmd,skremd,,,audit:nno-left-r1-00
+kvæde,kvede,,,audit:nno-left-r1-00
+venerne,venene,,,audit:nno-left-r1-00
 herførar,=,,keep:,audit:nno-left-r1-00
 eidsiva,=,,keep:,audit:nno-left-r1-00
 bohuslen,=,,keep:,audit:nno-left-r1-00
 djerv,=,,keep:,audit:nno-left-r1-00
 innkomurne,=,,keep:,audit:nno-left-r1-00
-megtig,=,,awaiting verification of mektig.,audit:nno-left-r1-00
+megtig,mektig,,,audit:nno-left-r1-00
 sigvalde,=,,keep:,audit:nno-left-r1-00
 konghelle,=,,keep:,audit:nno-left-r1-00
 ætlad,=,,keep:,audit:nno-left-r1-00
 muhamedanarne,=,,keep:,audit:nno-left-r1-00
-syslemennerne,=,,awaiting verification of sysselmennene.,audit:nno-left-r1-00
-negta,=,,awaiting verification of nekta.,audit:nno-left-r1-00
+syslemennerne,sysselmennene,,,audit:nno-left-r1-00
+negta,nekta,,,audit:nno-left-r1-00
 philippus,=,,keep:,audit:nno-left-r1-00
-kongesogurne,=,,awaiting verification of kongesogene.,audit:nno-left-r1-00
+kongesogurne,kongesogene,,,audit:nno-left-r1-00
 riksforstandar,=,,keep:,audit:nno-left-r1-00
 tyskdomen,=,,keep:,audit:nno-left-r1-00
 handfestningi,=,,keep:,audit:nno-left-r1-00
 vincens,=,,keep:,audit:nno-left-r1-00
 norges,=,,keep:,audit:nno-left-r1-00
-utarmat,=,,awaiting verification of utarma.,audit:nno-left-r1-00
-gjeldi,=,,awaiting verification of gjelda.,audit:nno-left-r1-00
+utarmat,utarma,,,audit:nno-left-r1-00
+gjeldi,gjelda,,,audit:nno-left-r1-00
 einvaldsmagt,=,,keep:,audit:nno-left-r1-00
 stortings,=,,keep:,audit:nno-left-r1-00
 selmer,=,,keep:,audit:nno-left-r1-00
 skull,=,,keep:,audit:nno-left-r1-00
 noke,=,,keep:,audit:nno-left-r1-00
 aav,=,,keep:,audit:nno-left-r1-00
-kjeringi,=,,awaiting verification of kjerringa.,audit:nno-left-r1-00
-tegja,=,,rejected target 'tie': not a modern bank form.,audit:nno-left-r1-00
+kjeringi,kjerringa,,,audit:nno-left-r1-00
 tie,=,,keep:,audit:nno-left-r1-00
 godlynd,=,,keep:,audit:nno-left-r1-00
-bøygja,=,,awaiting verification of bøye.,audit:nno-left-r1-00
-serleg,=,,awaiting verification of særleg.,audit:nno-left-r1-00
+serleg,særleg,,,audit:nno-left-r1-00
 visurne,=,,keep:,audit:nno-left-r1-00
-uppyver,=,,awaiting verification of oppover.,audit:nno-left-r1-01
+uppyver,oppover,,,audit:nno-left-r1-01
 reka,=,,keep:,audit:nno-left-r1-01
 gamlen,=,,keep:,audit:nno-left-r1-01
-likade,=,,awaiting verification of likte.,audit:nno-left-r1-01
-giva,=,,awaiting verification of gje.,audit:nno-left-r1-01
+likade,likte,,,audit:nno-left-r1-01
 ymis,=,,keep:,audit:nno-left-r1-01
-stræv,=,,awaiting verification of strev.,audit:nno-left-r1-01
+stræv,strev,,,audit:nno-left-r1-01
 bita,=,,keep:,audit:nno-left-r1-01
 møda,=,,keep:,audit:nno-left-r1-01
 skynar,=,,keep:,audit:nno-left-r1-01
 gildaste,=,,keep:,audit:nno-left-r1-01
-gingo,=,,awaiting verification of gjekk. past pl,audit:nno-left-r1-01
-korleides,=,,awaiting verification of korleis.,audit:nno-left-r1-01
-snaudt,=,,awaiting verification of snautt.,audit:nno-left-r1-01
-solenge,=,,awaiting verification of så lenge.,audit:nno-left-r1-01
+gingo,gjekk,,past pl,audit:nno-left-r1-01
+korleides,korleis,,,audit:nno-left-r1-01
+snaudt,snautt,,,audit:nno-left-r1-01
+solenge,så lenge,,,audit:nno-left-r1-01
 skynade,=,,keep:,audit:nno-left-r1-01
 dyrri,=,,keep:,audit:nno-left-r1-01
 kvilde,=,,keep:,audit:nno-left-r1-01
 spurdest,=,,keep:,audit:nno-left-r1-01
 fjølls,=,,keep:,audit:nno-left-r1-01
 jødeland,=,,keep:,audit:nno-left-r1-01
-kver,=,,awaiting verification of kvar. kvar (dialect spelling),audit:nno-left-r1-01
+kver,kvar,,kvar (dialect spelling),audit:nno-left-r1-01
 svav,=,,keep:,audit:nno-left-r1-01
 arme,=,,keep:,audit:nno-left-r1-01
 aars,=,,keep:,audit:nno-left-r1-01
 tarv,=,,keep:,audit:nno-left-r1-01
 studning,=,,keep:,audit:nno-left-r1-01
-tiderne,=,,awaiting verification of tidene.,audit:nno-left-r1-01
+tiderne,tidene,,,audit:nno-left-r1-01
 feudal,=,,keep:,audit:nno-left-r1-01
-fatige,=,,awaiting verification of fattige.,audit:nno-left-r1-01
+fatige,fattige,,,audit:nno-left-r1-01
 brynja,=,,keep:,audit:nno-left-r1-01
 tilstandet,=,,keep:,audit:nno-left-r1-01
-magterne,=,,awaiting verification of maktene.,audit:nno-left-r1-01
+magterne,maktene,,,audit:nno-left-r1-01
 djervaste,=,,keep:,audit:nno-left-r1-01
-lekkjur,=,,awaiting verification of lekkjer.,audit:nno-left-r1-01
+lekkjur,lekkjer,,,audit:nno-left-r1-01
 fyresyning,=,,keep:,audit:nno-left-r1-01
-umgrip,=,,awaiting verification of omgrep.,audit:nno-left-r1-01
-braudet,=,,awaiting verification of brødet.,audit:nno-left-r1-01
-ikornet,=,,awaiting verification of ekornet.,audit:nno-left-r1-01
+umgrip,omgrep,,,audit:nno-left-r1-01
+braudet,brødet,,,audit:nno-left-r1-01
+ikornet,ekornet,,,audit:nno-left-r1-01
 jørund,=,,keep:,audit:nno-left-r1-01
-væne,=,,awaiting verification of vene.,audit:nno-left-r1-01
-veggjerne,=,,awaiting verification of veggene.,audit:nno-left-r1-01
+væne,vene,,,audit:nno-left-r1-01
+veggjerne,veggene,,,audit:nno-left-r1-01
 skottom,=,,keep:,audit:nno-left-r1-01
 berdon,=,,keep:,audit:nno-left-r1-01
 storøyi,=,,keep:,audit:nno-left-r1-01
 læt,=,,keep:,audit:nno-left-r1-01
-standande,=,,awaiting verification of ståande.,audit:nno-left-r1-01
-kaupt,=,,awaiting verification of kjøpt.,audit:nno-left-r1-01
-allt,=,,awaiting verification of alt.,audit:nno-left-r1-01
-sjøl,=,,awaiting verification of sjølv.,audit:nno-left-r1-01
+standande,ståande,,,audit:nno-left-r1-01
+kaupt,kjøpt,,,audit:nno-left-r1-01
+allt,alt,,,audit:nno-left-r1-01
+sjøl,sjølv,,,audit:nno-left-r1-01
 tia,=,,keep:,audit:nno-left-r1-01
 gøtt,=,,keep:,audit:nno-left-r1-01
 ner,=,,keep:,audit:nno-left-r1-01
@@ -900,39 +951,39 @@ telemarki,=,,keep:,audit:nno-left-r1-01
 efter,=,,keep:,audit:nno-left-r1-01
 ud,=,,keep:,audit:nno-left-r1-01
 jamdøgri,=,,keep:,audit:nno-left-r1-01
-katholske,=,,awaiting verification of katolske.,audit:nno-left-r1-01
+katholske,katolske,,,audit:nno-left-r1-01
 avkortat,=,,keep:,audit:nno-left-r1-01
 dre,=,,keep:,audit:nno-left-r1-01
 kongs,=,,keep:,audit:nno-left-r1-01
-kjærleike,=,,awaiting verification of kjærleik.,audit:nno-left-r1-01
+kjærleike,kjærleik,,,audit:nno-left-r1-01
 fòlen,=,,rejected target 'folen': not a modern bank form.,audit:nno-left-r1-01
 kvaale,=,,keep:,audit:nno-left-r1-01
-nòkre,=,,awaiting verification of nokre.,audit:nno-left-r1-01
+nòkre,nokre,,,audit:nno-left-r1-01
 himlen,=,,keep:,audit:nno-left-r1-01
-draap,=,,awaiting verification of drap.,audit:nno-left-r1-01
-næringsvegerne,=,,awaiting verification of næringsvegane.,audit:nno-left-r1-01
+draap,drap,,,audit:nno-left-r1-01
+næringsvegerne,næringsvegane,,,audit:nno-left-r1-01
 frostatingslogi,=,,keep:,audit:nno-left-r1-01
-kyrkjurne,=,,awaiting verification of kyrkjene.,audit:nno-left-r1-01
-vikingferderne,=,,awaiting verification of vikingferdene.,audit:nno-left-r1-01
+kyrkjurne,kyrkjene,,,audit:nno-left-r1-01
+vikingferderne,vikingferdene,,,audit:nno-left-r1-01
 normandi,=,,keep:,audit:nno-left-r1-01
-fedralandet,=,,awaiting verification of fedrelandet.,audit:nno-left-r1-01
+fedralandet,fedrelandet,,,audit:nno-left-r1-01
 gutorm,=,,keep:,audit:nno-left-r1-01
-ætterne,=,,awaiting verification of ættene.,audit:nno-left-r1-01
-yvermagt,=,,awaiting verification of overmakt.,audit:nno-left-r1-01
+ætterne,ættene,,,audit:nno-left-r1-01
+yvermagt,overmakt,,,audit:nno-left-r1-01
 hjørungavaag,=,,keep:,audit:nno-left-r1-01
-utlivd,=,,awaiting verification of utlevd.,audit:nno-left-r1-01
+utlivd,utlevd,,,audit:nno-left-r1-01
 slegest,=,,keep:,audit:nno-left-r1-01
 kark,=,,keep:,audit:nno-left-r1-01
 storætterne,=,,keep:,audit:nno-left-r1-01
 heradstingi,=,,keep:,audit:nno-left-r1-01
-tingmenner,=,,awaiting verification of tingmenn.,audit:nno-left-r1-01
+tingmenner,tingmenn,,,audit:nno-left-r1-01
 ulvsson,=,,keep:,audit:nno-left-r1-01
 tridjepartar,=,,keep:,audit:nno-left-r1-01
-ægtefødde,=,,awaiting verification of ektefødde.,audit:nno-left-r1-01
+ægtefødde,ektefødde,,,audit:nno-left-r1-01
 dynekilen,=,,keep:,audit:nno-left-r1-01
-faarlege,=,,awaiting verification of farlege.,audit:nno-left-r1-01
-logbrot,=,,awaiting verification of lovbrot.,audit:nno-left-r1-01
-syslemenner,=,,awaiting verification of syslemenn.,audit:nno-left-r1-01
+faarlege,farlege,,,audit:nno-left-r1-01
+logbrot,lovbrot,,,audit:nno-left-r1-01
+syslemenner,syslemenn,,,audit:nno-left-r1-01
 anderleids,=,,keep:,audit:nno-left-r1-01
 sturla,=,,keep:,audit:nno-left-r1-01
 skotarne,=,,keep:,audit:nno-left-r1-01
@@ -941,13 +992,13 @@ hansebyarne,=,,keep:,audit:nno-left-r1-01
 krynt,=,,keep:,audit:nno-left-r1-01
 greive,=,,keep:,audit:nno-left-r1-01
 alvsson,=,,keep:,audit:nno-left-r1-01
-embættet,=,,awaiting verification of embetet.,audit:nno-left-r1-01
+embættet,embetet,,,audit:nno-left-r1-01
 kollart,=,,keep:,audit:nno-left-r1-01
 fredrikssten,=,,keep:,audit:nno-left-r1-01
 einvaldsmagti,=,,keep:,audit:nno-left-r1-01
-krunprins,=,,awaiting verification of kronprins.,audit:nno-left-r1-01
+krunprins,kronprins,,,audit:nno-left-r1-01
 langferder,=,,keep:,audit:nno-left-r1-01
-revision,=,,awaiting verification of revisjon.,audit:nno-left-r1-01
+revision,revisjon,,,audit:nno-left-r1-01
 sita,=,,keep:,audit:nno-left-r1-01
 forr,=,,keep:,audit:nno-left-r1-01
 sætte,=,,keep:,audit:nno-left-r1-01
@@ -955,42 +1006,41 @@ ingjin,=,,keep:,audit:nno-left-r1-01
 leto,=,,keep:,audit:nno-left-r1-01
 verr,=,,keep:,audit:nno-left-r1-01
 fjelle,=,,keep:,audit:nno-left-r1-01
-nationale,=,,awaiting verification of nasjonale.,audit:nno-left-r1-01
+nationale,nasjonale,,,audit:nno-left-r1-01
 alting,=,,keep:,audit:nno-left-r1-01
-ligger,=,,awaiting verification of ligg.,audit:nno-left-r1-01
+ligger,ligg,,,audit:nno-left-r1-01
 gløyma,=,,keep:,audit:nno-left-r1-01
-myrkret,=,,awaiting verification of mørkeret.,audit:nno-left-r1-01
+myrkret,mørkeret,,,audit:nno-left-r1-01
 finbygde,=,,keep:,audit:nno-left-r1-01
 horne,=,,keep:,audit:nno-left-r1-01
 slengja,=,,keep:,audit:nno-left-r1-01
 sleikja,=,,keep:,audit:nno-left-r1-01
 lida,=,,keep:,audit:nno-left-r1-01
 tragos,=,,keep:,audit:nno-left-r1-01
-yvergang,=,,awaiting verification of overgang.,audit:nno-left-r1-01
+yvergang,overgang,,,audit:nno-left-r1-01
 latet,=,,keep:,audit:nno-left-r1-01
 nistebumba,=,,keep:,audit:nno-left-r1-01
 havs,=,,keep:,audit:nno-left-r1-01
 bida,=,,keep:,audit:nno-left-r1-01
 siglande,=,,keep:,audit:nno-left-r1-01
-toko,=,,awaiting verification of tok. past pl,audit:nno-left-r1-01
-dernæst,=,,awaiting verification of dernest.,audit:nno-left-r1-01
-skulo,=,,awaiting verification of skulle. past pl,audit:nno-left-r1-01
+toko,tok,,past pl,audit:nno-left-r1-01
+dernæst,dernest,,,audit:nno-left-r1-01
 fyremuner,=,,keep:,audit:nno-left-r1-01
 fullkomet,=,,keep:,audit:nno-left-r1-01
-gjerna,=,,awaiting verification of gjerne.,audit:nno-left-r1-01
+gjerna,gjerne,,,audit:nno-left-r1-01
 aamund,=,,keep:,audit:nno-left-r1-01
 ottast,=,,keep:,audit:nno-left-r1-01
 vesall,=,,keep:,audit:nno-left-r1-01
 fjore,=,,keep:,audit:nno-left-r1-01
-undarleg,=,,awaiting verification of underleg.,audit:nno-left-r1-01
+undarleg,underleg,,,audit:nno-left-r1-01
 sveiten,=,,keep:,audit:nno-left-r1-01
 vordet,=,,keep:,audit:nno-left-r1-01
-turre,=,,awaiting verification of tørre.,audit:nno-left-r1-01
+turre,tørre,,,audit:nno-left-r1-01
 fotom,=,,keep:,audit:nno-left-r1-01
-henderna,=,,awaiting verification of hendene.,audit:nno-left-r1-01
+henderna,hendene,,,audit:nno-left-r1-01
 moer,=,,keep:,audit:nno-left-r1-01
 annsamt,=,,keep:,audit:nno-left-r1-01
-ferduge,=,,awaiting verification of ferdige.,audit:nno-left-r1-01
+ferduge,ferdige,,,audit:nno-left-r1-01
 attanfyre,=,,keep:,audit:nno-left-r1-01
 hr,=,,keep:,audit:nno-left-r1-01
 burti,=,,keep:,audit:nno-left-r1-01
@@ -1012,57 +1062,57 @@ minder,=,,keep:,audit:nno-left-r1-01
 buvatsvik,=,,keep:,audit:nno-left-r1-01
 sundags,=,,keep:,audit:nno-left-r1-01
 likeins,=,,keep:,audit:nno-left-r1-01
-fjøllet,=,,awaiting verification of fjellet.,audit:nno-left-r1-01
-mjolk,=,,awaiting verification of mjølk.,audit:nno-left-r1-01
-himilen,=,,awaiting verification of himmelen.,audit:nno-left-r1-01
+fjøllet,fjellet,,,audit:nno-left-r1-01
+mjolk,mjølk,,,audit:nno-left-r1-01
+himilen,himmelen,,,audit:nno-left-r1-01
 skreid,=,,keep:,audit:nno-left-r1-01
-mykit,=,,awaiting verification of mykje.,audit:nno-left-r1-01
-fengit,=,,awaiting verification of fått. pp of få,audit:nno-left-r1-01
+mykit,mykje,,,audit:nno-left-r1-01
+fengit,fått,,pp of få,audit:nno-left-r1-01
 soso,=,,keep:,audit:nno-left-r1-01
 medferd,=,,keep:,audit:nno-left-r1-01
 mans,=,,keep:,audit:nno-left-r1-01
-istand,=,,awaiting verification of i stand.,audit:nno-left-r1-01
+istand,=,,verifier disagreed (=: appears in Danish proverb passages); was i stand,audit:nno-left-r1-01
 spilverket,=,,keep:,audit:nno-left-r1-01
-mønstret,=,,awaiting verification of mønsteret.,audit:nno-left-r1-01
+mønstret,mønsteret,,,audit:nno-left-r1-01
 fæla,=,,keep:,audit:nno-left-r1-01
-breidt,=,,awaiting verification of breitt.,audit:nno-left-r1-01
-reikna,=,,awaiting verification of rekna.,audit:nno-left-r1-01
+breidt,breitt,,,audit:nno-left-r1-01
+reikna,rekna,,,audit:nno-left-r1-01
 vedr,=,,keep:,audit:nno-left-r1-01
 konur,=,,keep:,audit:nno-left-r1-01
 fyreenden,=,,keep:,audit:nno-left-r1-01
 hannibal,=,,keep:,audit:nno-left-r1-01
 flytja,=,,keep:,audit:nno-left-r1-01
-samfundet,=,,awaiting verification of samfunnet.,audit:nno-left-r1-01
+samfundet,samfunnet,,,audit:nno-left-r1-01
 landsstyringi,=,,keep:,audit:nno-left-r1-01
-umsut,=,,awaiting verification of omsut.,audit:nno-left-r1-01
-ferderne,=,,awaiting verification of ferdene.,audit:nno-left-r1-01
+umsut,omsut,,,audit:nno-left-r1-01
+ferderne,ferdene,,,audit:nno-left-r1-01
 klæda,=,,keep:,audit:nno-left-r1-01
-aalmenne,=,,awaiting verification of allmenne.,audit:nno-left-r1-01
+aalmenne,allmenne,,,audit:nno-left-r1-01
 naudturvelegt,=,,keep:,audit:nno-left-r1-01
-franskmennerne,=,,awaiting verification of franskmennene.,audit:nno-left-r1-01
+franskmennerne,franskmennene,,,audit:nno-left-r1-01
 herføraren,=,,keep:,audit:nno-left-r1-01
 kutusov,=,,keep:,audit:nno-left-r1-01
 veteren,=,,keep:,audit:nno-left-r1-01
 sibiria,=,,keep:,audit:nno-left-r1-01
 byrsur,=,,keep:,audit:nno-left-r1-01
-krune,=,,awaiting verification of krone.,audit:nno-left-r1-01
+krune,krone,,,audit:nno-left-r1-01
 jarnvegs,=,,keep:,audit:nno-left-r1-01
 stadnad,=,,keep:,audit:nno-left-r1-01
-umbord,=,,awaiting verification of om bord.,audit:nno-left-r1-01
-kaupmann,=,,awaiting verification of kjøpmann.,audit:nno-left-r1-01
+umbord,om bord,,,audit:nno-left-r1-01
+kaupmann,kjøpmann,,,audit:nno-left-r1-01
 greidurne,=,,keep:,audit:nno-left-r1-01
 træn,=,,keep:,audit:nno-left-r1-01
 klokskapstidi,=,,keep:,audit:nno-left-r1-01
 mannavitet,=,,keep:,audit:nno-left-r1-01
-høgsætet,=,,awaiting verification of høgsetet.,audit:nno-left-r1-01
-ventat,=,,awaiting verification of venta.,audit:nno-left-r1-01
-akslerne,=,,awaiting verification of akslene.,audit:nno-left-r1-01
+høgsætet,høgsetet,,,audit:nno-left-r1-01
+ventat,venta,,,audit:nno-left-r1-01
+akslerne,akslene,,,audit:nno-left-r1-01
 veggjer,=,,keep:,audit:nno-left-r1-01
 likjest,=,,keep:,audit:nno-left-r1-01
 fridoms,=,,keep:,audit:nno-left-r1-01
 støylehoms,=,,keep:,audit:nno-left-r1-01
-kjempurne,=,,awaiting verification of kjempene.,audit:nno-left-r1-01
-stjernur,=,,awaiting verification of stjerner.,audit:nno-left-r1-01
+kjempurne,kjempene,,,audit:nno-left-r1-01
+stjernur,stjerner,,,audit:nno-left-r1-01
 bjoda,=,,keep:,audit:nno-left-r1-01
 unda,=,,keep:,audit:nno-left-r1-01
 rida,=,,keep:,audit:nno-left-r1-01
@@ -1073,15 +1123,15 @@ onstasund,=,,keep:,audit:nno-left-r1-01
 lad,=,,keep:,audit:nno-left-r1-01
 tileg,=,,keep:,audit:nno-left-r1-01
 lider,=,,keep:,audit:nno-left-r1-01
-veger,=,,awaiting verification of vegar.,audit:nno-left-r1-01
+veger,vegar,,,audit:nno-left-r1-01
 hermann,=,,keep:,audit:nno-left-r1-01
 fjøllbygdanne,=,,keep:,audit:nno-left-r1-01
 vori,=,,keep:,audit:nno-left-r1-01
 malmø,=,,keep:,audit:nno-left-r1-01
-trætta,=,,awaiting verification of tretta.,audit:nno-left-r1-01
-sannt,=,,awaiting verification of sant.,audit:nno-left-r1-01
+trætta,=,,verifier disagreed (=: noun (ei trætta -> trette) or verb; ambiguous); was tretta,audit:nno-left-r1-01
+sannt,sant,,,audit:nno-left-r1-01
 tatranne,=,,keep:,audit:nno-left-r1-01
-lensmenner,=,,awaiting verification of lensmenn.,audit:nno-left-r1-01
+lensmenner,lensmenn,,,audit:nno-left-r1-01
 uta,=,,keep:,audit:nno-left-r1-01
 arbei,=,,keep:,audit:nno-left-r1-01
 vo,=,,keep:,audit:nno-left-r1-01
@@ -1099,41 +1149,41 @@ inkji,=,,rejected target 'inkje': not a modern bank form.,audit:nno-left-r1-01
 sjav,=,,keep:,audit:nno-left-r1-01
 konne,=,,keep:,audit:nno-left-r1-01
 ikonnen,=,,keep:,audit:nno-left-r1-01
-stellt,=,,awaiting verification of stelt.,audit:nno-left-r1-01
+stellt,stelt,,,audit:nno-left-r1-01
 op,=,,keep:,audit:nno-left-r1-01
 mellem,=,,keep:,audit:nno-left-r1-01
 sæg,=,,keep:,audit:nno-left-r1-01
 stengja,=,,keep:,audit:nno-left-r1-01
 mariemessa,=,,keep:,audit:nno-left-r1-01
-sjaunde,=,,awaiting verification of sjuande.,audit:nno-left-r1-01
-staburet,=,,awaiting verification of stabburet.,audit:nno-left-r1-01
+sjaunde,sjuande,,,audit:nno-left-r1-01
+staburet,stabburet,,,audit:nno-left-r1-01
 grækarne,=,,keep:,audit:nno-left-r1-01
 keisarfrua,=,,keep:,audit:nno-left-r1-01
 giver,=,,keep:,audit:nno-left-r1-01
-fatig,=,,awaiting verification of fattig.,audit:nno-left-r1-01
+fatig,fattig,,,audit:nno-left-r1-01
 kòme,=,,keep:,audit:nno-left-r1-01
-spùrde,=,,awaiting verification of spurde.,audit:nno-left-r1-01
+spùrde,spurde,,,audit:nno-left-r1-01
 bergit,=,,keep:,audit:nno-left-r1-01
 gjordet,=,,keep:,audit:nno-left-r1-01
 nidhogg,=,,keep:,audit:nno-left-r1-01
 yme,=,,keep:,audit:nno-left-r1-01
-kjøyrer,=,,awaiting verification of køyrer.,audit:nno-left-r1-01
-yverhand,=,,awaiting verification of overhand.,audit:nno-left-r1-01
-motig,=,,awaiting verification of modig.,audit:nno-left-r1-01
-vegt,=,,awaiting verification of vekt.,audit:nno-left-r1-01
-veggerne,=,,awaiting verification of veggene.,audit:nno-left-r1-01
+kjøyrer,køyrer,,,audit:nno-left-r1-01
+yverhand,overhand,,,audit:nno-left-r1-01
+motig,modig,,,audit:nno-left-r1-01
+vegt,vekt,,,audit:nno-left-r1-01
+veggerne,veggene,,,audit:nno-left-r1-01
 heimanfylgja,=,,keep:,audit:nno-left-r1-01
 paadømde,=,,keep:,audit:nno-left-r1-01
-trættur,=,,awaiting verification of tretter.,audit:nno-left-r1-01
-stridsmenner,=,,awaiting verification of stridsmenn.,audit:nno-left-r1-01
+trættur,tretter,,,audit:nno-left-r1-01
+stridsmenner,stridsmenn,,,audit:nno-left-r1-01
 østersjøen,=,,keep:,audit:nno-left-r1-01
-kaupstad,=,,awaiting verification of kjøpstad.,audit:nno-left-r1-01
+kaupstad,kjøpstad,,,audit:nno-left-r1-01
 hedemarki,=,,keep:,audit:nno-left-r1-01
 herarne,=,,keep:,audit:nno-left-r1-01
-danerne,=,,awaiting verification of danane.,audit:nno-left-r1-01
+danerne,danane,,,audit:nno-left-r1-01
 fylkeskongar,=,,keep:,audit:nno-left-r1-01
 stjørdalen,=,,keep:,audit:nno-left-r1-01
-broderson,=,,awaiting verification of brorson.,audit:nno-left-r1-01
+broderson,brorson,,,audit:nno-left-r1-01
 hatige,=,,keep:,audit:nno-left-r1-01
 tjugeskjegg,=,,keep:,audit:nno-left-r1-01
 haarek,=,,keep:,audit:nno-left-r1-01
@@ -1142,35 +1192,35 @@ fylkeskongarne,=,,keep:,audit:nno-left-r1-01
 gyllt,=,,keep:,audit:nno-left-r1-01
 mannsterke,=,,keep:,audit:nno-left-r1-01
 skundad,=,,keep:,audit:nno-left-r1-01
-hirdmenner,=,,awaiting verification of hirdmenn.,audit:nno-left-r1-01
-hirdmennerne,=,,awaiting verification of hirdmennene.,audit:nno-left-r1-01
+hirdmenner,hirdmenn,,,audit:nno-left-r1-01
+hirdmennerne,hirdmennene,,,audit:nno-left-r1-01
 vikverjarne,=,,keep:,audit:nno-left-r1-01
-vestanfyr,=,,awaiting verification of vestanfor.,audit:nno-left-r1-01
-yverfall,=,,awaiting verification of overfall.,audit:nno-left-r1-01
-logbok,=,,awaiting verification of lovbok.,audit:nno-left-r1-01
+vestanfyr,vestanfor,,,audit:nno-left-r1-01
+yverfall,overfall,,,audit:nno-left-r1-01
+logbok,lovbok,,,audit:nno-left-r1-01
 djerveleg,=,,keep:,audit:nno-left-r1-01
 toste,=,,keep:,audit:nno-left-r1-01
 skaalholt,=,,keep:,audit:nno-left-r1-01
-kvinnur,=,,awaiting verification of kvinner.,audit:nno-left-r1-01
+kvinnur,kvinner,,,audit:nno-left-r1-01
 orknøy,=,,keep:,audit:nno-left-r1-01
 krossferd,=,,keep:,audit:nno-left-r1-01
-klostret,=,,awaiting verification of klosteret.,audit:nno-left-r1-01
+klostret,klosteret,,,audit:nno-left-r1-01
 stormannsveldet,=,,keep:,audit:nno-left-r1-01
 hovudlandet,=,,keep:,audit:nno-left-r1-01
 kluft,=,,keep:,audit:nno-left-r1-01
 vens,=,,keep:,audit:nno-left-r1-01
 marstrand,=,,keep:,audit:nno-left-r1-01
-landslogi,=,,awaiting verification of landslova.,audit:nno-left-r1-01
-plaagad,=,,awaiting verification of plaga.,audit:nno-left-r1-01
+landslogi,landslova,,,audit:nno-left-r1-01
+plaagad,plaga,,,audit:nno-left-r1-01
 gerhard,=,,keep:,audit:nno-left-r1-01
 engelbrekt,=,,keep:,audit:nno-left-r1-01
 aalmennhug,=,,keep:,audit:nno-left-r1-01
 sambundne,=,,keep:,audit:nno-left-r1-01
 oldenborgske,=,,keep:,audit:nno-left-r1-01
-reformationen,=,,awaiting verification of reformasjonen.,audit:nno-left-r1-01
+reformationen,reformasjonen,,,audit:nno-left-r1-01
 steinviksholm,=,,keep:,audit:nno-left-r1-01
 kristianssand,=,,keep:,audit:nno-left-r1-01
-herremennerne,=,,awaiting verification of herremennene.,audit:nno-left-r1-01
+herremennerne,herremennene,,,audit:nno-left-r1-01
 trondhjemslen,=,,keep:,audit:nno-left-r1-01
 fredriksstad,=,,keep:,audit:nno-left-r1-01
 jarlsberg,=,,keep:,audit:nno-left-r1-01
@@ -1181,10 +1231,10 @@ logemne,=,,keep:,audit:nno-left-r1-01
 framsett,=,,keep:,audit:nno-left-r1-01
 umbrøyte,=,,keep:,audit:nno-left-r1-01
 fyresett,=,,keep:,audit:nno-left-r1-01
-orlogsflagdet,=,,awaiting verification of orlogsflagget.,audit:nno-left-r1-01
-resolution,=,,awaiting verification of resolusjon.,audit:nno-left-r1-01
-handelsflagdet,=,,awaiting verification of handelsflagget.,audit:nno-left-r1-01
-vestmagterne,=,,awaiting verification of vestmaktene.,audit:nno-left-r1-01
+orlogsflagdet,orlogsflagget,,,audit:nno-left-r1-01
+resolution,resolusjon,,,audit:nno-left-r1-01
+handelsflagdet,handelsflagget,,,audit:nno-left-r1-01
+vestmagterne,vestmaktene,,,audit:nno-left-r1-01
 døré,=,,keep:,audit:nno-left-r1-01
 gjætte,=,,keep:,audit:nno-left-r1-01
 svalla,=,,keep:,audit:nno-left-r1-01
@@ -1195,27 +1245,27 @@ røyva,=,,keep:,audit:nno-left-r1-01
 fjoren,=,,keep:,audit:nno-left-r1-01
 husbonde,=,,keep:,audit:nno-left-r1-01
 benkjer,=,,keep:,audit:nno-left-r1-01
-arbeidsmenner,=,,awaiting verification of arbeidsmenn.,audit:nno-left-r1-01
-afdalar,=,,awaiting verification of avdalar.,audit:nno-left-r1-01
+arbeidsmenner,arbeidsmenn,,,audit:nno-left-r1-01
+afdalar,avdalar,,,audit:nno-left-r1-01
 kidungar,=,,keep:,audit:nno-left-r1-01
 smaalauv,=,,keep:,audit:nno-left-r1-01
 vaksnekveiken,=,,keep:,audit:nno-left-r1-01
 kjætte,=,,keep:,audit:nno-left-r1-01
 stryker,=,,keep:,audit:nno-left-r1-01
-teker,=,,awaiting verification of tek.,audit:nno-left-r1-01
+teker,tek,,,audit:nno-left-r1-01
 tverkastar,=,,keep:,audit:nno-left-r1-01
 kvitfeld,=,,keep:,audit:nno-left-r1-01
 some,=,,keep:,audit:nno-left-r1-01
-kjøyrde,=,,awaiting verification of køyrde.,audit:nno-left-r1-01
+kjøyrde,køyrde,,,audit:nno-left-r1-01
 ægypten,=,,keep:,audit:nno-left-r1-01
-aalvorsamt,=,,awaiting verification of alvorsamt.,audit:nno-left-r1-01
-høvelegt,=,,awaiting verification of høveleg.,audit:nno-left-r1-01
+aalvorsamt,alvorsamt,,,audit:nno-left-r1-01
+høvelegt,høveleg,,,audit:nno-left-r1-01
 aasens,=,,keep:,audit:nno-left-r1-01
-serskilt,=,,awaiting verification of særskilt.,audit:nno-left-r1-01
-stræva,=,,awaiting verification of streva.,audit:nno-left-r1-01
-denna,=,,awaiting verification of denne.,audit:nno-left-r1-01
-stodo,=,,awaiting verification of stod. past pl,audit:nno-left-r1-01
-styremannen,=,,awaiting verification of styrmannen.,audit:nno-left-r1-01
+serskilt,særskilt,,,audit:nno-left-r1-01
+stræva,streva,,,audit:nno-left-r1-01
+denna,denne,,,audit:nno-left-r1-01
+stodo,stod,,past pl,audit:nno-left-r1-01
+styremannen,styrmannen,,,audit:nno-left-r1-01
 logn,=,,keep:,audit:nno-left-r1-01
 ragnild,=,,keep:,audit:nno-left-r1-01
 verfader,=,,keep:,audit:nno-left-r1-01
@@ -1223,7 +1273,7 @@ tugt,=,,keep:,audit:nno-left-r1-01
 ymise,=,,keep:,audit:nno-left-r1-01
 likaste,=,,keep:,audit:nno-left-r1-01
 skripna,=,,keep:,audit:nno-left-r1-01
-oftaste,=,,awaiting verification of oftast.,audit:nno-left-r1-01
+oftaste,oftast,,,audit:nno-left-r1-01
 næme,=,,keep:,audit:nno-left-r1-01
 heppen,=,,keep:,audit:nno-left-r1-01
 bygdom,=,,keep:,audit:nno-left-r1-01
@@ -1237,7 +1287,7 @@ vitlaus,=,,keep:,audit:nno-left-r1-01
 vangjort,=,,keep:,audit:nno-left-r1-01
 skrida,=,,keep:,audit:nno-left-r1-01
 tromen,=,,keep:,audit:nno-left-r1-01
-vanlegt,=,,awaiting verification of vanleg.,audit:nno-left-r1-01
+vanlegt,vanleg,,,audit:nno-left-r1-01
 brædt,=,,keep:,audit:nno-left-r1-01
 ovan,=,,keep:,audit:nno-left-r1-01
 leggjer,=,,keep:,audit:nno-left-r1-01
@@ -1250,95 +1300,2114 @@ myrkna,=,,keep:,audit:nno-left-r1-01
 unkas,=,,keep:,audit:nno-left-r1-01
 engelland,=,,keep:,audit:nno-left-r1-01
 bljug,=,,keep:,audit:nno-left-r1-01
-faer,=,,awaiting verification of far.,audit:nno-left-r1-01
+faer,far,,,audit:nno-left-r1-01
 gjetet,=,,keep:,audit:nno-left-r1-01
-mogelegt,=,,awaiting verification of mogeleg.,audit:nno-left-r1-01
-tennerna,=,,awaiting verification of tennene.,audit:nno-left-r1-01
+mogelegt,mogeleg,,,audit:nno-left-r1-01
+tennerna,tennene,,,audit:nno-left-r1-01
 sæterdyrri,=,,keep:,audit:nno-left-r1-01
-fyredi,=,,awaiting verification of fordi.,audit:nno-left-r1-01
+fyredi,fordi,,,audit:nno-left-r1-01
 burttil,=,,keep:,audit:nno-left-r1-01
-sigte,=,,awaiting verification of sikte.,audit:nno-left-r1-01
+sigte,sikte,,,audit:nno-left-r1-01
 uppigjenom,=,,keep:,audit:nno-left-r1-01
 særde,=,,keep:,audit:nno-left-r1-01
 framigjenom,=,,keep:,audit:nno-left-r1-01
 likast,=,,keep:,audit:nno-left-r1-01
-svarede,=,,awaiting verification of svarte.,audit:nno-left-r1-01
+svarede,=,,verifier disagreed (=: Danish passages (lassen-6/013)); was svarte,audit:nno-left-r1-01
 nordigjenom,=,,keep:,audit:nno-left-r1-01
 derikring,=,,keep:,audit:nno-left-r1-01
-aalvorsam,=,,awaiting verification of alvorsam.,audit:nno-left-r1-01
+aalvorsam,alvorsam,,,audit:nno-left-r1-01
 staute,=,,keep:,audit:nno-left-r1-01
 svartbakver,=,,keep:,audit:nno-left-r1-01
 litlejægti,=,,keep:,audit:nno-left-r1-01
 bergensleidi,=,,keep:,audit:nno-left-r1-01
-tjugande,=,,awaiting verification of tjuande.,audit:nno-left-r1-01
-tunnor,=,,awaiting verification of tønner.,audit:nno-left-r1-01
-fjordeparten,=,,awaiting verification of fjerdeparten.,audit:nno-left-r1-01
+tjugande,tjuande,,,audit:nno-left-r1-01
+tunnor,tønner,,,audit:nno-left-r1-01
+fjordeparten,fjerdeparten,,,audit:nno-left-r1-01
 flottir,=,,keep:,audit:nno-left-r1-01
-fjøll,=,,awaiting verification of fjell.,audit:nno-left-r1-01
+fjøll,fjell,,,audit:nno-left-r1-01
 myrkare,=,,keep:,audit:nno-left-r1-01
-tyrst,=,,awaiting verification of tørst.,audit:nno-left-r1-01
+tyrst,tørst,,,audit:nno-left-r1-01
 gjenturne,=,,keep:,audit:nno-left-r1-01
-fjoset,=,,awaiting verification of fjøset.,audit:nno-left-r1-01
+fjoset,fjøset,,,audit:nno-left-r1-01
 anne,=,,keep:,audit:nno-left-r1-01
-navn,=,,awaiting verification of namn.,audit:nno-left-r1-01
+navn,namn,,,audit:nno-left-r1-01
 uppfødd,=,,keep:,audit:nno-left-r1-01
-funno,=,,awaiting verification of fann. past pl,audit:nno-left-r1-01
-framføterne,=,,awaiting verification of framføtene.,audit:nno-left-r1-01
+funno,=,,verifier disagreed (=: grammar paradigm text lists plural past (me funno)); was fann,audit:nno-left-r1-01
+framføterne,framføtene,,,audit:nno-left-r1-01
 augom,=,,keep:,audit:nno-left-r1-01
-reiknad,=,,awaiting verification of rekna.,audit:nno-left-r1-01
+reiknad,rekna,,,audit:nno-left-r1-01
 agande,=,,keep:,audit:nno-left-r1-01
 trumma,=,,keep:,audit:nno-left-r1-01
 meistaren,=,,keep:,audit:nno-left-r1-01
 spila,=,,keep:,audit:nno-left-r1-01
 kvendfolk,=,,keep:,audit:nno-left-r1-01
 steinberg,=,,keep:,audit:nno-left-r1-01
-hangande,=,,awaiting verification of hengande.,audit:nno-left-r1-01
+hangande,hengande,,,audit:nno-left-r1-01
 urde,=,,keep:,audit:nno-left-r1-01
-folkelegt,=,,awaiting verification of folkeleg.,audit:nno-left-r1-01
+folkelegt,folkeleg,,,audit:nno-left-r1-01
 einveldet,=,,keep:,audit:nno-left-r1-01
 lensadelen,=,,keep:,audit:nno-left-r1-01
 samfunds,=,,keep:,audit:nno-left-r1-01
-vitenskapsmenner,=,,awaiting verification of vitskapsmenn.,audit:nno-left-r1-01
+vitenskapsmenner,vitskapsmenn,,,audit:nno-left-r1-01
 lags,=,,keep:,audit:nno-left-r1-01
-fyremaal,=,,awaiting verification of føremål.,audit:nno-left-r1-01
+fyremaal,føremål,,,audit:nno-left-r1-01
 hovdingskapen,=,,keep:,audit:nno-left-r1-01
 veter,=,,keep:,audit:nno-left-r1-01
 grysjelegt,=,,rejected target 'grysjeleg': not a modern bank form.,audit:nno-left-r1-01
-vaapnføre,=,,awaiting verification of våpenføre.,audit:nno-left-r1-01
+vaapnføre,våpenføre,,,audit:nno-left-r1-01
 tagall,=,,keep:,audit:nno-left-r1-01
 norig,=,,keep:,audit:nno-left-r1-01
 albion,=,,keep:,audit:nno-left-r1-01
 inte,=,,keep:,audit:nno-left-r1-01
 greidur,=,,keep:,audit:nno-left-r1-01
 ords,=,,keep:,audit:nno-left-r1-01
-kassur,=,,awaiting verification of kassar.,audit:nno-left-r1-01
+kassur,kassar,,,audit:nno-left-r1-01
 mannens,=,,keep:,audit:nno-left-r1-01
-fyrre,=,,awaiting verification of førre.,audit:nno-left-r1-01
-sogur,=,,awaiting verification of soger.,audit:nno-left-r1-01
+fyrre,førre,,,audit:nno-left-r1-01
+sogur,soger,,,audit:nno-left-r1-01
 storhopen,=,,keep:,audit:nno-left-r1-01
 klen,=,,keep:,audit:nno-left-r1-01
 allestader,=,,keep:,audit:nno-left-r1-01
 sonlaus,=,,keep:,audit:nno-left-r1-01
-kjennemerkje,=,,awaiting verification of kjennemerke.,audit:nno-left-r1-01
-serskilde,=,,awaiting verification of særskilde.,audit:nno-left-r1-01
+kjennemerkje,kjennemerke,,,audit:nno-left-r1-01
+serskilde,særskilde,,,audit:nno-left-r1-01
 orsaki,=,,rejected target 'orsaka': not a modern bank form.,audit:nno-left-r1-01
-aalment,=,,awaiting verification of allment.,audit:nno-left-r1-01
-nyttigt,=,,awaiting verification of nyttig.,audit:nno-left-r1-01
+aalment,allment,,,audit:nno-left-r1-01
+nyttigt,nyttig,,,audit:nno-left-r1-01
 daning,=,,keep:,audit:nno-left-r1-01
-rymde,=,,awaiting verification of rømde.,audit:nno-left-r1-01
-sparde,=,,awaiting verification of sparte.,audit:nno-left-r1-01
+rymde,=,,verifier disagreed (=: also past of rymma (have room for)); was rømde,audit:nno-left-r1-01
+sparde,sparte,,,audit:nno-left-r1-01
 knipte,=,,keep:,audit:nno-left-r1-01
 morgo,=,,keep:,audit:nno-left-r1-01
-godnatt,=,,awaiting verification of god natt.,audit:nno-left-r1-01
-kjempur,=,,awaiting verification of kjemper.,audit:nno-left-r1-01
+godnatt,god natt,,,audit:nno-left-r1-01
+kjempur,kjemper,,,audit:nno-left-r1-01
 nosi,=,,rejected target 'nosa': not a modern bank form.,audit:nno-left-r1-01
 ørstafjorden,=,,keep:,audit:nno-left-r1-01
 fjordung,=,,keep:,audit:nno-left-r1-01
-vænaste,=,,awaiting verification of venaste.,audit:nno-left-r1-01
+vænaste,venaste,,,audit:nno-left-r1-01
 gardom,=,,keep:,audit:nno-left-r1-01
 liderne,=,,keep:,audit:nno-left-r1-01
 byggland,=,,keep:,audit:nno-left-r1-01
 dørskid,=,,keep:,audit:nno-left-r1-01
+heidarne,heiane,,,audit:nno-left-r1-02
+skjoldmøyslaget,=,,keep:,audit:nno-left-r1-02
+loninn,=,,keep:,audit:nno-left-r1-02
+rosur,roser,,,audit:nno-left-r1-02
+fyrstundes,=,,keep:,audit:nno-left-r1-02
+utkrotat,=,,keep:,audit:nno-left-r1-02
+annlaug,=,,keep:,audit:nno-left-r1-02
+skulemeistar,skulemeister,,,audit:nno-left-r1-02
+ynskja,=,,verifier disagreed (=: -a form also present plural; ynskja valid infinitive); was ynskje,audit:nno-left-r1-02
+timbret,=,,keep:,audit:nno-left-r1-02
+segelstad,=,,keep:,audit:nno-left-r1-02
+skotteheren,=,,keep:,audit:nno-left-r1-02
+faarlegare,farlegare,,,audit:nno-left-r1-02
+slæst,slåst,,,audit:nno-left-r1-02
+sverig,=,,keep:,audit:nno-left-r1-02
+kompas,kompass,,,audit:nno-left-r1-02
+glosa,=,,keep:,audit:nno-left-r1-02
+iveg,=,,keep:,audit:nno-left-r1-02
+svein,=,,keep:,audit:nno-left-r1-02
+kvi,=,,keep:,audit:nno-left-r1-02
+nedatt,=,,keep:,audit:nno-left-r1-02
+sonno,=,,keep:,audit:nno-left-r1-02
+furur,=,,keep:,audit:nno-left-r1-02
+adde,=,,keep:,audit:nno-left-r1-02
+konn,=,,keep:,audit:nno-left-r1-02
+baate,=,,keep:,audit:nno-left-r1-02
+sille,=,,keep:,audit:nno-left-r1-02
+fyste,=,,keep:,audit:nno-left-r1-02
+fururne,=,,keep:,audit:nno-left-r1-02
+sumars,=,,keep:,audit:nno-left-r1-02
+hvor,=,,keep:,audit:nno-left-r1-02
+gammel,=,,keep:,audit:nno-left-r1-02
+myrk,=,,keep:,audit:nno-left-r1-02
+taarur,tårer,,,audit:nno-left-r1-02
+tjovar,=,,keep:,audit:nno-left-r1-02
+vani,=,,keep:,audit:nno-left-r1-02
+vitnesmaal,=,,keep:,audit:nno-left-r1-02
+teki,teke,,,audit:nno-left-r1-02
+somti,=,,keep:,audit:nno-left-r1-02
+tiene,tidene,,,audit:nno-left-r1-02
+tiendeparten,=,,keep:,audit:nno-left-r1-02
+dagjen,=,,keep:,audit:nno-left-r1-02
+vaarherre,vårherre,,,audit:nno-left-r1-02
+røundølene,=,,keep:,audit:nno-left-r1-02
+fao,=,,keep:,audit:nno-left-r1-02
+kaggjen,=,,keep:,audit:nno-left-r1-02
+kodn,=,,keep:,audit:nno-left-r1-02
+dennen,=,,keep:,audit:nno-left-r1-02
+uppao,=,,keep:,audit:nno-left-r1-02
+mæst,=,,keep:,audit:nno-left-r1-02
+ene,=,,verifier disagreed (=: also 'ene og alene' reading); was eine,audit:nno-left-r1-02
+gølve,=,,keep:,audit:nno-left-r1-02
+ungadn,=,,keep:,audit:nno-left-r1-02
+era,=,,keep:,audit:nno-left-r1-02
+synist,synest,,,audit:nno-left-r1-02
+inan,=,,keep:,audit:nno-left-r1-02
+unde,=,,keep:,audit:nno-left-r1-02
+mykji,=,,keep:,audit:nno-left-r1-02
+inkjinoko,=,,keep:,audit:nno-left-r1-02
+kunge,=,,keep:,audit:nno-left-r1-02
+hærve,=,,keep:,audit:nno-left-r1-02
+setustugun,=,,keep:,audit:nno-left-r1-02
+naatte,=,,keep:,audit:nno-left-r1-02
+vale,=,,keep:,audit:nno-left-r1-02
+hoke,=,,keep:,audit:nno-left-r1-02
+gjæng,=,,keep:,audit:nno-left-r1-02
+lout,=,,keep:,audit:nno-left-r1-02
+jou,=,,keep:,audit:nno-left-r1-02
+bou,=,,keep:,audit:nno-left-r1-02
+regtig,=,,keep:,audit:nno-left-r1-02
+goe,=,,keep:,audit:nno-left-r1-02
+bjønnen,=,,keep:,audit:nno-left-r1-02
+skjein,=,,keep:,audit:nno-left-r1-02
+yvi,=,,keep:,audit:nno-left-r1-02
+saang,=,,keep:,audit:nno-left-r1-02
+æventy,=,,keep:,audit:nno-left-r1-02
+fljuga,=,,keep:,audit:nno-left-r1-02
+foro,=,,keep:,audit:nno-left-r1-02
+dylja,=,,keep:,audit:nno-left-r1-02
+samler,=,,keep:,audit:nno-left-r1-02
+stikta,=,,keep:,audit:nno-left-r1-02
+børn,=,,keep:,audit:nno-left-r1-02
+meget,=,,keep:,audit:nno-left-r1-02
+mangje,=,,keep:,audit:nno-left-r1-02
+hallvards,=,,keep:,audit:nno-left-r1-02
+tidamerke,=,,keep:,audit:nno-left-r1-02
+jonsvoka,=,,keep:,audit:nno-left-r1-02
+heidningom,=,,keep:,audit:nno-left-r1-02
+avdi,av di,,,audit:nno-left-r1-02
+marts,mars,,,audit:nno-left-r1-02
+gregorius,=,,keep:,audit:nno-left-r1-02
+fylge,fylgje,,,audit:nno-left-r1-02
+avbrøytt,=,,keep:,audit:nno-left-r1-02
+dagatalet,=,,keep:,audit:nno-left-r1-02
+jøtunar,jotnar,,,audit:nno-left-r1-02
+mit,=,,keep:,audit:nno-left-r1-02
+judaland,=,,keep:,audit:nno-left-r1-02
+klædet,=,,keep:,audit:nno-left-r1-02
+sidon,=,,keep:,audit:nno-left-r1-02
+nordmanna,=,,keep:,audit:nno-left-r1-02
+innanfyre,=,,keep:,audit:nno-left-r1-02
+skynat,=,,keep:,audit:nno-left-r1-02
+brænder,=,,keep:,audit:nno-left-r1-02
+æder,=,,keep:,audit:nno-left-r1-02
+gloande,=,,keep:,audit:nno-left-r1-02
+sétt,sett,,,audit:nno-left-r1-02
+nòkon,nokon,,,audit:nno-left-r1-02
+sùmaren,sumaren,,,audit:nno-left-r1-02
+prinsi,=,,keep:,audit:nno-left-r1-02
+sylvsprettet,=,,keep:,audit:nno-left-r1-02
+bakføterne,=,,keep:,audit:nno-left-r1-02
+stakars,=,,keep:,audit:nno-left-r1-02
+passupp,=,,keep:,audit:nno-left-r1-02
+rullepylsa,=,,keep:,audit:nno-left-r1-02
+lambet,=,,keep:,audit:nno-left-r1-02
+tùrt,=,,"verifier disagreed (turt: turt is valid nynorsk, closer form); was tørt",audit:nno-left-r1-02
+dòtteri,=,,keep:,audit:nno-left-r1-02
+sòn,son,,,audit:nno-left-r1-02
+reidskap,=,,keep:,audit:nno-left-r1-02
+muspelheim,=,,keep:,audit:nno-left-r1-02
+nordanfyr,=,,keep:,audit:nno-left-r1-02
+aasgard,=,,keep:,audit:nno-left-r1-02
+gjøymt,gøymt,,,audit:nno-left-r1-02
+æveleg,=,,keep:,audit:nno-left-r1-02
+herskipi,=,,keep:,audit:nno-left-r1-02
+herads,=,,keep:,audit:nno-left-r1-02
+draapsmannen,=,,keep:,audit:nno-left-r1-02
+frostatings,=,,keep:,audit:nno-left-r1-02
+gulatings,=,,keep:,audit:nno-left-r1-02
+normannerne,=,,keep:,audit:nno-left-r1-02
+gjøymde,gøymde,,,audit:nno-left-r1-02
+anglesea,=,,keep:,audit:nno-left-r1-02
+vermeland,=,,keep:,audit:nno-left-r1-02
+innkomur,=,,keep:,audit:nno-left-r1-02
+hardstyre,=,,keep:,audit:nno-left-r1-02
+døyvt,=,,keep:,audit:nno-left-r1-02
+aarmennerne,=,,keep:,audit:nno-left-r1-02
+agelause,=,,keep:,audit:nno-left-r1-02
+hardhjartad,=,,keep:,audit:nno-left-r1-02
+upplærd,=,,keep:,audit:nno-left-r1-02
+sunnanfjellske,=,,keep:,audit:nno-left-r1-02
+godviljugt,=,,keep:,audit:nno-left-r1-02
+haakonar,=,,keep:,audit:nno-left-r1-02
+takomtil,=,,keep:,audit:nno-left-r1-02
+yverherre,=,,keep:,audit:nno-left-r1-02
+sjøbygderne,=,,keep:,audit:nno-left-r1-02
+bergljot,=,,keep:,audit:nno-left-r1-02
+upplandskongarne,=,,keep:,audit:nno-left-r1-02
+sendemenner,=,,keep:,audit:nno-left-r1-02
+augurne,=,,keep:,audit:nno-left-r1-02
+kyrkjelog,=,,keep:,audit:nno-left-r1-02
+drjug,=,,keep:,audit:nno-left-r1-02
+hovdinglaust,=,,keep:,audit:nno-left-r1-02
+burtjagad,=,,keep:,audit:nno-left-r1-02
+nybygderne,=,,keep:,audit:nno-left-r1-02
+sigtrygg,=,,keep:,audit:nno-left-r1-02
+silkeskjegg,=,,keep:,audit:nno-left-r1-02
+logsegjings,=,,keep:,audit:nno-left-r1-02
+sogurne,=,,keep:,audit:nno-left-r1-02
+yverfallen,=,,keep:,audit:nno-left-r1-02
+vinland,=,,keep:,audit:nno-left-r1-02
+nordamerika,=,,keep:,audit:nno-left-r1-02
+grunnleggja,=,,keep:,audit:nno-left-r1-02
+vanskelegt,vanskeleg,,,audit:nno-left-r1-02
+miklegard,=,,keep:,audit:nno-left-r1-02
+olavs,=,,keep:,audit:nno-left-r1-02
+gravsett,=,,keep:,audit:nno-left-r1-02
+sloknat,=,,keep:,audit:nno-left-r1-02
+engelskmenner,=,,keep:,audit:nno-left-r1-02
+dalsland,=,,keep:,audit:nno-left-r1-02
+frændarne,=,,keep:,audit:nno-left-r1-02
+megtigare,mektigare,,,audit:nno-left-r1-02
+minntest,=,,keep:,audit:nno-left-r1-02
+herferderne,=,,keep:,audit:nno-left-r1-02
+umbodsmenner,=,,keep:,audit:nno-left-r1-02
+braaddøydde,=,,keep:,audit:nno-left-r1-02
+smaaleni,=,,keep:,audit:nno-left-r1-02
+tyna,=,,keep:,audit:nno-left-r1-02
+sagdest,=,,keep:,audit:nno-left-r1-02
+stands,=,,keep:,audit:nno-left-r1-02
+lagmennerne,=,,keep:,audit:nno-left-r1-02
+svult,=,,keep:,audit:nno-left-r1-02
+handelsmennerne,=,,keep:,audit:nno-left-r1-02
+ærlegt,=,,keep:,audit:nno-left-r1-02
+herferder,=,,keep:,audit:nno-left-r1-02
+vanmagt,=,,keep:,audit:nno-left-r1-02
+utarmad,=,,keep:,audit:nno-left-r1-02
+skipsferdi,=,,keep:,audit:nno-left-r1-02
+næmast,=,,keep:,audit:nno-left-r1-02
+mynster,=,,keep:,audit:nno-left-r1-02
+stormannsvelde,=,,keep:,audit:nno-left-r1-02
+festebønder,=,,keep:,audit:nno-left-r1-02
+sorø,=,,keep:,audit:nno-left-r1-02
+hartvik,=,,keep:,audit:nno-left-r1-02
+samlags,=,,keep:,audit:nno-left-r1-02
+sigbrit,=,,keep:,audit:nno-left-r1-02
+villums,=,,keep:,audit:nno-left-r1-02
+handelsveldet,=,,keep:,audit:nno-left-r1-02
+sveriks,=,,keep:,audit:nno-left-r1-02
+ervekonge,=,,keep:,audit:nno-left-r1-02
+sambundet,=,,keep:,audit:nno-left-r1-02
+deil,=,,keep:,audit:nno-left-r1-02
+beskrivelse,=,,keep:,audit:nno-left-r1-02
+handels,=,,keep:,audit:nno-left-r1-02
+finnmarks,=,,keep:,audit:nno-left-r1-02
+birkerett,=,,keep:,audit:nno-left-r1-02
+sehested,=,,keep:,audit:nno-left-r1-02
+magter,=,,keep:,audit:nno-left-r1-02
+utgifterne,=,,keep:,audit:nno-left-r1-02
+febr,=,,keep:,audit:nno-left-r1-02
+tyrkiet,=,,keep:,audit:nno-left-r1-02
+regjerings,=,,keep:,audit:nno-left-r1-02
+tyrken,=,,keep:,audit:nno-left-r1-02
+teatret,=,,keep:,audit:nno-left-r1-02
+gudelege,=,,keep:,audit:nno-left-r1-02
+naturi,=,,keep:,audit:nno-left-r1-02
+riksgjeldi,=,,keep:,audit:nno-left-r1-02
+selskab,=,,keep:,audit:nno-left-r1-02
+license,=,,keep:,audit:nno-left-r1-02
+negtat,=,,keep:,audit:nno-left-r1-02
+høgsette,=,,keep:,audit:nno-left-r1-02
+logemnet,=,,keep:,audit:nno-left-r1-02
+stormagterne,=,,keep:,audit:nno-left-r1-02
+handelsfloten,=,,keep:,audit:nno-left-r1-02
+motionen,=,,keep:,audit:nno-left-r1-02
+jaabæk,=,,keep:,audit:nno-left-r1-02
+maalreisningi,målreisinga,,,audit:nno-left-r1-02
+vinstremenner,=,,keep:,audit:nno-left-r1-02
+vinstremennerne,=,,keep:,audit:nno-left-r1-02
+mosyste,=,,keep:,audit:nno-left-r1-02
+eigaang,=,,keep:,audit:nno-left-r1-02
+stølé,=,,keep:,audit:nno-left-r1-02
+enddaa,=,,keep:,audit:nno-left-r1-02
+haugafolke,=,,keep:,audit:nno-left-r1-02
+voro,=,,keep:,audit:nno-left-r1-02
+gjentu,=,,keep:,audit:nno-left-r1-02
+kaana,=,,keep:,audit:nno-left-r1-02
+hae,=,,keep:,audit:nno-left-r1-02
+tokte,=,,keep:,audit:nno-left-r1-02
+haage,=,,keep:,audit:nno-left-r1-02
+tvei,=,,keep:,audit:nno-left-r1-02
+kadla,=,,keep:,audit:nno-left-r1-02
+julaftaa,=,,keep:,audit:nno-left-r1-02
+toma,=,,keep:,audit:nno-left-r1-02
+stundaa,=,,keep:,audit:nno-left-r1-02
+kjørebytta,=,,keep:,audit:nno-left-r1-02
+ølbidni,=,,keep:,audit:nno-left-r1-02
+eingaang,=,,keep:,audit:nno-left-r1-02
+førr,=,,keep:,audit:nno-left-r1-02
+troppi,=,,keep:,audit:nno-left-r1-02
+kjemer,kjem,,,audit:nno-left-r1-02
+skjeivt,skeivt,,,audit:nno-left-r1-02
+smærre,=,,keep:,audit:nno-left-r1-02
+letingen,=,,keep:,audit:nno-left-r1-02
+tobaksrullen,=,,keep:,audit:nno-left-r1-02
+gneger,=,,keep:,audit:nno-left-r1-02
+theatret,=,,keep:,audit:nno-left-r1-02
+tverkasta,=,,keep:,audit:nno-left-r1-02
+bergrive,=,,keep:,audit:nno-left-r1-02
+kverteit,=,,keep:,audit:nno-left-r1-02
+kjøyra,=,,verifier disagreed (=: -a form also present plural; køyra infinitive only); was køyra,audit:nno-left-r1-02
+gormyrar,=,,keep:,audit:nno-left-r1-02
+gamlefuten,=,,keep:,audit:nno-left-r1-02
+pannekak,=,,keep:,audit:nno-left-r1-02
+gjeiter,geiter,,,audit:nno-left-r1-02
+gledesljod,=,,keep:,audit:nno-left-r1-02
+kinnbeinom,=,,keep:,audit:nno-left-r1-02
+upaa,=,,keep:,audit:nno-left-r1-02
+framfotom,=,,keep:,audit:nno-left-r1-02
+upetter,oppetter,,,audit:nno-left-r1-02
+tvegne,=,,keep:,audit:nno-left-r1-02
+stande,=,,keep:,audit:nno-left-r1-02
+riddarsmenn,=,,keep:,audit:nno-left-r1-02
+nymodne,=,,keep:,audit:nno-left-r1-02
+duellanter,=,,keep:,audit:nno-left-r1-02
+hugvarm,=,,keep:,audit:nno-left-r1-02
+sturde,=,,keep:,audit:nno-left-r1-02
+kanske,kanskje,,,audit:nno-left-r1-02
+hyrdingskogen,=,,keep:,audit:nno-left-r1-02
+braudmole,=,,keep:,audit:nno-left-r1-02
+smaatre,=,,keep:,audit:nno-left-r1-02
+ovn,=,,keep:,audit:nno-left-r1-02
+regndag,=,,keep:,audit:nno-left-r1-02
+vognramlen,=,,keep:,audit:nno-left-r1-02
+ljonelden,=,,keep:,audit:nno-left-r1-02
+hjulom,=,,keep:,audit:nno-left-r1-02
+syrgjespil,=,,keep:,audit:nno-left-r1-02
+bukkesongen,=,,keep:,audit:nno-left-r1-02
+nilfloden,=,,keep:,audit:nno-left-r1-02
+aarsvokstren,=,,keep:,audit:nno-left-r1-02
+nilens,=,,keep:,audit:nno-left-r1-02
+livsmagt,=,,keep:,audit:nno-left-r1-02
+philosoph,=,,keep:,audit:nno-left-r1-02
+metamorphoses,=,,keep:,audit:nno-left-r1-02
+pluto,=,,keep:,audit:nno-left-r1-02
+synger,=,,keep:,audit:nno-left-r1-02
+maalvokstren,=,,keep:,audit:nno-left-r1-02
+gjenomført,=,,keep:,audit:nno-left-r1-02
+istadenfor,i staden for,,,audit:nno-left-r1-02
+umskrifter,omskrifter,,,audit:nno-left-r1-02
+rettleiding,rettleiing,,,audit:nno-left-r1-02
+viljat,=,,keep:,audit:nno-left-r1-02
+svartestilla,=,,keep:,audit:nno-left-r1-02
+try,=,,keep:,audit:nno-left-r1-02
+skinnklæde,=,,keep:,audit:nno-left-r1-02
+drogo,=,,keep:,audit:nno-left-r1-02
+dragande,=,,keep:,audit:nno-left-r1-02
+vonom,=,,keep:,audit:nno-left-r1-02
+utsynningen,=,,keep:,audit:nno-left-r1-02
+leidi,=,,keep:,audit:nno-left-r1-02
+landsida,=,,keep:,audit:nno-left-r1-02
+øyrom,=,,keep:,audit:nno-left-r1-02
+strævande,=,,keep:,audit:nno-left-r1-02
+ellest,=,,keep:,audit:nno-left-r1-02
+sjo,sjø,,,audit:nno-left-r1-02
+vyrda,=,,keep:,audit:nno-left-r1-02
+forfeder,=,,keep:,audit:nno-left-r1-02
+gaavor,=,,keep:,audit:nno-left-r1-02
+mannsens,=,,keep:,audit:nno-left-r1-02
+vitsemd,=,,keep:,audit:nno-left-r1-02
+uppvokstren,=,,keep:,audit:nno-left-r1-02
+vokstren,=,,keep:,audit:nno-left-r1-02
+medgivnad,=,,keep:,audit:nno-left-r1-02
+vinneskap,=,,keep:,audit:nno-left-r1-02
+jamnan,=,,keep:,audit:nno-left-r1-02
+forfederne,=,,keep:,audit:nno-left-r1-02
+tilgaaning,=,,keep:,audit:nno-left-r1-02
+skyn,=,,keep:,audit:nno-left-r1-02
+fyremunerne,=,,keep:,audit:nno-left-r1-02
+faaduglege,=,,keep:,audit:nno-left-r1-02
+hepne,=,,keep:,audit:nno-left-r1-02
+dilikt,=,,keep:,audit:nno-left-r1-02
+ulærde,=,,keep:,audit:nno-left-r1-02
+klokaste,=,,keep:,audit:nno-left-r1-02
+vægjesam,=,,keep:,audit:nno-left-r1-02
+skræma,=,,keep:,audit:nno-left-r1-02
+læja,=,,keep:,audit:nno-left-r1-02
+visare,=,,keep:,audit:nno-left-r1-02
+gjerest,gjerast,,,audit:nno-left-r1-02
+uvandt,=,,keep:,audit:nno-left-r1-02
+reida,=,,keep:,audit:nno-left-r1-02
+daglegt,dagleg,,,audit:nno-left-r1-02
+tøygja,=,,keep:,audit:nno-left-r1-02
+kipna,=,,keep:,audit:nno-left-r1-02
+sjoen,sjøen,,,audit:nno-left-r1-02
+løyndo,=,,keep:,audit:nno-left-r1-02
+syndo,=,,keep:,audit:nno-left-r1-02
+standast,=,,keep:,audit:nno-left-r1-02
+røyna,=,,keep:,audit:nno-left-r1-02
+sæla,=,,keep:,audit:nno-left-r1-02
+ulvom,=,,keep:,audit:nno-left-r1-02
+tjota,=,,keep:,audit:nno-left-r1-02
+aarom,=,,keep:,audit:nno-left-r1-02
+ovgjort,=,,keep:,audit:nno-left-r1-02
+legst,=,,keep:,audit:nno-left-r1-02
+storbreden,=,,keep:,audit:nno-left-r1-02
+dalsbotnen,=,,keep:,audit:nno-left-r1-02
+kaldsno,=,,keep:,audit:nno-left-r1-02
+snjoen,snøen,,,audit:nno-left-r1-02
+fyrevegen,=,,keep:,audit:nno-left-r1-02
+hernede,=,,keep:,audit:nno-left-r1-02
+vetlebreden,=,,keep:,audit:nno-left-r1-02
+jostedalsbreden,=,,keep:,audit:nno-left-r1-02
+undarlege,=,,keep:,audit:nno-left-r1-02
+bekkjer,=,,keep:,audit:nno-left-r1-02
+slita,=,,keep:,audit:nno-left-r1-02
+nokorlunde,=,,keep:,audit:nno-left-r1-02
+sprungor,=,,keep:,audit:nno-left-r1-02
+sprunga,=,,keep:,audit:nno-left-r1-02
+felagen,=,,keep:,audit:nno-left-r1-02
+bygdar,=,,keep:,audit:nno-left-r1-02
+herbyrge,=,,keep:,audit:nno-left-r1-02
+bumba,=,,keep:,audit:nno-left-r1-02
+grannesætri,=,,keep:,audit:nno-left-r1-02
+etet,=,,keep:,audit:nno-left-r1-02
+litetvetta,=,,keep:,audit:nno-left-r1-02
+sunnanvind,=,,keep:,audit:nno-left-r1-02
+nordanvind,=,,keep:,audit:nno-left-r1-02
+sovidt,så vidt,,,audit:nno-left-r1-02
+likaso,=,,keep:,audit:nno-left-r1-02
+krullat,=,,keep:,audit:nno-left-r1-02
+skrivarsætri,=,,keep:,audit:nno-left-r1-02
+kulor,=,,keep:,audit:nno-left-r1-02
+treom,=,,keep:,audit:nno-left-r1-02
+luma,=,,keep:,audit:nno-left-r1-02
+blidkadest,=,,keep:,audit:nno-left-r1-02
+letst,=,,keep:,audit:nno-left-r1-02
+naadigt,=,,keep:,audit:nno-left-r1-02
+sputtade,=,,keep:,audit:nno-left-r1-02
+greinerna,=,,keep:,audit:nno-left-r1-02
+lemerne,=,,keep:,audit:nno-left-r1-02
+lutte,=,,keep:,audit:nno-left-r1-02
+burtimot,=,,keep:,audit:nno-left-r1-02
+skire,=,,keep:,audit:nno-left-r1-02
+forstend,=,,keep:,audit:nno-left-r1-02
+naserna,=,,keep:,audit:nno-left-r1-02
+skrivarfolket,=,,keep:,audit:nno-left-r1-02
+oksli,=,,keep:,audit:nno-left-r1-02
+derute,der ute,,,audit:nno-left-r1-02
+vreid,=,,keep:,audit:nno-left-r1-02
+byrsorna,=,,keep:,audit:nno-left-r1-02
+svenskom,=,,keep:,audit:nno-left-r1-02
+kjendmann,=,,keep:,audit:nno-left-r1-02
+fredleg,=,,keep:,audit:nno-left-r1-02
+sverike,=,,keep:,audit:nno-left-r1-02
+unyttes,=,,keep:,audit:nno-left-r1-02
+merkestengerna,=,,keep:,audit:nno-left-r1-02
+svida,=,,keep:,audit:nno-left-r1-02
+notti,=,,keep:,audit:nno-left-r1-02
+nedfyre,=,,keep:,audit:nno-left-r1-02
+utfyre,=,,keep:,audit:nno-left-r1-02
+bjørnsmarknaden,=,,keep:,audit:nno-left-r1-02
+nordstigen,=,,keep:,audit:nno-left-r1-02
+nybaatar,=,,keep:,audit:nno-left-r1-02
+næverkippe,=,,keep:,audit:nno-left-r1-02
+nedanfyre,=,,keep:,audit:nno-left-r1-02
+øyværingar,=,,keep:,audit:nno-left-r1-02
+reklings,=,,keep:,audit:nno-left-r1-02
+marknads,=,,keep:,audit:nno-left-r1-02
+øyfolket,=,,keep:,audit:nno-left-r1-02
+nordmarknaden,=,,keep:,audit:nno-left-r1-02
+sankat,=,,keep:,audit:nno-left-r1-02
+morki,=,,keep:,audit:nno-left-r1-02
+flaget,=,,keep:,audit:nno-left-r1-02
+utholmarne,=,,keep:,audit:nno-left-r1-02
+braaksame,=,,keep:,audit:nno-left-r1-02
+turvtest,=,,keep:,audit:nno-left-r1-02
+burs,=,,keep:,audit:nno-left-r1-02
+fjos,=,,keep:,audit:nno-left-r1-02
+smaahellor,=,,keep:,audit:nno-left-r1-02
+umkvelvde,=,,keep:,audit:nno-left-r1-02
+steinhus,=,,keep:,audit:nno-left-r1-02
+dælder,=,,keep:,audit:nno-left-r1-02
+bakkebruner,=,,keep:,audit:nno-left-r1-02
+trune,=,,keep:,audit:nno-left-r1-02
+skræmsla,=,,keep:,audit:nno-left-r1-02
+utlærde,=,,keep:,audit:nno-left-r1-02
+bræda,=,,keep:,audit:nno-left-r1-02
+forliktest,=,,keep:,audit:nno-left-r1-02
+uheppa,=,,keep:,audit:nno-left-r1-02
+strjuka,=,,keep:,audit:nno-left-r1-02
+dunryggen,=,,keep:,audit:nno-left-r1-02
+fiskehentingi,=,,keep:,audit:nno-left-r1-02
+krambud,=,,keep:,audit:nno-left-r1-02
+spursmaal,spørsmål,,,audit:nno-left-r1-02
+haustsida,=,,keep:,audit:nno-left-r1-02
+farty,=,,keep:,audit:nno-left-r1-02
+skræm,skrem,,,audit:nno-left-r1-02
+fredkjær,=,,keep:,audit:nno-left-r1-02
+venja,=,,keep:,audit:nno-left-r1-02
+saltarhuset,=,,keep:,audit:nno-left-r1-02
+vaarstemna,=,,keep:,audit:nno-left-r1-02
+meins,=,,keep:,audit:nno-left-r1-02
+spunnet,=,,keep:,audit:nno-left-r1-02
+taarebøner,=,,keep:,audit:nno-left-r1-02
+heimhug,=,,keep:,audit:nno-left-r1-02
+barnaheimen,=,,keep:,audit:nno-left-r1-02
+bylgjur,bylgjer,,,audit:nno-left-r1-02
+uppkomur,=,,keep:,audit:nno-left-r1-02
+kjeldur,kjelder,,,audit:nno-left-r1-02
+solten,=,,keep:,audit:nno-left-r1-02
+makalaus,=,,keep:,audit:nno-left-r1-02
+geiterne,geitene,,,audit:nno-left-r1-02
+adelegt,adeleg,,,audit:nno-left-r1-02
+nott,=,,keep:,audit:nno-left-r1-02
+vegirne,vegane,,,audit:nno-left-r1-02
+geitungar,=,,keep:,audit:nno-left-r1-02
+stangast,=,,keep:,audit:nno-left-r1-02
+skalkestrida,=,,keep:,audit:nno-left-r1-02
+minkat,=,,keep:,audit:nno-left-r1-02
+pak,=,,keep:,audit:nno-left-r1-02
+stevningsleid,=,,keep:,audit:nno-left-r1-02
+arabarne,=,,keep:,audit:nno-left-r1-02
+somange,=,,keep:,audit:nno-left-r1-02
+aakren,åkeren,,,audit:nno-left-r1-02
+ihug,=,,keep:,audit:nno-left-r1-02
+slæp,=,,keep:,audit:nno-left-r1-02
+glod,glød,,,audit:nno-left-r1-02
+holdning,=,,keep:,audit:nno-left-r1-02
+mannaminne,=,,keep:,audit:nno-left-r1-02
+sosom,=,,keep:,audit:nno-left-r1-02
+stoguklokke,=,,keep:,audit:nno-left-r1-02
+klokkeplanen,=,,keep:,audit:nno-left-r1-02
+heimantil,=,,keep:,audit:nno-left-r1-02
+vaalundt,=,,keep:,audit:nno-left-r1-02
+fyllt,fylt,,,audit:nno-left-r1-02
+hingo,=,,keep:,audit:nno-left-r1-02
+einstad,=,,keep:,audit:nno-left-r1-02
+sjæl,sjel,,,audit:nno-left-r1-02
+liksovel,=,,keep:,audit:nno-left-r1-02
+turkesjuke,=,,keep:,audit:nno-left-r1-02
+forgift,=,,keep:,audit:nno-left-r1-02
+gasljos,=,,keep:,audit:nno-left-r1-02
+kvaare,=,,keep:,audit:nno-left-r1-02
+ruturne,rutene,,,audit:nno-left-r1-02
+augnesyning,=,,keep:,audit:nno-left-r1-02
+laglegt,lagleg,,,audit:nno-left-r1-02
+islendsk,=,,keep:,audit:nno-left-r1-02
+gatur,gater,,,audit:nno-left-r1-02
+treheimen,=,,keep:,audit:nno-left-r1-02
+treheim,=,,keep:,audit:nno-left-r1-03
+jordheimen,=,,keep:,audit:nno-left-r1-03
+kjellarheimen,=,,keep:,audit:nno-left-r1-03
+mønstermann,=,,keep:,audit:nno-left-r1-03
+sagbord,=,,keep:,audit:nno-left-r1-03
+vælmagt,velmakt,,,audit:nno-left-r1-03
+vesteuropa,=,,keep:,audit:nno-left-r1-03
+sovoret,=,,keep:,audit:nno-left-r1-03
+broderskap,brorskap,,,audit:nno-left-r1-03
+rikslivet,=,,keep:,audit:nno-left-r1-03
+godseigaranne,godseigarane,,,audit:nno-left-r1-03
+adelsmennerne,adelsmennene,,,audit:nno-left-r1-03
+tridjestandet,tredjestandet,,,audit:nno-left-r1-03
+haandverkarar,handverkarar,,,audit:nno-left-r1-03
+borgerne,borgene,,castles in examples,audit:nno-left-r1-03
+dømes,=,,keep:,audit:nno-left-r1-03
+vaapnmagt,=,,keep:,audit:nno-left-r1-03
+kunstmenner,=,,keep:,audit:nno-left-r1-03
+venedig,=,,keep:,audit:nno-left-r1-03
+fridomshugen,=,,keep:,audit:nno-left-r1-03
+franskt,=,,keep:,audit:nno-left-r1-03
+tyskt,=,,keep:,audit:nno-left-r1-03
+herteket,=,,keep:,audit:nno-left-r1-03
+trælkat,trælka,,,audit:nno-left-r1-03
+njemen,=,,keep:,audit:nno-left-r1-03
+petersburg,=,,keep:,audit:nno-left-r1-03
+sturtad,sturte,,,audit:nno-left-r1-03
+smolensk,=,,keep:,audit:nno-left-r1-03
+dnjepr,=,,keep:,audit:nno-left-r1-03
+liki,=,,rejected target 'lika': not a modern bank form.,audit:nno-left-r1-03
+klædi,kleda,,,audit:nno-left-r1-03
+styvlarne,støvlane,,,audit:nno-left-r1-03
+nordanvinden,nordavinden,,,audit:nno-left-r1-03
+brotsmenner,brotsmenn,,,audit:nno-left-r1-03
+brevsendast,=,,keep:,audit:nno-left-r1-03
+jordad,jorda,,,audit:nno-left-r1-03
+austlengst,=,,keep:,audit:nno-left-r1-03
+harmelegt,=,,keep:,audit:nno-left-r1-03
+smaat,smått,,,audit:nno-left-r1-03
+cannon,=,,keep:,audit:nno-left-r1-03
+prøvad,=,,verifier disagreed (=: prøvad can be participle (prøvd)); was prøvde,audit:nno-left-r1-03
+upppassaren,oppassaren,,,audit:nno-left-r1-03
+vognerne,vognene,,,audit:nno-left-r1-03
+dørerne,dørene,,,audit:nno-left-r1-03
+tred,=,,keep:,audit:nno-left-r1-03
+meire,meir,,,audit:nno-left-r1-03
+fridomstankarne,=,,keep:,audit:nno-left-r1-03
+semjast,=,,keep:,audit:nno-left-r1-03
+storheimen,=,,keep:,audit:nno-left-r1-03
+fedraland,fedreland,,,audit:nno-left-r1-03
+ættarlivet,=,,keep:,audit:nno-left-r1-03
+uppklaaringstidi,=,,keep:,audit:nno-left-r1-03
+mannalivet,=,,keep:,audit:nno-left-r1-03
+fornt,=,,keep:,audit:nno-left-r1-03
+naturlivet,=,,keep:,audit:nno-left-r1-03
+sumetider,=,,keep:,audit:nno-left-r1-03
+fornheimen,=,,keep:,audit:nno-left-r1-03
+fyllte,fylte,,,audit:nno-left-r1-03
+keyser,=,,keep:,audit:nno-left-r1-03
+iminsto,=,,keep:,audit:nno-left-r1-03
+traadom,=,,keep:,audit:nno-left-r1-03
+aalmenn,allmenn,,,audit:nno-left-r1-03
+skilgrein,=,,keep:,audit:nno-left-r1-03
+fyresyningar,=,,keep:,audit:nno-left-r1-03
+aalmennfyresyning,=,,keep:,audit:nno-left-r1-03
+tilhopes,=,,keep:,audit:nno-left-r1-03
+umgripet,omgrepet,,,audit:nno-left-r1-03
+tankerom,=,,keep:,audit:nno-left-r1-03
+braudskanken,=,,keep:,audit:nno-left-r1-03
+hægdehaugen,=,,keep:,audit:nno-left-r1-03
+godkveld,god kveld,,,audit:nno-left-r1-03
+ustødt,=,,keep:,audit:nno-left-r1-03
+blidt,=,,keep:,audit:nno-left-r1-03
+lumma,lomma,,,audit:nno-left-r1-03
+uksar,oksar,,,audit:nno-left-r1-03
+hyttur,hytter,,,audit:nno-left-r1-03
+steinom,=,,keep:,audit:nno-left-r1-03
+stuslegt,=,,keep:,audit:nno-left-r1-03
+nordyver,nordover,,,audit:nno-left-r1-03
+breider,breier,,,audit:nno-left-r1-03
+voldsfjorden,=,,keep:,audit:nno-left-r1-03
+makalaust,=,,keep:,audit:nno-left-r1-03
+mangedubbelt,mangedobbelt,,,audit:nno-left-r1-03
+myrkeblaae,=,,keep:,audit:nno-left-r1-03
+storfjellet,=,,keep:,audit:nno-left-r1-03
+jøtunheimen,=,,keep:,audit:nno-left-r1-03
+bleiv,=,,keep:,audit:nno-left-r1-03
+tvaaren,=,,keep:,audit:nno-left-r1-03
+alpom,=,,keep:,audit:nno-left-r1-03
+smøygjer,=,,keep:,audit:nno-left-r1-03
+olst,=,,keep:,audit:nno-left-r1-03
+drivslidfjellet,=,,keep:,audit:nno-left-r1-03
+sætisdal,=,,keep:,audit:nno-left-r1-03
+surtemyr,=,,keep:,audit:nno-left-r1-03
+slatberg,=,,keep:,audit:nno-left-r1-03
+songhusdøri,=,,keep:,audit:nno-left-r1-03
+vænare,venare,,,audit:nno-left-r1-03
+spilad,=,,verifier disagreed (spela: spela covers past and participle); was spelte,audit:nno-left-r1-03
+syndleg,=,,keep:,audit:nno-left-r1-03
+duneleg,=,,keep:,audit:nno-left-r1-03
+kallhovde,=,,keep:,audit:nno-left-r1-03
+støyl,støl,,,audit:nno-left-r1-03
+fyndeheimen,=,,keep:,audit:nno-left-r1-03
+sverrar,=,,keep:,audit:nno-left-r1-03
+grivlad,=,,keep:,audit:nno-left-r1-03
+skid,=,,keep:,audit:nno-left-r1-03
+tumar,tommar,,,audit:nno-left-r1-03
+breidsida,=,,keep:,audit:nno-left-r1-03
+umbrot,=,,keep:,audit:nno-left-r1-03
+avbytt,=,,keep:,audit:nno-left-r1-03
+kremande,=,,keep:,audit:nno-left-r1-03
+meinka,=,,keep:,audit:nno-left-r1-03
+upphavstaket,=,,keep:,audit:nno-left-r1-03
+einlitt,=,,keep:,audit:nno-left-r1-03
+framyver,framover,,,audit:nno-left-r1-03
+lausrivet,=,,keep:,audit:nno-left-r1-03
+klædeplaggi,=,,keep:,audit:nno-left-r1-03
+kalleg,=,,keep:,audit:nno-left-r1-03
+gjenløst,=,,keep:,audit:nno-left-r1-03
+helliggjort,=,,keep:,audit:nno-left-r1-03
+fjortan,fjorten,,,audit:nno-left-r1-03
+gunni,=,,keep:,audit:nno-left-r1-03
+mama,=,,keep:,audit:nno-left-r1-03
+vaakjen,=,,keep:,audit:nno-left-r1-03
+sovorne,=,,keep:,audit:nno-left-r1-03
+somnad,sovna,,,audit:nno-left-r1-03
+ussat,=,,keep:,audit:nno-left-r1-03
+truget,=,,keep:,audit:nno-left-r1-03
+utatt,=,,keep:,audit:nno-left-r1-03
+sleipom,=,,keep:,audit:nno-left-r1-03
+øksom,=,,keep:,audit:nno-left-r1-03
+sudyver,=,,keep:,audit:nno-left-r1-03
+leikje,=,,keep:,audit:nno-left-r1-03
+djuvet,=,,keep:,audit:nno-left-r1-03
+armom,=,,keep:,audit:nno-left-r1-03
+haandklæde,handkle,,,audit:nno-left-r1-03
+tonom,=,,keep:,audit:nno-left-r1-03
+huvom,=,,keep:,audit:nno-left-r1-03
+storslumpen,=,,keep:,audit:nno-left-r1-03
+attyver,attover,,,audit:nno-left-r1-03
+kunnuge,kunnige,,,audit:nno-left-r1-03
+taki,=,,keep:,audit:nno-left-r1-03
+rettugt,=,,keep:,audit:nno-left-r1-03
+øykjer,=,,keep:,audit:nno-left-r1-03
+ikoll,=,,keep:,audit:nno-left-r1-03
+øykjom,=,,keep:,audit:nno-left-r1-03
+beinaste,=,,keep:,audit:nno-left-r1-03
+kanonom,=,,keep:,audit:nno-left-r1-03
+pening,=,,keep:,audit:nno-left-r1-03
+slaas,=,,keep:,audit:nno-left-r1-03
+toppom,=,,keep:,audit:nno-left-r1-03
+staut,=,,keep:,audit:nno-left-r1-03
+djervt,=,,keep:,audit:nno-left-r1-03
+veslelvdalen,=,,keep:,audit:nno-left-r1-03
+reika,=,,keep:,audit:nno-left-r1-03
+kuraak,=,,keep:,audit:nno-left-r1-03
+ruskver,=,,keep:,audit:nno-left-r1-03
+hustert,=,,keep:,audit:nno-left-r1-03
+telfjell,=,,keep:,audit:nno-left-r1-03
+foldalen,=,,keep:,audit:nno-left-r1-03
+austan,=,,keep:,audit:nno-left-r1-03
+marsjøfjellet,=,,keep:,audit:nno-left-r1-03
+bredar,=,,keep:,audit:nno-left-r1-03
+burtanfor,bortanfor,,,audit:nno-left-r1-03
+dugelegt,=,,keep:,audit:nno-left-r1-03
+skiom,=,,keep:,audit:nno-left-r1-03
+spraut,=,,keep:,audit:nno-left-r1-03
+vælstelt,velstelt,,,audit:nno-left-r1-03
+premi,=,,keep:,audit:nno-left-r1-03
+daarlig,=,,keep:,audit:nno-left-r1-03
+krintar,=,,keep:,audit:nno-left-r1-03
+furdur,=,,keep:,audit:nno-left-r1-03
+fentur,=,,keep:,audit:nno-left-r1-03
+klæ,kle,,,audit:nno-left-r1-03
+samfelde,=,,keep:,audit:nno-left-r1-03
+drust,=,,keep:,audit:nno-left-r1-03
+maler,=,,keep:,audit:nno-left-r1-03
+glimad,=,,keep:,audit:nno-left-r1-03
+hossi,=,,keep:,audit:nno-left-r1-03
+spilemannen,spelemannen,,,audit:nno-left-r1-03
+kongje,=,,keep:,audit:nno-left-r1-03
+dikkons,=,,keep:,audit:nno-left-r1-03
+skulemeistare,=,,keep:,audit:nno-left-r1-03
+kjøkemeistare,=,,keep:,audit:nno-left-r1-03
+hellest,=,,keep:,audit:nno-left-r1-03
+moroar,=,,keep:,audit:nno-left-r1-03
+nutanne,=,,keep:,audit:nno-left-r1-03
+okkons,=,,keep:,audit:nno-left-r1-03
+eislistes,=,,keep:,audit:nno-left-r1-03
+breidare,breiare,,,audit:nno-left-r1-03
+burtan,=,,keep:,audit:nno-left-r1-03
+fjellom,=,,keep:,audit:nno-left-r1-03
+laavetaket,=,,keep:,audit:nno-left-r1-03
+glims,=,,keep:,audit:nno-left-r1-03
+snaud,=,,keep:,audit:nno-left-r1-03
+allvist,=,,keep:,audit:nno-left-r1-03
+greinerne,greinene,,,audit:nno-left-r1-03
+fløyg,=,,keep:,audit:nno-left-r1-03
+sengjerne,sengene,,,audit:nno-left-r1-03
+sers,=,,keep:,audit:nno-left-r1-03
+raut,=,,keep:,audit:nno-left-r1-03
+iland,i land,,,audit:nno-left-r1-03
+vegerne,=,,keep:,audit:nno-left-r1-03
+baarurne,=,,keep:,audit:nno-left-r1-03
+naudvingel,=,,keep:,audit:nno-left-r1-03
+sea,=,,keep:,audit:nno-left-r1-03
+hamborg,=,,keep:,audit:nno-left-r1-03
+greivar,grevar,,,audit:nno-left-r1-03
+vismon,=,,keep:,audit:nno-left-r1-03
+røme,=,,keep:,audit:nno-left-r1-03
+tilhold,=,,keep:,audit:nno-left-r1-03
+fystundes,=,,keep:,audit:nno-left-r1-03
+forfaring,=,,keep:,audit:nno-left-r1-03
+villt,=,,keep:,audit:nno-left-r1-03
+storviljug,=,,keep:,audit:nno-left-r1-03
+vekjømelegt,=,,keep:,audit:nno-left-r1-03
+mytemaal,=,,keep:,audit:nno-left-r1-03
+sinimillom,=,,keep:,audit:nno-left-r1-03
+kanhende,=,,keep:,audit:nno-left-r1-03
+frearlause,=,,keep:,audit:nno-left-r1-03
+kongsbrev,=,,keep:,audit:nno-left-r1-03
+hart,=,,keep:,audit:nno-left-r1-03
+taterfolke,=,,keep:,audit:nno-left-r1-03
+gaang,=,,keep:,audit:nno-left-r1-03
+bygdefolke,=,,keep:,audit:nno-left-r1-03
+haugafolk,=,,keep:,audit:nno-left-r1-03
+jor,=,,keep:,audit:nno-left-r1-03
+haure,=,,keep:,audit:nno-left-r1-03
+gottfolk,=,,keep:,audit:nno-left-r1-03
+sengs,=,,keep:,audit:nno-left-r1-03
+statt,=,,keep:,audit:nno-left-r1-03
+ansemd,=,,keep:,audit:nno-left-r1-03
+fastande,=,,keep:,audit:nno-left-r1-03
+frægd,=,,keep:,audit:nno-left-r1-03
+gji,=,,keep:,audit:nno-left-r1-03
+imorgo,=,,keep:,audit:nno-left-r1-03
+friti,=,,keep:,audit:nno-left-r1-03
+sivle,=,,keep:,audit:nno-left-r1-03
+naodde,=,,keep:,audit:nno-left-r1-03
+forjaija,=,,keep:,audit:nno-left-r1-03
+uppunde,=,,keep:,audit:nno-left-r1-03
+løut,=,,keep:,audit:nno-left-r1-03
+smetta,=,,keep:,audit:nno-left-r1-03
+hjao,=,,keep:,audit:nno-left-r1-03
+arlais,=,,keep:,audit:nno-left-r1-03
+smetlahodn,=,,keep:,audit:nno-left-r1-03
+todna,=,,keep:,audit:nno-left-r1-03
+længe,=,,keep:,audit:nno-left-r1-03
+veet,=,,keep:,audit:nno-left-r1-03
+røkk,=,,keep:,audit:nno-left-r1-03
+sien,=,,keep:,audit:nno-left-r1-03
+medt,=,,keep:,audit:nno-left-r1-03
+sier,=,,keep:,audit:nno-left-r1-03
+rugsamt,=,,keep:,audit:nno-left-r1-03
+fækk,=,,keep:,audit:nno-left-r1-03
+næ,=,,keep:,audit:nno-left-r1-03
+graabeinhopen,=,,keep:,audit:nno-left-r1-03
+bødn,=,,keep:,audit:nno-left-r1-03
+gjentudn,=,,keep:,audit:nno-left-r1-03
+gutadn,=,,keep:,audit:nno-left-r1-03
+bordkrakke,=,,keep:,audit:nno-left-r1-03
+vaggla,=,,keep:,audit:nno-left-r1-03
+kvemmennadn,=,,keep:,audit:nno-left-r1-03
+meistar,=,,keep:,audit:nno-left-r1-03
+skaaptake,=,,keep:,audit:nno-left-r1-03
+ress,=,,keep:,audit:nno-left-r1-03
+attimyljo,=,,keep:,audit:nno-left-r1-03
+guta,=,,keep:,audit:nno-left-r1-03
+tryaa,=,,keep:,audit:nno-left-r1-03
+soleine,=,,keep:,audit:nno-left-r1-03
+tenkji,=,,keep:,audit:nno-left-r1-03
+dræbe,=,,keep:,audit:nno-left-r1-03
+kjøre,=,,keep:,audit:nno-left-r1-03
+førmas,=,,keep:,audit:nno-left-r1-03
+endin,=,,keep:,audit:nno-left-r1-03
+hærv,=,,keep:,audit:nno-left-r1-03
+tindadn,=,,keep:,audit:nno-left-r1-03
+stupa,=,,keep:,audit:nno-left-r1-03
+lisabet,=,,keep:,audit:nno-left-r1-03
+laava,=,,keep:,audit:nno-left-r1-03
+laatto,=,,keep:,audit:nno-left-r1-03
+umegde,=,,keep:,audit:nno-left-r1-03
+øldrug,=,,keep:,audit:nno-left-r1-03
+haile,=,,keep:,audit:nno-left-r1-03
+viku,=,,keep:,audit:nno-left-r1-03
+venir,=,,keep:,audit:nno-left-r1-03
+vegjen,=,,keep:,audit:nno-left-r1-03
+skvakkebikkja,=,,keep:,audit:nno-left-r1-03
+tænkte,tenkte,,,audit:nno-left-r1-03
+hoss,=,,keep:,audit:nno-left-r1-03
+gjønne,=,,keep:,audit:nno-left-r1-03
+tingje,=,,keep:,audit:nno-left-r1-03
+hermod,=,,keep:,audit:nno-left-r1-03
+gjæte,=,,keep:,audit:nno-left-r1-03
+aalvorsklege,=,,keep:,audit:nno-left-r1-03
+furune,=,,keep:,audit:nno-left-r1-03
+livandes,=,,keep:,audit:nno-left-r1-03
+kvor,=,,keep:,audit:nno-left-r1-03
+moroe,=,,keep:,audit:nno-left-r1-03
+kreture,=,,keep:,audit:nno-left-r1-03
+samteigt,=,,keep:,audit:nno-left-r1-03
+stondir,=,,keep:,audit:nno-left-r1-03
+sauderne,sauane,,,audit:nno-left-r1-03
+fyrrtid,=,,keep:,audit:nno-left-r1-03
+slogo,=,,keep:,audit:nno-left-r1-03
+leg,=,,keep:,audit:nno-left-r1-03
+rotvokalen,=,,keep:,audit:nno-left-r1-03
+hører,=,,keep:,audit:nno-left-r1-03
+kun,=,,keep:,audit:nno-left-r1-03
+klog,=,,keep:,audit:nno-left-r1-03
+grustir,=,,keep:,audit:nno-left-r1-03
+uhyggeligt,=,,keep:,audit:nno-left-r1-03
+kvita,=,,keep:,audit:nno-left-r1-03
+slappelse,=,,keep:,audit:nno-left-r1-03
+sne,=,,keep:,audit:nno-left-r1-03
+bedre,=,,keep:,audit:nno-left-r1-03
+mand,=,,keep:,audit:nno-left-r1-03
+dannelse,=,,keep:,audit:nno-left-r1-03
+segimillom,=,,keep:,audit:nno-left-r1-03
+fod,=,,keep:,audit:nno-left-r1-03
+ubevokset,=,,keep:,audit:nno-left-r1-03
+jorkynde,=,,keep:,audit:nno-left-r1-03
+siur,=,,keep:,audit:nno-left-r1-03
+fjøro,=,,keep:,audit:nno-left-r1-03
+sagta,=,,keep:,audit:nno-left-r1-03
+ate,=,,keep:,audit:nno-left-r1-03
+harangur,=,,keep:,audit:nno-left-r1-03
+langa,=,,keep:,audit:nno-left-r1-03
+kleen,=,,keep:,audit:nno-left-r1-03
+næter,=,,keep:,audit:nno-left-r1-03
+midsumar,=,,keep:,audit:nno-left-r1-03
+midvetter,=,,keep:,audit:nno-left-r1-03
+avdeilt,=,,keep:,audit:nno-left-r1-03
+aalmennelege,=,,keep:,audit:nno-left-r1-03
+vetters,=,,keep:,audit:nno-left-r1-03
+sumarnæterna,=,,keep:,audit:nno-left-r1-03
+vetternæterna,=,,keep:,audit:nno-left-r1-03
+olsoko,=,,keep:,audit:nno-left-r1-03
+umvending,=,,keep:,audit:nno-left-r1-03
+aarhundradet,=,,keep:,audit:nno-left-r1-03
+midsumars,=,,keep:,audit:nno-left-r1-03
+forfylgde,=,,keep:,audit:nno-left-r1-03
+december,desember,,,audit:nno-left-r1-03
+vikotalet,=,,keep:,audit:nno-left-r1-03
+afgrunnar,avgrunnar,,,audit:nno-left-r1-03
+urdir,=,,keep:,audit:nno-left-r1-03
+krossfararne,=,,keep:,audit:nno-left-r1-03
+hævaste,=,,keep:,audit:nno-left-r1-03
+veitslor,=,,keep:,audit:nno-left-r1-03
+valneter,=,,keep:,audit:nno-left-r1-03
+heidersferd,=,,keep:,audit:nno-left-r1-03
+somyket,=,,keep:,audit:nno-left-r1-03
+nøgja,=,,keep:,audit:nno-left-r1-03
+pløgja,=,,verifier disagreed (=: -a form also present plural); was pløye,audit:nno-left-r1-03
+byrjat,byrja,,,audit:nno-left-r1-03
+manna,=,,keep:,audit:nno-left-r1-03
+kristianiafjorden,=,,keep:,audit:nno-left-r1-03
+leset,lese,,,audit:nno-left-r1-03
+kunnug,kunnig,,,audit:nno-left-r1-03
+nærmere,=,,keep:,audit:nno-left-r1-03
+draabe,=,,keep:,audit:nno-left-r1-03
+pølsen,=,,keep:,audit:nno-left-r1-03
+munden,=,,keep:,audit:nno-left-r1-03
+havde,=,,keep:,audit:nno-left-r1-03
+gutten,=,,keep:,audit:nno-left-r1-03
+kjødsuppe,=,,keep:,audit:nno-left-r1-03
+manden,=,,keep:,audit:nno-left-r1-03
+hovedet,=,,keep:,audit:nno-left-r1-03
+drukket,=,,keep:,audit:nno-left-r1-03
+tag,=,,keep:,audit:nno-left-r1-03
+spanjer,=,,keep:,audit:nno-left-r1-03
+portugiser,=,,keep:,audit:nno-left-r1-03
+thi,=,,keep:,audit:nno-left-r1-03
+sònen,=,,keep:,audit:nno-left-r1-03
+skogs,=,,keep:,audit:nno-left-r1-03
+aaste,=,,keep:,audit:nno-left-r1-03
+taaror,tårer,,,audit:nno-left-r1-03
+brødmòle,=,,keep:,audit:nno-left-r1-03
+lésa,=,,verifier disagreed (=: -a form also present plural); was lesa,audit:nno-left-r1-03
+kvèda,=,,rejected target 'kveda': not a modern bank form.,audit:nno-left-r1-03
+lès,les,,,audit:nno-left-r1-03
+vèra,vera,,,audit:nno-left-r1-03
+syttan,sytten,,,audit:nno-left-r1-03
+stjernor,stjerner,,,audit:nno-left-r1-03
+rudde,=,,keep:,audit:nno-left-r1-03
+héldt,heldt,,,audit:nno-left-r1-03
+johnston,=,,keep:,audit:nno-left-r1-03
+bjørdalen,=,,keep:,audit:nno-left-r1-03
+bjørlo,=,,keep:,audit:nno-left-r1-03
+ljøfjellet,=,,keep:,audit:nno-left-r1-03
+klén,=,,rejected target 'klen': not a modern bank form.,audit:nno-left-r1-03
+òlbògarne,olbogane,,,audit:nno-left-r1-03
+sengjestokken,sengestokken,,,audit:nno-left-r1-03
+smaabörn,småborn,,,audit:nno-left-r1-03
+skræmde,skremde,,,audit:nno-left-r1-03
+kyrkjegòlvet,kyrkjegolvet,,,audit:nno-left-r1-03
+legdemannen,=,,keep:,audit:nno-left-r1-03
+setisdal,=,,keep:,audit:nno-left-r1-03
+dagstødt,=,,keep:,audit:nno-left-r1-03
+drakehiet,=,,keep:,audit:nno-left-r1-03
+hugsjuk,=,,keep:,audit:nno-left-r1-03
+magtlaus,maktlaus,,,audit:nno-left-r1-03
+tòg,tog,,,audit:nno-left-r1-03
+bòdi,=,,keep:,audit:nno-left-r1-03
+skròv,skrov,,,audit:nno-left-r1-03
+stillte,stilte,,,audit:nno-left-r1-03
+viljugt,=,,keep:,audit:nno-left-r1-03
+lamb,lam,,,audit:nno-left-r1-03
+dòtten,=,,keep:,audit:nno-left-r1-03
+hògge,=,,keep:,audit:nno-left-r1-03
+grøtelegt,=,,keep:,audit:nno-left-r1-03
+smellte,=,,keep:,audit:nno-left-r1-03
+strjukande,=,,keep:,audit:nno-left-r1-03
+smidjebenken,=,,keep:,audit:nno-left-r1-03
+òpne,opne,,,audit:nno-left-r1-03
+bòtnen,botnen,,,audit:nno-left-r1-03
+dalsmoen,=,,keep:,audit:nno-left-r1-03
+pengebot,=,,keep:,audit:nno-left-r1-03
+husmanns,=,,keep:,audit:nno-left-r1-03
+børatòg,=,,keep:,audit:nno-left-r1-03
+vintren,vinteren,,,audit:nno-left-r1-03
+bjørsmarknaden,=,,keep:,audit:nno-left-r1-03
+svartbakvær,=,,keep:,audit:nno-left-r1-03
+vògga,vogga,,,audit:nno-left-r1-03
+forare,=,,keep:,audit:nno-left-r1-03
+litlejagti,=,,keep:,audit:nno-left-r1-03
+tèk,=,,"verifier disagreed (tek: tèk is present tense, not past); was tok",audit:nno-left-r1-03
+eideren,=,,keep:,audit:nno-left-r1-03
+skogvakset,=,,keep:,audit:nno-left-r1-03
+sjølvt,=,,keep:,audit:nno-left-r1-03
+sunnanfyr,=,,keep:,audit:nno-left-r1-03
+myrker,=,,keep:,audit:nno-left-r1-03
+kvergjelme,=,,keep:,audit:nno-left-r1-03
+audhumbla,=,,keep:,audit:nno-left-r1-03
+spjotet,=,,keep:,audit:nno-left-r1-03
+offrad,ofra,,,audit:nno-left-r1-03
+skuldlaus,=,,keep:,audit:nno-left-r1-03
+gjallarhornet,=,,keep:,audit:nno-left-r1-03
+hod,=,,keep:,audit:nno-left-r1-03
+øge,=,,keep:,audit:nno-left-r1-03
+jotnen,=,,keep:,audit:nno-left-r1-03
+gjøymer,gøymer,,,audit:nno-left-r1-03
+svoret,svore,,,audit:nno-left-r1-03
+trym,=,,keep:,audit:nno-left-r1-03
+dreping,=,,keep:,audit:nno-left-r1-03
+kvædi,=,,keep:,audit:nno-left-r1-03
+sviksam,=,,keep:,audit:nno-left-r1-03
+frændar,frendar,,,audit:nno-left-r1-03
+høgsæte,høgsete,,,audit:nno-left-r1-03
+høgsætes,=,,keep:,audit:nno-left-r1-03
+gude,=,,keep:,audit:nno-left-r1-03
+gravsette,=,,keep:,audit:nno-left-r1-03
+smaabønderne,småbøndene,,,audit:nno-left-r1-03
+fylkeshovet,=,,keep:,audit:nno-left-r1-03
+haslepaakar,=,,keep:,audit:nno-left-r1-03
+øyrur,øyrar,,,audit:nno-left-r1-03
+sluttat,slutta,,,audit:nno-left-r1-03
+trondheims,=,,keep:,audit:nno-left-r1-03
+normanner,=,,keep:,audit:nno-left-r1-03
+riddarskapet,=,,keep:,audit:nno-left-r1-03
+døttrar,døtrer,,,audit:nno-left-r1-03
+fellte,felte,,,audit:nno-left-r1-03
+eignat,=,,keep:,audit:nno-left-r1-03
+ingolv,=,,keep:,audit:nno-left-r1-03
+fredad,freda,,,audit:nno-left-r1-03
+vandrat,vandra,,,audit:nno-left-r1-03
+mørejarl,=,,keep:,audit:nno-left-r1-03
+aarmenner,=,,keep:,audit:nno-left-r1-03
+reikning,rekning,,,audit:nno-left-r1-03
+grannekongarne,=,,keep:,audit:nno-left-r1-03
+adalstein,=,,keep:,audit:nno-left-r1-03
+innebrende,=,,keep:,audit:nno-left-r1-03
+trondhjemsfjorden,=,,keep:,audit:nno-left-r1-03
+misnøgjet,misnøyet,,,audit:nno-left-r1-03
+stormannsætterne,=,,keep:,audit:nno-left-r1-03
+leidingen,=,,keep:,audit:nno-left-r1-03
+leidingsskipi,=,,keep:,audit:nno-left-r1-03
+pretta,=,,keep:,audit:nno-left-r1-03
+skaldespillar,=,,keep:,audit:nno-left-r1-03
+askmann,=,,keep:,audit:nno-left-r1-03
+gullslegen,=,,keep:,audit:nno-left-r1-03
+kvernbit,=,,keep:,audit:nno-left-r1-03
+yverkongar,=,,keep:,audit:nno-left-r1-03
+danakongens,=,,keep:,audit:nno-left-r1-03
+yverkongen,=,,keep:,audit:nno-left-r1-03
+missionærar,misjonærar,,,audit:nno-left-r1-03
+vingulmark,=,,keep:,audit:nno-left-r1-03
+aastrid,=,,keep:,audit:nno-left-r1-03
+rimul,=,,keep:,audit:nno-left-r1-03
+jarlesætet,=,,keep:,audit:nno-left-r1-03
+ovende,=,,keep:,audit:nno-left-r1-03
+mannad,=,,keep:,audit:nno-left-r1-03
+flugt,flukt,,,audit:nno-left-r1-03
+fellt,felt,,,audit:nno-left-r1-03
+raadleggjingi,=,,keep:,audit:nno-left-r1-03
+huskarlar,=,,keep:,audit:nno-left-r1-03
+gautarne,=,,keep:,audit:nno-left-r1-03
+varurne,varane,,,audit:nno-left-r1-03
+torgny,=,,keep:,audit:nno-left-r1-03
+ringsaaker,=,,keep:,audit:nno-left-r1-03
+mjøsi,=,,keep:,audit:nno-left-r1-04
+umvenda,=,,verifier disagreed (=: -a form also present plural); was omvende,audit:nno-left-r1-04
+fullførde,fullførte,,,audit:nno-left-r1-04
+jadren,=,,keep:,audit:nno-left-r1-04
+sigld,=,,verifier disagreed (=: sigld is valid masc participle); was siglt,audit:nno-left-r1-04
+englandsferd,=,,keep:,audit:nno-left-r1-04
+ringsson,=,,keep:,audit:nno-left-r1-04
+verdalen,=,,keep:,audit:nno-left-r1-04
+alfiva,=,,keep:,audit:nno-left-r1-04
+klemenskyrkja,=,,keep:,audit:nno-left-r1-04
+kongsmagt,kongsmakt,,,audit:nno-left-r1-04
+tylvter,=,,keep:,audit:nno-left-r1-04
+austanfyr,austanfor,,,audit:nno-left-r1-04
+heradsting,=,,keep:,audit:nno-left-r1-04
+republik,republikk,,,audit:nno-left-r1-04
+njaal,=,,keep:,audit:nno-left-r1-04
+islands,=,,keep:,audit:nno-left-r1-04
+druvur,druer,,,audit:nno-left-r1-04
+sigvat,=,,keep:,audit:nno-left-r1-04
+estridsson,=,,keep:,audit:nno-left-r1-04
+lyrskogsheidi,=,,keep:,audit:nno-left-r1-04
+faaren,=,,keep:,audit:nno-left-r1-04
+tunnur,tønner,,,audit:nno-left-r1-04
+sunniva,=,,keep:,audit:nno-left-r1-04
+standford,=,,keep:,audit:nno-left-r1-04
+utasad,=,,keep:,audit:nno-left-r1-04
+att¹,=,,keep:,audit:nno-left-r1-04
+bispe,=,,keep:,audit:nno-left-r1-04
+hovudsætet,hovudsetet,,,audit:nno-left-r1-04
+bymennerne,bymennene,,,audit:nno-left-r1-04
+rikmennerne,rikmennene,,,audit:nno-left-r1-04
+istadenfyr,i staden for,,,audit:nno-left-r1-04
+livemaate,=,,keep:,audit:nno-left-r1-04
+vesterhavs,=,,keep:,audit:nno-left-r1-04
+stendigt,stendig,,,audit:nno-left-r1-04
+neapel,=,,keep:,audit:nno-left-r1-04
+balduin,=,,keep:,audit:nno-left-r1-04
+fjordepart,fjerdepart,,,audit:nno-left-r1-04
+lukkelegt,lukkeleg,,,audit:nno-left-r1-04
+rolegt,roleg,,,audit:nno-left-r1-04
+halvbroder,halvbror,,,audit:nno-left-r1-04
+jarnburden,=,,keep:,audit:nno-left-r1-04
+tordsson,=,,keep:,audit:nno-left-r1-04
+bokskriving,=,,keep:,audit:nno-left-r1-04
+pengekjær,=,,keep:,audit:nno-left-r1-04
+krypling,=,,keep:,audit:nno-left-r1-04
+eggjat,eggja,,,audit:nno-left-r1-04
+strømstad,=,,keep:,audit:nno-left-r1-04
+røvat,røva,,,audit:nno-left-r1-04
+dagsson,=,,keep:,audit:nno-left-r1-04
+loglegt,lovleg,,,audit:nno-left-r1-04
+erkestolen,=,,keep:,audit:nno-left-r1-04
+handelsmenner,handelsmenn,,,audit:nno-left-r1-04
+vokset,vakse,,,audit:nno-left-r1-04
+loggjevande,lovgjevande,,,audit:nno-left-r1-04
+smaabytte,=,,keep:,audit:nno-left-r1-04
+hovdingveldet,=,,keep:,audit:nno-left-r1-04
+hermenner,=,,keep:,audit:nno-left-r1-04
+heidersnamn,=,,keep:,audit:nno-left-r1-04
+storættad,=,,keep:,audit:nno-left-r1-04
+banedrykk,=,,keep:,audit:nno-left-r1-04
+vensæle,=,,keep:,audit:nno-left-r1-04
+cecilia,=,,keep:,audit:nno-left-r1-04
+sverresborgi,=,,keep:,audit:nno-left-r1-04
+klostri,=,,verifier disagreed (klostera: klostri is definite plural); was klosteret,audit:nno-left-r1-04
+malangenfjorden,=,,keep:,audit:nno-left-r1-04
+ugreida,=,,keep:,audit:nno-left-r1-04
+largs,=,,keep:,audit:nno-left-r1-04
+fullmagt,fullmakt,,,audit:nno-left-r1-04
+vedteki,vedteken,,,audit:nno-left-r1-04
+leidings,=,,keep:,audit:nno-left-r1-04
+smaahandlarar,=,,keep:,audit:nno-left-r1-04
+folkunga,=,,keep:,audit:nno-left-r1-04
+forargelegt,forargeleg,,,audit:nno-left-r1-04
+strævad,streva,,,audit:nno-left-r1-04
+ulukkur,ulukker,,,audit:nno-left-r1-04
+fatigt,fattig,,,audit:nno-left-r1-04
+romgrendt,=,,keep:,audit:nno-left-r1-04
+verjelaust,=,,keep:,audit:nno-left-r1-04
+fullmegtig,fullmektig,,,audit:nno-left-r1-04
+falkjøping,=,,keep:,audit:nno-left-r1-04
+fulltupp,=,,keep:,audit:nno-left-r1-04
+vitaliebrødrarne,=,,keep:,audit:nno-left-r1-04
+dalkarlarne,=,,keep:,audit:nno-left-r1-04
+adelstand,adelsstand,,,audit:nno-left-r1-04
+oldenborg,=,,keep:,audit:nno-left-r1-04
+valrike,=,,keep:,audit:nno-left-r1-04
+rikssaker,=,,keep:,audit:nno-left-r1-04
+umyndigt,umyndig,,,audit:nno-left-r1-04
+talgøy,=,,keep:,audit:nno-left-r1-04
+frostating,=,,keep:,audit:nno-left-r1-04
+tugta,=,,verifier disagreed (=: -a form also present plural); was tukta,audit:nno-left-r1-04
+ditmarskarne,=,,keep:,audit:nno-left-r1-04
+ditmarsken,=,,keep:,audit:nno-left-r1-04
+agte,=,,keep:,audit:nno-left-r1-04
+herlog,=,,keep:,audit:nno-left-r1-04
+dyveke,=,,keep:,audit:nno-left-r1-04
+festebønderne,festebøndene,,,audit:nno-left-r1-04
+bergjing,berging,,,audit:nno-left-r1-04
+tausen,=,,keep:,audit:nno-left-r1-04
+greivens,=,,keep:,audit:nno-left-r1-04
+grysjeleg,=,,keep:,audit:nno-left-r1-04
+bispegodset,=,,keep:,audit:nno-left-r1-04
+geistlegt,geistleg,,,audit:nno-left-r1-04
+reiknar,reknar,,,audit:nno-left-r1-04
+austindia,=,,keep:,audit:nno-left-r1-04
+kappspranget,=,,keep:,audit:nno-left-r1-04
+skips,=,,keep:,audit:nno-left-r1-04
+umsett,omsett,,,audit:nno-left-r1-04
+retterne,rettane,,,audit:nno-left-r1-04
+sjøs,=,,keep:,audit:nno-left-r1-04
+øland,=,,keep:,audit:nno-left-r1-04
+herjedalen,=,,keep:,audit:nno-left-r1-04
+trondhjems,=,,keep:,audit:nno-left-r1-04
+svenskehatet,=,,keep:,audit:nno-left-r1-04
+arild,=,,keep:,audit:nno-left-r1-04
+pengevæsenet,=,,keep:,audit:nno-left-r1-04
+reformationstidi,=,,keep:,audit:nno-left-r1-04
+historikarne,historikarane,,,audit:nno-left-r1-04
+nordlands,=,,keep:,audit:nno-left-r1-04
+sylvverket,=,,keep:,audit:nno-left-r1-04
+flutte,flytte,,,audit:nno-left-r1-04
+munkhaven,=,,keep:,audit:nno-left-r1-04
+landsforsvar,=,,keep:,audit:nno-left-r1-04
+øresunds,=,,keep:,audit:nno-left-r1-04
+tretiaars,=,,keep:,audit:nno-left-r1-04
+herførararne,=,,keep:,audit:nno-left-r1-04
+handevending,=,,keep:,audit:nno-left-r1-04
+brømsebro,=,,keep:,audit:nno-left-r1-04
+ulfeldt,=,,keep:,audit:nno-left-r1-04
+blekinge,=,,keep:,audit:nno-left-r1-04
+tregad,=,,keep:,audit:nno-left-r1-04
+sjømagterne,sjømaktene,,,audit:nno-left-r1-04
+enningdalen,=,,keep:,audit:nno-left-r1-04
+braatelands,=,,keep:,audit:nno-left-r1-04
+avteket,avteke,,,audit:nno-left-r1-04
+vornedskapet,=,,keep:,audit:nno-left-r1-04
+kongelogi,=,,keep:,audit:nno-left-r1-04
+embættsmanns,=,,keep:,audit:nno-left-r1-04
+handsrett,=,,keep:,audit:nno-left-r1-04
+adeler,=,,keep:,audit:nno-left-r1-04
+brandenborg,=,,keep:,audit:nno-left-r1-04
+kjøgebugt,=,,keep:,audit:nno-left-r1-04
+stathaldaren,statthaldaren,,,audit:nno-left-r1-04
+karlsten,=,,keep:,audit:nno-left-r1-04
+krungodset,krongodset,,,audit:nno-left-r1-04
+trottigt,trottig,,,audit:nno-left-r1-04
+logverk,lovverk,,,audit:nno-left-r1-04
+bondens,=,,keep:,audit:nno-left-r1-04
+overhofretten,=,,keep:,audit:nno-left-r1-04
+danebrog,=,,keep:,audit:nno-left-r1-04
+lytsov,=,,keep:,audit:nno-left-r1-04
+bryggemann,=,,keep:,audit:nno-left-r1-04
+idefjorden,=,,keep:,audit:nno-left-r1-04
+utskrivningi,utskrivinga,,,audit:nno-left-r1-04
+umgangs,=,,keep:,audit:nno-left-r1-04
+komedi,=,,keep:,audit:nno-left-r1-04
+borkebraudet,borkebrødet,,,audit:nno-left-r1-04
+kjøbenhavnske,=,,keep:,audit:nno-left-r1-04
+aandelegt,åndeleg,,,audit:nno-left-r1-04
+nedtrælkad,=,,keep:,audit:nno-left-r1-04
+fedralands,=,,keep:,audit:nno-left-r1-04
+selskabet,=,,keep:,audit:nno-left-r1-04
+umskrift,omskrift,,,audit:nno-left-r1-04
+einvaldskongar,=,,verifier disagreed (=: einvaldskongar already valid); was einevaldskongar,audit:nno-left-r1-04
+erveprins,=,,keep:,audit:nno-left-r1-04
+vaknat,vakna,,,audit:nno-left-r1-04
+norge,=,,keep:,audit:nno-left-r1-04
+kolbjørnsen,=,,keep:,audit:nno-left-r1-04
+kornhandelen,=,,keep:,audit:nno-left-r1-04
+tilsit,=,,keep:,audit:nno-left-r1-04
+skipsferd,=,,keep:,audit:nno-left-r1-04
+handelsflote,handelsflåte,,,audit:nno-left-r1-04
+vælstand,velstand,,,audit:nno-left-r1-04
+najaden,=,,keep:,audit:nno-left-r1-04
+herstyrken,=,,keep:,audit:nno-left-r1-04
+uheppeleg,=,,keep:,audit:nno-left-r1-04
+papirsetlarne,=,,keep:,audit:nno-left-r1-04
+nikolai,=,,keep:,audit:nno-left-r1-04
+paaskrifterne,påskriftene,,,audit:nno-left-r1-04
+hamnerne,hamnene,,,audit:nno-left-r1-04
+konventionen,konvensjonen,,,audit:nno-left-r1-04
+ihopbundne,=,,keep:,audit:nno-left-r1-04
+handelsflagd,handelsflagg,,,audit:nno-left-r1-04
+stathaldarar,statthaldarar,,,audit:nno-left-r1-04
+alliance,=,,keep:,audit:nno-left-r1-04
+adelslogi,=,,keep:,audit:nno-left-r1-04
+gjenomføra,=,,verifier disagreed (=: -a form also present plural); was gjennomføra,audit:nno-left-r1-04
+stortingsmennerne,stortingsmennene,,,audit:nno-left-r1-04
+orlogsflagd,orlogsflagg,,,audit:nno-left-r1-04
+marocco,=,,keep:,audit:nno-left-r1-04
+forsvarssamlag,=,,keep:,audit:nno-left-r1-04
+vaapnkvila,våpenkvila,,,audit:nno-left-r1-04
+revolutions,=,,keep:,audit:nno-left-r1-04
+husmennerne,husmennene,,,audit:nno-left-r1-04
+riddarsalen,=,,keep:,audit:nno-left-r1-04
+dryfte,drøfte,,,audit:nno-left-r1-04
+birch,=,,keep:,audit:nno-left-r1-04
+andsvar,ansvar,,,audit:nno-left-r1-04
+folkets,=,,keep:,audit:nno-left-r1-04
+vidka,=,,keep:,audit:nno-left-r1-04
+romantik,romantikk,,,audit:nno-left-r1-04
+majestæts,=,,keep:,audit:nno-left-r1-04
+kjerulf,=,,keep:,audit:nno-left-r1-04
+munthe,=,,keep:,audit:nno-left-r1-04
+istaden,=,,keep:,audit:nno-left-r1-04
+dæmrings,=,,keep:,audit:nno-left-r1-04
+digte,=,,keep:,audit:nno-left-r2-00
+æg,=,,keep:,audit:nno-left-r2-00
+sæle,=,,keep:,audit:nno-left-r2-00
+telemaal,=,,keep:,audit:nno-left-r2-00
+ix,=,,keep:,audit:nno-left-r2-00
+folkesprog,=,,keep:,audit:nno-left-r2-00
+finner,=,,context: finn (verb) | finnar (noun),audit:nno-left-r2-00
+fjølle,=,,keep:,audit:nno-left-r2-00
+rudt,=,,keep:,audit:nno-left-r2-00
+hjølpe,=,,keep:,audit:nno-left-r2-00
+fæ,=,,keep:,audit:nno-left-r2-00
+lydast,=,,keep:,audit:nno-left-r2-00
+onde,=,,keep:,audit:nno-left-r2-00
+vii,=,,keep:,audit:nno-left-r2-00
+ii,=,,keep:,audit:nno-left-r2-00
+landsmaalsstykker,=,,keep:,audit:nno-left-r2-00
+øydest,=,,keep:,audit:nno-left-r2-00
+lidna,=,,keep:,audit:nno-left-r2-00
+munar,=,,keep:,audit:nno-left-r2-00
+rosor,=,,keep:,audit:nno-left-r2-00
+kjæm,=,,keep:,audit:nno-left-r2-00
+ki,=,,keep:,audit:nno-left-r2-00
+glima,=,,keep:,audit:nno-left-r2-00
+louve,=,,keep:,audit:nno-left-r2-00
+fairen,=,,keep:,audit:nno-left-r2-00
+normalsprog,=,,keep:,audit:nno-left-r2-00
+fortællinger,=,,keep:,audit:nno-left-r2-00
+skildringer,=,,keep:,audit:nno-left-r2-00
+yppaste,=,,keep:,audit:nno-left-r2-00
+skjurta,=,,keep:,audit:nno-left-r2-00
+sætren,=,,keep:,audit:nno-left-r2-00
+snjogen,=,,keep:,audit:nno-left-r2-00
+bygden,=,,keep:,audit:nno-left-r2-00
+glæde,=,,keep:,audit:nno-left-r2-00
+ordsprog,=,,keep:,audit:nno-left-r2-00
+velt,=,,keep:,audit:nno-left-r2-00
+stød,=,,keep:,audit:nno-left-r2-00
+rei,=,,keep:,audit:nno-left-r2-00
+kvaar,=,,keep:,audit:nno-left-r2-00
+hæna,=,,keep:,audit:nno-left-r2-00
+engje,=,,keep:,audit:nno-left-r2-00
+sæters,=,,keep:,audit:nno-left-r2-00
+vinters,=,,keep:,audit:nno-left-r2-00
+fra,=,,keep:,audit:nno-left-r2-00
+hverken,=,,keep:,audit:nno-left-r2-00
+heder,=,,keep:,audit:nno-left-r2-00
+botnad,=,,awaiting verification of botna. pp -ad,audit:nno-left-r2-00
+globjart,=,,keep:,audit:nno-left-r2-00
+laaka,=,,keep:,audit:nno-left-r2-00
+modlaus,=,,keep:,audit:nno-left-r2-00
+syningom,=,,keep:,audit:nno-left-r2-00
+tiderna,=,,awaiting verification of tidene. pl def,audit:nno-left-r2-00
+liderna,=,,keep:,audit:nno-left-r2-00
+blandad,=,,awaiting verification of blanda. pp -ad,audit:nno-left-r2-00
+fagraste,=,,keep:,audit:nno-left-r2-00
+fjuka,=,,keep:,audit:nno-left-r2-00
+fjukande,=,,keep:,audit:nno-left-r2-00
+herrens,=,,keep:,audit:nno-left-r2-00
+storegut,=,,keep:,audit:nno-left-r2-00
+mæg,=,,keep:,audit:nno-left-r2-00
+thord,=,,keep:,audit:nno-left-r2-00
+længje,=,,keep:,audit:nno-left-r2-00
+kvorjom,=,,keep:,audit:nno-left-r2-00
+moere,=,,keep:,audit:nno-left-r2-00
+systrongane,=,,keep:,audit:nno-left-r2-00
+trúlovar,=,,keep:,audit:nno-left-r2-00
+hó,=,,keep:,audit:nno-left-r2-00
+slíte,=,,keep:,audit:nno-left-r2-00
+havfrú,=,,keep:,audit:nno-left-r2-00
+reisi,=,,awaiting verification of reisa. fem def,audit:nno-left-r2-00
+dalom,=,,keep:,audit:nno-left-r2-00
+maakaa,=,,keep:,audit:nno-left-r2-00
+kem,=,,keep:,audit:nno-left-r2-00
+komin,=,,keep:,audit:nno-left-r2-00
+ind,=,,keep:,audit:nno-left-r2-00
+somaar,=,,keep:,audit:nno-left-r2-00
+heimreisi,=,,awaiting verification of heimreisa. fem def,audit:nno-left-r2-00
+mere,=,,keep:,audit:nno-left-r2-00
+siden,=,,keep:,audit:nno-left-r2-00
+grassvorden,=,,keep:,audit:nno-left-r2-00
+allan,=,,keep:,audit:nno-left-r2-00
+aksi,=,,awaiting verification of aksa. fem def,audit:nno-left-r2-00
+kunnigt,=,,keep:,audit:nno-left-r2-00
+stopel,=,,keep:,audit:nno-left-r2-00
+storo,=,,keep:,audit:nno-left-r2-00
+klinga,=,,keep:,audit:nno-left-r2-00
+dovralands,=,,keep:,audit:nno-left-r2-00
+gutom,=,,keep:,audit:nno-left-r2-00
+blidom,=,,keep:,audit:nno-left-r2-00
+minnelaus,=,,keep:,audit:nno-left-r2-00
+forfedrom,=,,keep:,audit:nno-left-r2-00
+fredlege,=,,keep:,audit:nno-left-r2-00
+kappstig,=,,keep:,audit:nno-left-r2-00
+dunar,=,,keep:,audit:nno-left-r2-00
+bryningom,=,,keep:,audit:nno-left-r2-00
+merkesteinarne,=,,awaiting verification of merkesteinane.,audit:nno-left-r2-00
+reikande,=,,keep:,audit:nno-left-r2-00
+grenderna,=,,awaiting verification of grendene. pl def,audit:nno-left-r2-00
+vollarne,=,,awaiting verification of vollane.,audit:nno-left-r2-00
+kollarne,=,,awaiting verification of kollane.,audit:nno-left-r2-00
+kropparne,=,,awaiting verification of kroppane.,audit:nno-left-r2-00
+forklaarat,=,,awaiting verification of forklara. pp -at,audit:nno-left-r2-00
+heppa,=,,keep:,audit:nno-left-r2-00
+gjenger,=,,context: gjeng (verb) | gjengar (noun),audit:nno-left-r2-00
+skodar,=,,keep:,audit:nno-left-r2-00
+kved,=,,keep:,audit:nno-left-r2-00
+veiknar,=,,keep:,audit:nno-left-r2-00
+taarir,=,,keep:,audit:nno-left-r2-00
+baad,=,,keep:,audit:nno-left-r2-00
+fedralandssong,=,,keep:,audit:nno-left-r2-00
+trod,=,,keep:,audit:nno-left-r2-00
+sjave,=,,keep:,audit:nno-left-r2-00
+gamla,=,,keep:,audit:nno-left-r2-00
+neslands,=,,keep:,audit:nno-left-r2-00
+alstøtt,=,,keep:,audit:nno-left-r2-00
+ivi,=,,keep:,audit:nno-left-r2-00
+snjor,=,,keep:,audit:nno-left-r2-00
+sovi,=,,keep:,audit:nno-left-r2-00
+gjaddarbroe,=,,keep:,audit:nno-left-r2-00
+gaute,=,,keep:,audit:nno-left-r2-00
+xi,=,,keep:,audit:nno-left-r2-00
+mannadauden,=,,keep:,audit:nno-left-r2-00
+kongeløysa,=,,keep:,audit:nno-left-r2-00
+kenner,=,,keep:,audit:nno-left-r2-00
+deð,=,,keep:,audit:nno-left-r2-00
+pá,=,,keep:,audit:nno-left-r2-00
+ivir,=,,keep:,audit:nno-left-r2-00
+kersti,=,,keep:,audit:nno-left-r2-00
+folen,=,,keep:,audit:nno-left-r2-00
+væri,=,,keep:,audit:nno-left-r2-00
+markje,=,,keep:,audit:nno-left-r2-00
+livi,=,,keep:,audit:nno-left-r2-00
+fjose,=,,keep:,audit:nno-left-r2-00
+furukvist,=,,keep:,audit:nno-left-r2-00
+aakerreinom,=,,keep:,audit:nno-left-r2-00
+betye,=,,keep:,audit:nno-left-r2-00
+spelin,=,,keep:,audit:nno-left-r2-00
+busvein,=,,keep:,audit:nno-left-r2-00
+bjønn,=,,keep:,audit:nno-left-r2-00
+budeias,=,,keep:,audit:nno-left-r2-00
+døkre,=,,keep:,audit:nno-left-r2-00
+ingor,=,,keep:,audit:nno-left-r2-00
+forkunt,=,,keep:,audit:nno-left-r2-00
+mysu,=,,keep:,audit:nno-left-r2-00
+jore,=,,keep:,audit:nno-left-r2-00
+folkje,=,,keep:,audit:nno-left-r2-00
+overflødigen,=,,keep:,audit:nno-left-r2-00
+egentlig,=,,keep:,audit:nno-left-r2-00
+tendrad,=,,rejected target 'tendra': not a modern bank form. pp -ad,audit:nno-left-r2-00
+dugstore,=,,keep:,audit:nno-left-r2-00
+daadstore,=,,keep:,audit:nno-left-r2-00
+federne,=,,awaiting verification of fedrane. pl def,audit:nno-left-r2-00
+stender,=,,keep:,audit:nno-left-r2-00
+strenderna,=,,awaiting verification of strendene. pl def,audit:nno-left-r2-00
+daarad,=,,awaiting verification of dåra. pp -ad,audit:nno-left-r2-00
+forsonad,=,,awaiting verification of forsona. pp -ad,audit:nno-left-r2-00
+tiljamnat,=,,keep:,audit:nno-left-r2-00
+ruskutt,=,,keep:,audit:nno-left-r2-00
+fatik,=,,keep:,audit:nno-left-r2-00
+træla,=,,keep:,audit:nno-left-r2-00
+heita,=,,keep:,audit:nno-left-r2-00
+krjupa,=,,keep:,audit:nno-left-r2-00
+kjærlegt,=,,keep:,audit:nno-left-r2-00
+kjæta,=,,keep:,audit:nno-left-r2-00
+steinutte,=,,keep:,audit:nno-left-r2-00
+rudningen,=,,keep:,audit:nno-left-r2-00
+sviver,=,,keep:,audit:nno-left-r2-00
+steinutt,=,,keep:,audit:nno-left-r2-00
+svadt,=,,keep:,audit:nno-left-r2-00
+løyp,=,,keep:,audit:nno-left-r2-00
+husom,=,,keep:,audit:nno-left-r2-00
+undarlegt,=,,keep:,audit:nno-left-r2-00
+votn,=,,keep:,audit:nno-left-r2-00
+gidrar,=,,keep:,audit:nno-left-r2-00
+tyngsla,=,,keep:,audit:nno-left-r2-00
+sælt,=,,keep:,audit:nno-left-r2-00
+kvitsundag,=,,keep:,audit:nno-left-r2-00
+bud,=,,keep:,audit:nno-left-r2-00
+sprungo,=,,keep:,audit:nno-left-r2-00
+dengde,=,,keep:,audit:nno-left-r2-00
+kjøva,=,,keep:,audit:nno-left-r2-00
+florens,=,,keep:,audit:nno-left-r2-00
+storadelen,=,,keep:,audit:nno-left-r2-00
+heid,=,,keep:,audit:nno-left-r2-00
+agt,=,,keep:,audit:nno-left-r2-00
+ripleheidi,=,,keep:,audit:nno-left-r2-00
+strenderne,=,,awaiting verification of strendene. pl def,audit:nno-left-r2-00
+sem,=,,keep:,audit:nno-left-r2-00
+gjevi,=,,keep:,audit:nno-left-r2-00
+skoddæ,=,,keep:,audit:nno-left-r2-00
+fuglanne,=,,keep:,audit:nno-left-r2-00
+stundo,=,,keep:,audit:nno-left-r2-00
+norje,=,,keep:,audit:nno-left-r2-00
+mao,=,,keep:,audit:nno-left-r2-00
+rie,=,,keep:,audit:nno-left-r2-00
+gvor,=,,keep:,audit:nno-left-r2-00
+tonge,=,,keep:,audit:nno-left-r2-00
+kvisto,=,,keep:,audit:nno-left-r2-00
+mænnar,=,,keep:,audit:nno-left-r2-00
+onda,=,,keep:,audit:nno-left-r2-00
+pær,=,,keep:,audit:nno-left-r2-00
+ingjen,=,,keep:,audit:nno-left-r2-00
+eli,=,,keep:,audit:nno-left-r2-00
+onge,=,,keep:,audit:nno-left-r2-00
+hermo,=,,keep:,audit:nno-left-r2-00
+hoggji,=,,keep:,audit:nno-left-r2-00
+attegoume,=,,keep:,audit:nno-left-r2-00
+sankte,=,,keep:,audit:nno-left-r2-00
+mikkjel,=,,keep:,audit:nno-left-r2-00
+gjerningsord,=,,keep:,audit:nno-left-r2-00
+tufterne,=,,awaiting verification of tuftene. pl def,audit:nno-left-r2-00
+grønne,=,,keep:,audit:nno-left-r2-00
+seilet,=,,keep:,audit:nno-left-r2-00
+dygtig,=,,keep:,audit:nno-left-r2-00
+nøgje,=,,keep:,audit:nno-left-r2-00
+umbot,=,,keep:,audit:nno-left-r2-00
+róm,=,,keep:,audit:nno-left-r2-00
+forberge,=,,keep:,audit:nno-left-r2-00
+sins,=,,keep:,audit:nno-left-r2-00
+brøer,=,,keep:,audit:nno-left-r2-00
+sveinung,=,,keep:,audit:nno-left-r2-00
+fars,=,,keep:,audit:nno-left-r2-00
+skøiterne,=,,keep:,audit:nno-left-r2-00
+foleson,=,,keep:,audit:nno-left-r2-00
+stende,=,,keep:,audit:nno-left-r2-00
+nòrigs,=,,keep:,audit:nno-left-r2-00
+kinka,=,,keep:,audit:nno-left-r2-00
+iv,=,,keep:,audit:nno-left-r2-00
+unævntes,=,,keep:,audit:nno-left-r2-00
+næringsveger,=,,keep:,audit:nno-left-r2-00
+egdafylke,=,,keep:,audit:nno-left-r2-00
+vestanfjellske,=,,keep:,audit:nno-left-r2-00
+freude,=,,keep:,audit:nno-left-r2-00
+telemarken,=,,keep:,audit:nno-left-r2-00
+með,=,,keep:,audit:nno-left-r2-00
+jönn,=,,keep:,audit:nno-left-r2-00
+stál,=,,keep:,audit:nno-left-r2-00
+för,=,,keep:,audit:nno-left-r2-00
+dagin,=,,keep:,audit:nno-left-r2-00
+tusind,=,,keep:,audit:nno-left-r2-00
+út,=,,keep:,audit:nno-left-r2-00
+gjönom,=,,keep:,audit:nno-left-r2-00
+blá,=,,keep:,audit:nno-left-r2-00
+vív,=,,keep:,audit:nno-left-r2-00
+lív,=,,keep:,audit:nno-left-r2-00
+gjörðe,=,,keep:,audit:nno-left-r2-00
+stóð,=,,keep:,audit:nno-left-r2-00
+blóð,=,,keep:,audit:nno-left-r2-00
+hugin,=,,keep:,audit:nno-left-r2-00
+gangare,=,,keep:,audit:nno-left-r2-00
+úti,=,,keep:,audit:nno-left-r2-00
+ristað,=,,keep:,audit:nno-left-r2-00
+sylvbogað,=,,keep:,audit:nno-left-r2-00
+knív,=,,keep:,audit:nno-left-r2-00
+sverð,=,,keep:,audit:nno-left-r2-00
+verð,=,,keep:,audit:nno-left-r2-00
+kære,=,,keep:,audit:nno-left-r2-00
+ægtar,=,,keep:,audit:nno-left-r2-00
+líti,=,,keep:,audit:nno-left-r2-00
+synes,=,,keep:,audit:nno-left-r2-00
+nemlig,=,,keep:,audit:nno-left-r2-00
+hvilken,=,,keep:,audit:nno-left-r2-00
+begynder,=,,keep:,audit:nno-left-r2-00
+staaende,=,,keep:,audit:nno-left-r2-00
+havfruva,=,,keep:,audit:nno-left-r2-00
+sóli,=,,keep:,audit:nno-left-r2-00
+lundi,=,,keep:,audit:nno-left-r2-00
+havfrúve,=,,keep:,audit:nno-left-r2-00
+sí,=,,keep:,audit:nno-left-r2-00
+gjönni,=,,keep:,audit:nno-left-r2-00
+sylvesleipar,=,,keep:,audit:nno-left-r2-00
+gröne,=,,keep:,audit:nno-left-r2-00
+ríe,=,,keep:,audit:nno-left-r2-00
+líar,=,,keep:,audit:nno-left-r2-00
+ný,=,,keep:,audit:nno-left-r2-00
+bíte,=,,keep:,audit:nno-left-r2-00
+sværi,=,,keep:,audit:nno-left-r2-00
+femta,=,,keep:,audit:nno-left-r2-00
+greivi,=,,keep:,audit:nno-left-r2-00
+silkji,=,,keep:,audit:nno-left-r2-00
+dín,=,,keep:,audit:nno-left-r2-00
+líkji,=,,keep:,audit:nno-left-r2-00
+jomfrú,=,,keep:,audit:nno-left-r2-00
+krytyr,=,,keep:,audit:nno-left-r2-00
+alene,=,,keep:,audit:nno-left-r2-00
+tryg,=,,keep:,audit:nno-left-r2-00
+grønas,=,,keep:,audit:nno-left-r2-00
+sprætt,=,,keep:,audit:nno-left-r2-00
+hogna,=,,keep:,audit:nno-left-r2-00
+røi,=,,keep:,audit:nno-left-r2-00
+kappas,=,,keep:,audit:nno-left-r2-00
+slutad,=,,awaiting verification of sluta. pp -ad,audit:nno-left-r2-00
+skjin,=,,keep:,audit:nno-left-r2-00
+tælan,=,,keep:,audit:nno-left-r2-00
+retnaa,=,,keep:,audit:nno-left-r2-00
+laagaas,=,,keep:,audit:nno-left-r2-00
+gulldrople,=,,keep:,audit:nno-left-r2-00
+kjyr,=,,keep:,audit:nno-left-r2-00
+sæterkvie,=,,keep:,audit:nno-left-r2-00
+gjæstbod,=,,keep:,audit:nno-left-r2-00
+kryttur,=,,keep:,audit:nno-left-r2-00
+rjume,=,,keep:,audit:nno-left-r2-00
+ovfellun,=,,keep:,audit:nno-left-r2-00
+sleim,=,,keep:,audit:nno-left-r2-00
+derme,=,,keep:,audit:nno-left-r2-00
+blomst,=,,keep:,audit:nno-left-r2-00
+krybe,=,,keep:,audit:nno-left-r2-00
+efterser,=,,keep:,audit:nno-left-r2-00
+gjærdet,=,,keep:,audit:nno-left-r2-00
+sæterdør,=,,keep:,audit:nno-left-r2-00
+fenan,=,,keep:,audit:nno-left-r2-00
+mangen,=,,keep:,audit:nno-left-r2-00
+sætersdal,=,,keep:,audit:nno-left-r2-00
+støil,=,,keep:,audit:nno-left-r2-00
+onno,=,,keep:,audit:nno-left-r2-00
+njoo,=,,keep:,audit:nno-left-r2-00
+lækkert,=,,keep:,audit:nno-left-r2-00
+kløve,=,,keep:,audit:nno-left-r2-00
+belæsse,=,,keep:,audit:nno-left-r2-00
+gjenlød,=,,keep:,audit:nno-left-r2-00
+¹⁰,=,,keep:,audit:nno-left-r2-00
+¹¹,=,,keep:,audit:nno-left-r2-00
+¹²,=,,keep:,audit:nno-left-r2-00
+¹³,=,,keep:,audit:nno-left-r2-00
+¹⁴,=,,keep:,audit:nno-left-r2-00
+¹⁵,=,,keep:,audit:nno-left-r2-00
+¹⁶,=,,keep:,audit:nno-left-r2-00
+saaledes,=,,keep:,audit:nno-left-r2-00
+ellers,=,,keep:,audit:nno-left-r2-00
+hankjøn,=,,keep:,audit:nno-left-r2-00
+ogs,=,,keep:,audit:nno-left-r2-00
+luften,=,,keep:,audit:nno-left-r2-00
+svag,=,,keep:,audit:nno-left-r2-00
+høre,=,,keep:,audit:nno-left-r2-00
+krokut,=,,keep:,audit:nno-left-r2-00
+stedet,=,,keep:,audit:nno-left-r2-00
+blev,=,,keep:,audit:nno-left-r2-00
+farlig,=,,keep:,audit:nno-left-r2-00
+kolmyrka,=,,keep:,audit:nno-left-r2-00
+dygderike,=,,keep:,audit:nno-left-r2-00
+næsten,=,,keep:,audit:nno-left-r2-00
+gjøyma,=,,context: gøyma (inf) | gøymer (pres pl),audit:nno-left-r2-00
+forhaanet,=,,keep:,audit:nno-left-r2-00
+sjomann,=,,keep:,audit:nno-left-r2-00
+leting,=,,keep:,audit:nno-left-r2-00
+gjek,=,,keep:,audit:nno-left-r2-00
+høflig,=,,keep:,audit:nno-left-r2-00
+trætte,=,,keep:,audit:nno-left-r2-00
+strax,=,,keep:,audit:nno-left-r2-00
+indgangen,=,,keep:,audit:nno-left-r2-00
+kappedes,=,,keep:,audit:nno-left-r2-00
+høflighed,=,,keep:,audit:nno-left-r2-00
+fortrin,=,,keep:,audit:nno-left-r2-00
+skjeggede,=,,keep:,audit:nno-left-r2-00
+kjempor,=,,keep:,audit:nno-left-r2-00
+hvem,=,,keep:,audit:nno-left-r2-00
+duga,=,,keep:,audit:nno-left-r2-00
+munde,=,,keep:,audit:nno-left-r2-00
+vetta,=,,keep:,audit:nno-left-r2-00
+grendom,=,,keep:,audit:nno-left-r2-00
+umsyn,=,,keep:,audit:nno-left-r2-00
+kvida,=,,keep:,audit:nno-left-r2-00
+uvedr,=,,awaiting verification of uvêr.,audit:nno-left-r2-00
+vistnog,=,,awaiting verification of visst nok.,audit:nno-left-r2-00
+strævar,=,,awaiting verification of strevar.,audit:nno-left-r2-00
+kapast,=,,keep:,audit:nno-left-r2-00
+klædnad,=,,keep:,audit:nno-left-r2-00
+skrøyta,=,,keep:,audit:nno-left-r2-00
+fedra,=,,keep:,audit:nno-left-r2-00
+baarutte,=,,keep:,audit:nno-left-r2-00
+sellar,=,,keep:,audit:nno-left-r2-00
+hyggjer,=,,keep:,audit:nno-left-r2-00
+heimferdi,=,,awaiting verification of heimferda. fem def,audit:nno-left-r2-00
+mødor,=,,keep:,audit:nno-left-r2-00
+milerna,=,,awaiting verification of milene. pl def,audit:nno-left-r2-00
+høgferd,=,,keep:,audit:nno-left-r2-00
+ætterna,=,,awaiting verification of ættene. pl def,audit:nno-left-r2-00
+nyst,=,,keep:,audit:nno-left-r2-00
+gløymdest,=,,keep:,audit:nno-left-r2-00
+grever,=,,keep:,audit:nno-left-r2-00
+huslivet,=,,keep:,audit:nno-left-r2-00
+nøyta,=,,keep:,audit:nno-left-r2-00
+snjokvite,=,,keep:,audit:nno-left-r2-00
+joklar,=,,keep:,audit:nno-left-r2-00
+symjande,=,,keep:,audit:nno-left-r2-00
+andlitsdrag,=,,keep:,audit:nno-left-r2-00
+isaman,=,,keep:,audit:nno-left-r2-00
+blakrande,=,,keep:,audit:nno-left-r2-00
+læste,=,,keep:,audit:nno-left-r2-00
+nordhavet,=,,keep:,audit:nno-left-r2-00
+raudgylte,=,,keep:,audit:nno-left-r2-00
+skvala,=,,keep:,audit:nno-left-r2-00
+fjellbruni,=,,awaiting verification of fjellbruna. fem def,audit:nno-left-r2-00
+ferdasong,=,,keep:,audit:nno-left-r2-00
+baaror,=,,keep:,audit:nno-left-r2-00
+hausttankar,=,,keep:,audit:nno-left-r2-00
+vonerna,=,,awaiting verification of vonene. pl def,audit:nno-left-r2-00
+eiende,=,,keep:,audit:nno-left-r2-00
+rjupa,=,,keep:,audit:nno-left-r2-00
+reide,=,,keep:,audit:nno-left-r2-00
+starvar,=,,keep:,audit:nno-left-r2-00
+straalestraum,=,,keep:,audit:nno-left-r2-00
+sopast,=,,keep:,audit:nno-left-r2-00
+give,=,,keep:,audit:nno-left-r2-00
+kvilstaden,=,,keep:,audit:nno-left-r2-00
+lofotfolket,=,,keep:,audit:nno-left-r2-00
+kjelden,=,,keep:,audit:nno-left-r2-00
+gaasi,=,,awaiting verification of gåsa. fem def,audit:nno-left-r2-00
+lauparseglet,=,,keep:,audit:nno-left-r2-00
+kurlar,=,,keep:,audit:nno-left-r2-00
+toneferd,=,,keep:,audit:nno-left-r2-00
+helsning,=,,keep:,audit:nno-left-r2-00
+tendra,=,,keep:,audit:nno-left-r2-00
+kvider,=,,keep:,audit:nno-left-r2-00
+ljon,=,,keep:,audit:nno-left-r2-00
+morgonsong,=,,keep:,audit:nno-left-r2-00
+sannings,=,,keep:,audit:nno-left-r2-00
+mahomed,=,,keep:,audit:nno-left-r2-00
+bjøllur,=,,keep:,audit:nno-left-r2-00
+rørde,=,,keep:,audit:nno-left-r2-00
+velverd,=,,keep:,audit:nno-left-r2-00
+klæder,=,,keep:,audit:nno-left-r2-00
+tutrar,=,,keep:,audit:nno-left-r2-00
+fjølli,=,,keep:,audit:nno-left-r2-00
+leser,=,,context: les (verb) | lesar (noun),audit:nno-left-r2-00
+forlitet,=,,keep:,audit:nno-left-r2-00
+marknadsbrev,=,,keep:,audit:nno-left-r2-00
+bøygjer,=,,keep:,audit:nno-left-r2-00
+læter,=,,keep:,audit:nno-left-r2-00
+styrd,=,,keep:,audit:nno-left-r2-00
+bukjær,=,,keep:,audit:nno-left-r2-00
+mannadrag,=,,keep:,audit:nno-left-r2-00
+gjætt,=,,keep:,audit:nno-left-r2-00
+soltne,=,,keep:,audit:nno-left-r2-00
+livnad,=,,keep:,audit:nno-left-r2-00
+kosmopoliten,=,,keep:,audit:nno-left-r2-00
+goliat,=,,keep:,audit:nno-left-r2-00
+roland,=,,keep:,audit:nno-left-r2-00
+kongerik,=,,keep:,audit:nno-left-r2-00
+haugom,=,,keep:,audit:nno-left-r2-00
+rispur,=,,keep:,audit:nno-left-r2-00
+eivinds,=,,keep:,audit:nno-left-r2-00
+spræke,=,,keep:,audit:nno-left-r2-00
+sadlar,=,,keep:,audit:nno-left-r2-00
+bitaling,=,,keep:,audit:nno-left-r2-00
+svint,=,,keep:,audit:nno-left-r2-00
+ikringum,=,,keep:,audit:nno-left-r2-00
+straalarne,=,,awaiting verification of strålane. pl def,audit:nno-left-r2-00
+taarett,=,,keep:,audit:nno-left-r2-00
+himlens,=,,keep:,audit:nno-left-r2-00
+himils,=,,keep:,audit:nno-left-r2-00
+gyrme,=,,keep:,audit:nno-left-r2-00
+engjer,=,,keep:,audit:nno-left-r2-00
+engelsmann,=,,keep:,audit:nno-left-r2-00
+skom,=,,keep:,audit:nno-left-r2-00
+kjenslur,=,,keep:,audit:nno-left-r2-00
+studenterliv,=,,keep:,audit:nno-left-r2-00
+slagta,=,,keep:,audit:nno-left-r2-00
+gudeslott,=,,keep:,audit:nno-left-r2-00
+storfrægdarmenn,=,,keep:,audit:nno-left-r2-00
+ættargard,=,,keep:,audit:nno-left-r2-00
+spyrjast,=,,keep:,audit:nno-left-r2-00
+heimlands,=,,keep:,audit:nno-left-r2-00
+ervdest,=,,keep:,audit:nno-left-r2-00
+fagrar,=,,keep:,audit:nno-left-r2-00
+toneflaum,=,,keep:,audit:nno-left-r2-00
+nemnest,=,,keep:,audit:nno-left-r2-00
+fraud,=,,keep:,audit:nno-left-r2-00
+vigja,=,,keep:,audit:nno-left-r2-00
+dog,=,,keep:,audit:nno-left-r2-00
+breidablik,=,,keep:,audit:nno-left-r2-00
+vænleik,=,,keep:,audit:nno-left-r2-00
+kivlemøyarne,=,,keep:,audit:nno-left-r2-00
+skorves,=,,keep:,audit:nno-left-r2-00
+røynte,=,,keep:,audit:nno-left-r2-00
+ljodad,=,,keep:,audit:nno-left-r2-00
+gaum,=,,keep:,audit:nno-left-r2-00
+folkemugen,=,,keep:,audit:nno-left-r2-00
+skotteslaget,=,,keep:,audit:nno-left-r2-00
+gamallkaarne,=,,keep:,audit:nno-left-r2-00
+hallom,=,,keep:,audit:nno-left-r2-00
+skyerne,=,,awaiting verification of skyene. pl def,audit:nno-left-r2-00
+stuk,=,,keep:,audit:nno-left-r2-00
+føtenn,=,,keep:,audit:nno-left-r2-00
+kongestasen,=,,keep:,audit:nno-left-r2-00
+semsbryggja,=,,keep:,audit:nno-left-r2-00
+gjentur,=,,keep:,audit:nno-left-r2-00
+haringfela,=,,keep:,audit:nno-left-r2-00
+fjellbygdi,=,,awaiting verification of fjellbygda. fem def,audit:nno-left-r2-00
+plassmannen,=,,keep:,audit:nno-left-r2-00
+fródevers,=,,keep:,audit:nno-left-r2-00
+binna,=,,keep:,audit:nno-left-r2-00
+kvendefridd,=,,keep:,audit:nno-left-r2-00
+sumarmorgon,=,,keep:,audit:nno-left-r2-00
+jamnt,=,,keep:,audit:nno-left-r2-00
+baan,=,,keep:,audit:nno-left-r2-00
+lae,=,,keep:,audit:nno-left-r2-00
+luktæ,=,,keep:,audit:nno-left-r2-00
+ossta,=,,keep:,audit:nno-left-r2-00
+litlo,=,,keep:,audit:nno-left-r2-00
+dagjin,=,,awaiting verification of dagen.,audit:nno-left-r2-01
+neburin,=,,"keep: dialect, glossed",audit:nno-left-r2-01
+ingjei,=,,keep: unclear dialect,audit:nno-left-r2-01
+hjadlar,=,,keep: dialect verb,audit:nno-left-r2-01
+liæ,=,,awaiting verification of lia.,audit:nno-left-r2-01
+solæ,=,,awaiting verification of sola.,audit:nno-left-r2-01
+bergje,=,,keep: unclear,audit:nno-left-r2-01
+fjedl,=,,awaiting verification of fjell.,audit:nno-left-r2-01
+utyve,=,,keep: dialect preposition,audit:nno-left-r2-01
+aldre,=,,context: aldri (adv) | alder (noun),audit:nno-left-r2-01
+sunde,=,,keep: unclear,audit:nno-left-r2-01
+endelæ,=,,awaiting verification of endeleg.,audit:nno-left-r2-01
+fjaking,=,,keep: dialect gloss,audit:nno-left-r2-01
+kveming,=,,keep: dialect gloss,audit:nno-left-r2-01
+svel,=,,keep: dialect gloss,audit:nno-left-r2-01
+bodn,=,,awaiting verification of born.,audit:nno-left-r2-01
+ratla,=,,keep: dialect verb,audit:nno-left-r2-01
+folesson,=,,keep: name,audit:nno-left-r2-01
+stiklesta,=,,keep: place name,audit:nno-left-r2-01
+merkjesmann,=,,awaiting verification of merkesmann.,audit:nno-left-r2-01
+bakkjen,=,,awaiting verification of bakken.,audit:nno-left-r2-01
+sogo,=,,awaiting verification of soga.,audit:nno-left-r2-01
+endaone,=,,awaiting verification of endå.,audit:nno-left-r2-01
+ulvedansen,=,,keep: title,audit:nno-left-r2-01
+ky,=,,keep: old plural,audit:nno-left-r2-01
+honn,=,,keep: dialect,audit:nno-left-r2-01
+grase,=,,keep: unclear,audit:nno-left-r2-01
+rume,=,,awaiting verification of rjome.,audit:nno-left-r2-01
+ovfoldom,=,,keep: dialect gloss,audit:nno-left-r2-01
+stogo,=,,keep: dialect,audit:nno-left-r2-01
+hedning,=,,keep: hedning not in norm,audit:nno-left-r2-01
+glupe,=,,keep: unclear,audit:nno-left-r2-01
+kvenne,=,,keep: name,audit:nno-left-r2-01
+karis,=,,keep: name,audit:nno-left-r2-01
+fængje,=,,keep: unclear,audit:nno-left-r2-01
+denni,=,,keep: unclear,audit:nno-left-r2-01
+derpaa,=,,keep: derpå not in norm,audit:nno-left-r2-01
+molli,=,,keep: unclear,audit:nno-left-r2-01
+tregunne,=,,keep: dialect gloss,audit:nno-left-r2-01
+hosleis,=,,keep: dialect,audit:nno-left-r2-01
+myllom,=,,awaiting verification of mellom.,audit:nno-left-r2-01
+avsta,=,,keep: unclear,audit:nno-left-r2-01
+jori,=,,awaiting verification of jorda.,audit:nno-left-r2-01
+bergji,=,,keep: unclear,audit:nno-left-r2-01
+tii,=,,awaiting verification of tida.,audit:nno-left-r2-01
+frous,=,,keep: unclear,audit:nno-left-r2-01
+roue,=,,awaiting verification of raude.,audit:nno-left-r2-01
+bekkjen,=,,awaiting verification of bekken.,audit:nno-left-r2-01
+minnes,=,,context: minnast (verb) | til minnes,audit:nno-left-r2-01
+fatikmannen,=,,keep: dialect,audit:nno-left-r2-01
+strængjen,=,,awaiting verification of strengen.,audit:nno-left-r2-01
+torebankar,=,,keep: unclear,audit:nno-left-r2-01
+glae,=,,context: glede (noun) | glade (adj),audit:nno-left-r2-01
+taarutt,=,,keep: dialect gloss,audit:nno-left-r2-01
+fouk,=,,keep: unclear,audit:nno-left-r2-01
+oto,=,,keep: unclear,audit:nno-left-r2-01
+reii,=,,keep: unclear,audit:nno-left-r2-01
+vaarvers,=,,awaiting verification of vårvers.,audit:nno-left-r2-01
+grasi,=,,awaiting verification of graset.,audit:nno-left-r2-01
+fløytur,=,,awaiting verification of fløyter.,audit:nno-left-r2-01
+somaardag,=,,awaiting verification of sommardag.,audit:nno-left-r2-01
+fynni,=,,keep: dialect gloss,audit:nno-left-r2-01
+louvi,=,,awaiting verification of lauvet.,audit:nno-left-r2-01
+midjom,=,,awaiting verification of mellom.,audit:nno-left-r2-01
+haagt,=,,awaiting verification of høgt.,audit:nno-left-r2-01
+skolv,=,,awaiting verification of skalv.,audit:nno-left-r2-01
+hjuringskog,=,,keep: place name,audit:nno-left-r2-01
+gille,=,,keep: unclear,audit:nno-left-r2-01
+kjænde,=,,awaiting verification of kjende.,audit:nno-left-r2-01
+terar,=,,keep: unclear,audit:nno-left-r2-01
+tjønnar,=,,keep: tjønner not in norm,audit:nno-left-r2-01
+utyvi,=,,keep: unclear,audit:nno-left-r2-01
+housten,=,,awaiting verification of hausten.,audit:nno-left-r2-01
+kuld,=,,keep: unclear,audit:nno-left-r2-01
+hændi,=,,awaiting verification of henda.,audit:nno-left-r2-01
+settest,=,,keep: unclear,audit:nno-left-r2-01
+kniktane,=,,keep: dialect,audit:nno-left-r2-01
+sømri,=,,keep: unclear,audit:nno-left-r2-01
+hevne,=,,keep: dialect,audit:nno-left-r2-01
+hoggje,=,,awaiting verification of hogge.,audit:nno-left-r2-01
+kynningane,=,,keep: dialect,audit:nno-left-r2-01
+bet,=,,awaiting verification of betre.,audit:nno-left-r2-01
+fruva,=,,awaiting verification of frua.,audit:nno-left-r2-01
+konnig,=,,awaiting verification of kunnig.,audit:nno-left-r2-01
+okkon,=,,keep: dialect pronoun,audit:nno-left-r2-01
+monno,=,,keep: dialect,audit:nno-left-r2-01
+doue,=,,awaiting verification of daude.,audit:nno-left-r2-01
+heimi,=,,awaiting verification of heime.,audit:nno-left-r2-01
+droumkvæi,=,,keep: title,audit:nno-left-r2-01
+vokstro,=,,keep: unclear,audit:nno-left-r2-01
+moir,=,,awaiting verification of mor.,audit:nno-left-r2-01
+ont,=,,keep: unclear,audit:nno-left-r2-01
+droume,=,,awaiting verification of draumar.,audit:nno-left-r2-01
+fro,=,,awaiting verification of frod.,audit:nno-left-r2-01
+vegjine,=,,awaiting verification of vegane.,audit:nno-left-r2-01
+soum,=,,keep: unclear,audit:nno-left-r2-01
+stænd,=,,keep: stend not in norm,audit:nno-left-r2-01
+fære,=,,keep: unclear,audit:nno-left-r2-01
+sonnanti,=,,keep: unclear,audit:nno-left-r2-01
+fyri,=,,keep: unclear,audit:nno-left-r2-01
+luren,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+saaline,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+begynde,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+overmaade,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+sænkning,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+hulning,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+gaard,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+fleirt,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+række,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+støyra,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+skjødesløs,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+yrja,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+besøge,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+søfjoren,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+øverste,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+havfrúva,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+gjønni,=,,awaiting verification of gjerne.,audit:nno-left-r2-01
+ere,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+voko,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+kolbjørn,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+endda,=,,awaiting verification of endå.,audit:nno-left-r2-01
+fek,=,,awaiting verification of fekk.,audit:nno-left-r2-01
+nætter,=,,awaiting verification of netter.,audit:nno-left-r2-01
+fedrene,=,,awaiting verification of fedrane.,audit:nno-left-r2-01
+baarut,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+klungo,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+sungo,=,,awaiting verification of song.,audit:nno-left-r2-01
+kjendar,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+mund,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+spræk,=,,awaiting verification of sprek.,audit:nno-left-r2-01
+mækre,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+fornøielse,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+haustvisa,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+klyvjast,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+føyrutt,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+mundheld,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+strækker,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+flere,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+bd,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+hoka,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+segi,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+tilsaman,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+forbedring,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+frygte,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+gaator,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+leiulv,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+kunn,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+jevnt,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+vestmenner,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+mòle,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+talleiv,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+fatigdom,=,,awaiting verification of fattigdom.,audit:nno-left-r2-01
+stama,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+stâna,=,,keep: dialect/Danish gloss/name,audit:nno-left-r2-01
+gjèra,=,,awaiting verification of gjera.,audit:nno-left-r2-01
+usturteleg,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+menneskjen,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+sète,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+bère,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+synke,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+gjætar,=,,awaiting verification of gjetar.,audit:nno-left-r2-01
+sùmar,=,,awaiting verification of sumar.,audit:nno-left-r2-01
+mùn,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+bjøllor,=,,awaiting verification of bjøller.,audit:nno-left-r2-01
+øykinn,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+buferdslefsa,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+lofot,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+framgangs,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+fèr,=,,awaiting verification of fer.,audit:nno-left-r2-01
+lòte,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+sùmtid,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+skjorerne,=,,awaiting verification of skjorene.,audit:nno-left-r2-01
+ansigt,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+óttast,=,,rejected target 'ottast': not a modern bank form.,audit:nno-left-r2-01
+trívd,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+saapetvegne,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+bùnor,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+mósen,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+fyrkja,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+vyr,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+hòldet,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+tòrde,=,,awaiting verification of torde.,audit:nno-left-r2-01
+svòlten,=,,awaiting verification of svolten.,audit:nno-left-r2-01
+uden,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+òta,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+sturlison,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+sòv,=,,awaiting verification of sov.,audit:nno-left-r2-01
+ròva,=,,awaiting verification of rova.,audit:nno-left-r2-01
+nón,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+bòd,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+ól,=,,awaiting verification of ol.,audit:nno-left-r2-01
+illehuga,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+kluftande,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+reidug,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+ræddast,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+tiden,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+dæld,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+nyttugt,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+sibreidt,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+merkjen,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+vissordig,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+indhegnet,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+bògna,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+kòv,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+gjøter,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+hauststemna,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+millomtidi,=,,awaiting verification of mellomtida.,audit:nno-left-r2-01
+indledende,=,,keep: dialect/Danish gloss,audit:nno-left-r2-01
+titelblad,=,,awaiting verification of tittelblad.,audit:nno-left-r2-01
+mannelivet,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+rædsel,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+skikker,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+naumdølafylke,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+hordafylke,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+frostatinget,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+aasbjørn,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+nordanfjellske,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+lunde,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+verbroder,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+amtmenner,=,,awaiting verification of amtmenn.,audit:nno-left-r2-01
+olve,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+sæmund,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+uppskrivi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+munkholmen,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+bispens,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+folkemagt,=,,awaiting verification of folkemakt.,audit:nno-left-r2-01
+nevndemenner,=,,keep: nevndemenn not in norm,audit:nno-left-r2-01
+domkapitlet,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+bergenhus,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+bispesætet,=,,awaiting verification of bispesetet.,audit:nno-left-r2-01
+utførde,=,,awaiting verification of utførte.,audit:nno-left-r2-01
+kongeliki,=,,awaiting verification of kongeriket.,audit:nno-left-r2-01
+erverike,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+greivskap,=,,awaiting verification of grevskap.,audit:nno-left-r2-01
+kolbjørnsdotter,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+kommercelæster,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+dein,=,,keep: German,audit:nno-left-r2-01
+was,=,,keep: German,audit:nno-left-r2-01
+wer,=,,keep: German,audit:nno-left-r2-01
+bold,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+inki,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+fuldkommen,=,,awaiting verification of fullkomen.,audit:nno-left-r2-01
+tøi,=,,awaiting verification of tøy.,audit:nno-left-r2-01
+forladt,=,,keep: Danish gloss,audit:nno-left-r2-01
+kraftfulde,=,,awaiting verification of kraftfulle.,audit:nno-left-r2-01
+udt,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+svarat,=,,awaiting verification of svara.,audit:nno-left-r2-01
+varat,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+snelda,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+bredarne,=,,awaiting verification of bredane.,audit:nno-left-r2-01
+starad,=,,awaiting verification of stara.,audit:nno-left-r2-01
+reipat,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+plagad,=,,awaiting verification of plaga.,audit:nno-left-r2-01
+kransad,=,,awaiting verification of kransa.,audit:nno-left-r2-01
+huskad,=,,awaiting verification of huska.,audit:nno-left-r2-01
+snildaste,=,,awaiting verification of snillaste.,audit:nno-left-r2-01
+turkad,=,,awaiting verification of turka.,audit:nno-left-r2-01
+kartat,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+lundarne,=,,awaiting verification of lundane.,audit:nno-left-r2-01
+møyarne,=,,awaiting verification of møyane.,audit:nno-left-r2-01
+trillad,=,,awaiting verification of trilla.,audit:nno-left-r2-01
+naglad,=,,awaiting verification of nagla.,audit:nno-left-r2-01
+tullad,=,,awaiting verification of tulla.,audit:nno-left-r2-01
+tjørni,=,,awaiting verification of tjørna.,audit:nno-left-r2-01
+gygri,=,,awaiting verification of gygra.,audit:nno-left-r2-01
+nasarne,=,,awaiting verification of nasane.,audit:nno-left-r2-01
+skimtad,=,,awaiting verification of skimta.,audit:nno-left-r2-01
+frægdi,=,,awaiting verification of frægda.,audit:nno-left-r2-01
+veere,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+holti,=,,awaiting verification of holtet.,audit:nno-left-r2-01
+skjeri,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+taarine,=,,awaiting verification of tårane.,audit:nno-left-r2-01
+skarvi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+rivi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+drosi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+fleiri,=,,awaiting verification of fleire.,audit:nno-left-r2-01
+vaai,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+seti,=,,awaiting verification of sete.,audit:nno-left-r2-01
+gulli,=,,awaiting verification of gullet.,audit:nno-left-r2-01
+fjeldrand,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+eigeformi,=,,awaiting verification of eigeforma.,audit:nno-left-r2-01
+velsignad,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+forteent,=,,awaiting verification of fortent.,audit:nno-left-r2-01
+plukkad,=,,awaiting verification of plukka.,audit:nno-left-r2-01
+sukkad,=,,awaiting verification of sukka.,audit:nno-left-r2-01
+ravad,=,,awaiting verification of rava.,audit:nno-left-r2-01
+blodi,=,,awaiting verification of blodet.,audit:nno-left-r2-01
+spilda,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+ungdomsminni,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+saknat,=,,awaiting verification of sakna.,audit:nno-left-r2-01
+styrdt,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+signad,=,,awaiting verification of signa.,audit:nno-left-r2-01
+rømdi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+leikarne,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+høi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+sverdi,=,,awaiting verification of sverda.,audit:nno-left-r2-01
+synsrandi,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+budt,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+øyværingarne,=,,awaiting verification of øyværingane.,audit:nno-left-r2-01
+uheld,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+øyri,=,,keep: name/foreign/unclear,audit:nno-left-r2-01
+fastad,=,,awaiting verification of fasta.,audit:nno-left-r2-01
+siglingi,=,,awaiting verification of siglinga.,audit:nno-left-r2-01
+stivnad,=,,awaiting verification of stivna.,audit:nno-left-r2-01
+uppnemnd,=,,awaiting verification of oppnemnd.,audit:nno-left-r2-01
+forvanskad,=,,awaiting verification of forvanska.,audit:nno-left-r2-01
+underklassarne,=,,awaiting verification of underklassane.,audit:nno-left-r2-01
+tilverkad,=,,awaiting verification of tilverka.,audit:nno-left-r2-01
+tochter,=,,keep: German,audit:nno-left-r2-01
+auch,=,,keep: German,audit:nno-left-r2-01
+seele,=,,keep: German,audit:nno-left-r2-01
+sich,=,,keep: German,audit:nno-left-r2-01
 upp,opp,,,audit:nno-rule-r1-00
 vilde,ville,,,audit:nno-rule-r1-00
 tidi,tida,,,audit:nno-rule-r1-00
@@ -1423,7 +3492,7 @@ tankarne,tankane,,,audit:nno-rule-r1-00
 sloknad,slokna,,,audit:nno-rule-r1-00
 freistad,freista,,,audit:nno-rule-r1-00
 jarlarne,jarlane,,,audit:nno-rule-r1-00
-lovat,=,,awaiting verification of lova. participle,audit:nno-rule-r1-00
+lovat,lova,,participle,audit:nno-rule-r1-00
 statsraadarne,statsrådane,,,audit:nno-rule-r1-00
 rettad,retta,,,audit:nno-rule-r1-00
 trugad,truga,,,audit:nno-rule-r1-00
@@ -1499,7 +3568,7 @@ lengtad,lengta,,,audit:nno-rule-r1-00
 lokkad,lokka,,,audit:nno-rule-r1-00
 skjoldmøyarne,skjoldmøyane,,,audit:nno-rule-r1-00
 offiserarne,offiserane,,,audit:nno-rule-r1-00
-kastat,=,,awaiting verification of kasta. participle,audit:nno-rule-r1-00
+kastat,kasta,,participle,audit:nno-rule-r1-00
 vonad,vona,,,audit:nno-rule-r1-00
 stundi,stunda,,,audit:nno-rule-r1-00
 fylkestingi,fylkestinga,,,audit:nno-rule-r1-00
@@ -1508,7 +3577,7 @@ vikingarne,vikingane,,,audit:nno-rule-r1-00
 jomsvikingarne,jomsvikingane,,,audit:nno-rule-r1-00
 upplyste,opplyste,,,audit:nno-rule-r1-00
 skattlandi,skattlanda,,,audit:nno-rule-r1-00
-tolde,=,,awaiting verification of tolte. tolde not nn,audit:nno-rule-r1-00
+tolde,tolte,,tolde not nn,audit:nno-rule-r1-00
 russarne,russane,,,audit:nno-rule-r1-00
 upplyst,opplyst,,,audit:nno-rule-r1-00
 avgifti,avgifta,,,audit:nno-rule-r1-00
@@ -1530,7 +3599,7 @@ hentad,henta,,,audit:nno-rule-r1-00
 leni,lena,,,audit:nno-rule-r1-00
 herrarne,herrane,,,audit:nno-rule-r1-00
 portarne,portane,,,audit:nno-rule-r1-00
-jagat,=,,awaiting verification of jaga. participle,audit:nno-rule-r1-00
+jagat,jaga,,participle,audit:nno-rule-r1-00
 brui,brua,,,audit:nno-rule-r1-00
 uppløyst,oppløyst,,,audit:nno-rule-r1-00
 stanad,stana,,,audit:nno-rule-r1-00
@@ -1547,7 +3616,7 @@ uppskrivne,oppskrivne,,,audit:nno-rule-r1-00
 langskipi,langskipa,,,audit:nno-rule-r1-00
 stiftad,stifta,,,audit:nno-rule-r1-00
 finnarne,finnane,,,audit:nno-rule-r1-00
-kostat,=,,awaiting verification of kosta. participle,audit:nno-rule-r1-00
+kostat,kosta,,participle,audit:nno-rule-r1-00
 fylkingi,fylkinga,,,audit:nno-rule-r1-00
 einvaldskongarne,einvaldskongane,,,audit:nno-rule-r1-00
 godarne,godane,,,audit:nno-rule-r1-00
@@ -1560,13 +3629,13 @@ akti,akta,,,audit:nno-rule-r1-00
 havstrandi,havstranda,,,audit:nno-rule-r1-00
 fargarne,fargane,,,audit:nno-rule-r1-00
 radi,rada,,,audit:nno-rule-r1-00
-lengji,=,,awaiting verification of lenge. adverb,audit:nno-rule-r1-00
+lengji,lenge,,adverb,audit:nno-rule-r1-00
 hudi,huda,,,audit:nno-rule-r1-00
 vegine,vegane,,,audit:nno-rule-r1-00
 gutarne,gutane,,,audit:nno-rule-r1-00
 garni,garna,,,audit:nno-rule-r1-00
 kallarne,kallane,,,audit:nno-rule-r1-00
-seet,=,,awaiting verification of sett. participle of sjå,audit:nno-rule-r1-00
+seet,sett,,participle of sjå,audit:nno-rule-r1-00
 stuvade,stuva,,,audit:nno-rule-r1-00
 syni,=,,keep: unclear syn,audit:nno-rule-r1-00
 skuldi,skulda,,,audit:nno-rule-r1-00
@@ -1603,7 +3672,7 @@ rullad,rulla,,,audit:nno-rule-r1-00
 bakum,bakom,,,audit:nno-rule-r1-00
 innum,innom,,,audit:nno-rule-r1-00
 helgi,helga,,,audit:nno-rule-r1-00
-funni,=,,awaiting verification of funne. participle,audit:nno-rule-r1-00
+funni,funne,,participle,audit:nno-rule-r1-00
 visnad,visna,,,audit:nno-rule-r1-00
 dyri,dyra,,,audit:nno-rule-r1-00
 graan,=,,keep: gran or grå; grån wrong,audit:nno-rule-r1-00
@@ -1626,7 +3695,7 @@ orknøyingarne,orknøyingane,,,audit:nno-rule-r1-00
 etterkomararne,etterkomarane,,,audit:nno-rule-r1-00
 jamtarne,jamtane,,,audit:nno-rule-r1-00
 heidningarne,heidningane,,,audit:nno-rule-r1-00
-kallat,=,,awaiting verification of kalla. participle,audit:nno-rule-r1-00
+kallat,kalla,,participle,audit:nno-rule-r1-00
 leikad,leika,,,audit:nno-rule-r1-00
 dansketidi,dansketida,,,audit:nno-rule-r1-00
 lempad,lempa,,,audit:nno-rule-r1-00
@@ -1693,7 +3762,7 @@ herdarne,herdane,,,audit:nno-rule-r1-00
 kostade,kosta,,,audit:nno-rule-r1-00
 maalarstykki,målarstykka,,,audit:nno-rule-r1-00
 bondebygdi,bondebygda,,,audit:nno-rule-r1-00
-lengi,=,,awaiting verification of lenge. adverb,audit:nno-rule-r1-00
+lengi,lenge,,adverb,audit:nno-rule-r1-00
 glasi,glasa,,,audit:nno-rule-r1-00
 kongsdotteri,kongsdottera,,,audit:nno-rule-r1-00
 kveldsoli,kveldsola,,,audit:nno-rule-r1-00
@@ -1721,7 +3790,7 @@ upphav,opphav,,,audit:nno-rule-r1-00
 slagi,slaga,,,audit:nno-rule-r1-00
 reglarne,reglane,,,audit:nno-rule-r1-00
 kveldingi,kveldinga,,,audit:nno-rule-r1-00
-kammerat,=,,awaiting verification of kamerat. not -at suffix,audit:nno-rule-r1-00
+kammerat,kamerat,,not -at suffix,audit:nno-rule-r1-00
 pratad,prata,,,audit:nno-rule-r1-00
 vindaugat,vindauget,,,audit:nno-rule-r1-00
 dansad,dansa,,,audit:nno-rule-r1-00
@@ -1739,7 +3808,7 @@ dygdi,=,,keep: unclear,audit:nno-rule-r1-00
 trei,=,,context: trea | tre,audit:nno-rule-r1-00
 skyi,skya,,,audit:nno-rule-r1-00
 hori,=,,keep: dialect unclear,audit:nno-rule-r1-00
-fari,=,,awaiting verification of fare. participle of fare,audit:nno-rule-r1-00
+fari,fare,,participle of fare,audit:nno-rule-r1-00
 broki,broka,,,audit:nno-rule-r1-00
 skuggarne,skuggane,,,audit:nno-rule-r1-00
 potarne,potane,,,audit:nno-rule-r1-00
@@ -1750,7 +3819,7 @@ fuglarne,fuglane,,,audit:nno-rule-r1-00
 flokarne,flokane,,,audit:nno-rule-r1-00
 bjørki,bjørka,,,audit:nno-rule-r1-00
 bakkarne,bakkane,,,audit:nno-rule-r1-00
-fengi,=,,awaiting verification of fenge. participle of få,audit:nno-rule-r1-00
+fengi,=,,verifier disagreed (fått: supine of få; fenge is not a participle); was fenge,audit:nno-rule-r1-00
 laane,låne,,,audit:nno-rule-r1-00
 drifti,drifta,,,audit:nno-rule-r1-00
 hengji,=,,keep: dialect unclear,audit:nno-rule-r1-00
@@ -1802,7 +3871,7 @@ raadgjevararne,rådgjevarane,,,audit:nno-rule-r1-00
 ugjerningi,ugjerninga,,,audit:nno-rule-r1-00
 kaarad,kåra,,,audit:nno-rule-r1-00
 blømingi,bløminga,,,audit:nno-rule-r1-00
-skrivi,=,,awaiting verification of skrive. participle,audit:nno-rule-r1-00
+skrivi,=,,verifier disagreed (skriven: fem./masc. participle (boki er skrivi)); was skrive,audit:nno-rule-r1-00
 ordlagi,ordlaga,,,audit:nno-rule-r1-00
 skutelsveinarne,skutelsveinane,,,audit:nno-rule-r1-00
 hertugarne,hertugane,,,audit:nno-rule-r1-00
@@ -1840,7 +3909,7 @@ gali,=,,keep: unclear,audit:nno-rule-r1-00
 stangad,stanga,,,audit:nno-rule-r1-00
 murad,mura,,,audit:nno-rule-r1-00
 slaatrad,slåtra,,,audit:nno-rule-r1-01
-brigdat,=,,awaiting verification of brigda. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+brigdat,brigda,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 rettskrivingi,rettskrivinga,,,audit:nno-rule-r1-01
 stykki,stykka,,,audit:nno-rule-r1-01
 gjerningsordi,gjerningsorda,,,audit:nno-rule-r1-01
@@ -1852,12 +3921,12 @@ skavlarne,skavlane,,,audit:nno-rule-r1-01
 hallade,halla,,,audit:nno-rule-r1-01
 fossade,fossa,,,audit:nno-rule-r1-01
 brakade,braka,,,audit:nno-rule-r1-01
-talat,=,,awaiting verification of tala. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+talat,tala,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 ropi,ropa,,,audit:nno-rule-r1-01
 talade,tala,,,audit:nno-rule-r1-01
-visat,=,,awaiting verification of vist. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+visat,vist,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 hjelpi,hjelpa,,,audit:nno-rule-r1-01
-prentat,=,,awaiting verification of prenta. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+prentat,prenta,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 skapade,skapa,,,audit:nno-rule-r1-01
 fraasegni,fråsegna,,,audit:nno-rule-r1-01
 uppreisning,oppreisning,,,audit:nno-rule-r1-01
@@ -1867,11 +3936,11 @@ kverni,kverna,,,audit:nno-rule-r1-01
 tonarne,tonane,,,audit:nno-rule-r1-01
 misgjerdi,misgjerda,,,audit:nno-rule-r1-01
 haari,håra,,,audit:nno-rule-r1-01
-vaagat,=,,awaiting verification of våga. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+vaagat,våga,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 flaumade,flauma,,,audit:nno-rule-r1-01
 smakade,smaka,,,audit:nno-rule-r1-01
 storknad,storkna,,,audit:nno-rule-r1-01
-holat,=,,awaiting verification of hola. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+holat,hola,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 rapad,rapa,,,audit:nno-rule-r1-01
 naudt,=,,keep:,audit:nno-rule-r1-01
 uppimot,oppimot,,,audit:nno-rule-r1-01
@@ -1914,7 +3983,7 @@ samraadi,=,,context: samrådet | samråda,audit:nno-rule-r1-01
 narrade,narra,,,audit:nno-rule-r1-01
 rivnade,rivna,,,audit:nno-rule-r1-01
 lettade,letta,,,audit:nno-rule-r1-01
-tjeldat,=,,awaiting verification of tjelda. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+tjeldat,tjelda,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 sullade,sulla,,,audit:nno-rule-r1-01
 stamnarne,stamnane,,,audit:nno-rule-r1-01
 krabbade,krabba,,,audit:nno-rule-r1-01
@@ -1936,7 +4005,7 @@ vankade,vanka,,,audit:nno-rule-r1-01
 huldri,huldra,,,audit:nno-rule-r1-01
 klauvi,klauva,,,audit:nno-rule-r1-01
 foreldri,foreldra,,,audit:nno-rule-r1-01
-hoppat,=,,awaiting verification of hoppa. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+hoppat,hoppa,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 stangade,stanga,,,audit:nno-rule-r1-01
 toreslaattarne,toreslåttane,,,audit:nno-rule-r1-01
 gneistarne,gneistane,,,audit:nno-rule-r1-01
@@ -1952,7 +4021,7 @@ mengdi,mengda,,,audit:nno-rule-r1-01
 utkantarne,utkantane,,,audit:nno-rule-r1-01
 uppdregen,oppdregen,,,audit:nno-rule-r1-01
 avgrensad,avgrensa,,,audit:nno-rule-r1-01
-gardine,=,,awaiting verification of gardin.,audit:nno-rule-r1-01
+gardine,gardin,,,audit:nno-rule-r1-01
 smaagutarne,smågutane,,,audit:nno-rule-r1-01
 lystrad,lystra,,,audit:nno-rule-r1-01
 lovarne,lovane,,,audit:nno-rule-r1-01
@@ -1966,7 +4035,7 @@ uppgaava,oppgåva,,,audit:nno-rule-r1-01
 uppfinningi,oppfinninga,,,audit:nno-rule-r1-01
 biad,bia,,,audit:nno-rule-r1-01
 lyklarne,lyklane,,,audit:nno-rule-r1-01
-snoi,=,,awaiting verification of snøen.,audit:nno-rule-r1-01
+snoi,=,,"verifier disagreed (snoa: sno = cold wind (livd mot snoi), not snow); was snøen",audit:nno-rule-r1-01
 krabbad,krabba,,,audit:nno-rule-r1-01
 staukad,stauka,,,audit:nno-rule-r1-01
 bataljonarne,bataljonane,,,audit:nno-rule-r1-01
@@ -1980,7 +4049,7 @@ firad,fira,,,audit:nno-rule-r1-01
 ruggad,rugga,,,audit:nno-rule-r1-01
 skumpad,skumpa,,,audit:nno-rule-r1-01
 kraai,kråa,,,audit:nno-rule-r1-01
-skuvat,=,,awaiting verification of skuva. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+skuvat,skuva,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 uppklaarast,oppklårast,,,audit:nno-rule-r1-01
 utnyttad,utnytta,,,audit:nno-rule-r1-01
 folkediktingi,folkediktinga,,,audit:nno-rule-r1-01
@@ -1988,11 +4057,11 @@ stemplad,stempla,,,audit:nno-rule-r1-01
 eventyri,eventyra,,,audit:nno-rule-r1-01
 folketonarne,folketonane,,,audit:nno-rule-r1-01
 uppraadd,opprådd,,,audit:nno-rule-r1-01
-skapat,=,,awaiting verification of skapa. at-et wrong: a-verb participle,audit:nno-rule-r1-01
-tilfelli,=,,awaiting verification of tilfelle.,audit:nno-rule-r1-01
+skapat,skapa,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
+tilfelli,=,,verifier disagreed (tilfella: definite plural (desse tilfelli)); was tilfelle,audit:nno-rule-r1-01
 upplysa,opplysa,,,audit:nno-rule-r1-01
 grunnarne,grunnane,,,audit:nno-rule-r1-01
-fiktat,=,,awaiting verification of fikta. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+fiktat,fikta,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 kjenningarne,kjenningane,,,audit:nno-rule-r1-01
 luskad,luska,,,audit:nno-rule-r1-01
 hugsad,hugsa,,,audit:nno-rule-r1-01
@@ -2026,7 +4095,7 @@ snaavad,snåva,,,audit:nno-rule-r1-01
 preikade,preika,,,audit:nno-rule-r1-01
 riktad,rikta,,,audit:nno-rule-r1-01
 knakad,knaka,,,audit:nno-rule-r1-01
-maalat,=,,awaiting verification of måla. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+maalat,måla,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 øksad,øksa,,,audit:nno-rule-r1-01
 klovi,=,,"keep: participle (kløyvd), not noun",audit:nno-rule-r1-01
 herdi,herda,,,audit:nno-rule-r1-01
@@ -2043,7 +4112,7 @@ pakningi,pakninga,,,audit:nno-rule-r1-01
 kokad,koka,,,audit:nno-rule-r1-01
 ballad,balla,,,audit:nno-rule-r1-01
 loki,loka,,,audit:nno-rule-r1-01
-ballat,=,,awaiting verification of balla. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+ballat,balla,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 dundrad,dundra,,,audit:nno-rule-r1-01
 puslad,pusla,,,audit:nno-rule-r1-01
 dusti,=,,keep:,audit:nno-rule-r1-01
@@ -2073,7 +4142,7 @@ ladi,lada,,,audit:nno-rule-r1-01
 kubbarne,kubbane,,,audit:nno-rule-r1-01
 sporvarne,sporvane,,,audit:nno-rule-r1-01
 skjori,skjora,,,audit:nno-rule-r1-01
-rispat,=,,awaiting verification of rispa. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+rispat,rispa,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 segli,segla,,,audit:nno-rule-r1-01
 skipsgutarne,skipsgutane,,,audit:nno-rule-r1-01
 silad,sila,,,audit:nno-rule-r1-01
@@ -2105,14 +4174,14 @@ lesingi,lesinga,,,audit:nno-rule-r1-01
 krøkji,krøkja,,,audit:nno-rule-r1-01
 musi,musa,,,audit:nno-rule-r1-01
 toti,=,,keep:,audit:nno-rule-r1-01
-regni,=,,awaiting verification of regnet.,audit:nno-rule-r1-01
+regni,regnet,,,audit:nno-rule-r1-01
 sumrarne,sumrane,,,audit:nno-rule-r1-01
 dt,=,,keep:,audit:nno-rule-r1-01
 existere,eksistere,,,audit:nno-rule-r1-01
 vildmark,villmark,,,audit:nno-rule-r1-01
 koldt,=,,keep:,audit:nno-rule-r1-01
 kjendt,kjent,,,audit:nno-rule-r1-01
-støi,=,,awaiting verification of støy.,audit:nno-rule-r1-01
+støi,=,,verifier disagreed (=: Danish gloss text); was støy,audit:nno-rule-r1-01
 veent,vent,,,audit:nno-rule-r1-01
 gjengi,=,,"keep: participle, not noun",audit:nno-rule-r1-01
 alni,alna,,,audit:nno-rule-r1-01
@@ -2142,22 +4211,22 @@ uppmaning,oppmaning,,,audit:nno-rule-r1-01
 laugade,lauga,,,audit:nno-rule-r1-01
 gylde,=,,keep: def. of gylden; nn gylne,audit:nno-rule-r1-01
 gjestingi,gjestinga,,,audit:nno-rule-r1-01
-dunkat,=,,awaiting verification of dunka. at-et wrong: a-verb participle,audit:nno-rule-r1-01
-bukkat,=,,awaiting verification of bukka. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+dunkat,dunka,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
+bukkat,bukka,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 rum,rom,,,audit:nno-rule-r1-01
 ambodi,amboda,,,audit:nno-rule-r1-01
 matmaali,matmåla,,,audit:nno-rule-r1-01
 meltingi,meltinga,,,audit:nno-rule-r1-01
 stormfuglarne,stormfuglane,,,audit:nno-rule-r1-01
-saltat,=,,awaiting verification of salta. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+saltat,salta,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 skumad,skuma,,,audit:nno-rule-r1-01
 lunki,=,,keep:,audit:nno-rule-r1-01
 uttalad,uttala,,,audit:nno-rule-r1-01
-sødt,=,,awaiting verification of søtt.,audit:nno-rule-r1-01
+sødt,=,,verifier disagreed (=: Danish proverb passage); was søtt,audit:nno-rule-r1-01
 fuld,full,,,audit:nno-rule-r1-01
-ild,=,,"awaiting verification of eld. fire; nn eld, not ill",audit:nno-rule-r1-01
-falder,=,,awaiting verification of fell.,audit:nno-rule-r1-01
-bidt,=,,awaiting verification of bite.,audit:nno-rule-r1-01
+ild,=,,verifier disagreed (=: Danish proverb passage); was eld,audit:nno-rule-r1-01
+falder,=,,verifier disagreed (=: Danish proverb passage); was fell,audit:nno-rule-r1-01
+bidt,=,,verifier disagreed (=: Danish proverb passage); was bite,audit:nno-rule-r1-01
 lygni,lygna,,,audit:nno-rule-r1-01
 sanningi,sanninga,,,audit:nno-rule-r1-01
 bæri,=,,context: bær | bæra,audit:nno-rule-r1-01
@@ -2282,18 +4351,18 @@ sjørøvararne,sjørøvarane,,,audit:nno-rule-r1-01
 klagemaali,klagemåla,,,audit:nno-rule-r1-01
 diki,=,,context: diket | dika,audit:nno-rule-r1-01
 portvakti,portvakta,,,audit:nno-rule-r1-01
-skuldad,=,,awaiting verification of skulda.,audit:nno-rule-r1-01
+skuldad,skulda,,,audit:nno-rule-r1-01
 festningarne,festningane,,,audit:nno-rule-r1-01
 sakramenti,=,,context: sakramentet | sakramenta,audit:nno-rule-r1-01
 reinskad,reinska,,,audit:nno-rule-r1-01
 landsmaali,landsmåla,,,audit:nno-rule-r1-01
 uppstyr,oppstyr,,,audit:nno-rule-r1-01
-brukat,=,,awaiting verification of bruka. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+brukat,bruka,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 astronomarne,astronomane,,,audit:nno-rule-r1-01
 stasad,stasa,,,audit:nno-rule-r1-01
 innvandringi,innvandringa,,,audit:nno-rule-r1-01
 turad,tura,,,audit:nno-rule-r1-01
-minni,=,,awaiting verification of minne.,audit:nno-rule-r1-01
+minni,=,,verifier disagreed (minna: definite plural (vekkte minni)); was minne,audit:nno-rule-r1-01
 reformatorarne,reformatorane,,,audit:nno-rule-r1-01
 gjerningi,gjerninga,,,audit:nno-rule-r1-01
 herredagarne,herredagane,,,audit:nno-rule-r1-01
@@ -2313,7 +4382,7 @@ festningsverki,festningsverka,,,audit:nno-rule-r1-01
 skinnbroki,skinnbroka,,,audit:nno-rule-r1-01
 generalarne,generalane,,,audit:nno-rule-r1-01
 skansarne,skansane,,,audit:nno-rule-r1-01
-skubbat,=,,awaiting verification of skubba. at-et wrong: a-verb participle,audit:nno-rule-r1-01
+skubbat,skubba,,at-et wrong: a-verb participle,audit:nno-rule-r1-01
 minkad,minka,,,audit:nno-rule-r1-01
 trakkad,trakka,,,audit:nno-rule-r1-01
 nordlendingarne,nordlendingane,,,audit:nno-rule-r1-01
@@ -2349,7 +4418,7 @@ ladningarne,ladningane,,,audit:nno-rule-r1-02
 bergingi,berginga,,,audit:nno-rule-r1-02
 protokollarne,protokollane,,,audit:nno-rule-r1-02
 grunntankarne,grunntankane,,,audit:nno-rule-r1-02
-brannfolki,=,,awaiting verification of brannfolket. folk is neuter,audit:nno-rule-r1-02
+brannfolki,=,,"verifier disagreed (brannfolka: neuter -i is definite plural, not singular); was brannfolket",audit:nno-rule-r1-02
 prokuratorarne,prokuratorane,,,audit:nno-rule-r1-02
 skubbad,skubba,,,audit:nno-rule-r1-02
 studentarne,studentane,,,audit:nno-rule-r1-02
@@ -2362,12 +4431,12 @@ uppglødd,oppglødd,,,audit:nno-rule-r1-02
 innstillingi,innstillinga,,,audit:nno-rule-r1-02
 staakad,ståka,,,audit:nno-rule-r1-02
 skandinavarne,skandinavane,,,audit:nno-rule-r1-02
-smaafolki,=,,awaiting verification of småfolket. folk is neuter,audit:nno-rule-r1-02
+smaafolki,=,,"verifier disagreed (småfolka: neuter -i is definite plural, not singular); was småfolket",audit:nno-rule-r1-02
 bondegutarne,bondegutane,,,audit:nno-rule-r1-02
 kontorkrakkarne,kontorkrakkane,,,audit:nno-rule-r1-02
 komitearne,komiteane,,,audit:nno-rule-r1-02
 rikkad,rikka,,,audit:nno-rule-r1-02
-sinnat,=,,"awaiting verification of sinna. adj sinna, not noun sinnet",audit:nno-rule-r1-02
+sinnat,sinna,,"adj sinna, not noun sinnet",audit:nno-rule-r1-02
 laasarne,låsane,,,audit:nno-rule-r1-02
 ministrarne,ministrane,,,audit:nno-rule-r1-02
 smaaminkad,småminka,,,audit:nno-rule-r1-02
@@ -2376,3 +4445,18 @@ forandringi,forandringa,,,audit:nno-rule-r1-02
 forargad,forarga,,,audit:nno-rule-r1-02
 maalararne,målarane,,,audit:nno-rule-r1-02
 teiknad,teikna,,,audit:nno-rule-r1-02
+baade,både,,,audit:nno-rule-r2-00
+landsmaalet,landsmålet,,,audit:nno-rule-r2-00
+saart,sårt,,,audit:nno-rule-r2-00
+aand,ånd,,,audit:nno-rule-r2-00
+gaava,gåva,,,audit:nno-rule-r2-00
+frampaa,frampå,,,audit:nno-rule-r2-00
+slaatt,slått,,,audit:nno-rule-r2-00
+laage,låge,,,audit:nno-rule-r2-00
+vaas,vås,,,audit:nno-rule-r2-00
+snaapt,snåpt,,,audit:nno-rule-r2-00
+traad,tråd,,,audit:nno-rule-r2-00
+uklaart,uklårt,,,audit:nno-rule-r2-00
+paalsmessa,pålsmessa,,,audit:nno-rule-r2-00
+haargard,hårgard,,,audit:nno-rule-r2-00
+fraastand,fråstand,,,audit:nno-rule-r2-00

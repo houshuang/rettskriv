@@ -26,10 +26,21 @@ FOLDER = {"nob": "bokmal", "nno": "nynorsk"}
 
 
 def modern(bank: Bank, archaism: Archaism, word: str) -> bool:
-    """A non-archaic bank form, or the genitive -s of one (the bank lists no genitives)."""
+    """A non-archaic bank form, its genitive -s, or a compound of two (the bank lists
+    no genitives and few compounds)."""
     if bank.common(word):
         return not archaism.archaic(word)
-    return word.endswith("s") and bank.common(word[:-1]) and not archaism.archaic(word[:-1])
+    if word.endswith("s") and bank.common(word[:-1]) and not archaism.archaic(word[:-1]):
+        return True
+    # a compound of two bank words, optionally joined by s or e (the bank lists few compounds)
+    for i in range(3, len(word) - 2):
+        head, tail = word[:i], word[i:]
+        heads = [head] + ([head[:-1]] if head[-1] in "se" and len(head) > 3 else [])
+        if bank.common(tail) and not archaism.archaic(tail) and any(
+            bank.common(h) and not archaism.archaic(h) for h in heads
+        ):
+            return True
+    return False
 
 
 def packets() -> dict[str, dict]:

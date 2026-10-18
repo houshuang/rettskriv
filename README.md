@@ -37,8 +37,10 @@ From that:
    "archaic"); those only the lexicon may change.
 4. **Respelling rules** (`rettskriv/rules.py`): obligatory letter rewrites (*aa*, *qv*,
    *ph*, *øi*) then optional ones (*b d g* → *p t k*, doubled consonants, *æ*). Only a
-   unique non-archaic bank form at the shallowest depth is accepted; suffix rules must
-   land on the inflection they respell.
+   non-archaic bank form that is the only one reachable is accepted; suffix rules must
+   land on the inflection they respell; and the chain must be trusted (below).
+5. **Grammar** (`Engine.grammar`): the -ede past against the -ede adjective, and plural
+   verbs after *vi*, *de*, *I*, decided by the neighbouring words.
 
 Whether a book capitalises its nouns is detected per book; in such books a lower-case
 word is no noun, which several lexicon rows use (*tog* → *tok*, but *Tog* stays).

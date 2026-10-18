@@ -50,7 +50,7 @@ def main() -> None:
                 rows["rule"].append((row["count"], row["from"], row["to"], "+".join(chain), row["examples"]))
         with open(SURVEY / f"{lang}-left.tsv") as handle:
             for row in csv.DictReader(handle, delimiter="\t"):
-                if int(row["count"]) < args.min or row["form"] in done:
+                if (int(row["count"]) < args.min and row["reason"] != "pending") or row["form"] in done:
                     continue
                 rows["left"].append((row["count"], row["form"], row["reason"], row["candidates"], row["examples"]))
         inbank = SURVEY / f"{lang}-inbank.tsv"

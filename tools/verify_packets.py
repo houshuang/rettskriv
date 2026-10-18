@@ -23,10 +23,14 @@ def main() -> None:
     items, results, checks = packets(), verdicts(), verifications()
     folder = AUDIT / "verify"
     folder.mkdir(parents=True, exist_ok=True)
+    queued = set()  # already in a verification packet, answered or not
+    for path in folder.glob("*.tsv"):
+        with open(path) as handle:
+            queued |= {line.split("\t", 1)[0] for line in handle}
     for lang in ("nob", "nno"):
         rows = []
         for vid, verdict in sorted(results.items()):
-            if not vid.startswith(lang) or vid in checks or vid not in items:
+            if not vid.startswith(lang) or vid in checks or vid in queued or vid not in items:
                 continue
             if verdict["verdict"].strip().lower() != "fix":
                 continue
