@@ -65,6 +65,15 @@ once and stored:
    `context.csv`) take precedence. Context verdicts stay as printed unless a context row
    is written; the -ede past/participle and plural verbs are left to the grammar rules.
 
+5. `tools/homograph_packets.py` and `HOMOGRAPH-BRIEF.md`: every change made at least
+   five times without context goes to an Opus screen for a second reading of the old
+   form (*lidt*: litt or lidd; *Lege*: games or doctor). `tools/homograph_ingest.py`
+   writes `lexicon/<norm>/homograph.csv`, which is authoritative for its forms: a risky
+   form changes only in the context given, otherwise it stays as printed.
+
+Forms seen once get a compound proposal (`tools/compounds.py`) in their packet; about
+one in ten proposals is wrong, so they only reach text through the auditor and verifier.
+
 A rule result is applied without audit only when its chain is trusted
 (`data/trusted-chains.json`, ≥ 99.5% over ≥ 30 audited forms, or the reforms' own letter
 equivalences). Anything else is "pending": left as printed until audited.
@@ -80,6 +89,15 @@ About 98.7% of the lexicon-decided words in a reader also occur in the other rea
 a new book is nearly fully modernised at once. Its remaining new forms are pending (left
 as printed). Optional, cheap: `tools/survey.py --books <book>`, a packets round, one
 auditor and one verifier, `tools/ingest.py`, rebuild.
+
+To rebuild a live site, build beside it and swap it in, so a running export never sees
+a half-written folder:
+
+```sh
+python3 tools/build.py --out out/modern.next
+python3 tools/render_site.py --layers out/modern.next --site out/site.next
+python3 tools/swap_site.py out/site.next   # atomic exchange; old tree kept as out/site.prev-<stamp>
+```
 
 Skard picks up `out/site/` (`MODERN_ROOT` in `web/delivery/library-assets.mjs`) and
 shows an Original / Moderne switch on each piece page; the printed text is the default.
