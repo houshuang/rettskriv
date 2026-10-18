@@ -1,0 +1,62 @@
+source,target,when,note,origin
+# Old forms with two readings, resolved by context. In books that capitalise
+# nouns (nouncaps), a capital mid-sentence marks the noun and lower case the verb.
+slet,slett,next=ikke|ingen|intet|ingenting|ei|aldrig|ikkun|intet,adverb (slet ikke),context
+slet,=,,,context
+heder,heter,lower;nouncaps,is called (Hæder = honour),context
+heder,heter,lower;prev=han|hun|det|den|jeg|du|som|der|hvad|man|byen|gaarden|stedet,is called,context
+heder,=,,,context
+lande,land,cap;mid;nouncaps,noun plural,context
+lande,=,,,context
+læs,lass,cap;mid;nouncaps,noun: load,context
+læs,les,lower;nouncaps,imperative of læse,context
+læs,=,,,context
+gange,ganger,cap;mid;nouncaps,times,context
+gange,ganger,prev=mange|to|tre|fire|fem|seks|syv|otte|ni|ti|tolv|tyve|flere|nogle|hundrede|tusinde|adskillige|hvor|saa|tusende,times,context
+gange,=,,,context
+tyve,tyver,cap;mid;nouncaps,thieves (tyve = twenty stays),context
+tyve,=,,,context
+bed,be,initial;next=til|for|om|og|ham|dem|ogsaa|nu|da|du|i,imperative of bede,context
+bed,bet,lower;prev=han|hun|den|det|jeg|du|vi|de|hunden|ulven,past of bide,context
+bed,=,,,context
+brænde,brenne,lower;nouncaps,verb (Brænde = firewood),context
+brænde,brenne,lower;prev=at|vil|skal|kan|maa|kunde|skulde|vilde|lade|lod|aa,verb,context
+brænde,=,,,context
+sande,sanne,prev=den|det|de|denne|dette|disse|min|din|sin|sine|hans|hendes|vor|vore|deres|saa,adjective plural/definite,context
+sande,=,,,context
+grunde,grunner,cap;mid;nouncaps,reasons,context
+grunde,grunne,lower;nouncaps,to ponder,context
+grunde,=,,,context
+bløde,blø,lower;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|begyndte|lod|aa,to bleed,context
+bløde,bløte,prev=den|det|de|denne|dette|disse|sin|sine|hans|hendes|min|mine|dine|vore|deres,soft (plural/definite),context
+bløde,=,,,context
+sager,saker,cap;mid;nouncaps,things (sager = saws),context
+sager,=,,,context
+huse,hus,cap;mid;nouncaps,houses,context
+huse,=,,,context
+steden,stedet,prev=i,i steden for = i stedet for,context
+steden,=,,,context
+graat,grått,lower;nouncaps,grey (neuter),context
+graat,=,,,context
+hære,hærer,cap;mid;nouncaps,armies,context
+hære,=,,,context
+pibe,pipe,,noun and verb both modernise to pipe,context
+andens,annens,lower;prev=den|hin|en,the other's,context
+andens,=,,,context
+tal,tall,cap;mid;nouncaps,number (tal = imperative of tale stays),context
+tal,=,,,context
+optog,opptog,cap;mid;nouncaps,procession,context
+optog,opptok,lower;nouncaps,past of opptage,context
+optog,=,,,context
+droge,dro,lower,plural past of drage,context
+droge,=,,,context
+bøde,bøte,lower;nouncaps,to atone,context
+bøde,=,,,context
+mure,murer,cap;mid;nouncaps,walls,context
+mure,=,,,context
+græder,gråter,lower,weeps,context
+græder,=,,,context
+foer,for,lower;prev=han|hun|den|det|de|vi|jeg|du|man|som|der|og,past of fare,context
+foer,=,,,context
+staat,stått,lower;nouncaps,participle of staa,context
+staat,=,,,context

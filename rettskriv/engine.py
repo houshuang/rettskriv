@@ -48,6 +48,7 @@ PLURAL_SUBJECTS = {"vi", "de"}
 PRONOUN_OBJECTS = {"sig", "ham", "hende", "dem", "os", "mig", "dig", "eder", "jeg", "du", "han", "hun", "vi", "man"}
 
 ROOT = Path(__file__).resolve().parent.parent
+NAME_SHARE = 0.3
 
 # Tags too rare to block a reading: letters as symbols, abbreviations, interjections.
 MINOR_TAGS = frozenset({"symb", "fork", "interj"})
@@ -262,6 +263,14 @@ class Engine:
         tags = self.bank.tags(low)
         if not tags or "prop" in tags and not (tags - {"prop"}):
             return target[:1].upper() + target[1:]
+        if "prop" in tags:
+            # both a name and a common word (Ola, Lie, Dag): a name if modern text
+            # writes it capitalised at least 30% as often as lower case
+            capital = target[:1].upper() + target[1:]
+            if capital not in self.archaism.freq or (
+                self.archaism.modern(capital) >= NAME_SHARE * self.archaism.modern(low)
+            ):
+                return capital
         return low
 
     def decide(self, tokens: list[Token], i: int, words: list[int], second_pass: bool) -> bool:

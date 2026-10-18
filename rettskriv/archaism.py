@@ -80,6 +80,10 @@ class Archaism:
             return None
         return new / old
 
+    def modern(self, word: str) -> float:
+        """Relative frequency 1990–2020 of the form exactly as given (case-sensitive)."""
+        return self.freq.get(word, (0.0, 0.0))[1]
+
     def archaic(self, word: str) -> bool:
         ratio = self.ratio(word)
         return ratio is not None and ratio < ARCHAIC_RATIO

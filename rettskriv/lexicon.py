@@ -67,11 +67,16 @@ def parse_when(text: str) -> tuple[tuple[str, frozenset[str] | None], ...]:
 def load(lang: str) -> dict[str, list[Entry]]:
     entries: dict[str, list[Entry]] = {}
     folder = LEXICON / {"nob": "bokmal", "nno": "nynorsk"}[lang]
-    for path in sorted(folder.glob("*.csv")):
+    # Curated files first; audit.csv (generated) only adds forms no curated file covers.
+    paths = sorted(folder.glob("*.csv"), key=lambda p: (p.name == "audit.csv", p.name))
+    for path in paths:
+        curated = set(entries) if path.name == "audit.csv" else set()
         with open(path, newline="", encoding="utf-8") as handle:
             for number, row in enumerate(csv.DictReader(handle), start=2):
                 source = row["source"].strip()
                 if not source or source.startswith("#"):
+                    continue
+                if source.lower() in curated:
                     continue
                 entry = Entry(
                     source=source.lower(),

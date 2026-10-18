@@ -45,6 +45,43 @@ word is no noun, which several lexicon rows use (*tog* → *tok*, but *Tog* stay
 Pieces in another language (Swedish, English, landsmål inside a riksmål reader) are
 detected by function words and go to the right engine or are left as printed.
 
+## Robustness: how the lexicon is made
+
+Rules alone are right about 95–97% of the time per rule chain (`tools/rule_precision.py`),
+not enough for "never change meaning". So every form the library contains is decided
+once and stored:
+
+1. `tools/survey.py` runs the engine over the library and lists what rules changed,
+   what was left for want of a decision, and in-bank forms whose use collapsed.
+2. `tools/packets.py --round N` cuts those into packets; a Sonnet auditor per packet
+   follows `AUDIT-BRIEF.md` (ok / fix / keep / context, every target checked against the
+   bank with `tools/lookup.py`).
+3. `tools/verify_packets.py --round N`: every auditor `fix` (a target the rules did not
+   find) goes to an independent Opus verifier (`VERIFY-BRIEF.md`). A fix changes text
+   only after the verifier agrees; until then, and on disagreement, the form stays.
+4. `tools/ingest.py` writes `lexicon/<norm>/audit.csv`. Curated files (`core.csv`,
+   `context.csv`) take precedence. Context verdicts stay as printed unless a context row
+   is written; the -ede past/participle and plural verbs are left to the grammar rules.
+
+A rule result is applied without audit only when its chain is trusted
+(`data/trusted-chains.json`, ≥ 99.5% over ≥ 30 audited forms, or the reforms' own letter
+equivalences). Anything else is "pending": left as printed until audited.
+
+## Adding a book
+
+```sh
+python3 tools/build.py <book>         # mechanical, no model calls: out/modern/<book>.json
+python3 tools/render_site.py <book>   # piece pages with the edition's own builder: out/site/<book>/
+```
+
+About 98.7% of the lexicon-decided words in a reader also occur in the other readers, so
+a new book is nearly fully modernised at once. Its remaining new forms are pending (left
+as printed). Optional, cheap: `tools/survey.py --books <book>`, a packets round, one
+auditor and one verifier, `tools/ingest.py`, rebuild.
+
+Skard picks up `out/site/` (`MODERN_ROOT` in `web/delivery/library-assets.mjs`) and
+shows an Original / Moderne switch on each piece page; the printed text is the default.
+
 ## Data
 
 - `data/ordbank/`: Norsk ordbank bokmål 2005 and nynorsk 2012 (Språkbanken, CC BY 4.0),

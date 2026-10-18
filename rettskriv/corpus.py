@@ -35,7 +35,7 @@ def load(book: str) -> dict:
         return json.load(handle)
 
 
-TITLE_FIELDS = ("title", "nav_title", "subtitle")
+TITLE_FIELDS = ("title", "nav_title", "subtitle", "section")
 
 
 def units(item: dict):
