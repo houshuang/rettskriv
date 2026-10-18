@@ -25,7 +25,9 @@ def main() -> None:
     parser.add_argument("--seed", default="rettskriv-eval")
     parser.add_argument("--per-book", type=int, default=4)
     parser.add_argument("--min-words", type=int, default=40)
+    parser.add_argument("--forms", type=Path, help="only paragraphs that change one of these old forms (one per line)")
     args = parser.parse_args()
+    forms = set(args.forms.read_text().split()) if args.forms else None
     OUT.mkdir(parents=True, exist_ok=True)
     rng = random.Random(args.seed)
     engines = {"nob": Engine("nob"), "nno": Engine("nno")}
@@ -48,6 +50,14 @@ def main() -> None:
             for path, text, verse in corpus.units(item):
                 if path[0] == "blocks" and len(text.split()) >= args.min_words:
                     candidates.append((item, path, text, verse, lang))
+        if forms is not None:
+            hits = []
+            for candidate in candidates:
+                item, path, text, verse, lang = candidate
+                result = engines[lang].modernise(text, verse=verse)
+                if any(t.word and t.out != t.text and t.lower in forms for t in result.tokens):
+                    hits.append(candidate)
+            candidates = hits
         for item, path, text, verse, lang in rng.sample(candidates, min(args.per_book, len(candidates))):
             result = engines[lang].modernise(text, verse=verse)
             changes = []

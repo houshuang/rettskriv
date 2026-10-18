@@ -9,6 +9,12 @@ the library**. The owner's rule: **never change meaning**. Policy:
 - Keeping the old form is always safe; a wrong form or the right form of a different
   word is the failure that matters.
 - Names, foreign words, abbreviations stay.
+- Words in Danish, Swedish, Faroese, Icelandic, Old Norse, German or Latin passages stay
+  as printed, even when a Norwegian word looks alike (*hús* in a Faroese ballad).
+- Compounds: check each part. The first element keeps its compound form (*hoved-* stays
+  *hoved-* in *hovedsak*, not *hode-*), and the head must be the right word and
+  inflection (*tømmermannens*, not *tømmermanndens*). `lookup.py` prints `compound`
+  for a target it would accept as a compound; that is not proof the split is right.
 
 For each line decide independently whether the proposal is right for this old form in
 general (not only in the examples shown): is it the same word, in the same inflection,

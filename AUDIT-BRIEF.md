@@ -32,10 +32,19 @@ the word marked `[old→engine output]`.
   modern form (`candidates` lists ties). `inbank`: the form is a valid modern word, but
   its use collapsed after 1910 (`candidates` holds the ratio), so it may be an old
   spelling of another word (*dit* for *ditt*, *lande* for *land*, *ønskede* for *ønsket*).
+- `compound: x` in `candidates`: the program split the form into parts it already knows
+  and modernised each. About one in ten of these is wrong: a split in the wrong place
+  (*hovedsyssel* is *hoved-syssel*, not *hode-syssel*), a head that is not a word of
+  its own (*tømmermandens* → *tømmermannens*, not *-manndens*), or no compound at all
+  (*krevedes*, *burtyver*). Treat it as a suggestion: `fix` with the proposal, `fix`
+  with a corrected target, or `keep`, exactly as for any other item.
 
 Check any modern form you propose with
 `python3 /Users/stian/src/rettskriv/tools/lookup.py form ...` (add `--nn` for nynorsk):
-`YES` means the norm allows it. A target the bank does not allow will be rejected.
+`YES` means the norm allows it. `compound` means the bank lacks the whole word but
+knows its parts (or it is a genitive in -s): that target is accepted too, so a
+compound or genitive you are sure of is `fix`, not `keep`. A target that prints `no`
+will be rejected.
 Batch many forms in one call.
 
 ## Your output

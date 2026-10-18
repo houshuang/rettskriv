@@ -80,12 +80,13 @@ def data_block(item: dict, path: tuple) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("books", nargs="*")
+    parser.add_argument("--out", type=Path, default=OUT, help="layer folder (default out/modern)")
     args = parser.parse_args()
-    OUT.mkdir(parents=True, exist_ok=True)
+    args.out.mkdir(parents=True, exist_ok=True)
     engines = {"nob": Engine("nob"), "nno": Engine("nno")}
     for book in args.books or corpus.books():
         layer = build(book, engines)
-        with open(OUT / f"{book}.json", "w", encoding="utf-8") as handle:
+        with open(args.out / f"{book}.json", "w", encoding="utf-8") as handle:
             json.dump(layer, handle, ensure_ascii=False, indent=1)
         s = layer["stats"]
         print(f"{book}: {s.get('changed', 0)}/{s.get('words', 0)} words changed, {len(layer['items'])} pieces")

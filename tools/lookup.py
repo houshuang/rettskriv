@@ -1,7 +1,9 @@
 """Look up forms in the modern word bank: python3 tools/lookup.py [--nn] form ...
 
 Prints each form, whether the bank allows it, its tags and its NB N-gram ratio
-(modern use / 1850–1910 use; below 0.15 means the form fell out of use)."""
+(modern use / 1850–1910 use; below 0.15 means the form fell out of use). A form the
+bank does not list but ingest accepts (a genitive in -s, or a compound of two bank
+words, optionally joined by s or e) prints `compound`."""
 from __future__ import annotations
 
 import sys
@@ -11,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from rettskriv.archaism import Archaism  # noqa: E402
 from rettskriv.bank import Bank  # noqa: E402
+from tools.ingest import modern  # noqa: E402
 
 
 def main() -> None:
@@ -22,7 +25,7 @@ def main() -> None:
     for form in args:
         tags = sorted(bank.tags(form))
         ratio = archaism.ratio(form)
-        print(f"{form}\t{'YES' if tags else 'no'}\t{','.join(tags)}\t{'' if ratio is None else f'{ratio:.3f}'}")
+        print(f"{form}\t{'YES' if tags else 'compound' if modern(bank, archaism, form) else 'no'}\t{','.join(tags)}\t{'' if ratio is None else f'{ratio:.3f}'}")
 
 
 if __name__ == "__main__":

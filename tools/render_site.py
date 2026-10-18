@@ -46,16 +46,18 @@ def apply(book: dict, layer: dict) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("books", nargs="*")
+    parser.add_argument("--layers", type=Path, default=LAYERS)
+    parser.add_argument("--site", type=Path, default=SITE, help="output folder; build beside out/site and swap it in with tools/swap_site.py")
     args = parser.parse_args()
-    books = args.books or sorted(p.stem for p in LAYERS.glob("*.json"))
+    books = args.books or sorted(p.stem for p in args.layers.glob("*.json"))
     original_load = render.load
-    build_site.SITE = SITE
+    build_site.SITE = args.site
     build_site.link_file = lambda src, dst: None
     for book_id in books:
-        layer = json.loads((LAYERS / f"{book_id}.json").read_text())
+        layer = json.loads((args.layers / f"{book_id}.json").read_text())
         build_site.load = lambda bid, layer=layer: apply(original_load(bid), layer)
         build_site.build_book(book_id)
-        out = SITE / book_id
+        out = args.site / book_id
         for path in out.iterdir():
             if path.is_dir() or not path.name[:3].isdigit():
                 if path.is_dir():
