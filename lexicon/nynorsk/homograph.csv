@@ -1,0 +1,25 @@
+source,target,when,note,origin
+tvo,to,notprev=aa|og|ho|han|dei|me|eg|du|ikkje|vilde|skulde|laut;notnext=seg|deim|meg|deg|klædi|andlitet|hendene|hender,"also verb tvo (wash), past/inf, modern nynorsk tvo",homograph
+tvo,=,,"also verb tvo (wash), past/inf, modern nynorsk tvo",homograph
+ikke,=,,Danish ikke in Danish passages/footnotes,homograph
+altid,=,,Danish altid in Danish passages,homograph
+greidt,greitt,notprev=hadde|hev|heve|hever|har|hava|havt|ha|faa|fenget|voret,"also participle of greida (managed), modern greidd",homograph
+greidt,=,,"also participle of greida (managed), modern greidd",homograph
+sidste,=,,Danish sidste in Danish passages/footnotes,homograph
+næste,=,,Danish næste in Danish passages,homograph
+end,=,,Danish end (than) in Danish passages/footnotes,homograph
+ligger,=,,Danish ligger in Danish passages,homograph
+leni,lena,notprev=paa|i|til|fraa|av|aat|or|ved|yver|um|aa,dative singular: i leni = i lenet,homograph
+leni,=,,dative singular: i leni = i lenet,homograph
+kjennemerki,kjennemerka,notprev=paa|i|til|fraa|av|aat|or|ved|yver|um|aa,dative singular: ved kjennemerki = ved kjennemerket,homograph
+kjennemerki,=,,dative singular: ved kjennemerki = ved kjennemerket,homograph
+tingi,tinga,notprev=paa|i|til|fraa|av|aat|or|ved|yver|um|aa,dative singular: paa tingi = på tinget (the assembly),homograph
+tingi,=,,dative singular: paa tingi = på tinget (the assembly),homograph
+hovi,hova,notprev=paa|i|til|fraa|av|aat|or|ved|yver|um|aa,dative singular: i hovi = i hovet (the temple),homograph
+hovi,=,,dative singular: i hovi = i hovet (the temple),homograph
+tvaa,två,next=seg,numeral two (dialect tvaa = to) in ballads; två = wash,homograph
+tvaa,=,,numeral two (dialect tvaa = to) in ballads; två = wash,homograph
+fylkestingi,fylkestinga,notprev=paa|i|til|fraa|av|aat|or|ved|yver|um|aa,dative singular: paa fylkestingi = på fylkestinget,homograph
+fylkestingi,=,,dative singular: paa fylkestingi = på fylkestinget,homograph
+skattlandi,skattlanda,notprev=paa|i|til|fraa|av|aat|or|ved|yver|um|aa,dative singular: i skattlandi = i skattlandet,homograph
+skattlandi,=,,dative singular: i skattlandi = i skattlandet,homograph

@@ -70,10 +70,12 @@ def parse_when(text: str) -> tuple[tuple[str, frozenset[str] | None], ...]:
 def load(lang: str) -> dict[str, list[Entry]]:
     entries: dict[str, list[Entry]] = {}
     folder = LEXICON / {"nob": "bokmal", "nno": "nynorsk"}[lang]
-    # Curated files first; audit.csv (generated) only adds forms no curated file covers.
-    paths = sorted(folder.glob("*.csv"), key=lambda p: (p.name == "audit.csv", p.name))
+    # homograph.csv (forms with a second reading) is authoritative for its forms; other
+    # curated files follow; audit.csv (generated) only adds forms no curated file covers.
+    paths = sorted(folder.glob("*.csv"), key=lambda p: (p.name != "homograph.csv", p.name == "audit.csv", p.name))
+    screened: set[str] = set()
     for path in paths:
-        curated = set(entries) if path.name == "audit.csv" else set()
+        curated = set(entries) if path.name == "audit.csv" else screened
         with open(path, newline="", encoding="utf-8") as handle:
             for number, row in enumerate(csv.DictReader(handle), start=2):
                 source = row["source"].strip()
@@ -93,4 +95,6 @@ def load(lang: str) -> dict[str, list[Entry]]:
                 if any(e.when == entry.when for e in rows):
                     raise ValueError(f"{entry.line}: duplicate row for {entry.source!r}")
                 rows.append(entry)
+        if path.name == "homograph.csv":
+            screened = set(entries)
     return entries

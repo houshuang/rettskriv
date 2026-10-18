@@ -39,7 +39,7 @@ NEEDS: dict[str, frozenset[str]] = {}
 # applied everywhere at once before any optional rule.
 BOKMAL_OBLIGATORY = [
     r("aa", "aa", "å"),
-    r("qv", "q[vu]", "kv"),
+    r("qv", "qv", "kv"),
     r("ph", "ph", "f"),
     r("th", "^th", "t"),  # only word-initially: let|hed, kort|hed join t and h
     r("oej", "ø[ji]", "øy"),
@@ -85,7 +85,7 @@ BOKMAL = [
 
 NYNORSK_OBLIGATORY = [
     r("aa", "aa", "å"),
-    r("qv", "q[vu]", "kv"),
+    r("qv", "qv", "kv"),
 ]
 
 NYNORSK = [

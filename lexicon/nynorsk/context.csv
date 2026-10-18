@@ -62,3 +62,7 @@ kringum,=,,capital Kringum: place name,context
 uppyver,=,,above (opp over) or upwards (oppover),context
 vaare,=,,dialect were or our,context
 ti,=,cap;mid,capital Ti: dialect tid or ten,context
+aa,å,lower;nexthas=verb:inf,infinitive marker,context
+aa,Å,initial;nexthas=verb:inf,infinitive marker,context
+aa,=,,aa can be og (and) or på in landsmål and dialect,context
+fenget,=,,fenge (catch) or fått,context

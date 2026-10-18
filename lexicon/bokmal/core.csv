@@ -64,7 +64,7 @@ mod,mot,,,core
 derimod,derimot,,,core
 medens,mens,,,core
 blandt,blant,,,core
-lidt,lidd,prev=have|havde|har|hadde|blevet|haver|harr,suffered (participle of lide),core
+lidt,=,prev=have|havde|har|hadde|blevet|haver|harr,har lidt: suffered or has a little,core
 lidt,litt,,,core
 lidet,lite,,,core
 liden,liten,,,core
@@ -347,6 +347,7 @@ guld,gull,,,core
 sølv,sølv,,,core
 sten,stein,,,core
 stenen,steinen,,,core
+stene,steine,prev=at|aa|vil|skal|kan|maa|kunde|skulde|vilde|lade|lod|ham,to stone (verb),acceptance
 stene,steiner,,,core
 plads,plass,,,core
 sprog,språk,,,core
@@ -516,3 +517,6 @@ hugede,=,,crouched (huke) or chopped (hugge),acceptance
 hop,hopp,prev=et|sit|sitt|stort|lidet,a jump,acceptance
 hop,=,,a jump (hopp) or a crowd,acceptance
 ti,=,cap;mid,capital Ti: dialect tid or ten,acceptance
+veed,=,cap;mid;nouncaps,Veed: firewood (ved) or knows (vet),acceptance
+veed,vet,,knows,acceptance
+blade,=,,leaves or to leaf through (blade),acceptance

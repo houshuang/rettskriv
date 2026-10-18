@@ -69,7 +69,7 @@ class NeverChangeMeaning(unittest.TestCase):
 
     def test_adjective_participle_stays(self):
         self.assertEqual(modern("den elskede Søn"), "den elskede sønn")
-        self.assertEqual(modern("og Faderen elskede ham"), "og faren elsket ham")
+        self.assertEqual(modern("og Moderen elskede ham"), "og moren elsket ham")
 
     def test_pronoun_i(self):
         self.assertEqual(modern("Hvad have I gjort?"), "Hva har dere gjort?")

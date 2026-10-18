@@ -1,0 +1,184 @@
+source,target,when,note,origin
+os,oss,lower,"Os, place name; os = river mouth",homograph
+os,=,,"Os, place name; os = river mouth",homograph
+dag,dag,prev=en|den|denne|hver|samme|næste|anden|første|tredie|fjerde|femte|sjette|syvende|sidste|ene|een|om|i|til|fra|paa|ad|for|af|hele|god|nogen|ingen|lyse,"Dag, first name (sagas)",homograph
+dag,=,,"Dag, first name (sagas)",homograph
+liv,liv,prev=sit|mit|dit|hans|hendes|deres|vort|eders|sine|et|eet|evigt|det|i|paa|til|med|af|for|om|nyt|langt|hele|ved|har|havde|have|fik|gav|give|mistede|miste|satte|sætte|vovede|vove|frelste|frelse|reddede|redde|tog|tage,"Liv, first name",homograph
+liv,=,,"Liv, first name",homograph
+faderen,faren,lower,Faderen = God the Father; faren also reads as the danger,homograph
+faderen,=,,Faderen = God the Father; faren also reads as the danger,homograph
+sten,stein,lower,"Sten, first name (Sten Sture)",homograph
+sten,=,,"Sten, first name (Sten Sture)",homograph
+hvide,hvite,lower,"Hvide, family name (Absalon Hvide)",homograph
+hvide,=,,"Hvide, family name (Absalon Hvide)",homograph
+giver,gir,prev=han|hun|de|jeg|du|vi|man|der|og|gud|det|saa|da|nu|ham,noun Giver (donor) -> gir would be wrong,homograph
+giver,=,,noun Giver (donor) -> gir would be wrong,homograph
+skreg,skrek,prev=han|hun|de|jeg|du|vi|man|der|og|saa|da|nu,noun Skreg (a scream) = skrik,homograph
+skreg,=,,noun Skreg (a scream) = skrik,homograph
+lader,lar,lower;notnext=til|som,lader til / lader som = later; Lader = barns,homograph
+lader,=,,lader til / lader som = later; Lader = barns,homograph
+hundrede,hundre,notprev=den|det,ordinal hundrede (hundredth),homograph
+hundrede,=,,ordinal hundrede (hundredth),homograph
+hus,hus,notprev=johan|johannes|jan|john|johann,"Hus, surname (Johan Hus)",homograph
+hus,=,,"Hus, surname (Johan Hus)",homograph
+digte,dikte,prev=at|kunde|kan|vil|vilde|skulde|skal,noun Digte (poems) = dikt,homograph
+digte,=,,noun Digte (poems) = dikt,homograph
+skyde,=,,"skyde also = skyve (push), e.g. skyde den bort",homograph
+alle,alle,notprev=en|den|denne|lang|smuk|bred|stor,Alle also noun allé (avenue): en Alle,homograph
+alle,=,,Alle also noun allé (avenue): en Alle,homograph
+skyder,=,,"skyde also = push, shove (skyder sig ud = skyver seg ut)",homograph
+løbet,løpet,prev=i,also participle of løbe (har løbet = har løpt),homograph
+løbet,=,,also participle of løbe (har løbet = har løpt),homograph
+høist,=,,also superlative highest (høist oppe = høyest),homograph
+knap,knapp,cap;mid;nouncaps,adverb knap = scarcely (knapt),homograph
+knap,=,,adverb knap = scarcely (knapt),homograph
+skudt,=,,skudt also = pushed (skudt ud = skjøvet ut),homograph
+snild,=,,"Danish snild = clever, shrewd, not kind",homograph
+sønnen,sønnen,"notprev=faderen|faderen,|og","Sønnen = God the Son (Faderen, Sønnen og den Helligaand)",homograph
+sønnen,=,,"Sønnen = God the Son (Faderen, Sønnen og den Helligaand)",homograph
+aanden,=,,Aanden = the Holy Spirit (Ånden),homograph
+slaaer,=,,present tense of slaa = slår; slåer is wrong,homograph
+slaas,=,,"also passive of slaa (slås: be struck, mown)",homograph
+toge,tok,lower;nouncaps,Toge = campaigns/processions (plural of Tog),homograph
+toge,=,,Toge = campaigns/processions (plural of Tog),homograph
+tone,tone,prev=en|i|den|sin|samme|denne|hans|hendes|dens,also first name Tone,homograph
+tone,=,,also first name Tone,homograph
+snilde,=,,"Danish snild = clever, not kind",homograph
+taarne,tårn,notnext=sig|op|seg,verb taarne sig (tower up) -> tårne,homograph
+taarne,=,,verb taarne sig (tower up) -> tårne,homograph
+saaes,=,,"saaes = was seen (sås), not sown",homograph
+fød,født,notnext=mine|mit|min|dem|os|ham|hende|mig,imperative of føde (feed): Fød mine Lam,homograph
+fød,=,,imperative of føde (feed): Fød mine Lam,homograph
+pus,=,,Pus as the name of a cat; pus reads as matter,homograph
+bænke,=,,plural noun Bænke should be benker; benke only the verb,homograph
+blødt,=,,"also participle of bløde (har blødt = bled), modern blødd",homograph
+befalet,befalt,lower;nouncaps,"Befalet = the officers (noun, definite)",homograph
+befalet,=,,"Befalet = the officers (noun, definite)",homograph
+vid,=,,noun Vid = wit/vett; lowercase vid reads as wide,homograph
+myg,=,,"myg = mosquito (mygg), not myk",homograph
+kristen,kristen,prev=en|sand,Kristen as first name,homograph
+kristen,=,,Kristen as first name,homograph
+myrerne,=,,Myrerne = the ants (maurene),homograph
+ulige,=,,singular attributive (en saa ulige Kamp) needs ulik,homograph
+myrdede,myrdet,notprev=den|det|de|disse|denne|hin|hine,adjectival participle: den myrdede Konge,homograph
+myrdede,=,,adjectival participle: den myrdede Konge,homograph
+druknede,druknet,notprev=den|det|de|disse|denne|hin|hine,adjectival participle: de druknede (the drowned),homograph
+druknede,=,,adjectival participle: de druknede (the drowned),homograph
+forvandlede,forvandlet,notprev=den|det|de|disse|denne|hin|hine,adjectival participle: den forvandlede Prins,homograph
+forvandlede,=,,adjectival participle: den forvandlede Prins,homograph
+the,te,cap;mid,lower the can be the English article in English passages,homograph
+the,=,,lower the can be the English article in English passages,homograph
+ham,=,,Ham is also the name of Noah's son in Bible stories,homograph
+daa,=,,"syllable fragment daa- (daa-ne, daa-se = dåne, dåse) in reading drills; surname Daa",homograph
+ofrede,ofret,notprev=de|den|det|disse|hine|sine|hans|hendes|vore|deres|alle|mange|eders,attributive participle (de ofrede dyr) would read as past tense,homograph
+ofrede,=,,attributive participle (de ofrede dyr) would read as past tense,homograph
+plyndrede,plyndret,notprev=de|den|det|disse|hine|sine|hans|hendes|vore|deres|alle|mange|eders,attributive participle (de plyndrede byer) would read as past tense,homograph
+plyndrede,=,,attributive participle (de plyndrede byer) would read as past tense,homograph
+frisk,frisk,lower,Frisk is a dog's name (Hund Frisk),homograph
+frisk,=,,Frisk is a dog's name (Hund Frisk),homograph
+omringede,omringet,notprev=de|den|det|disse|hine|sine|hans|hendes|vore|deres|alle|mange|eders,attributive participle (de omringede fiender) would read as past tense,homograph
+omringede,=,,attributive participle (de omringede fiender) would read as past tense,homograph
+pinde,pinne,prev=en|ene,Danish plural Pinde = pinner,homograph
+pinde,=,,Danish plural Pinde = pinner,homograph
+tagne,tatt,prev=blev|bleve|blive|bliver|blevne|bleven|ere|er|vare|var|ble|bli,attributive plural participle (de tagne) = tatte,homograph
+tagne,=,,attributive plural participle (de tagne) = tatte,homograph
+askelad,askeladd,lower,"Esben Askelad: proper name, must not be lowercased",homograph
+askelad,=,,"Esben Askelad: proper name, must not be lowercased",homograph
+sveden,svetten,cap;nouncaps,lower sveden can be participle of svide (scorched: Grøden blev sveden = svidd),homograph
+sveden,=,,lower sveden can be participle of svide (scorched: Grøden blev sveden = svidd),homograph
+vaaged,vågde,next=sig|sit|sitt|livet,"also past of vaage = keep watch (våket), not dare",homograph
+vaaged,=,,"also past of vaage = keep watch (våket), not dare",homograph
+senge,senger,notprev=til,til Senge = til sengs,homograph
+senge,=,,til Senge = til sengs,homograph
+alperne,=,,proper name Alpene; lowercasing mid-sentence is wrong,homograph
+katholiker,katolikker,prev=faa|mange|blandt|nogle|alle|de|af,Katholiker is also singular (en Katholiker -> katolikk),homograph
+katholiker,=,,Katholiker is also singular (en Katholiker -> katolikk),homograph
+live,live,prev=i|af|til|ved|levende,also the female first name Live,homograph
+live,=,,also the female first name Live,homograph
+skyede,skydde,next=hverken|han|hun|de|ikke|ingen|intet,also adjective skyede = clouded (Pandes skyede Hvælv),homograph
+skyede,=,,also adjective skyede = clouded (Pandes skyede Hvælv),homograph
+snare,snare,prev=i|en|hvad,epithet/name Esbern Snare,homograph
+snare,=,,epithet/name Esbern Snare,homograph
+mora,=,,place name Mora in Dalarna (Gustav Vasa); lower mora = mother,homograph
+august,august,prev=i|juli|af,also the first name August,homograph
+august,=,,also the first name August,homograph
+fornyede,fornyet,next=de|den|det|sin|sine|sit|han|hun|man|vi|jeg,"also attributive plural participle (med fornyede Kræfter), where fornyede stays",homograph
+fornyede,=,,"also attributive plural participle (med fornyede Kræfter), where fornyede stays",homograph
+venstre,venstre,prev=til|mod,Venstre = the political party,homograph
+venstre,=,,Venstre = the political party,homograph
+følgerne,=,,"Følgerne = the followers (følgerne), not consequences",homograph
+hage,=,,"Danish Hage = chin (hake), hage reads as garden",homograph
+kurve,=,,"Kurve = baskets (kurver), kurve reads as curve",homograph
+lege,=,,"Lege = games (plural of Leg, modern leker); lege reads as doctor",homograph
+skydes,=,,"Danish skyde also = shove (skyves), e.g. skydes til Side",homograph
+køer,=,,Køer = cows (modern kuer/kyr); køer reads as queues,homograph
+slugt,slukt,lower;nouncaps,"noun Slugt = ravine, gorge",homograph
+slugt,=,,"noun Slugt = ravine, gorge",homograph
+them,=,,Old Danish/Swedish them = dem in quoted law texts,homograph
+thorer,=,,personal name Thorer (Thorer Hund); torer is nonsense,homograph
+klæd,kle,next=dig|deg|eder|jer|dere|dem|ham|hende|henne|mig|meg|os|oss|paa|på,participle klædt/kledd (var han klæd),homograph
+klæd,=,,participle klædt/kledd (var han klæd),homograph
+sax,=,,sax = single-edged sword of the old Norse; also name Saxo,homograph
+ridt,ritt,cap;mid;nouncaps,also participle of ride (har ridt = ridd),homograph
+ridt,=,,also participle of ride (har ridt = ridd),homograph
+hunnerne,hunnene,lower,also Hunnerne = the Huns (hunerne),homograph
+hunnerne,=,,also Hunnerne = the Huns (hunerne),homograph
+ur,ur,prev=den|en|et,"city Ur (Abraham, Ur i Kaldæa)",homograph
+ur,=,,"city Ur (Abraham, Ur i Kaldæa)",homograph
+fredag,fredag,prev=en|hver|fra|om|paa|næste|sidste,name Fredag (Robinson Crusoe),homograph
+fredag,=,,name Fredag (Robinson Crusoe),homograph
+leire,=,,"place name Leire (Lejre, Danish royal seat)",homograph
+grube,=,,"grube = pit, hollow, dimple (Grube paa Kind); gruve = mine",homograph
+stein,=,,first name Stein (Stein Alvsson),homograph
+odde,=,,farm/place name Odde,homograph
+skaale,skåle,prev=at,noun plural Skaale (bowls = skåler),homograph
+skaale,=,,noun plural Skaale (bowls = skåler),homograph
+ny,ny,lower,place name prefix Ny- (Ny-Kirke),homograph
+ny,=,,place name prefix Ny- (Ny-Kirke),homograph
+lister,lister,lower,place name Lister (Lista),homograph
+lister,=,,place name Lister (Lista),homograph
+for,for,lower,"capital For at verse-line start / noun For (fodder, lining)",homograph
+for,=,,"capital For at verse-line start / noun For (fodder, lining)",homograph
+half,half,lower,"name Half (Half Sten, Halfsrekker)",homograph
+half,=,,"name Half (Half Sten, Halfsrekker)",homograph
+opdraget,oppdratt,prev=blev|bleve|blevet|blive|bliver|var|vare|er|har|have|havde|vel|godt|ble|blitt,noun opdraget = the commission (oppdraget),homograph
+opdraget,=,,noun opdraget = the commission (oppdraget),homograph
+blomme,=,,also blomme = flower (Enge-Blomme),homograph
+skjændte,skjente,next=paa|på,also skjænde = desecrate (skjendet),homograph
+skjændte,=,,also skjænde = desecrate (skjendet),homograph
+ande,ande,notnext=vande,"Ande Vande, a name in the pancake tale",homograph
+ande,=,,"Ande Vande, a name in the pancake tale",homograph
+saxen,=,,"also sax = short sword, or the Saxon",homograph
+ran,=,,"also Ran, the sea goddess",homograph
+maar,=,,also maar = maiden (Dagens Maar eller Mø),homograph
+uanseet,=,,"also adjective uanseet = unregarded, humble",homograph
+forslaa,forslå,prev=kunne|kunde|ikke|vil|vilde|ville|skulle|skal,older Danish forslaa = foreslå (propose) / drive away,homograph
+forslaa,=,,older Danish forslaa = foreslå (propose) / drive away,homograph
+ther,=,,Old Danish ther = der (there/which) in old law/Bible quotations,homograph
+saaer,=,,"verb saaer = sows, modern sår; såer only the noun",homograph
+juul,jul,lower,surname Juul/Juel (Danmarks Juul = admiral Niels Juel),homograph
+juul,=,,surname Juul/Juel (Danmarks Juul = admiral Niels Juel),homograph
+lange,=,,capital Lange is a common surname (Lange); lowercasing would turn the name into the adjective,homograph
+rotte,rotte,notprev=sverdet,Rotte is also the name of a sword (Sverdet Rotte) in the Sigurd saga,homograph
+rotte,=,,Rotte is also the name of a sword (Sverdet Rotte) in the Sigurd saga,homograph
+gjætede,=,,gjætede = herded (gjæte); gjettet reads as guessed (gjette); modern form would be gjette/gjetet,homograph
+skytter,skytter,notprev=per,"Per Skytter is a folktale name (epithet), not the common noun",homograph
+skytter,=,,"Per Skytter is a folktale name (epithet), not the common noun",homograph
+kort,kort,notnext=adeler,"Kort is also the first name in Kort (Cort) Adeler, the naval hero",homograph
+kort,=,,"Kort is also the first name in Kort (Cort) Adeler, the naval hero",homograph
+bebudede,bebudet,notprev=den|det|de|denne|dette|disse,adjective: den bebudede (announced),homograph
+bebudede,=,,adjective: den bebudede (announced),homograph
+laagen,lågen,lower,river name Lågen,homograph
+laagen,=,,river name Lågen,homograph
+nuten,nuten,lower,place-name element (Ouse-Nuten),homograph
+nuten,=,,place-name element (Ouse-Nuten),homograph
+vulkan,vulkan,lower,Roman god Vulkan,homograph
+vulkan,=,,Roman god Vulkan,homograph
+tha,=,,"old spelling of da (then/when), not ta",homograph
+endaa,=,,"also enda (even, although), not only ennå",homograph
+udgiver,utgiver,cap;mid;nouncaps,also present of udgive (udgiver sig for = utgir),homograph
+udgiver,=,,also present of udgive (udgiver sig for = utgir),homograph
+opstande,oppstander,prev=flere|mange|nye|store|disse|blodige|alvorlige|to|tre,also verb infinitive opstande (arise = oppstå),homograph
+opstande,=,,also verb infinitive opstande (arise = oppstå),homograph
+find,finn,lower,capitalised Find is the name Finn (e.g. Find Arnesøn); lower case is imperative of finde,homograph
+find,=,,capitalised Find is the name Finn (e.g. Find Arnesøn); lower case is imperative of finde,homograph
