@@ -80,6 +80,9 @@ keep this identical across systems. Do not compare them with a run using more co
 in `tests/fixtures/benchmark-development.json` is such a fixture. It tests the scoring
 workflow and known traps, not generalisation. No human benchmark score is claimed.
 
+See the [completed Apertium diagnostic comparison](apertium-comparison.md) for native
+Bokmål/Nynorsk results, external-source sampling and a detected corpus overlap.
+
 ## Next comparison: evidence required before adoption
 
 1. Freeze new, separately sourced author/book groups before additional lexicon tuning.
@@ -106,7 +109,7 @@ bulk reuse. None of these alternatives has yet been shown to improve this engine
 
 ## Validation of this change
 
-- 36 unit/regression tests pass, including malformed lexicon conditions, incomplete
+- 41 unit/regression tests pass, including malformed lexicon conditions, incomplete
   or stale acceptance reviews, author/book split leakage, protected spans, book
   isolation, passive voice, and participle/past-tense contrasts.
 - Replayed accept-21 through accept-24: 432 paragraphs using the shipped N-gram
