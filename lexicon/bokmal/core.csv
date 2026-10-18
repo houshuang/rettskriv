@@ -100,6 +100,7 @@ saadant,sådant,,,core
 saadanne,sådanne,,,core
 altsaa,altså,,,core
 baade,båter,prev=vore|mine|dine|sine|hans|hendes|deres|disse|to|tre|fire|mange|alle|smaa|store,boats,core
+baade,båter,cap;mid;nouncaps,boats (noun capital),acceptance
 baade,både,,,core
 tillige,tillike,,,core
 alligevel,allikevel,,,core
@@ -211,6 +212,7 @@ falde,falle,,,core
 falder,faller,,,core
 faldt,falt,,,core
 faldet,fallet,cap;mid;nouncaps,the fall (noun),core
+faldet,fallet,lower;prev=af|ved|efter|i|med|under|fra|før|det|sit|hans|hendes|deres|dette,the fall (noun),acceptance
 faldet,falt,,,core
 holde,holde,,,core
 kalde,kalle,,,core
@@ -401,6 +403,7 @@ bøgerne,bøkene,,,core
 bøgers,bøkers,,,core
 tak,takk,before=1907,before 1907 the roof was Tag; Tak is thanks,core
 tilstede,=,prev=kunne|kan|kunde|vil|vilde|skal|skulde|maa|maatte|at|aa|ikke,verb tilstede (permit),core
+tilstede,=,next=ham|hende|dem|mig|os|dig|det|sig|eder|jer,verb tilstede (permit),acceptance
 tilstede,til stede,,,core
 # Names and foreign words that rules would mangle
 luther,=,,name,core
@@ -489,7 +492,7 @@ hæst,=,,hoarse (hes) or horse,acceptance
 fiske,fisker,cap;mid;nouncaps,plural of fisk (lower case fiske is the verb),acceptance
 paastand,påstand,cap,claim (noun),acceptance
 paastand,=,lower,paa Stand: at once,acceptance
-vaagen,vågen,cap;mid;nouncaps,the bay,acceptance
+vaagen,=,cap,the bay or a place name (Vågan),acceptance
 vaagen,våken,lower;nouncaps,awake,acceptance
 vaagen,=,,the bay or awake,acceptance
 stege,steke,prev=at|aa|vil|skal|kan|maa|kunde|skulde|vilde|lade|lod,to fry,acceptance
@@ -506,3 +509,10 @@ dugede,=,,laid with a cloth (duge) or was good enough,acceptance
 stilede,=,,addressed (stile) or placed,acceptance
 kringum,=,,place name Kringen or around,acceptance
 ligetil,=,,all the way to (like til) or simple (liketil),acceptance
+vaer,=,,imperative vær or var,acceptance
+vaare,=,,dialect were (vore) or our (våre),acceptance
+brækning,=,,breaking (brytning) or retching,acceptance
+hugede,=,,crouched (huke) or chopped (hugge),acceptance
+hop,hopp,prev=et|sit|sitt|stort|lidet,a jump,acceptance
+hop,=,,a jump (hopp) or a crowd,acceptance
+ti,=,cap;mid,capital Ti: dialect tid or ten,acceptance
