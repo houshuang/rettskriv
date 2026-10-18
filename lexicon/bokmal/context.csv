@@ -2,6 +2,8 @@ source,target,when,note,origin
 # Old forms with two readings, resolved by context. In books that capitalise
 # nouns (nouncaps), a capital mid-sentence marks the noun and lower case the verb.
 slet,slett,next=ikke|ingen|intet|ingenting|ei|aldrig|ikkun|intet,adverb (slet ikke),context
+slet,slett,lower;prev=en|et|nogen|saare|meget|altfor|yderlig|temmelig,adjective slet (bad/flat) after article or degree adverb; keeps past tense of slite out,context:g6
+slet,slett,lower;prev=saa|for,saa slet / for slet = adjective/adverb bad,context:g6
 slet,=,,,context
 heder,heter,lower;nouncaps,is called (Hæder = honour),context
 heder,heter,lower;prev=han|hun|det|den|jeg|du|som|der|hvad|man|byen|gaarden|stedet,is called,context
@@ -18,6 +20,10 @@ tyve,tyver,cap;mid;nouncaps,thieves (tyve = twenty stays),context
 tyve,=,,,context
 bed,be,initial;next=til|for|om|og|ham|dem|ogsaa|nu|da|du|i,imperative of bede,context
 bed,bet,lower;prev=han|hun|den|det|jeg|du|vi|de|hunden|ulven,past of bide,context
+bed,bet,lower;next=paa|i,bed i / bed paa: bit (past of bide),context:g5
+bed,be,next=gud|himlen|dronningen|herreper,imperative of bede before the person asked,context:g5
+bed,bet,lower;prev=sverdet|sværdet|sverd|fiskene|ænderne|tigeren|raseri|siden|derpaa|der|som,noun subject or adverb before bed: past of bide,context:g5
+bed,be,lower;prev=og;next=om,og bed om ...: imperative of bede,context:g5
 bed,=,,,context
 brænde,brenne,lower;nouncaps,verb (Brænde = firewood),context
 brænde,brenne,lower;prev=at|vil|skal|kan|maa|kunde|skulde|vilde|lade|lod|aa,verb,context
@@ -60,4 +66,5 @@ græder,=,,,context
 foer,for,lower;prev=han|hun|den|det|de|vi|jeg|du|man|som|der|og,past of fare,context
 foer,=,,,context
 staat,stått,lower;nouncaps,participle of staa,context
+staat,stått,lower;nonouncaps,participle of staa in non-noun-capitalising books,context:g6
 staat,=,,,context

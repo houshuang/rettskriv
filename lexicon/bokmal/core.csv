@@ -6,7 +6,7 @@ saa,så,,,core
 ogsaa,også,,,core
 sig,si,prev=og;next=til|ham|hende|dem|mig|os|det,imperative of sige (og sig til ham),core
 sig,=,prev=og;notnext=selv|sjelv,og sig din herre: imperative of sige (say),core
-sig,=,prevbreak,"Ja, sig ikke det": imperative after punctuation,core
+sig,=,prevbreak,"Ja, sig ikke det: imperative after punctuation",core
 sig,=,initial,Sig at sentence start can be the imperative of sige (say),core
 sig,=,next=mig|os|dig|mej,sig mig: tell me (si meg) or reflexive,acceptance
 sig,seg,,,core
@@ -33,14 +33,14 @@ nogenlunde,noenlunde,,,core
 intet,intet,,already modern,core
 anden,annen,lower,,core
 anden,annen,initial,,core
-anden,=,,Anden = the duck,core
+anden,=,,"context: Anden = the duck, den Anden = the other, Ånden = the Spirit",core
 andet,=,next=stokverk|stokværk|etage|etasje,andet Stokverk: the second storey (ordinal),core
 andet,andre,prev=det|dette|sit|mit|dit|hans|hendes|deres|vort|dets|dens,the second or the other (definite),core
 andet,annet,,,core
 hvad,hva,,,core
 hvor,hvor,,,core
 naar,når,,,core
-hvorledes,hvordan,,,core
+hvorledes,=,,hvorledes is still valid bokmål; hvordan would be another word,acceptance
 efter,etter,,,core
 efterat,etter at,,,core
 mellem,mellom,,,core
@@ -48,6 +48,8 @@ imellem,imellom,,,core
 gjennem,gjennom,,,core
 igjennem,igjennom,,,core
 igjen,igjen,,,core
+endnu,enda,next=engang|mer|mere|flere|bedre|større|værre|mindre|færre|ældre|yngre|længer|længere,endnu mere / endnu en gang: even more (enda),acceptance
+endnu,enda,nextend=ere;notnext=ere|være|vare|here|komme,endnu farligere: even more (enda),acceptance
 endnu,ennå,,,core
 end,enda,next=mere|mindre|flere|bedre|værre|større|længere|mer|meget,end mere = enda mer (even more),core
 end,enn,,,core
@@ -97,6 +99,9 @@ ihjel,ihjel,,,core
 ligesom,likesom,,,core
 ligesaa,likeså,,,core
 lige,like,next=til|i|saa|ved|ned|ind|op|fra|hen|mod|for|ud|over|paa|ens|foran|udenfor|meget|med|bort|fuldt|store|siden|godt|gode|under|indtil|god|hjem|nær|efter|langt|mange|imod|glad|frem|nede|skjønne|fort|lange|lang|fast|forbi|koldt|stor|stille|hinanden|uden|klare|hel|som|naar|da|der|her|stort|vel|lidt|langs|igjennem|gjennem|igjen|saadan|saadanne|meste,just or equally,core
+lige,like,nexttags=adj|adj:part|adv;notnext=udstrakt,"equally/just before an adjective or adverb (lige klog, lige herved)",context:g4
+lige,like,prev=sin|sine|din|dine|hans|min|uden|hinandens|hvis|dens,"noun: sin lige, uden lige = sin like, uten like",context:g4
+lige,like,prev=hinanden|hverandre|aldeles|temmelig|alle,"alike/equal predicate (hinanden lige, alle lige)",context:g4
 lige,=,,lige can mean straight (vokse lige; lige Linie),core
 ligeledes,likeledes,,,core
 saaledes,således,,,core
@@ -133,10 +138,21 @@ bagefter,bakefter,,,core
 # Verbs: be, have, become
 ere,er,,plural present of være,core
 vare,var,lower;prev=de|vi|i|der|som|alle|begge|disse|hvilke|mange|flere|nogle|baade,plural past of være after a plural subject,core
+vare,var,lower;nouncaps;prevtags=subst;notprev=engle,past plural after a capitalised noun subject in a noun-capitalising book (lower case = verb); 'Engle vare ham' is the subjunctive guard,context:g3
+vare,var,lower;nouncaps;prev=fleste,de fleste vare = var,context:g3
+vare,var,lower;next=de|vi;notprev=at|vil|skal|kan|maa|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|tage|tag|tager|toge|tog|længe|ikke,"inverted past plural (Nu vare de, Saa skrøbelige vare de)",context:g3
+vare,var,lower;nouncaps;nextend=ne|ede|dte;notprev=at|vil|skal|kan|maa|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|tage|tag|tager|toge|tog|længe|ikke,"past plural before a participle/definite-plural subject (vare komne, vare samlede, vare Jøderne)",context:g3
 vare,=,,,core
 have,har,lower;prev=vi|de|i|som|der;notprev2=kan|skal|vil|maa|kunde|skulde|vilde|maatte|skulle|kunne|ville|måtte|bør|tør|lod|fik|fikk|monne,plural present (not after an inverted modal),core
 have,ha,lower;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|faa|aa,infinitive,core
 have,har,lower;next=vi|i|de;notprev=at|vil|skal|kan|maa|kunde|skulde|vilde|skulle|kunne|ville,inverted plural present,core
+have,hage,cap;mid;nouncaps;prev=en|min|din|sin|hans|hendes|denne|den|lille|liden|stor|smuk|anden|hver|enhver|vakker|deilig|anseelig|engelsk|egen|naboens|gartners|herremandens|kongens|edens|paradisets|toras|poesiens|dødens|hjemmets|europas|axels|gethsemane|guds|vor|eders|deres,garden after a singular determiner or genitive (plural Have = seas left as printed),context:g3
+have,hage,cap;mid;nouncaps;prev=deilige|smukke|grønne|botaniske|nærmeste|eensomme|store;prev2=den|sin|min|din|hans|hendes|denne,garden: singular determiner + weak adjective,context:g3
+have,hage,lower;nonouncaps;prev=en|dyrenes|din|min|sin|liden|lille|stor|hans|hendes|denne|vor|deilige|deilig;notprev2=vil|skal|kan|maa|kunde|skulde|vilde|maatte|skulle|kunne|ville|bør|burde|tør|turde|lad|lade|lod|faar|monne|må|måtte,"garden in a lower-case-noun book (en have, dyrenes have); notprev2 keeps 'Skulde en have hørt'",context:g3
+have,ha,lower;prev=ikke|du|jeg|vi|han|hun|man|de|den|det|nok|vel|gjerne|da|blot|dog|ei|nu|ogsaa|altid|aldrig|jo|saa|endog|nemlig|først|selv|derfor|dem|ham|hende|mig|dig|os|eder|en;prev2=vil|skal|kan|maa|kunde|skulde|vilde|maatte|skulle|kunne|ville|bør|burde|tør|turde|lad|lade|lod|faar|monne|må|måtte,"infinitive after a modal two words back (vil ikke have, skal du have)",context:g3
+have,ha,lower;prev=burde|turde,infinitive after burde/turde,context:g3
+have,har,lower;prev2=som;prev=ikke|ei|ogsaa|endnu|aldrig|altid|jo|dog|nu|alle|selv|derfor|da|vel|nok|allerede|engang|saa|ofte|her,plural present in a relative clause (som ikke have),context:g3
+have,har,lower;nouncaps;prev=tyrkerne|staldene|dyrene|hønerne|forfædrene|englænderne|araberne|menneskene|kvinderne|hestene|pattedyrene|planteæderne|fuglene|uglerne|hønsefuglene|vadefuglene|svømmefuglene|fiskene|maroniterne|druserne|øerne|skovene|sømændene|franskmændene|polakkerne|engelskmændene|kongerne|apostlene|malerne|digterne|slægterne|pulkene|bautastenene|palmerne|insekterne|fluerne|sommerfuglene|legemerne|nordmændene|italienerne|amerikanerne|europæerne|børnene|planterne|træerne|bønderne|indbyggerne|beboerne|lærerne|forældrene|discipelene|disciplene|jøderne|romerne|grækerne|svenskerne|danskerne|tyskerne|russerne|hedningerne|præsterne|munkene|bjergene|landene|folkene;notprev2=vil|skal|kan|maa|kunde|skulde|vilde|maatte|skulle|kunne|ville|bør|burde|tør|turde|lad|lade|lod|faar|monne|må|måtte|at|og,"plural present after a definite-plural noun subject (Dyrene have, Fuglene have)",context:g3
 have,=,,,core
 havde,hadde,,,core
 havt,hatt,,,core
@@ -162,12 +178,25 @@ sagt,sagt,,,core
 tage,ta,,,core
 tager,tar,,,core
 tog,tok,lower;nouncaps,past of ta (Tog = train is capitalised),core
+tog,tok,lower;prev=han|hun|jeg|du|vi|man|dere|de|den|det|som|der|denne,subject pronoun or relative before: past of ta,context:g2
+tog,tok,lower;notprev=et|ett|sit|sine|hans|langt|mangt|dette|disse|hele|dit|vort|deres|hendes|mit;next=han|hun|jeg|vi|du|de|man|ham|hende|mig|dig|sig|os|dem|sin|sit|sine|hans|fat|imod|den|det|en|hendes|deres,inverted subject or object after: past of ta (et/sit tog = procession excluded),context:g2
+tog,tok,lower;prev=og|saa|da|derpaa|siden|nu|men|straks|senere|atter|tilsidst|derfor|efterhaanden|ellers|samtidig|endelig|snart|ogsaa|først|igjen|pludselig|her,conjunction or adverb before: past of ta,context:g2
+tog,tok,cap;initial;next=sin|den|han|saa|ikke|livet|afsked,line-initial verb with object: past of ta,context:g2
 tog,=,,,core
 taget,tatt,lower;nouncaps,past participle (Taget = the roof),core
 taget,taket,cap;mid;nouncaps,the roof,core
+taget,tatt,lower;prev=har|havde|have|blev|blive|bleven|blir|blit|fik|nok|kanske|allerede|nylig,past participle after auxiliary,context:g2
+taget,tatt,lower;prev=hele|store;prev2=det,i det hele/store taget,context:g2
+taget,tatt,lower;prev=strengt,strengt taget,context:g2
+taget,taket,lower;prev=paa|over|fra|af|under|i|til|udfor|udover|opunder|slap|slipper,the roof / the grip after preposition or slippe,context:g2
+taget,taket,cap;initial;next=var|gik|selv,sentence-initial noun: the roof,context:g2
 taget,=,,,core
 tag,ta,lower;nouncaps,imperative,core
 tag,tak,cap;mid;nouncaps,roof,core
+tag,ta,cap;initial;next=dig|det|den|denne|dette|disse|dem|mig|os|eder|jer|dit|din|dine|ikke|nu|bare|fat|glad|ei|ihop|af|mod|imod|ind|væk|her|dog|derfor,sentence-initial imperative,context:g2
+tag,ta,lower;notprev=et|sit|dit|mit|eget|det|dets|dens|hans|godt|første|fladt|steilt|aabent|utætte|værste|tyngre|tunge|tungt|sligt|raskt|mangt|ethvert|hvert|fremmed|samme|verdens|usynlige|nedgaaende|faa|fik|faar|faat|faaet|tog|tager|tage|have|har|havde|under|bag|paa|imod|til|mod|i;next=dig|det|den|denne|dette|disse|dem|mig|os|eder|jer|dit|din|dine|ikke|saa|nu|bare|fat|ei|imod|mod|ind|væk|ham|hende|barnet|marie|hammer|ringen|maden|glasset|farkosten|bikjerne,imperative with object,context:g2
+tag,tak,lower;prev=et|sit|dit|mit|eget|det|dets|dens|hans|godt|første|fladt|steilt|aabent|utætte|værste|tyngre|tunge|tungt|sligt|raskt|mangt|ethvert|hvert|fremmed|samme|verdens|usynlige|nedgaaende|faa|fik|faar|faat|faaet|tog|tager|tage|have|har|havde|under|bag|paa|imod|til|mod|i,noun (roof or grip: faa tag i = få tak i),context:g2
+tag,tak,lower;prev=og;prev2=vægge|vægger,vægge og tag: roof,context:g2
 tag,=,,,core
 give,gi,,,core
 giver,gir,,,core
@@ -191,10 +220,14 @@ staa,stå,,,core
 staar,står,,,core
 staaet,stått,,,core
 lade,la,lower;prev=at|aa|vil|skal|kan|maa|kunde|skulde|vilde|maatte|bør|tør|ville|skulle|kunne,infinitive (Lade = barn or place),core
+lade,la,lower;nonouncaps;notprev=i|de;next=sig|ham|hende|mig|dig|os|dem|være|eder|jer|nogen|ingen|den|det|en|et|alt|hver|barnet|gutten|staa|gaa|fare,infinitive (let) in a book without plural verb forms,context:g2
+lade,la,lower;nouncaps;prev=ikke|bare|blot|nok|helst|gjerne|strax|straks|heller|nødig|dog|selv|ei|endnu|næsten;prev2=vil|vilde|kan|kunde|skal|skulde|maa|maae|maatte|turde|tør|bør|kunne|ville|skulle|man|han|hun|jeg|du|den|det,infinitive after modal + adverb,context:g2
+lade,lar,lower;nouncaps;prev=de|vi;notprev2=vil|vilde|kan|kunde|skal|skulde|maa|maae|maatte|turde|tør|bør|kunne|ville|skulle,plural present (de lade sig = de lar seg),context:g2
 lade,=,,,core
 lader,lar,,,core
 lad,la,lower;next=os|mig|dig|ham|hende|dem|det|være|sig|eder|dette|den|ingen|nogen|alle|mine|dine|hans|faa|komme|gaa|staa|blive|ham|Gud|gud,imperative (lad = lazy otherwise),core
 lad,la,initial;next=os|mig|dig|ham|hende|dem|det|være|sig|eder|dette|den|ingen|nogen|alle|mine|dine|hans|faa|komme|gaa|staa|blive|Gud|gud|en|et|vor|din|min,imperative,core
+lad,la,next=se|see|høre|höre|saa|du|i|ei|da|her|der|ikke|stige|kun|bare|de|til|alting|din|dit|vort|mit|min|vore|hver|ogsaa|derfor|heller|hellere|aldrig|fra|fare|vandre|tone|kjendes|staae|først|hele|denne,imperative (nu excluded: Lad nu Bøssen = load),context:g2
 lad,=,,,core
 lod,lot,lower,,core
 lod,=,,,core
@@ -243,10 +276,18 @@ kjender,kjenner,,,core
 kjendte,kjente,,,core
 kjendt,kjent,,,core
 vide,vite,lower;nouncaps;prev=at|vil|skal|kan|maa|maatte|kunde|skulde|vilde|faa|aa,infinitive (vide = wide),core
+vide,vite,lower;prev=at|vil|skal|kan|maa|maae|maatte|kunde|skulde|vilde|faa|aa|fik|faar|faaer|gad|bør|tør|turde|kunne|skulle|ville|lad|lod,"infinitive after modal/at/faa/fik/gad, any book",context:g1
+vide,vite,lower;prev=nok|vel|dog|ogsaa|ikke|bare|endnu;prev2=kan|kunde|vil|vilde|skal|skulde|maa|maae|maatte|gad|bør|tør|turde|faar|fik|faa|faaer|kunne|ville|skulle|lod|lad|du|en|jeg|han|hun|man|dog|vel|endnu|vist,"infinitive: modal or singular subject, then adverb (kan du nok vide; vilde ikke vide)",context:g1
+vide,vet,lower;prev=vi|de|i;notprev2=kan|kunde|vil|vilde|skal|skulde|maa|maae|maatte|gad|bør|tør|turde|faar|fik|faa|faaer|kunne|ville|skulle|lod|lad;next=ikke|alle|nøiagtig|det|ogsaa|af|hvad|sig|navn,present plural (vi vide ikke; de vide hvad),context:g1
+vide,vet,lower;prev=vi|de|i;notprev2=kan|kunde|vil|vilde|skal|skulde|maa|maae|maatte|gad|bør|tør|turde|faar|fik|faa|faaer|kunne|ville|skulle|lod|lad;nextbreak=at|hvad|hvor|hvorledes|hvem|om,"present plural (Vi vide, at)",context:g1
+vide,vite,lower;prev=vi|de|i;prev2=kan|kunde|vil|vilde|skal|skulde|maa|maae|maatte|gad|bør|tør|turde|faar|fik|faa|faaer|kunne|ville|skulle|lod|lad,inverted infinitive (kunde de vide; fik vi vide),context:g1
 vide,=,,,core
 ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;next=ikke|det|hvad|hvor|hvem|hvorledes|hvorfor|om|nok|vel|jo|ogsaa|godt|alt|intet|ret|saa|mere|bedre|ej|ei|kun|blot|slet|endnu|nu|dog|vist|ingenting|noget|hvilken|hvilket|hvilke|ikkun|hvorfra|hvortil|naar,present of vite,core
 ved,vet,lower;prev=det|dette|hvad|saa|nok|jo|vel|ikke|nu;next=jeg|du|han|hun|vi|man|de|i,present of vite (inverted),core
-ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;nextbreak=at,"jeg ved, at" (the comma rules out the preposition),core
+ved,vet,lower;prev=jeg|du|han|hun|vi|de|i|man|ingen|nogen|enhver|hvem|hvo|gud;nextbreak=at,"jeg ved, at (the comma rules out the preposition)",core
+ved,vet,next=du|jeg|han|hun|vi|man,subject pronoun after ved: never the preposition (Ved du; hvad ved jeg),context:g1
+ved,vet,lower;prev=jeg|du|han|hun|vi|i|ingen|enhver|hvo|hvem|gud|man;notprev2=blev|bliver|blive|blir|ble|holder|holdt|holde|var|er|vinder|vandt|kom|kommer|tjener|tjente|faar|fik|vant|blevne;nextbreak=at|hvad|hvor|hvorledes|hvordan|hvem|hvo|hvilken|hvilket|hvilke|om|naar|hvorfor|hun|han|jeg|du|vi|i|de|det|den|der|dette|min|mit|mine|din|dit|hans|hendes|saa|og|men|maaske|herre|sagde|siger|sa|vil|er|var|paa|engang|hvis|kanske|kun|nu|thi|for|da|et|en|ja|nei|jo|naa|mylord|til|med|af|ikke|kom|alle|lad|dig|mig|gud|frelseren,"subject + ved + punctuation (jeg ved, hvem ved?); notprev2 keeps blev han ved / vinder du ved",context:g1
+ved,vet,lower;prev=jeg|du|han|hun|vi|i|man;next=besked|bedst,ved besked,context:g1
 ved,=,,,core
 vidste,visste,,,core
 vidst,visst,,,core
@@ -362,6 +403,7 @@ rige,rike,,,core
 riget,riket,,,core
 nat,natt,,,core
 natten,natten,,,core
+ven,=,lower;nouncaps,a lower-case ven in a noun-capitalising book is the adjective (fair),acceptance
 ven,venn,,,core
 vennen,vennen,,,core
 gaard,gård,,,core
@@ -416,6 +458,7 @@ tilstede,til stede,,,core
 luther,=,,name,core
 och,=,,Swedish,core
 oc,=,,Old Norse/Danish,core
+eg,egg,prev=et|lægge|lægger|læg|lagde|lagt|sine|kogt|blødkogt|friske|deres|smaa,et eg / lægge eg / sine eg = egg (eik is en eg; store excluded: den store Eg = oak),context:g6
 eg,=,,landsmål pronoun or oak,core
 dei,=,,landsmål,core
 ein,=,,landsmål,core
@@ -423,10 +466,13 @@ so,=,,landsmål,core
 dog,dog,,,core
 daa,da,,,core
 # Infinitive marker: at before a word that can only be an infinitive
-at,=,next=disses|dennes|dettes|hvis|hvilkes,"at disses Løn": conjunction before a genitive,core
+at,=,next=disses|dennes|dettes|hvis|hvilkes,at disses Løn: conjunction before a genitive,core
 at,å,lower;nextlower;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
 at,Å,initial;nextlower;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
 at,å,lower;nextlower;prev=for|til|ved|om|af|paa|med|uden|istedenfor|istedetfor;nexthas=verb:inf;notnext=dette|denne|disse|han|hun|de|det|den|vi|jeg|du|man|der|hans|hendes|deres|dens|dets|sin|sit|sine|min|mit|mine|din|dit|dine|vor|vort|vore|nogen|noget|nogle|alle|ingen|en|et|i|saa|da|nu|naar|hvis|om|ikke,after a preposition before an infinitive,core
+at,å,lower;nextlower;next=aabenbare|aabne|aande|ældes|ændre|ære|aflede|afsætte|agte|antage|arbeide|bære|bande|bane|banke|berge|besætte|bibringe|bie|blaase|blæse|blande|bo|bøie|bringe|briste|burde|byde|bytte|conversere|dages|dele|deltage|digte|døve|drikke|drive|drukne|eie|elte|ende|enes|faae|fælde|færdes|falde|fange|fare|farve|faste|finde|fiske|fjerne|flamme|flette|fløite|fly|flytte|føde|føie|følge|føre|forene|forenes|forklæde|fornæmme|fornemme|forudsætte|frelse|fremme|fylke|gale|gifte|gjælde|gjætte|gjemme|gjette|glæde|grave|greie|gro|grønnes|grue|gylde|halte|hindre|hoppe|hovne|huse|hvile|ile|indsætte|kaldes|kappes|kaste|kjæmpe|kjende|kjendes|klæde|klage|klandre|klare|klemme|klinge|klippe|kløve|klukke|knappe|knytte|koge|komme|krabbe|kunne|kvæde|kvikne|lade|læge|længes|lænke|lære|lave|le|lede|lege|leie|lempe|lene|lette|leve|ligne|løfte|løse|lugte|lukke|lure|lykkes|lyse|lystre|lytte|maatte|mærke|mætte|melke|merke|mindes|miste|møde|more|muntre|naa|nære|nærme|ødsle|ofre|omgaaes|omtale|ønske|oprette|øse|oversætte|passe|passere|pibe|plante|pleie|pløie|presse|prøve|raade|raadne|ræke|række|ramme|rase|redde|rede|reise|rette|ringe|rive|ro|rømme|røre|rose|rulle|ruste|rydde|saare|sætte|sættes|samles|samtykke|sees|seire|sette|sige|signe|sigte|sikkre|sikre|skade|skifte|skille|skilles|skinne|skjælve|skjære|skjemte|skjønne|skose|skræmme|skrige|skue|skulle|skygge|skylde|slaa|smelde|smelte|smigre|smykke|snappe|snitte|sno|snu|snyde|spænde|sperre|spilde|spille|spire|spise|sprede|staa|stævne|stanse|stene|stige|stikke|stille|støtte|stride|strides|strømme|styre|styrte|sulte|svare|synes|tabe|tække|tændes|takke|tale|tiltale|tømre|tone|tørre|træde|træffes|trænges|trætte|traktere|trampe|treske|trives|tro|true|tulle|tvinge|ty|tygge|tynde|udsætte|undres|vække|vælte|vænte|være|vande|varme|veide|velte|vende|vente|verge|vide|vinde|virke|vise|visne|ydmyge|ynkes|ytre|yttre,"infinitive marker before an unambiguous infinitive (verbs that double as nouns/adjectives such as love, kristne, jævne, ægte, faa, ville left out or handled below)",context:g4
+at,å,lower;nextlower;next=faa|ville;notprev=saa;prevhas=subst|adj|adj:part|verb:inf|verb:pret|verb:perf-part|verb:imp|verb:pres|adv|prep|det|pron|konj|sbu,"at faa/ville after a word: excludes ""sige, at faa eller ingen"", ""saa at faa Elve"", ""fastholde, at ville vi""",context:g4
+at,Å,cap;initial;nextlower;next=aabenbare|aabne|aande|ældes|ændre|ære|aflede|afsætte|agte|antage|arbeide|bære|bande|bane|banke|berge|besætte|bibringe|bie|blaase|blæse|blande|bo|bøie|bringe|briste|burde|byde|bytte|conversere|dages|dele|deltage|digte|døve|drikke|drive|drukne|eie|elte|ende|enes|faae|fælde|færdes|falde|fange|fare|farve|faste|finde|fiske|fjerne|flamme|flette|fløite|fly|flytte|føde|føie|følge|føre|forene|forenes|forklæde|fornæmme|fornemme|forudsætte|frelse|fremme|fylke|gale|gifte|gjælde|gjætte|gjemme|gjette|glæde|grave|greie|gro|grønnes|grue|gylde|halte|hindre|hoppe|hovne|huse|hvile|ile|indsætte|kaldes|kappes|kaste|kjæmpe|kjende|kjendes|klæde|klage|klandre|klare|klemme|klinge|klippe|kløve|klukke|knappe|knytte|koge|komme|krabbe|kunne|kvæde|kvikne|lade|læge|længes|lænke|lære|lave|le|lede|lege|leie|lempe|lene|lette|leve|ligne|løfte|løse|lugte|lukke|lure|lykkes|lyse|lystre|lytte|maatte|mærke|mætte|melke|merke|mindes|miste|møde|more|muntre|naa|nære|nærme|ødsle|ofre|omgaaes|omtale|ønske|oprette|øse|oversætte|passe|passere|pibe|plante|pleie|pløie|presse|prøve|raade|raadne|ræke|række|ramme|rase|redde|rede|reise|rette|ringe|rive|ro|rømme|røre|rose|rulle|ruste|rydde|saare|sætte|sættes|samles|samtykke|sees|seire|sette|sige|signe|sigte|sikkre|sikre|skade|skifte|skille|skilles|skinne|skjælve|skjære|skjemte|skjønne|skose|skræmme|skrige|skue|skulle|skygge|skylde|slaa|smelde|smelte|smigre|smykke|snappe|snitte|sno|snu|snyde|spænde|sperre|spilde|spille|spire|spise|sprede|staa|stævne|stanse|stene|stige|stikke|stille|støtte|stride|strides|strømme|styre|styrte|sulte|svare|synes|tabe|tække|tændes|takke|tale|tiltale|tømre|tone|tørre|træde|træffes|trænges|trætte|traktere|trampe|treske|trives|tro|true|tulle|tvinge|ty|tygge|tynde|udsætte|undres|vække|vælte|vænte|være|vande|varme|veide|velte|vende|vente|verge|vide|vinde|virke|vise|visne|ydmyge|ynkes|ytre|yttre|faa,sentence-initial infinitive (At faae Kost og Løn er ...); ægte excluded (At ægte Videnskabelighed),context:g4
 at,=,,conjunction,core
 # I (second person plural) against i (in)
 i,dere,cap;mid;notprev=a|b|c|d|e|f|g|h|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|æ|ø|å,pronoun I = you (plural); the preposition is lower case,core
@@ -452,6 +498,8 @@ sex,seks,lower,,acceptance
 kjød,kjøtt,,,acceptance
 kjødet,kjøttet,,,acceptance
 mad,mat,cap;nouncaps,food,acceptance
+mad,mat,lower,"food; the only reading of lower-case mad (incl. mad-mor, skole-mad, a spelling word list)",context:g5
+mad,mat,cap;nonouncaps;initial,sentence-initial Mad in books without noun capitals: food,context:g5
 dage,dager,cap;mid;nouncaps,plural (dage = to dawn),acceptance
 skove,skoger,cap;mid;nouncaps,,acceptance
 skovene,skogene,,,acceptance
@@ -466,12 +514,14 @@ katte,katter,cap;mid;nouncaps,,acceptance
 drømme,drømmer,cap;mid;nouncaps,,acceptance
 kalve,kalver,cap;mid;nouncaps,,acceptance
 vinde,vinder,cap;mid;nouncaps,winds (vinde = to wind),acceptance
+vinde,vinne,lower;prev=at|vil|vilde|skulde|skal|kan|kunde|maa|faa|ville|skulle|kunne;notnext=dig|sig|mig|op|ned,infinitive after at/modal = win; dig/sig/op/ned excluded (vinde dig ned = winch),context:g6
 krøbne,krøpet,,,acceptance
 mose,=,cap,Moses (mose = moss),acceptance
 hel,=,cap;mid,Hel the goddess and realm (hel = whole),acceptance
 lee,=,cap,name,acceptance
 hun,=,cap;mid;nouncaps,"a capital Hun mid-sentence is the female (hunn), never the pronoun",acceptance
 løn,=,cap;mid;nouncaps,i Løn = in secret,acceptance
+leg,lek,lower;prev=en|denne|den|vor|min|i|til|med|grusomme|stolte|haarde|vilde|gamle|hvilken|og;notprev2=paa,noun play or imperative (og leg med mig); paa denne leg (tiur display ground) excluded,context:g5
 leg,=,,leg = play or a resting place (leie),acceptance
 des,=,,foreign article (des Anschauungsunterrichts; des lois),acceptance
 buk,bukk,cap;mid;nouncaps,a buck (modern buk = belly is Danish Bug),acceptance
@@ -549,3 +599,81 @@ pen,=,cap;nouncaps,Pen in a noun-capitalising book: writing pen (penn),acceptanc
 pen,pen,,,acceptance
 rum,=,cap;prev=i|af|fra|til;nouncaps,Sultanen i Rum (place),acceptance
 rum,rom,,,acceptance
+# Context round 2026-10-18: contexts where a two-reading form has one certain reading (docs/briefs/context.md)
+haven,hagen,,"every occurrence is the garden (i Haven, ud i haven, prestegaards-haven)",context:g3
+love,lover,lower;nonouncaps;prev=sine|skrevne|licinske|egne|gav|germanske|romerske|gode|ridderskabets|danske|landets|kristians|andre|strenge|række|vigtige|nye|alle|give,laws (noun plural) in lower-case-noun books,context:g3
+love,lover,cap;mid;nonouncaps,laws: capitalised mid-sentence in a lower-case-noun book (Grunnlov quotations),context:g3
+love,lover,cap;initial;nouncaps;nextany=anordninger|og,"laws: Love, Anordninger / Love og Folk",context:g3
+love,lover,lower;prev=vi;notprev2=at|vil|skal|kan|maa|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|lod|måtte|lod,present plural (vi love Dig = vi lover deg),context:g3
+love,lover,lower;next=vi;notprev=at|vil|skal|kan|maa|kunde|skulde|vilde|skulle|kunne|ville|maatte|bør|tør|lad|lade|lod,inverted present plural (Det love vi),context:g3
+love,=,,keep:,audit:nob-inbank-r3-00
+dit,ditt,before=1907;notnext=læs,"before 1907 the adverb is spelt did, so dit is the possessive; errata line ""18 dit læs: sit"" left",context:g4
+dit,ditt,nexttags=subst|adj|adj:part,possessive before a noun or adjective (catches lassen-4),context:g4
+dit,=,,verifier disagreed (=: also adverb dit (thither)); was ditt,audit:nob-inbank-r1-00
+nyt,nytt,prev=et|noget|hvert|ethvert|alt|hvad|alskens|paa|fra|saa|lige|hverken|var|er|om|til,"adjective after determiner, preposition (paa/fra nyt) or copula; imperative nyt (Nyt din Tid) never follows these",context:g4
+nyt,nytt,nexttags=subst|adj|adj:part,"adjective before a noun (faar nyt Blod, Nyt Oplag)",context:g4
+nyt,=,,context: nytt (adj) | nyt (verb),audit:nob-left-r3-00
+al,all,nexthas=det|pron|subst|adj|adj:part|adv|verb:inf|verb:pres|verb:pret|verb:perf-part|verb:imp|prep;notnext=aal|igjennem|raschíd|le,"al before a word = all; leaves syllable lists (ly al aal, al–le), al = alder (over asp, over al; Al: older), Harun al Raschíd, skalv al igjennem",context:g4
+al,all,nextend=s,"al before a genitive (al Verdens, al Livets)",context:g4
+al,=,,keep:,audit:nob-left-r1-00
+sand,sann,nouncaps;lower;prevhas=subst|adj|adj:part|verb:inf|verb:pret|verb:perf-part|verb:imp|verb:pres|adv|prep|det|pron|konj|sbu;notprev=tør|re|bæ-re|for,"lower-case in a noun-capitalising book = adjective; excludes primer phrases (tør sand, bæ-re sand), word lists, and ""for sand""",context:g4
+sand,sann,lower;prev=en|én|al|bogstavlig,"adjective after article (en sand gave, én sand gud)",context:g4
+sand,sann,next=gud|oplysning,"sand Gud, sand oplysning",context:g4
+sand,=,,keep:,audit:nob-inbank-r3-00
+sag,sak,lower;prev=denne|den|din|sin|min|hans|hendes|deres|vor|ingen|fælles|uforrettet|forrettet|enhver|retfærdig|farlig|vanskelige|liden|større|hvermands|landsmænds|protestantismens|protestanternes|katholicismens|korsets|herrens|kirkes|kirkens|pavens|irlands|italiens|gustavs|friheds,"determiner/possessive/genitive/fixed phrase before sag: matter, never a saw",context:g5
+sag,=,,context: sak | sag (saw),audit:nob-left-r3-00
+brug,bruk,,"noun (use, custom, works) and imperative both modernise to bruk; no other reading in any of the 163",context:g5
+søen,sjøen,cap;nouncaps,"capitalised noun in noun-capitalising books: sea/lake, both sjøen (incl. Genezareth-/Merom-/Ladoga-Søen)",context:g5
+søen,=,,keep:,audit:nob-left-r1-00
+bedet,bedt,lower;prev=havde|har|have|ei|ikke|vilde|himlen|jeg,participle of bede after auxiliary/negation (jeg vilde bedet = ville bedt),context:g5
+bedet,bedt,lower;prev=og;next=ham|gud|dig|mig|hende|om|til,og bedet + object: participle,context:g5
+bedet,=,,verifier disagreed (=: also noun bedet (flower bed)); was bedt,audit:nob-left-r3-00
+bade,ba,lower;next=de|jøderne|hans|roboam|til,past of bede with inverted subject or bade til Gud,context:g5
+bade,ba,lower;prev=og;next=ham|hende|om,og bade ham/hende/om: past of bede (bathe would be badede),context:g5
+bade,=,,,context
+lege,leke,lower;next=med;notprev=de|vi|i|der|børn,lege med: play (infinitive); plural present excluded (would need leker),context:g5
+lege,leke,lower;notnext=med;prev=at|vil|vilde|kan|kunde|maa|maatte|skal|skulde|ikke|og|eller|altid|gjerne|aldrig|først,infinitive of lege (play) after at/modal/adverb,context:g5
+lege,=,,"Lege = games (plural of Leg, modern leker); lege reads as doctor",homograph
+hede,hete,lower;prev=skal|skulde|at|vil|ogsaa|monne,infinitive: be called (det vil hede = det vil hete),context:g5
+hede,hete,lower;prev=den|det|de|i|saa|og|sit|sin|sine|hans|stridens|afrikas|andre|jordens|sydamerikas|slags|længselens|taknemmeligheds|rosens|ganske|for|græder|græde|bereder|sidste|fjerne|med;nexthas=subst,"adjective hot before a noun (or noun heat: stridens hede, hede i øiet)",context:g5
+hede,=,,context: hete (noun/verb) | hede (heath),audit:nob-left-r3-00
+vaage,våge,lower;next=sig|sit,vaage sig / vaage sit liv: dare,context:g5
+vaage,våke,lower;next=over|og|ved|hos|om|een,"vaage over/og bede/ved/hos/om natten: stay awake, watch",context:g5
+vaage,våke,lower;prev=vil|burde|monne|at|skal|skulde|kunne|maa;notnext=sig|sit,infinitive after at/modal: watch (place name Vaage is always capitalised),context:g5
+vaage,=,,context: våke | våge,audit:nob-left-r1-00
+vaade,våte,lower;nouncaps,lower case in noun-capitalising books is never the noun vaade (danger): plural/definite adjective,context:g5
+vaade,våte,lower;nonouncaps;prev=det|den|de|sit|sin|sine|med|tre|i|hendes|gjestens|krøllede|havets;nexthas=subst,adjective before a noun,context:g5
+vaade,våte,lower;prev=blive|blev|bleve|vare|ere|var|er|bliver|blir,predicative plural adjective,context:g5
+vaade,=,,"verifier disagreed (våte: plural/definite adjective, not neuter); was vått",audit:nob-left-r1-00
+vinder,vinner,lower;prev=jeg|du|han|hun|vi|man|som;notnext=sig,present after subject pronoun/som = wins; sig excluded (vinder sig = winds),context:g6
+vinder,=,,context: vinner (verb) | vinder (noun),audit:nob-inbank-r3-00
+skede,skjedde,lower;nouncaps,"lower case in a noun-capitalising book: verb, not the noun Skede (sheath)",context:g6
+skede,skjedde,lower;nonouncaps;notprev=af|i|en|sin|sit|min|din|hans|hendes|dens|uden|til|fra|med|paa|et|den,no article/possessive/preposition before: verb (af skede = sheath stays),context:g6
+skede,=,,"verifier disagreed (=: also noun skede (sheath, modern skjede)); was skjedde",audit:nob-left-r1-00
+kaldt,kalt,prev=har|havde|have|været|bleven|blevet|er|var|blev|bliver|blive|man,participle after auxiliary,context:g6
+kaldt,kalt,lower;next=hjem|tilbage|ind|op|frem|bort|sammen|hid|ud,kaldt hjem/ind/tilbage = called,context:g6
+kaldt,kalt,lower;prev2=har|havde|blev|er|var|have|bleven;prev=derfor|siden|først|ogsaa|dog|før|nu,auxiliary + adverb + participle,context:g6
+kaldt,=,,,context
+troe,tro,lower;prev=at|kan|vil|skulde|skal|kunde|maa|bør|tør|vilde|skulle|ville|kunne|maae|tro,infinitive after at/modal,context:g6
+troe,tro,lower;prev=den|det|hans|davids|sin|sit|min|din|vor|eders|deres|hendes;nexthas=subst,adjective (faithful) before a noun,context:g6
+troe,tror,lower;prev=vi|de|i;nextlower,present plural after vi/de/I,context:g6
+troe,=,,verifier disagreed (=: pres. plural reading -> tror); was tro,audit:nob-left-r3-00
+taug,tidde,lower;nouncaps;mid,"lower case in a noun-capitalising book: verb, not Taug (rope); mid keeps the au-word spelling list out",context:g6
+taug,tidde,lower;nonouncaps;next=stille|ikke|han|hun|begge|pludselig|da,"taug stille/ikke, inverted subject: verb",context:g6
+taug,tidde,lower;nonouncaps;prev=han|hun|jeg|vi|du,subject pronoun before: verb (de excluded: de taug = those ropes),context:g6
+taug,=,,verifier disagreed (=: also noun taug (rope)); was tidde,audit:nob-left-r1-00
+hiin,hin,,only reading is the demonstrative hin,context:g6
+hul,hull,lower;nonouncaps;prev=et|hvert|stort|lidet|dybt|mørkt|rundt|sort|stygt|andet|sit|eet,neuter article/adjective before: noun hull (adjective would be hult),context:g6
+hul,hull,lower;nonouncaps;next=paa|igjennem,hugge/bore/gnage hul paa/igjennem = noun,context:g6
+hul,=,,context: hull (noun) | hul (adj),audit:nob-left-r3-00
+vis,viss,lower;next=paa;prev=er|være|var|blive|bleven|ganske|temmelig|jeg|du|han|hun|vi|de|altid|aldrig|ikke|meget|fuldt|vare|ere|blev,være vis paa = sure; saa excluded (seer saa vis paa = wise look),context:g6
+vis,viss,lower;prev=en|et|nogen;notnext=mand|med;nexthas=subst|adj|adv,"en vis Grad/Maade/Tid = certain; en vis mand (wise?) and paa en vis med/, (manner) excluded",context:g6
+vis,=,,context: viss (adj) | vis (adj),audit:nob-inbank-r3-00
+uret,urett,prev=og|eller;prev2=ret,ret og uret / ret eller uret,context:g6
+uret,urett,prev=led|lidt|lidte|hadet|havt|saadan|bitreste|gjorde|stundom,lide/hate/have uret = wrong,context:g6
+uret,urett,next=lidt,har uret lidt,context:g6
+uret,urett,prev2=gjort|gjorde,gjort X uret,context:g6
+uret,urett,prev=jeg;prev2=og,"du havde ret, og jeg uret",context:g6
+uret,urett,prev=den|nogen|megen|al|stor,common-gender determiner: urett (the watch is neuter uret),context:g6
+uret,=,,context: uret (the watch) | urett (wrong),audit:nob-inbank-r1-00
+fjeld,fjell,,only reading is fjell,context:g6

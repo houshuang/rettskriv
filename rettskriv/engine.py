@@ -201,6 +201,10 @@ class Engine:
                 continue
             if key == "prevbreak" and (prev is not None or pos == 0 or token.initial):
                 return False  # punctuation, not a sentence start, before the word ("Ja, sig")
+            if key == "nextend":
+                if nxt is None or not nxt.lower.endswith(tuple(values)):
+                    return False
+                continue
             if key == "nextlower":
                 if pos + 1 >= len(words) or tokens[words[pos + 1]].capitalised:
                     return False
@@ -361,6 +365,11 @@ class Engine:
         if token.text in self.names or token.lower in KEEP_CAPITAL or low in KEEP_CAPITAL:
             return capital
         tags = self.bank.tags(low)
+        if not tags and low.endswith("s") and len(low) > 3:
+            # the bank has no genitives: Kongens, Landets take the tags of Kongen, Landet
+            base = self.bank.tags(low[:-1])
+            if "subst" in base and "prop" not in base:
+                tags = base
         if "prop" in tags and not (tags - {"prop"}):
             return capital
         if not tags:
@@ -392,11 +401,23 @@ class Engine:
             other.lower.endswith(s) and len(other.lower) > len(s) + 2 for s in PATRONYMIC
         )
 
-    def in_name(self, prev: Token | None, nxt: Token | None) -> bool:
-        """Whether a capitalised word belongs to a name: it follows a name (Peder Kjæmpe,
-        Knutssøn Baat) or precedes a patronymic (Mord Valgardssøn)."""
+    def in_name(self, prev: Token | None, nxt: Token | None, token: Token | None = None) -> bool:
+        """Whether a capitalised word belongs to a name: it follows a name or a title
+        (Peder Kjæmpe, Knutssøn Baat, Hr. Lund) or precedes a patronymic (Mord Valgardssøn).
+        After the genitive of a name (Olafs Sønner, Guds Ord) only a word that is no common
+        word counts; a first name in -s (Vincents Lunge) is no genitive."""
         def name(other: Token | None) -> bool:
-            return other is not None and self.is_name(other)
+            if other is None:
+                return False
+            if other.lower in TITLES and token is not None and not token.initial:
+                return True
+            if not self.is_name(other):
+                return False
+            genitive = (
+                other.text.endswith("s") and other.lower not in FIRST_NAMES_IN_S
+                and other.text not in self.names and "prop" not in self.bank.tags(other.text)
+            )
+            return not (genitive and token is not None and self.bank.common(token.lower))
 
         def patronymic(other: Token | None) -> bool:
             return (
@@ -452,7 +473,7 @@ class Engine:
         if (
             self.nouncaps and token.capitalised and not token.initial and not token.upper
             and low not in CAPITAL_FUNCTION_WORDS and low not in KEEP_CAPITAL
-            and self.in_name(*self.neighbours(tokens, i, words))
+            and self.in_name(*self.neighbours(tokens, i, words), token)
         ):
             # next to a name or patronymic: part of a name (Peder Kjæmpe, Mord Valgardssøn)
             token.out = token.text

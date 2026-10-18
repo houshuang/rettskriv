@@ -68,6 +68,12 @@ once and stored:
    writes `lexicon/<norm>/homograph.csv`, which is authoritative for its forms: a risky
    form changes only in the context given, otherwise it stays as printed.
 
+6. `tools/context_probe.py` and [`briefs/context.md`](briefs/context.md): forms left as
+   printed because they have two readings (*tog*, *vare*, *have*, *ved*) get context rows
+   for the contexts where one reading is certain. The probe prints every occurrence a
+   candidate row would change, so each row is read against all its matches before it is
+   added; the rest stays as printed.
+
 Forms seen once get a compound proposal (`tools/compounds.py`) in their packet; about
 one in ten proposals is wrong, so they only reach text through the auditor and verifier.
 
@@ -108,6 +114,7 @@ python3 tools/sample.py --name s1 --seed x # an acceptance sample (out/eval/s1.m
 python3 tools/split_sample.py s1           # split it into reviewer parts
 python3 tools/accept_report.py s1          # meaning-error rate from the reviews
 python3 tools/recheck.py s1                # replay reviewed errors against the current engine
+python3 tools/context_probe.py tog --when "lower;prev=han"   # every occurrence a context row would change
 ```
 
 The layer is keyed by field path (`blocks/3/text`), so a renderer can show the original

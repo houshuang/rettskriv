@@ -57,12 +57,15 @@ Measured by Claude Opus reviewers on fresh random paragraphs, judging every chan
 
 | | Corpus it was built on | Four unseen books (Hamsun, Ibsen, Wergeland, 1840–1900) |
 |---|---|---|
-| Changes judged | 16,954 | 907 |
-| Meaning changed | **0.09%** (15) | **0%** (0) |
-| Wrong form (inflection, invalid spelling) | 0.47% | 1.2% |
-| Wrong capital | 0.14% | 0.2% |
-| Old forms left that mislead a reader | ~0.8 per 100 changes | ~10 per 100 changes |
-| Words changed | 31.5% | 27% |
+| Changes judged | 17,232 | 907 |
+| Meaning changed | **0.08%** (14) | **0%** (0) |
+| Wrong form (inflection, invalid spelling) | 0.73% | 1.2% |
+| Wrong capital | 0.23% | 0.2% |
+| Old forms left that mislead a reader | ~0.75 per 100 changes | ~10 per 100 changes |
+| Words changed | 32.0% | 27% |
+
+(The corpus column is the latest release; the unseen books were measured one round
+earlier, before about 120 context rows were added.)
 
 On text like the corpus it is close to finished. On unseen text it stays as safe but
 leaves more old spelling: an author's own forms that the lexicon has never seen are left
@@ -72,13 +75,15 @@ as printed unless a trusted rule covers them. One audit round over a new text's 
 ## Known weaknesses
 
 - **Conservative by design.** "Leave it as printed" is always allowed, so old forms
-  remain: *tog* (= *tok*, reads as "train"), *vare* (= *var*), *ved* (= *vet*), *Have*
-  (= *hage*), *bed* (= *bet*), *Anden* (= *annen*). Verbs and nouns whose old form is also
-  a modern word are the hardest.
-- **Homographs read without enough context**: *endnu* → *ennå* where it means *enda*
-  ("even more"); *I* after a regnal name read as the pronoun (*Vilhelm I* → *dere*); the
-  adjective *ven* (fair) → *venn* (friend) in books that capitalise nouns (*en ven Fugl*),
-  found after the final measurement; *lod* (fate) → *lot*.
+  remain where they have two readings and the neighbouring words do not settle which:
+  *tog* (= *tok*, or the noun *tog*), *vare* (= *var*, or goods), *ved* (= *vet*, or the
+  preposition), *have* (= *ha*/*har*, or *hage*), *lade*, *vide*, *Anden*. Context rows
+  now change the certain cases (*han tog* → *tok*, *at vide* → *vite*, *vi vide, at* → *vet*,
+  *en Have* → *hage*; about 9,000 occurrences); the rest stay as printed. Old plural
+  verbs (*de sige*) and *-ede* participles are the commonest form errors.
+- **Homographs read without enough context**: *ved* → *vet* where it is the preposition;
+  *lade*/*lader* (reload, manners) read as *la*/*lar*; *baade* (boats) → *både*; *kaldet*
+  (the call) → *kalt*; *I* after a regnal name read as the pronoun; *lod* (fate) → *lot*.
 - **Names that are also words** are protected only when the book shows them as names
   (after a title, next to a first name, in the name bank): a dog called *Spids*, a place
   called *Krogen*, *for Bagen* (from behind) can still be lowered or respelled.
@@ -86,9 +91,16 @@ as printed unless a trusted rule covers them. One audit round over a new text's 
   rather than *sier*; *-ede* participles before plural or definite nouns
   (*de udmærkede*) sometimes become *-et*; imperatives are sometimes read as present
   tense. *forat* + infinitive becomes *for at* rather than *for å*.
-- **Capitals**: verse line starts and nouns after a semicolon are handled inconsistently;
-  some noun capitals are kept mid-sentence.
-- **Nynorsk is thinly tested**: two landsmål books in the corpus, 803 of the 16,954 judged
+- **Capitals are normalised only partly.** A noun's capital is lowered when the word is
+  respelled or is already a modern form, but a word left in its old spelling keeps its
+  capital, and so does any word the book or the modern N-gram suggests is a name. In the
+  13 noun-capitalising books about a third of the mid-sentence capitals remain (many of
+  them real names: *Guds*, *Norges*, *Harald*). We tried
+  lowering them all: on a 1,600-change check it turned names into common words (*Hans* →
+  *hans*, *Halv*, *Kam*, *Ormen Lange*) and old spellings into misleading ones (*Sagen* →
+  "the saw", *Billeder*, *Glas*), about 1% meaning errors, so it was reverted. The capital
+  is often the only cue that an old form is a noun or a name.
+- **Nynorsk is thinly tested**: two landsmål books in the corpus, about 6% of the judged
   changes.
 - **Not a translation.** Archaic words (*thi*, *ei*, *atter*, *blot*) and word order stay;
   the text reads as old Norwegian in modern spelling, not as modern Norwegian.
@@ -107,6 +119,34 @@ homograph screen, then fixing every error the acceptance reviewers found.
 [docs/how-it-works.md](docs/how-it-works.md) has the details, the lexicon format and the
 tools for applying it to a new corpus; [docs/briefs/](docs/briefs/) has the model
 instructions.
+
+## Related work
+
+As far as we could find (October 2026), there is no other open tool that modernises
+historical Norwegian to today's bokmål or nynorsk. Related work:
+
+- **[MeMo corpus](https://huggingface.co/datasets/MiMe-MeMo/Corpus-v1.1)** (University of
+  Copenhagen, CC BY 4.0): Danish and Dano-Norwegian novels 1870–1899 with a normalised
+  layer (nouns lower-cased, *aa* → *å*, pattern rules towards the Danish 1948 norm). Same
+  period and source language, but the target is Danish and normalisation is partial.
+- **[Apertium nno-nob](https://github.com/apertium/apertium-nno-nob)** (GPL-2.0): rule-based
+  translation between modern nynorsk and bokmål; a possible next step after rettskriv.
+- **[Norsk ordbank](https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-5/)**
+  (Språkbanken, CC BY 4.0): the modern word banks rettskriv checks every form against.
+- General historical-text normalisation, none for Norwegian or Danish:
+  [Bollmann's comparison of systems](https://aclanthology.org/N19-1389/) and
+  [datasets](https://github.com/coastalcph/histnorm);
+  [Pettersson et al. on Swedish and others](https://aclanthology.org/W14-0605/);
+  [Norma](https://github.com/mbollmann/norma); [cSMTiser](https://github.com/clarinsi/csmtiser);
+  [Transnormer](https://github.com/ybracke/transnormer) (German 1700–1900);
+  [VARD 2](https://ucrel.lancs.ac.uk/vard/about/) (Early Modern English, a variant list like
+  rettskriv's lexicon); and a [2025 comparison of LLM approaches](https://arxiv.org/abs/2506.23288).
+- Edition practice: [Henrik Ibsens Skrifter's textual guidelines](https://www.ibsen.uio.no/tekstkritiskeRetningslinjer.html)
+  keep the printed spelling (the diplomatic counterpart to a reading layer);
+  [Bokselskap.no](https://www.bokselskap.no/hjelp_om/om_bokselskap) publishes texts in their
+  original form. Background on the reforms: [Store norske leksikon](https://snl.no/.temaside/rettskrivingsreformer-i-norsk).
+
+If you know of other work, please open an issue.
 
 ## Status
 

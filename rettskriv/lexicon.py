@@ -18,6 +18,7 @@ CSV columns: source, target, when, note, origin.
     prev2=a|b          the word before the previous one is one of these
     prevbreak          punctuation (not a sentence start) before the word
     nextlower          the next word is printed in lower case
+    nextend=a|b        the next word ends with one of these (nextend=ere: a comparative)
     prevout=a|b        the previous word's modern form is one of these
     nextout=a|b        the next word's modern form is one of these
     nexttags=t|u       every bank tag of the next word's modern form is one of these

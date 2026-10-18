@@ -18,27 +18,48 @@ The release bar was at most 0.14% meaning errors among the changes in a fresh sa
 ## The corpus it was built on
 
 27 Norwegian school readers printed 1824–1931 (25 Dano-Norwegian/riksmål, 2 landsmål),
-1.9 million words, of which 601,803 (31.5%) are changed.
+1.9 million words, of which 610,572 (32.0%) are changed in the current release.
 
 | Rounds | Meaning errors among changes |
 |---|---|
 | 1–3 (first reviewer pool) | 0.50% → 0.25% → 0.14% |
 | 4–8 (stricter reviewer pool) | about 0.19% → 0.156% → 0.142% → 0.124% → 0.099% (the last on 9,108 changes) |
-| Final (four samples, 16 reviewers) | **15 in 16,954 changes (0.088%)** |
+| 9 (four samples, 16 reviewers) | 15 in 16,954 changes (0.088%) |
+| 10, current (four samples, 16 reviewers) | **14 in 17,232 changes (0.081%)** |
 
 Between rounds, every reported error was fixed at its cause (a lexicon row or an engine
 rule) and replayed against all earlier samples with `tools/recheck.py`.
 
-Final round, all categories (share of changes):
+All categories, share of changes:
 
-| Kind | Count | Rate |
+| Kind | Round 9 | Round 10 (current) |
 |---|---|---|
-| meaning | 15 | 0.09% |
-| form | 80 | 0.47% |
-| case | 23 | 0.14% |
-| harmful misses | 129 | (0.76 per 100 changes) |
+| meaning | 15 (0.09%) | 14 (0.08%) |
+| form | 80 (0.47%) | 126 (0.73%) |
+| case | 23 (0.14%) | 39 (0.23%) |
+| harmful misses | 129 (0.76 per 100 changes) | 130 (0.75 per 100 changes) |
 
-The 15 meaning errors:
+Round 10 added about 120 context rows for two-reading forms (*tog*, *vare*, *have*, *ved*,
+*vide*, *lade*, *taget* …; about 9,000 more words changed) and lowered genitive noun
+capitals. The higher form and case counts come mostly from error classes the round did not
+touch (old plural verbs, *-ede* participles, kept noun capitals) and are within what two
+different samples and reviewer pools give; the miss rate per change did not move
+measurably. Only one of round 10's 14 meaning errors comes from a new row (*at* = "so
+that" read as the infinitive marker).
+
+Before the four-sample check, round 10 had a targeted check: the old and new engines were
+run over the whole corpus and 1,600 of the words whose output differed were judged on
+their own ([`briefs/targeted.md`](briefs/targeted.md)). That check caught an attempt to
+lower every kept capital, which turned names and old spellings into other words at about
+1%; it was reverted before the release.
+
+Round 10's meaning errors: *ved* → *vet* where it is the preposition (2); *lader*
+(manners) → *lar* (2); *lade* (reload) → *la*; *voksede* (waxed) → *vokste*; *bøde*
+(offered) → *bøte*; *træde* → *tre*; *besjelede* → *besjelte*; *at* (so that) → *å*;
+*Kjødet* (the flesh, religious) → *kjøttet*; *baade* (boats) → *både*; *end høiere* →
+*enn*; *kaldet* (the call) → *kalt*.
+
+Round 9's 15 meaning errors:
 
 - *endnu* → *ennå* where it means *enda* ("even more": *endnu farligere*), 4.
 - The regnal numeral read as the pronoun (*Fredrik Vilhelm I* → *dere*), 2.
