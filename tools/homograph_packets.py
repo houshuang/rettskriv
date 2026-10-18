@@ -3,7 +3,7 @@ context, for a check that the old form has no second reading the change gets wro
 
 Reads out/survey/<lang>-changes.tsv (run tools/survey.py first) and writes
 out/audit/homograph/<lang>-homograph-NN.tsv; results go to
-out/audit/homograph/results/<same name>.tsv (see HOMOGRAPH-BRIEF.md).
+out/audit/homograph/results/<same name>.tsv (see docs/briefs/homograph.md).
 """
 from __future__ import annotations
 

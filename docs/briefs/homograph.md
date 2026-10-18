@@ -3,7 +3,7 @@
 A reading layer shows 19th- and early 20th-century Norwegian school readers in modern
 spelling (bokmål; nynorsk for `nno` packets). Each line below is a change the program
 makes **everywhere**, without looking at context: the old form `from` becomes `to`. The
-owner's rule is **never change meaning**; leaving a word as printed is always allowed.
+rule is **never change meaning**; leaving a word as printed is always allowed.
 
 Your one question per line: **can the old form, in a normal text of the period, be a
 different word, inflection or a name, for which `to` would be wrong?**

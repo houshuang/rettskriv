@@ -37,6 +37,8 @@ def coarse(tag: str) -> str:
 
 
 def _build(lang: str) -> dict[str, frozenset[str]]:
+    if not SOURCES[lang].exists():
+        raise FileNotFoundError(f"{SOURCES[lang]} is missing: run python3 -m rettskriv.fetch_ordbank")
     forms: dict[str, set[str]] = {}
     with open(SOURCES[lang], encoding="latin-1") as handle:
         next(handle)
@@ -55,7 +57,7 @@ def load(lang: str) -> dict[str, frozenset[str]]:
     CACHE.mkdir(parents=True, exist_ok=True)
     cache = CACHE / f"bank-{lang}.pickle"
     source = SOURCES[lang]
-    if cache.exists() and cache.stat().st_mtime >= source.stat().st_mtime:
+    if cache.exists() and (not source.exists() or cache.stat().st_mtime >= source.stat().st_mtime):
         with open(cache, "rb") as handle:
             return pickle.load(handle)
     forms = _build(lang)

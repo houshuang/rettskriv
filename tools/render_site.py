@@ -8,11 +8,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-LESEBOK_SCRIPTS = Path("/Users/stian/src/bookifier/lesebok/scripts")
+LESEBOK_SCRIPTS = Path(os.environ.get("RETTSKRIV_LESEBOK_SCRIPTS") or Path.home() / "src" / "bookifier" / "lesebok" / "scripts")
 LAYERS = ROOT / "out" / "modern"
 SITE = ROOT / "out" / "site"
 

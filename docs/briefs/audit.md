@@ -3,7 +3,7 @@
 You judge single words from 19th- and early 20th-century Norwegian school readers
 (Dano-Norwegian/riksmål, and landsmål). A reading layer shows each text in modern
 spelling next to the original. The modernisation is mechanical; your verdicts become
-its lexicon. The owner's rule: **never change meaning.**
+its lexicon. The rule: **never change meaning.**
 
 ## The policy
 
@@ -40,7 +40,7 @@ the word marked `[old→engine output]`.
   with a corrected target, or `keep`, exactly as for any other item.
 
 Check any modern form you propose with
-`python3 /Users/stian/src/rettskriv/tools/lookup.py form ...` (add `--nn` for nynorsk):
+`python3 tools/lookup.py form ...` (add `--nn` for nynorsk):
 `YES` means the norm allows it. `compound` means the bank lacks the whole word but
 knows its parts (or it is a genitive in -s): that target is accepted too, so a
 compound or genitive you are sure of is `fix`, not `keep`. A target that prints `no`

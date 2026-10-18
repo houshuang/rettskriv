@@ -6,6 +6,7 @@ changed by the curated lexicon and never accepted as rule output.
 """
 from __future__ import annotations
 
+import gzip
 import json
 import sqlite3
 import time
@@ -15,6 +16,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DB = ROOT / "data" / "cache" / "ngram.sqlite"
+# shipped snapshot of the cache (lang, word, old, new); the local cache adds to it
+SNAPSHOT = ROOT / "data" / "ngram.tsv.gz"
 API = "https://api.nb.no/dhlab/nb_ngram/ngram/query"
 OLD = range(1850, 1911)
 NEW = range(1990, 2021)
@@ -31,6 +34,22 @@ def connect() -> sqlite3.Connection:
         " PRIMARY KEY (lang, word))"
     )
     return conn
+
+
+def export() -> int:
+    """Write the local cache to the shipped snapshot."""
+    conn = connect()
+    rows = conn.execute("SELECT lang, word, old, new FROM freq ORDER BY lang, word").fetchall()
+    conn.close()
+    with gzip.open(SNAPSHOT, "wt", encoding="utf-8") as handle:
+        for lang, word, old, new in rows:
+            handle.write(f"{lang}\t{word}\t{old!r}\t{new!r}\n")
+    return len(rows)
+
+
+def known(lang: str) -> set[str]:
+    """Words with a frequency in the snapshot or the local cache."""
+    return set(Archaism(lang).freq)
 
 
 def fetch(words: list[str], lang: str, batch: int = 10, refresh_zero: bool = False) -> None:
@@ -70,6 +89,12 @@ class Archaism:
     def __init__(self, lang: str):
         self.lang = lang
         self.freq: dict[str, tuple[float, float]] = {}
+        if SNAPSHOT.exists():
+            with gzip.open(SNAPSHOT, "rt", encoding="utf-8") as handle:
+                for line in handle:
+                    row_lang, word, old, new = line.rstrip("\n").split("\t")
+                    if row_lang == lang:
+                        self.freq[word] = (float(old), float(new))
         if DB.exists():
             conn = connect()
             for word, old, new in conn.execute("SELECT word, old, new FROM freq WHERE lang=?", (lang,)):

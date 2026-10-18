@@ -1,11 +1,16 @@
-"""Reading the Lesebok editions (bookifier/lesebok/work/<book>/book.json), read-only."""
+"""Reading a corpus of books (<corpus>/<book>/book.json), read-only.
+
+The corpus is the Lesebok editions' work folder; set RETTSKRIV_CORPUS to use another
+folder in the same format (see docs/corpus-format.md).
+"""
 from __future__ import annotations
 
 import json
+import os
 import re
 from pathlib import Path
 
-LESEBOK = Path("/Users/stian/src/bookifier/lesebok/work")
+LESEBOK = Path(os.environ.get("RETTSKRIV_CORPUS") or Path.home() / "src" / "bookifier" / "lesebok" / "work")
 
 LANGUAGE = {"dansk-norsk": "nob", "landsmaal": "nno"}
 

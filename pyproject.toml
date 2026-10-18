@@ -1,0 +1,19 @@
+[project]
+name = "rettskriv"
+version = "1.0.0"
+description = "Spelling modernisation of historical Norwegian: Dano-Norwegian/riksmål to bokmål, landsmål to nynorsk"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Stian Håklev" }]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/houshuang/rettskriv"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["rettskriv"]

@@ -2,7 +2,7 @@
 
 You read paragraphs from 19th- and early 20th-century Norwegian school readers, each
 shown as printed and in the mechanically modernised spelling (bokmål; nynorsk for `nno`
-paragraphs). Every changed word carries a number ⟨n⟩. The owner's rule is **never change
+paragraphs). Every changed word carries a number ⟨n⟩. The rule is **never change
 meaning**; the modern text should be the same words in today's spelling and inflection.
 
 Judge **every numbered change**. Report only the bad ones:
