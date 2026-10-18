@@ -24,6 +24,7 @@ brænde,brenne,lower;prev=at|vil|skal|kan|maa|kunde|skulde|vilde|lade|lod|aa,ver
 brænde,=,,,context
 sande,sanne,prev=den|det|de|denne|dette|disse|min|din|sin|sine|hans|hendes|vor|vore|deres|saa,adjective plural/definite,context
 sande,=,,,context
+grunde,grunne,prev=til,gaa til Grunde = perish,context
 grunde,grunner,cap;mid;nouncaps,reasons,context
 grunde,grunne,lower;nouncaps,to ponder,context
 grunde,=,,,context

@@ -277,7 +277,9 @@ class Engine:
         return present if "verb:pres" in self.bank.tags(present) else None
 
     def grammar_candidate(self, low: str) -> bool:
-        return self.weak_past(low) is not None or self.plural_present(low) is not None
+        # a curated or audited row for an -ede form is the answer (legede is lekte, not leget)
+        past = self.weak_past(low) is not None and low not in self.lexicon
+        return past or self.plural_present(low) is not None
 
     def grammar(self, tokens: list[Token], i: int, words: list[int]) -> bool:
         token = tokens[i]
@@ -286,7 +288,7 @@ class Engine:
         prev_token, next_token = self.neighbours(tokens, i, words)
         prev = prev_token.lower if prev_token is not None else None
         nxt = next_token.lower if next_token is not None else None
-        past = self.weak_past(low)
+        past = self.weak_past(low) if low not in self.lexicon else None
         if past:
             respelled = self.modern_lower(low)
             adjective = respelled is not None and "adj:part" in self.bank.tags(respelled)

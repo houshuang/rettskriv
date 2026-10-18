@@ -4,6 +4,7 @@ af,av,,,core
 paa,på,,,core
 saa,så,,,core
 ogsaa,også,,,core
+sig,si,prev=og;next=til|ham|hende|dem|mig|os|det,imperative of sige (og sig til ham),core
 sig,=,initial,Sig at sentence start can be the imperative of sige (say),core
 sig,seg,,,core
 mig,meg,,,core
@@ -41,6 +42,7 @@ gjennem,gjennom,,,core
 igjennem,igjennom,,,core
 igjen,igjen,,,core
 endnu,ennå,,,core
+end,enda,next=mere|mindre|flere|bedre|værre|større|længere|mer|meget,end mere = enda mer (even more),core
 end,enn,,,core
 endog,endog,,,core
 nu,nå,,,core
@@ -59,6 +61,7 @@ mod,mot,,,core
 derimod,derimot,,,core
 medens,mens,,,core
 blandt,blant,,,core
+lidt,lidd,prev=have|havde|har|hadde|at|aa|er|var|blevet|haver|harr,suffered (participle of lide),core
 lidt,litt,,,core
 lidet,lite,,,core
 liden,liten,,,core
@@ -306,6 +309,7 @@ børnenes,barnas,,,core
 fader,far,notprev=gud|vor|himmelske|hellige|kjære;mid,,core
 fader,=,,,core
 faderen,faren,,,core
+moder,=,cap;mid;nouncaps;prev=eller|og|nye|den|de|disse,Moder = fashions after these,acceptance
 moder,mor,,,core
 moderen,moren,,,core
 broder,bror,,,core
@@ -467,3 +471,9 @@ inat,i natt,,,acceptance
 inatt,i natt,,,acceptance
 tilslut,til slutt,,,acceptance
 undtagelse,unntakelse,,,acceptance
+kul,kull,cap;mid;nouncaps,coal (kul = bump),acceptance
+moden,=,cap;mid,Moden = the fashion (moten); moden = ripe,acceptance
+hat,hatt,cap;mid;nouncaps,a hat (hat = hatred),acceptance
+legen,leken,cap;mid;nouncaps,the game (legen = the doctor),acceptance
+legede,lekte,,played (leget = healed),acceptance
+hæst,=,,hoarse (hes) or horse,acceptance
