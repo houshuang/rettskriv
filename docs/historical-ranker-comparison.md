@@ -136,7 +136,7 @@ not billing statements. There were no paid retries. Pro evidence is in
 
 ```sh
 # input.json: the prior source packet, excluding the identified overlapping page.
-python3 -m tools.sample_ranker input.json frozen --per-stratum 4 --seed real-passages-v1
+python3 -m tools.sample_ranker input.json frozen --per-stratum 4 --seed real-passages-v1 --policy legacy
 python3 -m tools.context_ranker prepare frozen/cases.json prompt.json --seed historical-v1-0
 # Run each book's prompt through the chosen model; retain raw outputs and usage.
 python3 -m tools.context_ranker apply frozen/cases.json predictions.json \

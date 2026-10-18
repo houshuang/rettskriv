@@ -2,7 +2,10 @@
 
 prepare CASES OUT [--seed S] emits a prompt packet without gold or baseline choices.
 apply CASES OUT --baseline BASELINE --answers ANSWERS emits benchmark predictions.
-Responses must cover every supplied target exactly once; null means abstain/preserve.
+prepare-keyed emits a packet plus per-target JSON schema; apply-keyed decodes
+exact enum answers (__KEEP__ means preserve). Use the same cases and seed for both.
+Responses must cover every supplied target exactly once; null means abstain/preserve
+in the original array format.
 """
 from __future__ import annotations
 import argparse
@@ -57,7 +60,10 @@ def packet(cases, seed='ranker-v1'):
             if cid == case['id']:
                 options = target['candidates'][:]
                 random.Random(f'{seed}:{cid}:{at}').shuffle(options)
-                choices.append(dict(at=at, **{'from': target['from']}, candidates=options))
+                item = dict(at=at, **{'from': target['from']}, candidates=options)
+                if target.get('candidate_notes'):
+                    item['candidate_notes'] = target['candidate_notes']
+                choices.append(item)
         if choices:
             rows.append(dict(id=case['id'], lang=case['lang'], original=case['original'], targets=choices))
     random.Random(seed).shuffle(rows)
@@ -109,7 +115,7 @@ def apply(cases, baseline, answers):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('action', choices=['prepare', 'apply'])
+    parser.add_argument('action', choices=['prepare', 'apply', 'prepare-keyed', 'apply-keyed'])
     parser.add_argument('cases', type=Path)
     parser.add_argument('out', type=Path)
     parser.add_argument('--seed', default='ranker-v1')
@@ -121,14 +127,52 @@ def main():
     cases = json.loads(a.cases.read_text(encoding='utf-8'))
     if a.action == 'prepare':
         result = packet(cases, a.seed)
+    elif a.action == 'prepare-keyed':
+        content,schema,_ = keyed_packet(cases,a.seed)
+        result = dict(packet=content,schema=schema)
     else:
         if not a.baseline or not a.answers:
             parser.error('apply requires --baseline and --answers')
-        result = apply(cases, json.loads(a.baseline.read_text(encoding='utf-8')),
-                       json.loads(a.answers.read_text(encoding='utf-8')))
+        answers = json.loads(a.answers.read_text(encoding='utf-8'))
+        if a.action == 'apply-keyed':
+            answers = decode_keyed(cases,answers,a.seed)
+        result = apply(cases, json.loads(a.baseline.read_text(encoding='utf-8')),answers)
     with a.out.open('x', encoding='utf-8') as handle:
         json.dump(result, handle, ensure_ascii=False, indent=2)
         handle.write('\n')
+
+
+
+def keyed_packet(cases, seed='ranker-v2'):
+    """JSON-schema-constrained output per target; retain local validation as well."""
+    prepared = packet(cases,seed)
+    properties, mapping = {}, {}
+    for case in prepared['cases']:
+        for target in case['targets']:
+            key = f't{len(mapping):04d}'
+            target['key'] = key
+            mapping[key] = dict(id=case['id'],at=target['at'])
+            properties[key] = dict(type='string',enum=target['candidates']+['__KEEP__'])
+    prepared['instruction'] = INSTRUCTION.replace(
+        'Return a JSON array of {id, at, to}, exactly one entry for every target. No prose.',
+        'Return a JSON object keyed by each target key. Values must be its exact candidate string '
+        'or __KEEP__ to abstain/preserve. Include every key. No prose.').replace('return null','return __KEEP__')
+    schema = dict(type='object',properties=properties,required=list(properties),additionalProperties=False)
+    return prepared,schema,mapping
+
+
+def decode_keyed(cases, values, seed='ranker-v2'):
+    """Decode only exact keys and enum values; no fuzzy spelling or ID repair."""
+    _,schema,mapping = keyed_packet(cases,seed)
+    if not isinstance(values,dict) or values.keys()!=mapping.keys():
+        raise ValueError('keyed answers must cover exactly the requested targets')
+    answers=[]
+    for key,identity in mapping.items():
+        value=values[key]
+        if not isinstance(value,str) or value not in schema['properties'][key]['enum']:
+            raise ValueError('keyed answer outside permitted candidates')
+        answers.append(dict(identity,to=None if value=='__KEEP__' else value))
+    return answers
 
 
 if __name__ == '__main__':
