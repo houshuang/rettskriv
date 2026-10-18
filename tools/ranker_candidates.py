@@ -22,6 +22,9 @@ def propose(eng, token, tokens, index, text):
     if not uncertain:
         return choices, notes
 
+    if eng.lang == 'nob' and token.lower.endswith('æ'):
+        return {source}, ['dialect-ending: final æ requires editorial review']
+
     # A word glued to a footnote number may be an explained dialect form/name.
     # Only block experimental additions; baseline handling is untouched.
     following = text[token.start+len(source):]
@@ -33,25 +36,65 @@ def propose(eng, token, tokens, index, text):
 
     word_indices = [i for i,t in enumerate(tokens) if t.word]
     prev,nxt = eng.neighbours(tokens,index,word_indices)
+    if eng.lang == 'nno' and token.lower.endswith('i'):
+        pos = word_indices.index(index)
+        before = tokens[word_indices[pos - 2]] if pos >= 2 else None
+        auxiliaries = {'har', 'hadde', 'hev', 'heve'}
+        auxiliary = prev and prev.lower in auxiliaries
+        if prev and prev.lower in {'eg', 'du', 'han', 'ho', 'me', 'vi', 'de', 'dei'}:
+            auxiliary = before and before.lower in auxiliaries
+        if auxiliary:
+            start = before if prev.lower not in auxiliaries else prev
+            gap = text[start.start + len(start.text):token.start]
+            if not re.search(r'[.,;:!?]', gap):
+                # Historical i can mark a participle as well as a definite noun.
+                # Do not turn stadi/loti into unrelated noun-only stada/lota
+                # just because a suffix substitution finds a modern bank form.
+                if any(c != source and eng.bank.tags(c.lower()) == {'subst'} for c in choices):
+                    return {source}, ['auxiliary-i-form: participle or noun unresolved']
+    if (prev and prev.lower in {'er', 'var', 'blev', 'ble', 'blir', 'bliver', 'har', 'havde', 'hadde'}
+            and text[prev.start + len(prev.text):token.start].isspace()):
+        filtered = {c for c in choices if c == source or eng.bank.tags(c.lower()) != {'verb:imp'}}
+        if filtered != choices:
+            choices = filtered
+            notes.append('auxiliary-context: excluded imperative-only candidates')
+            if choices == {source}:
+                return choices, notes
     if eng.lang == 'nob' and token.lower == 'vejret' and prev and prev.lower == 'i':
         return {source,eng.case(token,'været')}, ['historical-expression: i vejret -> i været']
     if eng.lang == 'nob' and token.lower in {'plejede','pleiede'} and nxt and nxt.lower in {'at','å'}:
         return {source,eng.case(token,'pleide')}, ['habitual-pleie: pleide; not care/tend pleiet']
 
     if eng.lang == 'nob' and token.lower.endswith('ede') and len(source) >= 6:
-        # A possessive + historical -ede + noun can be an attributive
-        # participle. Finite-verb candidates do not establish its agreement.
-        # Require adjacent words (no intervening punctuation) and a recognised
-        # noun; preserve even if this also withholds a legitimate modern form.
-        possessives = {'min', 'mit', 'mitt', 'mine', 'din', 'dit', 'ditt', 'dine',
-                       'sin', 'sit', 'sitt', 'sine', 'hans', 'hendes', 'hennes',
-                       'dens', 'dets', 'vor', 'vort', 'vore', 'vår', 'vårt',
-                       'våre', 'deres', 'eders'}
-        if (prev and nxt and prev.lower in possessives
-                and text[prev.start + len(prev.text):token.start].isspace()
-                and text[token.start + len(source):nxt.start].isspace()
-                and 'subst' in eng.bank.tags(nxt.out.lower())):
-            return {source}, ['attributive-past-form: editorial review required']
+        # Finite paradigms alone cannot establish attributive agreement.
+        # A nearby noun (possibly behind coordinated adjectives) is ambiguous
+        # without a directly preceding personal subject. Preserve rather than
+        # constructing a whole noun phrase or letting fluency choose its reading.
+        subjects = {'jeg', 'du', 'han', 'hun', 'vi', 'man'}
+        if (prev and prev.lower in {'det', 'den', 'de'}
+                and (not nxt or nxt.lower not in subjects | {'de', 'dem', 'mig', 'dig', 'ham', 'hende', 'os', 'sig'})):
+            return {source}, ['determiner-past-form: nominal or attributive reading unresolved']
+        if not prev or prev.lower not in subjects:
+            pos = word_indices.index(index)
+            last = token
+            for j in word_indices[pos + 1:pos + 5]:
+                other = tokens[j]
+                gap = text[last.start + len(last.text):other.start]
+                if not re.fullmatch(r'[\s,]+', gap):
+                    break
+                tags = eng.bank.tags(other.out.lower())
+                closed = {'prep', 'pron', 'konj', 'sbu', 'det', 'adv', 'interj'}
+                readings = tags | eng.bank.tags(other.lower)
+                noun = 'subst' in tags or (eng.nouncaps and other.capitalised)
+                if noun and not readings & closed:
+                    return {source}, ['attributive-past-form: editorial review required']
+                if other.lower != 'og' and not tags & {'adj', 'adj:part', 'adv'}:
+                    break
+                last = other
+        # An isolated/utterance-initial -ede may be a command or historical
+        # infinitive. Only allow this expansion with an inverted subject.
+        if token.initial and (not nxt or nxt.lower not in subjects | {'de'}):
+            return {source}, ['initial-past-form: finite reading not established']
         stem = token.lower[:-2]
         infinitives = {stem}
         modern = eng.modern_lower(stem)
@@ -65,6 +108,11 @@ def propose(eng, token, tokens, index, text):
                 infinitives.add(rule[0])
             elif rule.startswith('ambiguous:'):
                 infinitives.update(rule.split(':',1)[1].split('|'))
+        lemmas = {a.lemma for infinitive in infinitives
+                  for a in eng.bank.analyses(infinitive)
+                  if {'verb', 'inf'} <= set(a.tags.split()) and 'pass' not in a.tags.split()}
+        if len(lemmas) > 1:
+            return {source}, ['multiple-verb-lemmas: historical sense unresolved']
         past_forms = set()
         for infinitive in infinitives:
             past_forms.update(eng.bank.inflect(infinitive,'verb:inf','verb:pret'))

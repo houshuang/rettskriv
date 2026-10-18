@@ -75,6 +75,17 @@ class LinguisticSafeguards(unittest.TestCase):
 
     def test_abbreviated_title_protects_name(self):
         self.assertEqual(modernise('Jeg saae Hr. Baat.', nouncaps=True), 'Jeg så Hr. Baat.')
+        # A full title can end a sentence: Lie Den Fremsynte block 111.
+        self.assertIn('Presten', modernise('den lille Doktor . Præsten spillede', nouncaps=True))
+        # A title after a title is not itself a surname (Pan blocks 44/190).
+        self.assertEqual(modernise('Hr . Løjtnant Baat', nouncaps=True), 'Hr . Løytnant Baat')
+        self.assertEqual(modernise('Hr . Kaptejn Baat', nouncaps=True), 'Hr . Kaptein Baat')
+        # MeMo Pan block 174 spaces punctuation; also accept compact typography.
+        result = modernise_result('Hr . Mack truer dig.', nouncaps=True)
+        self.assertEqual(next(t.reason for t in result.tokens if t.text == 'Mack'), 'name')
+        for title in ['Hr . ', 'Hr. ', 'Hr.', 'Hr \n.\n']:
+            self.assertEqual(modernise('Jeg saae ' + title + 'Baat.', nouncaps=True),
+                             'Jeg så ' + title + 'Baat.')
 
     def test_untrusted_candidate_cannot_feed_grammar(self):
         eng = engine()

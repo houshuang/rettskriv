@@ -33,10 +33,11 @@ from .text import Token, apply_case, join, offset_map, tokenise
 TITLES = {
     "hr", "herr", "fru", "frue", "frøken", "frk", "jomfru", "madame", "monsieur", "kong", "dronning",
     "prins", "prinsesse", "hertug", "greve", "grev", "jarl", "baron", "sankt", "st", "pastor", "præst",
-    "prest", "provst", "prost", "biskop", "bisp", "doktor", "dr", "professor", "prof", "kaptajn", "kaptein",
-    "lieutenant", "løitnant", "løytnant", "general", "oberst", "major", "sogneprest", "sognepræst",
+    "prest", "provst", "prost", "biskop", "bisp", "doktor", "dr", "professor", "prof", "kaptajn", "kaptein", "kaptejn",
+    "lieutenant", "løitnant", "løjtnant", "løytnant", "general", "oberst", "major", "sogneprest", "sognepræst",
     "kapellan", "skipper", "kjøbmand", "kjøpmann", "lensmand", "lensmann", "fogd", "foged", "amtmand",
 }
+ABBREVIATED_TITLES = {"hr", "frk", "dr", "prof", "st"}
 SUBJECTS = {"jeg", "du", "han", "hun", "vi", "man", "der", "som", "hvo", "hvem", "hvilken", "og", "eller", "men"}
 OBJECTS = {"sig", "ham", "hende", "dem", "os", "mig", "dig", "eder", "det", "op", "ud", "ind", "ned", "af",
            "paa", "til", "frem", "hen", "bort", "over", "med", "ikke", "ei", "atter", "igjen", "nu", "da", "saa"}
@@ -471,9 +472,10 @@ class Engine:
         low = token.lower
         # Abbreviated titles contain a sentence-looking period; do not respell
         # the following name merely because sentence detection marked it initial.
-        if token.capitalised and i >= 2 and tokens[i - 2].lower in TITLES:
+        if (token.capitalised and low not in TITLES and i >= 2
+                and tokens[i - 2].lower in ABBREVIATED_TITLES):
             gap = tokens[i - 1].text
-            if re.fullmatch(r"\.\s+", gap):
+            if re.fullmatch(r"\s*\.\s*", gap):
                 token.out, token.reason = token.text, "name"
                 return True
         if token.text == "I" and (prev := self.neighbours(tokens, i, words)[0]) is not None and self.is_name(prev):

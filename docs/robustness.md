@@ -89,6 +89,9 @@ automatically generated alternatives on 31 passages and records source-grounded 
 The [candidate-generation follow-up](candidate-generation-comparison.md) compares
 guarded proposals on 30 more passages, adds schema-constrained responses and records
 a remaining adjective failure plus the resulting deterministic preservation guard.
+The [six-round follow-up](iterative-historical-safeguards.md) expands testing to
+dialect-rich passages and two additional authors, tightens grammar/OCR safeguards,
+and documents the coverage cost and the remaining source-verification limit.
 
 ## Next comparison: evidence required before adoption
 
@@ -116,7 +119,7 @@ bulk reuse. None of these alternatives has yet been shown to improve this engine
 
 ## Validation of this change
 
-- 61 unit/regression tests pass, including malformed lexicon conditions, incomplete
+- 68 unit/regression tests pass, including malformed lexicon conditions, incomplete
   or stale acceptance reviews, author/book split leakage, protected spans, book
   isolation, passive voice, and participle/past-tense contrasts.
 - Replayed accept-21 through accept-24: 432 paragraphs using the shipped N-gram

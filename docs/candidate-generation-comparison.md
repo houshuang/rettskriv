@@ -142,3 +142,6 @@ estimated **$0.5170**, bringing this thread's model studies to **$0.9212**, base
 reported input/output/thinking tokens, not billing statements. No paid retries or
 outstanding requests remain. Independent linguistic adjudication is still needed
 before these experimental proposals can justify production adoption.
+
+Further development: [six additional historical rounds](iterative-historical-safeguards.md)
+extend the safeguards and document their costs and remaining failures.
