@@ -84,6 +84,8 @@ See the [completed Apertium diagnostic comparison](apertium-comparison.md) for n
 Bokmål/Nynorsk results, external-source sampling and a detected corpus overlap.
 The [constrained-ranker comparison](context-ranker-comparison.md) tests a separate
 model family on frozen constructed contrasts and documents a harmful unstable edit.
+The [real historical passage comparison](historical-ranker-comparison.md) then tests
+automatically generated alternatives on 31 passages and records source-grounded failures.
 
 ## Next comparison: evidence required before adoption
 
@@ -111,7 +113,7 @@ bulk reuse. None of these alternatives has yet been shown to improve this engine
 
 ## Validation of this change
 
-- 47 unit/regression tests pass, including malformed lexicon conditions, incomplete
+- 52 unit/regression tests pass, including malformed lexicon conditions, incomplete
   or stale acceptance reviews, author/book split leakage, protected spans, book
   isolation, passive voice, and participle/past-tense contrasts.
 - Replayed accept-21 through accept-24: 432 paragraphs using the shipped N-gram

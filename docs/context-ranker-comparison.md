@@ -7,6 +7,10 @@ this review set out to prevent: `Han lader geværet før jakten.` became `Han la
 Keep the engine deterministic and use contextual suggestions for review until a
 separately adjudicated historical benchmark establishes the tradeoff.
 
+A follow-up [real historical passage experiment](historical-ranker-comparison.md)
+uses automatic candidates on 31 passages. It finds failures the constructed pilot
+missed and fixes an adapter incompatibility with baseline word splitting.
+
 ## Frozen experiment
 
 `tests/fixtures/ranker-development.json` contains 24 newly constructed sentences:

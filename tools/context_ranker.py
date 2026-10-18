@@ -80,7 +80,9 @@ def apply(cases, baseline, answers):
             at = change['at']
             if type(at) is not int or at in edits[cid] or words.get(at) != change['from']:
                 raise ValueError('invalid baseline edit')
-            if not isinstance(change['to'], str) or not WORD.fullmatch(change['to']) or change['to'] == change['from']:
+            # Baseline lexicon legitimately splits words (tilslut -> til slutt).
+            # Single-word restrictions apply only to new model candidates.
+            if not isinstance(change['to'], str) or not change['to'].strip() or change['to'] == change['from']:
                 raise ValueError('invalid baseline replacement')
             edits[cid][at] = dict(change)
     if edits.keys() != expected.keys():

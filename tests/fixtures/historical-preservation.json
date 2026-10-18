@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1879_Elster_ToraTrondal:115",
+    "source": "https://huggingface.co/datasets/MiMe-MeMo/Corpus-v1.1/blob/main/texts/1879_Elster_ToraTrondal.txt",
+    "source_block": 115,
+    "source_sha256": "425a8ea03866d5116ee903e822cc6b95b7902173e224761ec8e75feeab20266b",
+    "original": "en hed ' \nsput om alle de Emner , om hvilke de plejede at \nstrides . Hans gik frem og tilbage , Roti sad snart",
+    "lang": "nob",
+    "target_at": 47,
+    "keep": "plejede",
+    "note": "Source excerpt for conservative-preservation regression; not human gold",
+    "source_target_at": 849
+  },
+  {
+    "id": "1880_Kielland_GarmanOgWorse:355",
+    "source": "https://huggingface.co/datasets/MiMe-MeMo/Corpus-v1.1/blob/main/texts/1880_Kielland_GarmanOgWorse.txt",
+    "source_block": 355,
+    "source_sha256": "2c665add7e99120e64c95d804b3fe82dfa1f4edd5ef3ba76c73c0ea4ff726e28",
+    "original": "Aars vexlende Moder vare blandede \nsammen som mixed drops' , — alene gamle \nAnders gik med sin Begklat af en",
+    "lang": "nob",
+    "target_at": 46,
+    "keep": "mixed",
+    "note": "Source excerpt for conservative-preservation regression; not human gold",
+    "source_target_at": 1084
+  },
+  {
+    "id": "1887_SkramA_SjurGabrielHellemyrsfolket:23",
+    "source": "https://huggingface.co/datasets/MiMe-MeMo/Corpus-v1.1/blob/main/texts/1887_SkramA_SjurGabrielHellemyrsfolket.txt",
+    "source_block": 23,
+    "source_sha256": "327451b059154635971137baad5be8a4a88b67f80a13d9b077182a8a70c81185",
+    "original": "vaadt \nSmil , idet han løftede det ene Ben i Vejret \nsom til et Hallingkast og svingede Olines \nArm op og ned",
+    "lang": "nob",
+    "target_at": 45,
+    "keep": "Vejret",
+    "note": "Source excerpt for conservative-preservation regression; not human gold",
+    "source_target_at": 233
+  },
+  {
+    "id": "1887_SkramA_SjurGabrielHellemyrsfolket:41",
+    "source": "https://huggingface.co/datasets/MiMe-MeMo/Corpus-v1.1/blob/main/texts/1887_SkramA_SjurGabrielHellemyrsfolket.txt",
+    "source_block": 41,
+    "source_sha256": "327451b059154635971137baad5be8a4a88b67f80a13d9b077182a8a70c81185",
+    "original": "ærring\" — fortsatte hun straks efter \n— „ men Væræ1 ) æ beisk åuvyræ ; ho færymse \nåt mæ øss synnige Stakkara",
+    "lang": "nob",
+    "target_at": 46,
+    "keep": "Væræ",
+    "note": "Source excerpt for conservative-preservation regression; not human gold",
+    "source_target_at": 762,
+    "source_footnote": "x ) Verden ."
+  }
+]

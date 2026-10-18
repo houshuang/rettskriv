@@ -49,3 +49,12 @@ class ConstrainedRanker(unittest.TestCase):
         for baseline in [[],self.baseline*2,[dict(id='one',changes=[dict(at=4,**{'from':'ladet'},to='lar')])]]:
             with self.assertRaises(ValueError):
                 apply(self.cases,baseline,[dict(id='one',at=4,to=None)])
+
+    def test_real_baseline_word_split_survives_target_selection(self):
+        self.cases[0]['original'] = 'Han lader geværet tilslut.'
+        change = dict(at=self.cases[0]['original'].index('tilslut'), **{'from':'tilslut'}, to='til slutt')
+        baseline = [dict(id='one', changes=[change])]
+        result = apply(self.cases, baseline, [dict(id='one', at=4, to=None)])
+        self.assertEqual(result, baseline)
+        with self.assertRaises(ValueError):
+            apply(self.cases, baseline, [dict(id='one', at=4, to='lar gå')])
