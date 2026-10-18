@@ -14,7 +14,9 @@ hende,=,prev=kan,kan hende = maybe,core
 hende,=,prev=det|skulde|skal|vil|vilde|kunde|kan|maa|maatte|at,verb (happen),core
 hende,henne,,pronoun her,core
 hendes,hennes,,,core
+eder,=,cap;mid,capital Eder: oaths (Eder) or the pronoun,core
 eder,dere,,,core
+eders,=,cap;mid,capital Eders: plural you or polite Deres,core
 eders,deres,,,core
 vor,vår,,,core
 vort,vårt,,,core
@@ -29,6 +31,7 @@ intet,intet,,already modern,core
 anden,annen,lower,,core
 anden,annen,initial,,core
 anden,=,,Anden = the duck,core
+andet,andre,prev=det|dette|sit|mit|dit|hans|hendes|deres|vort|dets|dens,the second or the other (definite),core
 andet,annet,,,core
 hvad,hva,,,core
 hvor,hvor,,,core
@@ -61,7 +64,7 @@ mod,mot,,,core
 derimod,derimot,,,core
 medens,mens,,,core
 blandt,blant,,,core
-lidt,lidd,prev=have|havde|har|hadde|at|aa|er|var|blevet|haver|harr,suffered (participle of lide),core
+lidt,lidd,prev=have|havde|har|hadde|blevet|haver|harr,suffered (participle of lide),core
 lidt,litt,,,core
 lidet,lite,,,core
 liden,liten,,,core
@@ -88,7 +91,8 @@ ifjor,i fjor,,,core
 ihjel,ihjel,,,core
 ligesom,likesom,,,core
 ligesaa,likeså,,,core
-lige,like,,,core
+lige,like,next=til|i|saa|ved|ned|ind|op|fra|hen|mod|for|ud|over|paa|ens|foran|udenfor|meget|med|bort|fuldt|store|siden|godt|gode|under|indtil|god|hjem|nær|efter|langt|mange|imod|glad|frem|nede|skjønne|fort|lange|lang|fast|forbi|koldt|stor|stille|hinanden|uden|klare|hel|som|naar|da|der|her|stort|vel|lidt|langs|igjennem|gjennem|igjen|saadan|saadanne|meste,just or equally,core
+lige,=,,lige can mean straight (vokse lige; lige Linie),core
 ligeledes,likeledes,,,core
 saaledes,således,,,core
 saadan,sådan,,,core
@@ -188,7 +192,8 @@ lad,la,initial;next=os|mig|dig|ham|hende|dem|det|være|sig|eder|dette|den|ingen|
 lad,=,,,core
 lod,lot,lower,,core
 lod,=,,,core
-ladet,latt,,,core
+ladet,latt,prev=har|havde|have|hadde|haver|harr|blevet,let (participle of lade),core
+ladet,=,,ladet can mean loaded (ladd),core
 lagde,la,,,core
 lagt,lagt,,,core
 lægge,legge,,,core
@@ -205,11 +210,13 @@ laa,lå,,,core
 falde,falle,,,core
 falder,faller,,,core
 faldt,falt,,,core
+faldet,fallet,cap;mid;nouncaps,the fall (noun),core
 faldet,falt,,,core
 holde,holde,,,core
 kalde,kalle,,,core
 kalder,kaller,,,core
 kaldte,kalte,,,core
+kaldet,kallet,cap;mid;nouncaps,the calling or living (noun),core
 kaldet,kalt,,,core
 kaldes,kalles,,,core
 kaldtes,kaltes,,,core
@@ -388,10 +395,12 @@ rigtig,riktig,,,core
 bog,bok,,book (bog = bow/shoulder is not in these texts' vocabulary),core
 bogen,boken,,,core
 bogens,bokens,,,core
+bøger,=,lower;nouncaps,verb (the oxen low),core
 bøger,bøker,,,core
 bøgerne,bøkene,,,core
 bøgers,bøkers,,,core
 tak,takk,before=1907,before 1907 the roof was Tag; Tak is thanks,core
+tilstede,=,prev=kunne|kan|kunde|vil|vilde|skal|skulde|maa|maatte|at|aa|ikke,verb tilstede (permit),core
 tilstede,til stede,,,core
 # Names and foreign words that rules would mangle
 luther,=,,name,core
@@ -406,11 +415,11 @@ daa,da,,,core
 # Infinitive marker: at before a word that can only be an infinitive
 at,å,lower;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
 at,Å,initial;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
-at,å,lower;prev=for|til|ved|om|af|paa|med|uden|istedenfor|istedetfor;nexthas=verb:inf;notnext=han|hun|de|det|den|vi|jeg|du|man|der|hans|hendes|deres|dens|dets|sin|sit|sine|min|mit|mine|din|dit|dine|vor|vort|vore|nogen|noget|nogle|alle|ingen|en|et|i|saa|da|nu|naar|hvis|om|ikke,after a preposition before an infinitive,core
+at,å,lower;prev=for|til|ved|om|af|paa|med|uden|istedenfor|istedetfor;nexthas=verb:inf;notnext=dette|denne|disse|han|hun|de|det|den|vi|jeg|du|man|der|hans|hendes|deres|dens|dets|sin|sit|sine|min|mit|mine|din|dit|dine|vor|vort|vore|nogen|noget|nogle|alle|ingen|en|et|i|saa|da|nu|naar|hvis|om|ikke,after a preposition before an infinitive,core
 at,=,,conjunction,core
 # I (second person plural) against i (in)
 i,dere,cap;mid;notprev=a|b|c|d|e|f|g|h|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|æ|ø|å,pronoun I = you (plural); the preposition is lower case,core
-i,dere,initial;nexttags=verb:pres|verb:pret|verb:inf|verb:imp,pronoun at sentence start before a verb,core
+i,dere,initial;nexttags=verb:pres|verb:pret|verb:inf|verb:imp;notnext=gaar|går|forgaars|forgårs,pronoun at sentence start before a verb (I gaar = yesterday),core
 i,=,,,core
 # From the acceptance reads (18 Oct 2026)
 ankerne,ankrene,,anchors (ankene = the appeals),acceptance
@@ -477,3 +486,23 @@ hat,hatt,cap;mid;nouncaps,a hat (hat = hatred),acceptance
 legen,leken,cap;mid;nouncaps,the game (legen = the doctor),acceptance
 legede,lekte,,played (leget = healed),acceptance
 hæst,=,,hoarse (hes) or horse,acceptance
+fiske,fisker,cap;mid;nouncaps,plural of fisk (lower case fiske is the verb),acceptance
+paastand,påstand,cap,claim (noun),acceptance
+paastand,=,lower,paa Stand: at once,acceptance
+vaagen,vågen,cap;mid;nouncaps,the bay,acceptance
+vaagen,våken,lower;nouncaps,awake,acceptance
+vaagen,=,,the bay or awake,acceptance
+stege,steke,prev=at|aa|vil|skal|kan|maa|kunde|skulde|vilde|lade|lod,to fry,acceptance
+stege,=,,stege can be the past plural of stige (climbed),acceptance
+brat,=,,steep (bratt) or suddenly (brått),acceptance
+hveden,=,,whence or the wheat,acceptance
+stads,=,,genitive of stad (city) or stas,acceptance
+løben,=,,a running (noun) or run,acceptance
+fade,=,,insipid (fad) or plates,acceptance
+lovede,=,,praised (lovet) or promised (lovte),acceptance
+vunden,=,,the wound or won,acceptance
+uppyver,=,,above (opp over) or upwards,acceptance
+dugede,=,,laid with a cloth (duge) or was good enough,acceptance
+stilede,=,,addressed (stile) or placed,acceptance
+kringum,=,,place name Kringen or around,acceptance
+ligetil,=,,all the way to (like til) or simple (liketil),acceptance

@@ -57,3 +57,6 @@ vilja,ville,lower;prev=aa|å|at|vil|skal|kan|maa|må|lyt|laut|vilde|skulde|kunde
 vilja,=,,,context
 vinna,vinne,lower;prev=aa|å|at|vil|skal|kan|maa|må|lyt|laut|vilde|skulde|kunde|ville|skulle|kunne|maatte|måtte|tor|torde|bør|burde|vera|lat|lét|let,infinitive after å or a modal (the -a form is also present plural),context
 vinna,=,,,context
+kringum,kringom,lower,around,context
+kringum,=,,capital Kringum: place name,context
+uppyver,=,,above (opp over) or upwards (oppover),context

@@ -50,6 +50,8 @@ PRONOUN_OBJECTS = {"sig", "ham", "hende", "dem", "os", "mig", "dig", "eder", "je
 
 ROOT = Path(__file__).resolve().parent.parent
 NAME_SHARE = 0.5
+PATRONYMIC = ("søn", "sen", "son", "datter", "dotter", "døtter")
+ROMAN = re.compile(r"[IVXLCDM]+")
 BREAK = re.compile(r"[,.;:!?()«»\"“”—–\-\d]")
 # Capitalised mid-sentence in a book that capitalises nouns, these still are what they say.
 CAPITAL_FUNCTION_WORDS = {"i", "de", "dem", "deres", "eder", "eders", "jeg"}
@@ -279,7 +281,10 @@ class Engine:
     def grammar_candidate(self, low: str) -> bool:
         # a curated or audited row for an -ede form is the answer (legede is lekte, not leget)
         past = self.weak_past(low) is not None and low not in self.lexicon
-        return past or self.plural_present(low) is not None
+        rows = self.lexicon.get(low, [])
+        # an unconditional keep says the form has two readings (lede: lead or search)
+        kept = len(rows) == 1 and rows[0].keep and not rows[0].when
+        return past or (self.plural_present(low) is not None and not kept)
 
     def grammar(self, tokens: list[Token], i: int, words: list[int]) -> bool:
         token = tokens[i]
@@ -363,15 +368,59 @@ class Engine:
             return capital
         return low
 
+    def in_name(self, prev: Token | None, nxt: Token | None) -> bool:
+        """Whether a capitalised word belongs to a name: it follows a name (Peder Kjæmpe,
+        Knutssøn Baat) or precedes a patronymic (Mord Valgardssøn)."""
+        def name(other: Token | None) -> bool:
+            return (
+                other is not None and other.capitalised and not self.bank.common(other.lower)
+                and (other.text in self.names or self.bank.proper_only(other.text) or patronymic(other))
+            )
+
+        def patronymic(other: Token | None) -> bool:
+            return (
+                other is not None and other.capitalised and not self.bank.common(other.lower)
+                and any(other.lower.endswith(s) and len(other.lower) > len(s) + 2 for s in PATRONYMIC)
+            )
+
+        return name(prev) or patronymic(nxt)
+
+    @staticmethod
+    def literal(tokens: list[Token], i: int) -> bool:
+        """A Roman numeral (VII), a word glued to a number (2net) or the first part of a
+        suspended compound (Nord- og Syd-): never a word to respell."""
+        token = tokens[i]
+        if token.upper and ROMAN.fullmatch(token.text):
+            return True
+        before = tokens[i - 1].text if i > 0 else ""
+        if before[-1:].isdigit():
+            return True
+        after = tokens[i + 1].text if i + 1 < len(tokens) else ""
+        last = i + 2 >= len(tokens)
+        return after.startswith("-") and (after[1:2].isspace() or (after == "-" and last))
+
     def decide(self, tokens: list[Token], i: int, words: list[int], second_pass: bool) -> bool:
         """Set tokens[i].out. Returns False if the decision needs the second pass."""
         token = tokens[i]
         low = token.lower
+        if self.literal(tokens, i):
+            token.out = token.text
+            token.reason = "literal"
+            return True
         if (
             not self.nouncaps and token.capitalised and not token.initial and not token.upper
             and low not in CAPITAL_FUNCTION_WORDS and low not in KEEP_CAPITAL
         ):
             # a book that writes nouns in lower case: a capital mid-sentence is a name
+            token.out = token.text
+            token.reason = "name"
+            return True
+        if (
+            self.nouncaps and token.capitalised and not token.initial and not token.upper
+            and low not in CAPITAL_FUNCTION_WORDS and low not in KEEP_CAPITAL
+            and self.in_name(*self.neighbours(tokens, i, words))
+        ):
+            # next to a name or patronymic: part of a name (Peder Kjæmpe, Mord Valgardssøn)
             token.out = token.text
             token.reason = "name"
             return True
