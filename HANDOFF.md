@@ -1,5 +1,7 @@
 # Handoff: final round (written 18 Oct 2026)
 
+**Done 18 Oct 2026 (3869069): passed at 0.088% (15/16,954), swapped 15:19:18 UTC. Do not rerun.**
+
 Goal: one last round with parallel agents, then stop. Close the best-known error classes,
 add modern and parallel EPUBs, pass one large fresh acceptance check, swap, clean up, done.
 
