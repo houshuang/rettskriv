@@ -17,7 +17,8 @@ from rettskriv import lexicon  # noqa: E402
 from rettskriv.lexicon import parse_when  # noqa: E402
 
 FOLDER = {"nob": "bokmal", "nno": "nynorsk"}
-SCREEN = ROOT / "out" / "audit" / "homograph"
+# the first screen (forms changed five times or more) and the tail (two to four)
+SCREENS = [ROOT / "out" / "audit" / "homograph", ROOT / "out" / "audit" / "homograph-tail"]
 
 
 def main() -> None:
@@ -30,12 +31,12 @@ def main() -> None:
             if any(e.when and not e.origin.startswith("audit") for e in entries)
         }
         items = {}
-        for path in sorted(SCREEN.glob(f"{lang}-homograph-*.tsv")):
+        for path in sorted(p for screen in SCREENS for p in screen.glob(f"{lang}-homograph-*.tsv")):
             with open(path) as handle:
                 items.update({r["id"]: r for r in csv.DictReader(handle, delimiter="\t")})
         rows, unanswered, bad = [], 0, 0
         answered = set()
-        for path in sorted((SCREEN / "results").glob(f"{lang}-homograph-*.tsv")):
+        for path in sorted(p for screen in SCREENS for p in (screen / "results").glob(f"{lang}-homograph-*.tsv")):
             with open(path) as handle:
                 for r in csv.DictReader(handle, delimiter="\t"):
                     item = items.get(r["id"])

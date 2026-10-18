@@ -1,11 +1,15 @@
-"""Swap a finished site build into out/site in one step.
+"""Swap a finished build folder into place in one step.
 
-renamex_np(RENAME_SWAP) exchanges the two directory entries atomically, so a reader
-of out/site sees either the old tree or the new one, never a mix inside one book
-folder or a missing folder. The previous tree is kept as out/site.prev-<UTC stamp>.
-Refuses while any process holds a file open under out/site.
+The target is the argument's name with `.next` stripped, beside it: out/site.next goes
+to out/site, out/epub.next to out/epub. renamex_np(RENAME_SWAP) exchanges the two
+directory entries atomically, so a reader of the target sees either the old tree or
+the new one, never a mix inside one book folder or a missing folder. The previous
+tree is kept as <target>.prev-<UTC stamp>. Refuses while any process holds a file
+open under the target, or when the new build lacks a book folder (site) or a file
+(epub) the target has. When the target does not exist yet, the folder is renamed.
 
     python3 tools/swap_site.py out/site.next
+    python3 tools/swap_site.py out/epub.next
 """
 from __future__ import annotations
 
@@ -17,28 +21,36 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = ROOT / "out" / "site"
 RENAME_SWAP = 0x2
 
 
 def main() -> None:
     new = Path(sys.argv[1]).resolve()
-    if not new.is_dir() or new.parent != SITE.parent:
-        sys.exit(f"{new}: not a folder beside {SITE}")
-    books = {p.name for p in SITE.iterdir() if p.is_dir()}
-    missing = books - {p.name for p in new.iterdir() if p.is_dir()}
-    if missing:
-        sys.exit(f"refused: the new build lacks {sorted(missing)}")
-    busy = subprocess.run(["lsof", "-Fn", "+D", str(SITE)], capture_output=True, text=True).stdout.strip()
-    if busy:
-        sys.exit("refused: files under out/site are open:\n" + busy)
+    if new.suffix != ".next":
+        sys.exit(f"{new}: expected a folder named <target>.next")
+    target = new.with_suffix("")
+    if not new.is_dir() or new.parent != ROOT / "out":
+        sys.exit(f"{new}: not a folder beside {target}")
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    if not target.exists():
+        new.rename(target)
+        print(json.dumps({"swapped_utc": stamp, target.name: str(target), "previous": None}))
+        return
+    is_site = target.name == "site"
+    have = {p.name for p in target.iterdir() if p.is_dir() == is_site}
+    got = {p.name for p in new.iterdir() if p.is_dir() == is_site}
+    missing = have - got
+    if missing:
+        sys.exit(f"refused: the new build lacks {'books' if is_site else 'files'} {sorted(missing)}")
+    busy = subprocess.run(["lsof", "-Fn", "+D", str(target)], capture_output=True, text=True).stdout.strip()
+    if busy:
+        sys.exit(f"refused: files under out/{target.name} are open:\n" + busy)
     libc = ctypes.CDLL(None, use_errno=True)
-    if libc.renamex_np(str(new).encode(), str(SITE).encode(), RENAME_SWAP) != 0:
+    if libc.renamex_np(str(new).encode(), str(target).encode(), RENAME_SWAP) != 0:
         sys.exit(f"renamex_np failed: errno {ctypes.get_errno()}")
-    previous = SITE.parent / f"site.prev-{stamp}"
+    previous = target.parent / f"{target.name}.prev-{stamp}"
     new.rename(previous)
-    print(json.dumps({"swapped_utc": stamp, "site": str(SITE), "previous": str(previous)}))
+    print(json.dumps({"swapped_utc": stamp, target.name: str(target), "previous": str(previous)}))
 
 
 if __name__ == "__main__":

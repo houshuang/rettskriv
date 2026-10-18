@@ -25,26 +25,35 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--min", type=int, default=5)
     parser.add_argument("--size", type=int, default=400)
+    parser.add_argument("--out", type=Path, default=OUT)
+    parser.add_argument("--skip", type=Path, action="append", default=[],
+                        help="earlier screen folder whose forms are not sent again")
     args = parser.parse_args()
-    OUT.mkdir(parents=True, exist_ok=True)
+    out = args.out
+    out.mkdir(parents=True, exist_ok=True)
     for lang in ("nob", "nno"):
         entries = lexicon.load(lang)
+        screened = {
+            row["from"].lower()
+            for folder in args.skip for path in folder.glob(f"{lang}-homograph-*.tsv")
+            for row in csv.DictReader(open(path), delimiter="\t")
+        }
         best: dict[str, dict] = {}
         with open(SURVEY / f"{lang}-changes.tsv") as handle:
             for row in csv.DictReader(handle, delimiter="\t"):
                 source = row["from"].lower()
                 rows = [e for e in entries.get(source, []) if not e.origin.startswith("audit")]
-                if row["why"] == "grammar" or int(row["count"]) < args.min or any(e.when for e in rows):
+                if row["why"] == "grammar" or int(row["count"]) < args.min or any(e.when for e in rows) or source in screened:
                     continue
                 if source not in best or int(row["count"]) > int(best[source]["count"]):
                     best[source] = row
         items = sorted(best.values(), key=lambda r: -int(r["count"]))
         for n in range(0, len(items), args.size):
-            path = OUT / f"{lang}-homograph-{n // args.size:02d}.tsv"
+            path = out / f"{lang}-homograph-{n // args.size:02d}.tsv"
             with open(path, "w") as handle:
                 handle.write("id\tcount\tfrom\tto\texamples\n")
                 for i, row in enumerate(items[n : n + args.size]):
-                    handle.write(f"{lang}-homograph-{n + i:05d}\t{row['count']}\t{row['from']}\t{row['to']}\t{row['examples']}\n")
+                    handle.write(f"{lang}-{out.name}-{n + i:05d}\t{row['count']}\t{row['from']}\t{row['to']}\t{row['examples']}\n")
         print(lang, len(items), "pairs")
 
 

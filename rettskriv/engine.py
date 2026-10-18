@@ -195,6 +195,16 @@ class Engine:
                 return False
             if key == "initial" and not token.initial:
                 return False
+            if key == "prev2":
+                if before_prev is None or before_prev.lower not in values:
+                    return False
+                continue
+            if key == "prevbreak" and (prev is not None or pos == 0 or token.initial):
+                return False  # punctuation, not a sentence start, before the word ("Ja, sig")
+            if key == "nextlower":
+                if pos + 1 >= len(words) or tokens[words[pos + 1]].capitalised:
+                    return False
+                continue
             if key == "notprev2":
                 if before_prev is not None and before_prev.lower in values:
                     return False

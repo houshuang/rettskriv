@@ -99,6 +99,16 @@ python3 tools/render_site.py --layers out/modern.next --site out/site.next
 python3 tools/swap_site.py out/site.next   # atomic exchange; old tree kept as out/site.prev-<stamp>
 ```
 
+The EPUBs are built the same way, with the edition's own `build_epub.py`: per book a
+`<book>-moderne.epub` (modern text only) and a `<book>-parallell.epub` (each block as
+printed, its modern form beneath in smaller grey type; identical blocks get no copy).
+Both are checked with epubcheck and the command exits non-zero if either fails.
+
+```sh
+python3 tools/build_epub.py --layers out/modern.next --out out/epub.next
+python3 tools/swap_site.py out/epub.next   # swaps into out/epub (plain rename if absent); old kept as out/epub.prev-<stamp>
+```
+
 Skard picks up `out/site/` (`MODERN_ROOT` in `web/delivery/library-assets.mjs`) and
 shows an Original / Moderne switch on each piece page; the printed text is the default.
 

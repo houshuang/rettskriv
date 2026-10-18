@@ -5,6 +5,8 @@ paa,på,,,core
 saa,så,,,core
 ogsaa,også,,,core
 sig,si,prev=og;next=til|ham|hende|dem|mig|os|det,imperative of sige (og sig til ham),core
+sig,=,prev=og;notnext=selv|sjelv,og sig din herre: imperative of sige (say),core
+sig,=,prevbreak,"Ja, sig ikke det": imperative after punctuation,core
 sig,=,initial,Sig at sentence start can be the imperative of sige (say),core
 sig,=,next=mig|os|dig|mej,sig mig: tell me (si meg) or reflexive,acceptance
 sig,seg,,,core
@@ -32,6 +34,7 @@ intet,intet,,already modern,core
 anden,annen,lower,,core
 anden,annen,initial,,core
 anden,=,,Anden = the duck,core
+andet,=,next=stokverk|stokværk|etage|etasje,andet Stokverk: the second storey (ordinal),core
 andet,andre,prev=det|dette|sit|mit|dit|hans|hendes|deres|vort|dets|dens,the second or the other (definite),core
 andet,annet,,,core
 hvad,hva,,,core
@@ -65,6 +68,7 @@ mod,mot,,,core
 derimod,derimot,,,core
 medens,mens,,,core
 blandt,blant,,,core
+lidt,=,prev=og;prev2=levet|levd|leved,levet og lidt: lived and suffered (lide),core
 lidt,=,prev=have|havde|har|hadde|blevet|haver|harr,har lidt: suffered or has a little,core
 lidt,litt,,,core
 lidet,lite,,,core
@@ -219,6 +223,7 @@ holde,holde,,,core
 kalde,kalle,,,core
 kalder,kaller,,,core
 kaldte,kalte,,,core
+kaldet,=,cap;initial;nouncaps,Kaldet at sentence start: the calling (noun) or called,core
 kaldet,kallet,cap;mid;nouncaps,the calling or living (noun),core
 kaldet,kalt,,,core
 kaldes,kalles,,,core
@@ -418,9 +423,10 @@ so,=,,landsmål,core
 dog,dog,,,core
 daa,da,,,core
 # Infinitive marker: at before a word that can only be an infinitive
-at,å,lower;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
-at,Å,initial;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
-at,å,lower;prev=for|til|ved|om|af|paa|med|uden|istedenfor|istedetfor;nexthas=verb:inf;notnext=dette|denne|disse|han|hun|de|det|den|vi|jeg|du|man|der|hans|hendes|deres|dens|dets|sin|sit|sine|min|mit|mine|din|dit|dine|vor|vort|vore|nogen|noget|nogle|alle|ingen|en|et|i|saa|da|nu|naar|hvis|om|ikke,after a preposition before an infinitive,core
+at,=,next=disses|dennes|dettes|hvis|hvilkes,"at disses Løn": conjunction before a genitive,core
+at,å,lower;nextlower;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
+at,Å,initial;nextlower;nexttags=verb:inf|verb:imp;nexthas=verb:inf,infinitive marker,core
+at,å,lower;nextlower;prev=for|til|ved|om|af|paa|med|uden|istedenfor|istedetfor;nexthas=verb:inf;notnext=dette|denne|disse|han|hun|de|det|den|vi|jeg|du|man|der|hans|hendes|deres|dens|dets|sin|sit|sine|min|mit|mine|din|dit|dine|vor|vort|vore|nogen|noget|nogle|alle|ingen|en|et|i|saa|da|nu|naar|hvis|om|ikke,after a preposition before an infinitive,core
 at,=,,conjunction,core
 # I (second person plural) against i (in)
 i,dere,cap;mid;notprev=a|b|c|d|e|f|g|h|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|æ|ø|å,pronoun I = you (plural); the preposition is lower case,core
@@ -530,3 +536,16 @@ bryder,=,next=sig|mig|dig|os|eder|jer,bryde sig om (bry seg) or a wave breaks,ac
 bryder,bryter,,,acceptance
 ryggestød,=,,back support (ryggstø) or a blow,acceptance
 albustød,=,,elbow rest or a nudge,acceptance
+# Acceptance round 7
+bid,=,prev=et|sit|sidste|dette|det|hvert|ethvert|mit|dit,et bid: a bite (bitt); en bid: a piece (bit),acceptance
+bid,bit,,,acceptance
+lunge,=,cap;prev=vincents|vincens,Vincents Lunge (name),acceptance
+lunge,lunge,,,acceptance
+varer,=,cap;prev=bjerge|bjerg|fjelde|fjeld|høider|aaser,Varer on mountains: beacons (varder),acceptance
+varer,varer,,,acceptance
+varen,=,cap;next=brændte|brænder|brandt|tændtes|tændes,Varen brændte: the beacon,acceptance
+varen,varen,,,acceptance
+pen,=,cap;nouncaps,Pen in a noun-capitalising book: writing pen (penn),acceptance
+pen,pen,,,acceptance
+rum,=,cap;prev=i|af|fra|til;nouncaps,Sultanen i Rum (place),acceptance
+rum,rom,,,acceptance
