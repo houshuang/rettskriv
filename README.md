@@ -66,13 +66,22 @@ Historical results for `ce74a11`, measured by Claude Opus reviewers on fresh ran
 | Old forms left that mislead a reader | ~0.75 per 100 changes | ~10 per 100 changes |
 | Words changed | 32.0% | 27% |
 
-(The corpus column is the latest release; the unseen books were measured one round
-earlier, before about 120 context rows were added.)
+(Both columns describe historical evaluations, not the current PR. The unseen books
+were measured one round before the corpus column.)
 
 These model-reviewed samples do not establish an independent error guarantee.
 The robustness changes after `ce74a11` have not yet received human acceptance review.
 On unseen text the evaluated version leaves more old spelling: an author's own forms that the lexicon has never seen are left
 as printed unless a trusted rule covers them. A new corpus needs its own held-out evaluation; adding audited forms may improve coverage.
+
+The subsequent robustness campaign replayed 36 complete books and one complete story
+(2,500,544 routed words). In a targeted audit of 62 correct modernizations previously
+withheld by safeguards, the default engine recovered 38 and the optional parser
+recovered 44. All 12 malformed-output protections in that audit remained intact.
+The parser supplied 91 independently model-reviewed improvements across the corpus;
+no newly incorrect retained edit was observed in that comparison. This is not an
+exhaustive annotation of unchanged text or a guarantee against regressions. See the
+[campaign wrap-up](docs/robustness-wrapup.md) for scope and remaining cases.
 
 ## Known weaknesses
 
@@ -153,6 +162,31 @@ For structured books, `tools/replay_book.py --dependency-models data/stanza`
 opts in while preserving language and verse routing. Optional live tests run with
 `RETTSKRIV_DEPENDENCY_MODELS=data/stanza python3 -m unittest tests.test_dependency_models`.
 Stanza 1.15.0 is required; model installation is an explicit network operation.
+
+## Building reading editions
+
+The `tools/` adapters read Bookifier Lesebok `book.json` files without changing the
+printed sources. Set `RETTSKRIV_CORPUS` to the work folder and
+`RETTSKRIV_LESEBOK_SCRIPTS` to the edition builder scripts when they are outside
+`~/src/bookifier/lesebok`. The HTML/EPUB builders read their own `common.WORK`;
+that folder must contain the same books used to generate the layers. Changing only
+`RETTSKRIV_CORPUS` does not redirect those builders. See
+[the corpus format](docs/corpus-format.md).
+
+```sh
+# Omit --dependency-models for the default, model-free engine.
+python3 tools/build.py --out out/modern.next --dependency-models data/stanza
+python3 tools/render_site.py --layers out/modern.next --site out/site.next
+python3 tools/build_epub.py --layers out/modern.next --out out/epub.next
+```
+
+These commands rebuild every available corpus book unless book IDs are supplied.
+The layer stores changed fields and remapped page offsets; HTML and both modern and
+parallel EPUBs consume that same layer. The EPUB build requires `epubcheck` and
+refuses success if any file fails validation. Parser errors also fail the edition
+build, rather than silently publishing a partially recovered batch. Build into fresh
+folders, validate coverage against the intended library, and only then replace the
+consumer's generated assets. Original editions remain the source for quotations.
 
 ## Related work
 

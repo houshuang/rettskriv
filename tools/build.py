@@ -33,7 +33,7 @@ def version() -> dict:
     return {"commit": commit, "lexicon": digest.hexdigest()[:12]}
 
 
-def build(book: str, engines: dict[str, Engine]) -> dict:
+def build(book: str, engines: dict[str, Engine], *, resolver=None) -> dict:
     data = corpus.load(book)
     default = corpus.LANGUAGE.get(data["book"].get("language"), "nob")
     texts = corpus.texts(data)
@@ -51,7 +51,7 @@ def build(book: str, engines: dict[str, Engine]) -> dict:
         engine = engines[lang]
         fields = {}
         for path, text, verse in corpus.units(item):
-            result = engine.modernise(text, verse=verse)
+            result = engine.modernise(text, verse=verse, resolver=resolver)
             for t in result.tokens:
                 if t.word:
                     stats["words"] += 1
@@ -81,11 +81,23 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("books", nargs="*")
     parser.add_argument("--out", type=Path, default=OUT, help="layer folder (default out/modern)")
+    parser.add_argument("--dependency-models", type=Path,
+                        help="Opt in to dependency recovery with installed local Stanza models")
     args = parser.parse_args()
+    resolver = None
+    if args.dependency_models:
+        import torch
+        from rettskriv.dependency import DependencyResolver
+        torch.set_num_threads(4)
+        resolver = DependencyResolver(args.dependency_models)
     args.out.mkdir(parents=True, exist_ok=True)
     engines = {"nob": Engine("nob"), "nno": Engine("nno")}
     for book in args.books or corpus.books():
-        layer = build(book, engines)
+        layer = build(book, engines, resolver=resolver)
+        if resolver is not None:
+            layer["version"]["dependency_recovery"] = True
+            if resolver.errors:
+                raise RuntimeError(f"Dependency parsing failed; refusing incomplete build: {resolver.errors}")
         with open(args.out / f"{book}.json", "w", encoding="utf-8") as handle:
             json.dump(layer, handle, ensure_ascii=False, indent=1)
         s = layer["stats"]
