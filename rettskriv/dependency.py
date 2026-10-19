@@ -75,6 +75,28 @@ def agreement(danish, bokmal, span, finite_anchors=frozenset()):
     return wa is not None and wa == wb
 
 
+def correlative_witness(danish, bokmal, span, marker):
+    """Original trees must agree except for a certified PP coordinator subject."""
+    witnesses = []
+    for tree in (danish, bokmal):
+        node = tree.get(span)
+        if not node or not finite(node) or node.relation != 'root':
+            return None
+        if any(rel.startswith(('aux', 'cop', 'nsubj:pass')) for rel, _ in node.children):
+            return None
+        subjects = [child for rel, child in node.children if rel == 'nsubj' and child != marker]
+        objects = [child for rel, child in node.children if rel == 'obj']
+        if len(subjects) != 1 or not objects:
+            return None
+        for child in subjects + objects:
+            argument = tree.get(child)
+            if (not argument or argument.upos not in {'NOUN', 'PROPN', 'PRON'}
+                    or any(rel == 'case' for rel, _ in argument.children)):
+                return None
+        witnesses.append(((span,), subjects[0], tuple(sorted(objects))))
+    return witnesses[0] if witnesses[0] == witnesses[1] else None
+
+
 def inverted_motion_frame(engine, tokens, token):
     """Independent source syntax for a noun/past homograph in a bounded frame.
 
@@ -177,9 +199,11 @@ class DependencyResolver:
         self.processors = processors
         self.errors = []
         self.last_nodes = None
+        self.last_reductions = []
 
     def apply(self, engine, tokens, *, verse=False):
         self.last_nodes = None
+        self.last_reductions = []
         if verse or engine.lang != 'nob':
             return
         eligible = {}
@@ -220,9 +244,33 @@ class DependencyResolver:
             self.errors.append(f'{type(exc).__name__}: {exc}')
             return
         self.last_nodes = da, nb
-        # Make every decision against the same frozen pair of parses.
+        # Keep conservative text frozen and stage edits until all required parses finish.
         anchors = independent_finite(engine, tokens)
         accepted = [(token, past) for span, (token, past) in eligible.items() if agreement(da, nb, span, anchors)]
+        from .correlative import certified_adjunct, reduced_view
+        for span, (token, past) in eligible.items():
+            if any(token is old for old, _ in accepted):
+                continue
+            adjunct = certified_adjunct(engine, tokens, span)
+            if adjunct is None:
+                continue
+            cut, marker = adjunct
+            expected = correlative_witness(da, nb, span, marker)
+            if expected is None:
+                continue
+            source_view, source_mapping = reduced_view(tokens, cut)
+            normal_view, normal_mapping = reduced_view(tokens, cut, normal=True)
+            try:
+                reduced_da = aligned_nodes(self.processors['da'](source_view), source_mapping)
+                reduced_nb = aligned_nodes(self.processors['nb'](normal_view), normal_mapping)
+            except Exception as exc:
+                self.errors.append(f'{type(exc).__name__}: {exc}')
+                return
+            self.last_reductions.append((span, cut, reduced_da, reduced_nb))
+            if (agreement(reduced_da, reduced_nb, span, anchors)
+                    and witness(reduced_da, span, anchors) == expected
+                    and witness(reduced_nb, span, anchors) == expected):
+                accepted.append((token, past))
         for token, past in accepted:
             token.out = engine.case(token, past)
             token.reason = 'dependency:reviewed-lemma-finite-agreement'

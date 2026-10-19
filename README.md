@@ -185,7 +185,8 @@ If you know of other work, please open an issue.
 ## Status
 
 Built in October 2026 for its original corpus; robustness work is ongoing.
-See [robustness and benchmarking](docs/robustness.md) for safeguards, evaluation
+See the [campaign wrap-up](docs/robustness-wrapup.md) and
+[robustness and benchmarking](docs/robustness.md) for safeguards, evaluation
 commands, and the human review still required. Issues and pull requests with lexicon
 corrections are welcome; a correction is a row in `lexicon/<norm>/core.csv`.
 

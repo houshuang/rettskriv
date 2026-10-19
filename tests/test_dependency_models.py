@@ -54,3 +54,20 @@ class LiveDependencyModels(unittest.TestCase):
         self.assertEqual(eng.modernise(named, resolver=self.resolver).text,
                          eng.modernise(named).text)
         self.assertEqual(self.resolver.errors, [])
+
+    def test_correlative_certification_and_outputs(self):
+        from rettskriv.correlative import certified_adjunct
+        cases = json.loads((Path(__file__).parent / 'fixtures/correlative-controls.json').read_text())
+        for case in cases:
+            eng = book_engine([case['source']], nouncaps=True)
+            options = {'protected': case.get('protected', [])}
+            before = eng.modernise(case['source'], **options)
+            span = (case['at'], case['at'] + len(case['word']))
+            with self.subTest(case=case['id']):
+                self.assertEqual(certified_adjunct(eng, before.tokens, span) is not None,
+                                 case['expect_certification'])
+                result = eng.modernise(case['source'], resolver=self.resolver, **options)
+                token = next(t for t in result.tokens if t.word and t.start == case['at'])
+                expected = case['word'] if case['expected'] == 'preserve' else case['expected']
+                self.assertEqual(token.out, expected)
+        self.assertEqual(self.resolver.errors, [])

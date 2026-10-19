@@ -1,5 +1,15 @@
 # Whole-book regression review, 19 October 2026
 
+## Final campaign result
+
+The final push adds one certified-correlative recovery: **44/62 restored with
+opt-in parsing,18withheld**, including two valid preserved forms and16 genuine
+misses. Default38/62 and all12 malformed-output protections remain unchanged.
+No previously approved recovery was lost. See [the wrap-up](robustness-wrapup.md)
+for the final rule, rejected approaches, validation and limits. The snapshots
+below describe earlier stages; their remaining-case tables precede this final gain.
+
+
 ## Latest remaining-case follow-up against3176829
 
 One additional opt-in original recovery (`ægtede→ektet`) brings the audit to
