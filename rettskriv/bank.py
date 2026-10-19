@@ -92,6 +92,19 @@ class Bank:
     def tags(self, word: str) -> frozenset[str]:
         return self.lower.get(word.lower(), frozenset())
 
+    def syntax_tags(self, word: str) -> frozenset[str]:
+        """Tags for infinitive-marker conditions, retaining passive infinitives.
+
+        Inflection uses the active-only coarse tags: treating a passive as an
+        active infinitive there would turn ``de bruges`` into an active verb.
+        """
+        tags = self.tags(word)
+        if "verb:pass" in tags:
+            passive = [a for a in self.analyses(word) if "pass" in a.tags.split()]
+            if passive and all("inf" in a.tags.split() for a in passive):
+                return (tags - {"verb:pass"}) | {"verb:inf"}
+        return tags
+
     def __contains__(self, word: str) -> bool:
         return word.lower() in self.lower
 
@@ -131,5 +144,8 @@ def morphology(lang: str):
             tag = coarse(analysis.tags)
             if tag.startswith("verb:"):
                 verbs.setdefault((analysis.lemma, analysis.paradigm, tag), set()).add(form)
+            parts = analysis.tags.split()
+            if tag == "adj:part" and ("fl" in parts or "be" in parts):
+                verbs.setdefault((analysis.lemma, analysis.paradigm, "adj:part:agreeing"), set()).add(form)
     return ({form: tuple(rows) for form, rows in analyses.items()},
             {key: frozenset(forms) for key, forms in verbs.items()})

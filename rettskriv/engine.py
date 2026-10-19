@@ -245,10 +245,13 @@ class Engine:
             if key in ("prevout", "nextout") and self.neighbour_form(other) not in values:
                 return False
             if key in ("prevhas", "nexthas"):
-                if not self.bank.tags(self.neighbour_form(other)) & values:
+                tags = (self.bank.syntax_tags(self.neighbour_form(other)) if token.lower in {"at", "aa"} and "verb:inf" in values
+                        else self.bank.tags(self.neighbour_form(other)))
+                if not tags & values:
                     return False
             if key in ("prevtags", "nexttags"):
-                tags = self.bank.tags(self.neighbour_form(other)) - MINOR_TAGS
+                tags = (self.bank.syntax_tags(self.neighbour_form(other)) if token.lower in {"at", "aa"} and "verb:inf" in values
+                        else self.bank.tags(self.neighbour_form(other))) - MINOR_TAGS
                 if self.nouncaps and not other.capitalised:
                     tags -= {"subst"}
                 if not tags or not tags <= values:
@@ -324,6 +327,138 @@ class Engine:
         kept = len(rows) == 1 and rows[0].keep and not rows[0].when
         return past or (self.plural_present(low) is not None and not kept)
 
+    def weak_form(self, tokens: list[Token], i: int, words: list[int], past: str) -> tuple[str, str] | None:
+        """Disambiguate old -ede with same-lemma inflections and local syntax.
+
+        Candidate existence does not establish tense. In particular, the past
+        ``leverte`` cannot replace the participle in ``bleve leverede``.
+        """
+        token = tokens[i]
+        infinitive = self.modern_lower(token.lower[:-2])
+        perfect = self.bank.inflect(infinitive, "verb:inf", "verb:perf-part")
+        agreeing = self.bank.inflect(infinitive, "verb:inf", "adj:part:agreeing")
+        pos = words.index(i)
+        left, right = [], []
+        for direction, dest in ((-1, left), (1, right)):
+            previous = i
+            for n in range(1, 13):
+                at = pos + direction * n
+                if not 0 <= at < len(words):
+                    break
+                other = words[at]
+                a, b = sorted((previous, other))
+                if BREAK.search("".join(t.text for t in tokens[a + 1:b])):
+                    break
+                dest.append(tokens[other])
+                previous = other
+        prev = left[0].lower if left else None
+        nxt = right[0].lower if right else None
+        auxiliaries = {"ble", "blev", "bleve", "blir", "blive", "bliver", "blitt", "blit",
+                       "bli", "er", "ere", "var", "vare", "været", "være", "har", "have", "havde", "hadde"}
+        adverbs = {"ei", "ikke", "aldrig", "altid", "allerede", "atter", "ogsaa", "også", "nu", "nå",
+                   "her", "der", "dog", "selv", "derimod", "siden", "stundom", "endog", "just",
+                   "fuldkommen", "fuldstændig", "meget", "saa", "så", "tappert", "hemmelig", "imidlertid"}
+
+        def pick(forms):
+            if not forms:
+                return None
+            # Prefer an already valid source spelling, then the established
+            # -ede adjective over its equally valid -ete variant.
+            if token.lower in forms:
+                return token.lower
+            if past in forms:
+                return past
+            return max(forms, key=lambda f: (f.endswith("ede"), self.archaism.modern(f), f))
+
+        # An immediately governing auxiliary, possibly separated by adverbs.
+        governor = next((t for t in left if t.lower not in adverbs), None)
+        # Find an attributive noun head through adjective/adverb modifiers.
+        head = None
+        for t in right[:6]:
+            form = self.modern_lower(t.lower) or t.lower
+            tags = self.bank.tags(form) - MINOR_TAGS
+            if tags & {"pron", "det", "prep", "sbu"}:
+                break
+            if (tags & {"subst", "prop"} or self.nouncaps and t.capitalised and not tags) and not tags & {"pron", "det", "adv", "prep", "verb:pres", "verb:pret"}:
+                head = t
+                break
+            if t.lower in {"og", "eller", "desuden", "slet"} or tags & {"adj", "adj:part", "adv"}:
+                continue
+            break
+        if governor and governor.lower in auxiliaries:
+            lexical_adjective = any(a.tags.startswith("adj ") and "<perf-part>" not in a.tags
+                                    for a in self.bank.analyses(token.lower))
+            next_tags = self.bank.tags(self.neighbour_form(right[0])) if right else set()
+            possible_head = "subst" in next_tags and not next_tags & {"prep", "pron", "det", "adv"}
+            if head or possible_head or lexical_adjective or governor.lower in {"er", "ere", "var", "vare", "været", "være"}:
+                return None  # Could be a lexical/predicative adjective or noun phrase.
+            target = pick(perfect)
+            return (target, "participle") if target else None
+        if nxt in PRONOUN_OBJECTS:
+            return past, "weak-past"
+        # Only contiguous modifiers can connect an adjective to a determiner.
+        # A noun or verb ends that evidence; a remote "de" may be a subject.
+        determiner = False
+        for offset, t in enumerate(left[:7]):
+            if t.lower in DETERMINERS:
+                outside = left[offset + 1] if offset + 1 < len(left) else None
+                governed = outside and "prep" in self.bank.tags(self.neighbour_form(outside))
+                # de/den/det can be subjects; Hans can be a personal name.
+                determiner = bool((t.lower not in {"de", "den", "det", "denne", "dette", "disse"}
+                                   or governed)
+                                  and not self.is_name(t))
+                break
+            tags = self.bank.tags(self.neighbour_form(t)) - MINOR_TAGS
+            if not tags or not tags <= {"adj", "adj:part", "adv"}:
+                break
+        if head and (determiner or prev in {"af", "av", "med", "uden", "uten"}):
+            if self.is_name(head) or (head.capitalised and not self.nouncaps) or any(t.lower == "sig" for t in right[:5]):
+                return None  # Could be an inverted named/reflexive subject.
+            target = pick(agreeing)
+            return (target, "adjective") if target else None
+        if prev in DETERMINERS:
+            return None
+        direct = {"jeg", "du", "han", "hun", "vi", "man"}
+        # A dictionary-known personal subject has no genitive suffix and no
+        # governing preposition. Do not guess unknown capitals to be names.
+        named_subject = bool(governor and self.is_name(governor)
+                             and not governor.lower.endswith("s")
+                             and not any(self.bank.tags(self.neighbour_form(t)) & {"prep"}
+                                         for t in left[left.index(governor) + 1:left.index(governor) + 2])
+                             and not any(self.bank.tags(self.neighbour_form(t)) & {"verb:pres", "verb:pret"}
+                                         for t in left[left.index(governor) + 1:]))
+        if token.initial and nxt not in direct | {"de"}:
+            return None
+        sentence_governor = False
+        for t in reversed(tokens[:i]):
+            if not t.word and re.search(r"[.!?;:]", t.text):
+                break
+            if t.word and (t.lower in auxiliaries | {"faa", "få", "fik", "fikk", "faar", "får", "faaet", "fået", "fått"}
+                           or self.bank.tags(self.neighbour_form(t)) & {"verb:pres", "verb:pret"}
+                           or t.lower.endswith("ede")):
+                sentence_governor = True
+                break
+        named_subject = named_subject and not sentence_governor
+        if (past in agreeing and not self.bank.common(token.lower) and not sentence_governor):
+            # Finite and agreeing readings converge on the same verified form;
+            # an earlier verb can instead govern an object predicate or a
+            # coordinated perfect participle (fik Brevene besvarede).
+            return past, "weak-shared"
+        if head and not (governor and governor.lower in direct) and not named_subject:
+            return None  # Noun subjects and attributive modifiers can look alike.
+
+        # An auxiliary elsewhere in the phrase can govern an object predicate
+        # (havde elleve Langskibe samlede); do not assume the noun is a subject.
+        if any(t.lower in auxiliaries for t in left) and not (governor and governor.lower in direct):
+            return None
+        if self.bank.tags(token.lower) & {"adj", "adj:part"} and not (governor and governor.lower in direct):
+            return None
+        if named_subject:
+            return past, "weak-past"
+        if nxt in PRONOUN_OBJECTS or (governor and governor.lower in direct):
+            return past, "weak-past"
+        return None
+
     def grammar(self, tokens: list[Token], i: int, words: list[int]) -> bool:
         token = tokens[i]
         low = token.lower
@@ -333,13 +468,11 @@ class Engine:
         nxt = next_token.lower if next_token is not None else None
         past = self.weak_past(low) if low not in self.lexicon else None
         if past:
-            # Absence of an adjective candidate is not evidence for a verb:
-            # untrusted spellings may have been withheld upstream. Require an
-            # explicit subject or inverted subject/object, not "og" or a suffix.
-            verb_context = prev in {"jeg", "du", "han", "hun", "vi", "de", "man"}
-            if nxt in PRONOUN_OBJECTS or (verb_context and prev not in DETERMINERS):
-                token.out = self.case(token, past)
-                token.reason = "grammar:weak-past"
+            selected = self.weak_form(tokens, i, words, past)
+            if selected:
+                target, role = selected
+                token.out = self.case(token, target)
+                token.reason = "grammar:" + role
                 return True
             return False
         present = self.plural_present(low)

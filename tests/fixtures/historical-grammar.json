@@ -1,0 +1,2687 @@
+[
+  {
+    "id": "faye-1852:003:blocks/3/text:654",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "003",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 654,
+    "original": " Thrøndelagen blev erobret, mange Slag bleve leverede, og mange Seire vundne, inden han ved en afgjørende Kamp i Hafrsfjord*) fuldendte Norges Erobring i Aaret 885.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Aaret"
+    ],
+    "year": 1852,
+    "at": 45,
+    "word": "leverede",
+    "expected": "levert",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:006:blocks/1/text:272",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "006",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 272,
+    "original": " Da Sigrid her nægtede at antage den christne Tro, blev den hidsige Olaf saa opbragt, at han ei alene skjeldte hende ud for en gammel Kjærring og hedensk som en Hund, men endog slog hende i Ansigtet med sin Handske.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Olaf",
+      "Sigrid"
+    ],
+    "year": 1852,
+    "at": 15,
+    "word": "nægtede",
+    "expected": "nektet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:006:blocks/1/text:1175",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "006",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 1175,
+    "original": " men den uforsagte Olaf svarede: „Aldrig har jeg flyet i Strid, skal heller ikke gjøre det idag.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Olaf"
+    ],
+    "year": 1852,
+    "at": 24,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:007:blocks/0/text:299",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "007",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 299,
+    "original": " Eirik Jarl var en af sin Tids meest udmærkede Mænd, tapper i Krig, men mild i Fred.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Eirik"
+    ],
+    "year": 1852,
+    "at": 37,
+    "word": "udmærkede",
+    "expected": "utmerkede",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:007:blocks/3/text:20",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "007",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 20,
+    "original": "De gamle Love bleve forbedrede, en Kirkelov (Christenret) blev forfattet af Biskop Grimkell, og en Gaardsret (Hirdskraa) given, der bestemte Enhvers Plads og Pligter ved Kongens talrige Hof.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 20,
+    "word": "forbedrede",
+    "expected": "forbedret",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:008:blocks/3/text:312",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "008",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 312,
+    "original": " „Ikke af Dig, din Hund,“ svarede Finn.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 26,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:009:blocks/1/text:595",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "009",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 595,
+    "original": " Stadselige Buxer, der bleve snørede om Benene, høie Sko udsyede med Silke, Rynkekjorteler med fem Alen lange Ærmer, der bleve rynkede lige op til Axlerne, kom da i Brug.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 29,
+    "word": "snørede",
+    "expected": "snørt",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:009:blocks/1/text:693",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "009",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 693,
+    "original": " Stadselige Buxer, der bleve snørede om Benene, høie Sko udsyede med Silke, Rynkekjorteler med fem Alen lange Ærmer, der bleve rynkede lige op til Axlerne, kom da i Brug.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 127,
+    "word": "rynkede",
+    "expected": "rynket",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:010:blocks/2/text:225",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "010",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 225,
+    "original": " Denne duelige Mands Fald overlevede Inge ei længe.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Inge"
+    ],
+    "year": 1852,
+    "at": 26,
+    "word": "overlevede",
+    "expected": "overlevde",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:014:blocks/3/text:74",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "014",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 74,
+    "original": "Christian den Anden, der endnu i Faderens Levetid i ti Aar som Statholder bestyrede Norge, manglede ikke Evne til at blive en duelig Konge;",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Christian"
+    ],
+    "year": 1852,
+    "at": 74,
+    "word": "bestyrede",
+    "expected": "bestyrte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:014:blocks/3/text:363",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "014",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 363,
+    "original": " Det stockholmske Blodbad, hvorved en stor Mængde Svenske især Adelige ei alene uden Lov og Dom, men endog mod tilsagt Tryghed bleve henrettede (1520), skilte ham ved den svenske Krone.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 133,
+    "word": "henrettede",
+    "expected": "henrettet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:015:blocks/1/text:838",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "015",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 838,
+    "original": " Christian den Tredies Sendebud til Erkebispen bleve fængslede i Throndhjem og en af dem, Vincents Lunge, blev endog myrdet paa Erkebispens Foranstaltning.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Christian"
+    ],
+    "year": 1852,
+    "at": 53,
+    "word": "fængslede",
+    "expected": "fengslet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:015:blocks/3/text:51",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "015",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 51,
+    "original": "En Landsmand fra disse Tider, hvis Minde fortjener at bevares, er Geble Pederssøn.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Minde"
+    ],
+    "year": 1852,
+    "at": 51,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:016:blocks/0/text:860",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "016",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 860,
+    "original": " Disse Slotte bleve imidlertid tappert forsvarede.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 39,
+    "word": "forsvarede",
+    "expected": "forsvart",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:016:blocks/1/text:391",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "016",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 391,
+    "original": " Intet Under derfor, at de Svenske huserede saa slemt i Landet.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 35,
+    "word": "huserede",
+    "expected": "huserte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:020:blocks/2/text:1595",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "020",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 1595,
+    "original": " Anna derimod svarede uforsagt: „tjener Du din Konge for at skyde Kjerringer ihjel?",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 14,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:020:blocks/6/text:166",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "020",
+    "field": [
+      "blocks",
+      6,
+      "text"
+    ],
+    "source_offset": 166,
+    "original": " Iblandt de udmærkede Nordmænd, der levede i Frederik den Fjerdes Tid, fortjene iøvrigt at erindres:",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 12,
+    "word": "udmærkede",
+    "expected": "utmerkede",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:020:blocks/6/text:242",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "020",
+    "field": [
+      "blocks",
+      6,
+      "text"
+    ],
+    "source_offset": 242,
+    "original": " Iblandt de udmærkede Nordmænd, der levede i Frederik den Fjerdes Tid, fortjene iøvrigt at erindres:",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 88,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:021:blocks/6/text:167",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "021",
+    "field": [
+      "blocks",
+      6,
+      "text"
+    ],
+    "source_offset": 167,
+    "original": " Han erhvervede sig i sin Tid et berømt Navn ved sine Skrifter, hvoraf her fortjener at nævnes hans Fortælling af de vilde Folks fornemste Indretninger, Skikke og Meninger til Oplysning af det Menneskeliges Oprindelse og Fremgang.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1852,
+    "at": 85,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "faye-1852:022:blocks/3/text:279",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2010042703037",
+    "book": "faye-1852",
+    "piece": "022",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 279,
+    "original": " Denne alderstegne Konge døde efter noget over tre Aars Regjering den 5te Februar 1813 og blev fulgt i Regjeringen af sin adopterede Søn Carl Johan, der i en Alder af 54 Aar besteg Skandinaviens Throner i Overeensstemmelse med den i begge Riger gjeldende Arvefølgeorden.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Carl",
+      "Regjeringen"
+    ],
+    "year": 1852,
+    "at": 122,
+    "word": "adopterede",
+    "expected": "adopterte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "schjott-1890:009:blocks/13/text:963",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2014110308052",
+    "book": "schjott-1890",
+    "piece": "009",
+    "field": [
+      "blocks",
+      13,
+      "text"
+    ],
+    "source_offset": 963,
+    "original": " No bad han dei um aa forlikast, og det gjorde dei.",
+    "lang": "nno",
+    "nouncaps": false,
+    "names": [],
+    "year": 1890,
+    "at": 19,
+    "word": "aa",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:009:blocks/0/text:1037",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "009",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1037,
+    "original": "” Cain svarede: ”jeg veed det ikke, mon jeg er min Broders Vogter?",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Cain"
+    ],
+    "year": 1833,
+    "at": 7,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:013:blocks/0/text:1193",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "013",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1193,
+    "original": " Abrahams Tjener gav den tjenstvillige, venlige Pige et Guldsmykke og spurgte hende, hvo hun var, og da han nu erfarede, at hun var af Abrahams Slægt, takkede han inderligen Gud, som havde opfyldt hans Bøn.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 111,
+    "word": "erfarede",
+    "expected": "erfarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:014:blocks/0/text:1379",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "014",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1379,
+    "original": " Hun lod nemlig slagte et Kid, og tilberedte deraf en Ret, saaledes som Isak fandt Behag i, svøbte derpaa Skindet af det slagtede Kid om Jacobs Hænder og Hals, fordi Esau var lodden over det hele Legeme, og lod Jacob saaledes træde ind til Faderen i Esaus Sted.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Esau",
+      "Isak",
+      "Jacob"
+    ],
+    "year": 1833,
+    "at": 121,
+    "word": "slagtede",
+    "expected": "slaktede",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:014:blocks/0/text:2593",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "014",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 2593,
+    "original": " men da Rebekka erfarede dette, blev hun bekymret, og overtalte derfor Isak til at sende Jacob til hendes Familie i Mesopotamien for, som hun sagde til den gamle Mand, der at tage sig en Hustrue, paa det at han ikke, som Esau allerede havde gjort, skulde gifte sig med een af Landets afgudiske Qvinder.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Esau",
+      "Isak",
+      "Jacob"
+    ],
+    "year": 1833,
+    "at": 16,
+    "word": "erfarede",
+    "expected": "erfarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:016:blocks/0/text:2450",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "016",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 2450,
+    "original": " Men som han engang vogtede sin Svigerfaders Hjorde ved Bjerget Sinai, saae han en Tornebusk brænde uden dog at fortæres af Ilden.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 109,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:016:blocks/0/text:2751",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "016",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 2751,
+    "original": " Moses bad vel om at fritages for denne Sendelse;",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 18,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:016:blocks/0/text:3321",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "016",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 3321,
+    "original": " Men Pharao svarede: ”hvo er den Gud, hvis Røst jeg skulde adlyde?",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 12,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:016:blocks/1/text:807",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "016",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 807,
+    "original": " men medens Moses ene med Josva var i 40 Dage og Nætter paa Sinai for at undervises af Gud om Loven, nødte Folket Aron til at lade støbe et Afgudsbillede, en Guldkalv, hvilken de tilbade.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Aron",
+      "Sinai"
+    ],
+    "year": 1833,
+    "at": 70,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:017:blocks/0/text:147",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "017",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 147,
+    "original": " derpaa sendte Josva Speidere over Jordan til Grændsestaden Jericho, hvilke Qvinden Rahab frelste, da de bleve opdagede der.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jordan"
+    ],
+    "year": 1833,
+    "at": 111,
+    "word": "opdagede",
+    "expected": "oppdaget",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:021:blocks/0/text:370",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "021",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 370,
+    "original": " men den gjerrige Nabal svarede, ”at han Intet vilde give Trælle, der vare løbne bort fra deres Herre.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 24,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:027:blocks/0/text:1731",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "027",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1731,
+    "original": " Nehemias erfarede af en Jøde der kom fra Jerusalem, at Stadens Mure endnu laae i Gruus, og at Jøderne næsten forsvarsløse leed meget af deres Naboers Vold.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 10,
+    "word": "erfarede",
+    "expected": "erfarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:028:blocks/1/text:2133",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "028",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 2133,
+    "original": " Denne grusomme og listige Regent, som man har kaldet den Store, udryddede aldeles Maccabæernes Familie, og lod af Mistænkelighed mangfoldige, ja endog sin egen Hustru, som han dog elskede, og tre af sine Sønner henrette.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 181,
+    "word": "elskede",
+    "expected": "elsket",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:029:blocks/1/text:89",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "029",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 89,
+    "original": "Efter Mose Død, og især fra Samuels Tid af, fremstode mange Propheter, det er: Mænd, der besjelede af Guds Aand, talede i Guds Navn, hvad han befalede dem at kundgjøre, og forudforkyndte, hvad der skulde skee, især Christi Komme.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 89,
+    "word": "besjelede",
+    "expected": "besjelte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:029:blocks/3/text:2010",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "029",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 2010,
+    "original": " men han oplod ikke sin Mund, som Lammet, der føres hen for at slagtes.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 60,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:030:blocks/0/text:764",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "030",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 764,
+    "original": " Da hans Børn vare forsamlede, for at høitideligholde deres ældste Broders Fødselsdag, kom der et Bud til Hjob, som sagde: ”Oxerne pløiede, og Aseninderne græssede nærved;",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Bud"
+    ],
+    "year": 1833,
+    "at": 131,
+    "word": "pløiede",
+    "expected": "pløyde",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:031:blocks/1/text:1602",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "031",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 1602,
+    "original": " Herodes den Store erfarede dette, og lod strax Raadet, som bestod af Præster og Lovlærde, sammenkalde, for at erfare, hvor Christus efter Propheternes Udsagn skulde fødes.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Herodes"
+    ],
+    "year": 1833,
+    "at": 19,
+    "word": "erfarede",
+    "expected": "erfarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:033:blocks/0/text:1139",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "033",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1139,
+    "original": " Da Johannes i vel et halvt Aar havde saaledes forberedet Christi Fremtrædelse, kom Jesus til ham og forlangte at døbes af ham.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jesus",
+      "Johannes"
+    ],
+    "year": 1833,
+    "at": 111,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:033:blocks/0/text:1221",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "033",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1221,
+    "original": " thi han sagde: ”jeg kunde trænge til at døbes af dig, og du kommer til mig?",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 38,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:034:blocks/0/text:662",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "034",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 662,
+    "original": " Jesus svarede:” paa et andet Sted staaer der skrevet: du skal ei friste Herren din Gud.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jesus"
+    ],
+    "year": 1833,
+    "at": 7,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:035:blocks/1/text:291",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "035",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 291,
+    "original": " men Jesus svarede: ”Menneskets Søn er ikke kommen til Jorden for at fordærve, men for at gjøre lykkelig.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jesus"
+    ],
+    "year": 1833,
+    "at": 11,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:037:blocks/2/text:152",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "037",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 152,
+    "original": "” Den Skriftkloge svarede: ”den, som viste sig barmhjertig imod ham.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 18,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:038:blocks/0/text:1622",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "038",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1622,
+    "original": "” Og hans Herre overantvordede ham til at straffes.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 39,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:040:blocks/0/text:15",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "040",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 15,
+    "original": "Til Nogle, der stolede paa egen Dyd, sagde engang Jesus.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 15,
+    "word": "stolede",
+    "expected": "stolte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:043:blocks/0/text:352",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "043",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 352,
+    "original": "” Men Viingaardsmanden svarede: ”Herre!",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 23,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:045:blocks/0/text:242",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "045",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 242,
+    "original": " Der var og en fattig Mand, ved Navn Lazarus, som man havde lagt for hans Dør, fuld af Bylder og Saar, og som ønskede blot at mættes med de Smuler, der faldt fra den rige Mands Bord;",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 123,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:045:blocks/0/text:1442",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "045",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1442,
+    "original": "” Men Abraham svarede: ”saafremt de ikke høre Moses og Propheterne, da ville de, om En opstod fra de Døde, ikke heller troe ham.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Abraham"
+    ],
+    "year": 1833,
+    "at": 14,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:048:blocks/0/text:6",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "048",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 6,
+    "original": "Jesus erklærede, at han var Guds Søn, at ham var given al Magt baade i Himmelen og paa Jorden, og Sandheden af disse Ord beviste han ikke alene ved sin guddommelige Lære, men ogsaa ved de mangfoldige Undergjerninger, han gjorde.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jesus"
+    ],
+    "year": 1833,
+    "at": 6,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:048:blocks/1/text:134",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "048",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 134,
+    "original": "Saaledes gik Jesus engang igjennem en liden Bye ved Navn Nain, og da han kom til Stadens Port, blev der en Ynglings Liig udbaaret for at begraves, og det var en Enkes eneste Søn.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Bye",
+      "Jesus"
+    ],
+    "year": 1833,
+    "at": 134,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:048:blocks/7/text:463",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "048",
+    "field": [
+      "blocks",
+      7,
+      "text"
+    ],
+    "source_offset": 463,
+    "original": "” Men Disciplerne svarede: ”hvorfra skulle vi faae saa mange Brød i Ørken, at vi kunne mætte saa meget Folk?",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Brød"
+    ],
+    "year": 1833,
+    "at": 18,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:048:blocks/9/text:865",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "048",
+    "field": [
+      "blocks",
+      9,
+      "text"
+    ],
+    "source_offset": 865,
+    "original": "” Ydmyg svarede den hedenske Qvinde: ”Vistnok Herre!",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 8,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:053:blocks/0/text:485",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "053",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 485,
+    "original": " Jesus svarede: ”dette Spørgsmaal vil jeg give Svar paa, naar I have sagt mig, om Johannes var sendt af Gud eller ikke.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jesus",
+      "Johannes"
+    ],
+    "year": 1833,
+    "at": 7,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:053:blocks/1/text:448",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "053",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 448,
+    "original": " hvis han derimod svarede, at man burde betale Skat, saa haabede de, at Folkets Hjerte skulde vende sig fra ham, da Jøderne ansaae sig for Guds Folk, og ventede, at Christus skulde befrie dem fra Romernes Overherredømme.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 18,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:053:blocks/1/text:1073",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "053",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 1073,
+    "original": " Men Frelseren advarede derpaa det forsamlede Folk for Pharisæernes og de Skriftkloges Hyklerie og Ondskab, og forudsagde, at Jerusalem skulde ødelægges med Ild og Sværd, saa at der af det prægtige og stærkt befæstede Tempel ikke skulde blive Steen tilbage paa Steen, hvilket ogsaa nogle og tredive Aar derefter gik i Opfyldelse.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jerusalem",
+      "Steen"
+    ],
+    "year": 1833,
+    "at": 15,
+    "word": "advarede",
+    "expected": "advarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:056:blocks/0/text:1418",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "056",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1418,
+    "original": " Jesus svarede: ”spørger det hele Folk derom;",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jesus"
+    ],
+    "year": 1833,
+    "at": 7,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:056:blocks/2/text:376",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "056",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 376,
+    "original": " Betaget af Frygt negtede Peder gjentagne Gange, at han kjendte Jesus, og svoer tilsidst derpaa: da galede Hanen, og Jesus, som i det samme førtes af Vagten forbi, vendte sig om, og saae paa Peder.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Peder"
+    ],
+    "year": 1833,
+    "at": 100,
+    "word": "galede",
+    "expected": "galte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:057:blocks/0/text:1357",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "057",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1357,
+    "original": "” Ikke destomindre løsgav han Barrabas, og lod Jesu bringe ud for at korsfæstes;",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Jesu"
+    ],
+    "year": 1833,
+    "at": 66,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:060:blocks/0/text:2229",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "060",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 2229,
+    "original": "” Men Peder svarede: man maa adlyde Gud mere end Menneskene.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Peder"
+    ],
+    "year": 1833,
+    "at": 12,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:062:blocks/0/text:771",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "062",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 771,
+    "original": "” Da en romersk Høvedsmand, Cornelius sendte Bud til Peder, for at undervises af ham, blev Peder ved et Syn, han havde, advaret om, at han ikke maatte formene Hedningerne Adgang til Gud.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Bud",
+      "Cornelius",
+      "Peder"
+    ],
+    "year": 1833,
+    "at": 64,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:063:blocks/0/text:1655",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "063",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1655,
+    "original": " Derimod forfulgte Jøderne ham siden med det bittreste Had, og han maatte flygte baade fra Damascus og Jerusalem, for ikke at myrdes af dem.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [],
+    "year": 1833,
+    "at": 123,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:063:blocks/3/text:2486",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "063",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 2486,
+    "original": " Efterat Paulus havde siddet 2 Aar i Fængsel, blev en ny Landshøvding, ved Navn Festus udnævnt, der ogsaa tog Paulus under Forhør, men da han for at smigre Jøderne vilde lade ham føre tilbage til Jerusalem, for der at dømmes, fordrede Paulus, som romersk Borger, at blive stillet for Keiserens egen Domstoel.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Paulus"
+    ],
+    "year": 1833,
+    "at": 215,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "hersleb-1833-fjerde:063:blocks/3/text:2807",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2023032328001",
+    "book": "hersleb-1833-fjerde",
+    "piece": "063",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 2807,
+    "original": " Uagtet derfor Paulus kort derefter talede saa fyndigen sin og Christendommens Sag baade for Festus og den jødiske Fyrste, Agrippa den Yngre, at de begge erkjendte hans Uskyldighed, blev han dog som Fange sendt til Rom, for der at dømmes af Keiseren.",
+    "lang": "nob",
+    "nouncaps": true,
+    "names": [
+      "Paulus"
+    ],
+    "year": 1833,
+    "at": 228,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:008:blocks/5/text:522",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "008",
+    "field": [
+      "blocks",
+      5,
+      "text"
+    ],
+    "source_offset": 522,
+    "original": " Saadanne balsamerede lig kaldes mumier, og af dem graves der frem store mængder.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 10,
+    "word": "balsamerede",
+    "expected": "balsamerte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:009:blocks/1/text:806",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "009",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 806,
+    "original": " omkring aar 600 seilede de ud fra det røde hav og kom tilbage gjennem strædet ved Gibraltar.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 17,
+    "word": "seilede",
+    "expected": "seilte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:013:blocks/0/text:555",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "013",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 555,
+    "original": " Perserne seilede tvers over Ægæerhavet og landede paa Attikas kyst ved Marathon.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 10,
+    "word": "seilede",
+    "expected": "seilte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:019:blocks/1/text:874",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "019",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 874,
+    "original": " Den samme Camillus fik sine fortvilede landsmænd til at bygge byen op igjen, og blev derfor hædret med æresnavnet «Roms anden stifter».",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 29,
+    "word": "fortvilede",
+    "expected": "fortvilte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:025:blocks/5/text:39",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "025",
+    "field": [
+      "blocks",
+      5,
+      "text"
+    ],
+    "source_offset": 39,
+    "original": "Ved hans død (395) svækkedes riget ved at deles i to dele mellem hans sønner, det vestromerske med Rom og det østromerske med Konstantinopel som hovedstad.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Konstantinopel"
+    ],
+    "year": 1899,
+    "at": 39,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:026:blocks/24/text:792",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "026",
+    "field": [
+      "blocks",
+      24,
+      "text"
+    ],
+    "source_offset": 792,
+    "original": " Og dette paradis udstyrede Muhammed med alskens jordiske nydelser, med skyggefulde trær, kolde kilder, deilig frugt, vakre heste og skjønne kvinder.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Muhammed"
+    ],
+    "year": 1899,
+    "at": 18,
+    "word": "udstyrede",
+    "expected": "utstyrte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:029:blocks/1/text:497",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "029",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 497,
+    "original": " Henrik svarede med at erklære paven for afsat, hvorpaa denne satte Henrik i ban og løste hans vasaller fra deres troskabsed til ham.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Henrik"
+    ],
+    "year": 1899,
+    "at": 8,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:034:blocks/46/text:579",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "034",
+    "field": [
+      "blocks",
+      46,
+      "text"
+    ],
+    "source_offset": 579,
+    "original": " Sverre hævdede dog sin ret trods banlysningen, og efter haarde kampe lykkedes det ham at slaa baglerne;",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Sverre"
+    ],
+    "year": 1899,
+    "at": 8,
+    "word": "hævdede",
+    "expected": "hevdet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:036:blocks/1/text:600",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "036",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 600,
+    "original": " Herved svækkedes kongemagten, og tronen kom til at besættes ved valg ligesom samtidig i Sverige.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 49,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:037:blocks/2/text:1079",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "037",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 1079,
+    "original": " I mandsdragt begav hun sig til Karl og bad ham give hende folk, saa skulde hun befri Orleans og føre ham til Rheims for at krones.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Karl",
+      "Orleans"
+    ],
+    "year": 1899,
+    "at": 121,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:039:blocks/2/text:538",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "039",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 538,
+    "original": " her hentedes de af skibe fra Venedig og Genua, for saa fra Italien at føres dels ad sjøveien dels over Alperne og videre nedad Rhinen.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 68,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:039:blocks/9/text:125",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "039",
+    "field": [
+      "blocks",
+      9,
+      "text"
+    ],
+    "source_offset": 125,
+    "original": " I 1520 seilede spanske skibe, som førtes af portugiseren Magelhan, rundt Amerikas sydspids og tvers over det stille hav til Indien.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 8,
+    "word": "seilede",
+    "expected": "seilte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:040:blocks/1/text:144",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "040",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 144,
+    "original": " Samtidig rasede den ogsaa i Danmark.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 10,
+    "word": "rasede",
+    "expected": "raste",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:040:blocks/10/text:272",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "040",
+    "field": [
+      "blocks",
+      10,
+      "text"
+    ],
+    "source_offset": 272,
+    "original": " Begge hertugdømmer vedblev paa det nærmeste at styres sammen, og saaledes fortsattes denne for Danmark saa ulykkelige forening mellem det danske Slesvig og det tyske Holsten.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Danmark"
+    ],
+    "year": 1899,
+    "at": 45,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:043:blocks/0/text:837",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "043",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 837,
+    "original": " I 1508 blev Luther af Sachsens kurfyrste, Fredrik den vise, ansat som lærer ved det netop oprettede universitet i Wittenberg.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Fredrik",
+      "Luther"
+    ],
+    "year": 1899,
+    "at": 91,
+    "word": "oprettede",
+    "expected": "opprettede",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:043:blocks/3/text:681",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "043",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 681,
+    "original": " Luther svarede med i spidsen for studenterne at gaa udenfor Wittenbergs mure og der høitidelig brænde den pavelige banbulle.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Luther"
+    ],
+    "year": 1899,
+    "at": 8,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:044:blocks/14/text:218",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "044",
+    "field": [
+      "blocks",
+      14,
+      "text"
+    ],
+    "source_offset": 218,
+    "original": " Da erklærede hollænderne sig for frie og uafhængige af Filip og fik i Wilhelms unge søn Moritz en fører, der var lige dygtig som kriger og som statsmand.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 4,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:047:blocks/7/text:106",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "047",
+    "field": [
+      "blocks",
+      7,
+      "text"
+    ],
+    "source_offset": 106,
+    "original": " Men han opgav stillingen, da han ikke magtede at styre hæren, hvorpaa Cromwells magt havde hvilet.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 39,
+    "word": "magtede",
+    "expected": "maktet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:048:blocks/3/text:561",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "048",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 561,
+    "original": " især forsvarede Kjøbenhavn sig haardnakket, men maatte tilsidst overgive sig til kong Kristian.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 6,
+    "word": "forsvarede",
+    "expected": "forsvarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:049:blocks/0/text:628",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "049",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 628,
+    "original": " Tilsjøs var svenskerne i det hele de danske overlegne, paa grund af den udmerkede flaade som Gustav Vasa havde bygget.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Gustav",
+      "Vasa"
+    ],
+    "year": 1899,
+    "at": 73,
+    "word": "udmerkede",
+    "expected": "utmerkede",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:052:blocks/12/text:254",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "052",
+    "field": [
+      "blocks",
+      12,
+      "text"
+    ],
+    "source_offset": 254,
+    "original": " hun kunde vistnok med rette gjøre fordring paa at ansees som sin tids lærdeste kvinde.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 48,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:054:blocks/17/text:1073",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "054",
+    "field": [
+      "blocks",
+      17,
+      "text"
+    ],
+    "source_offset": 1073,
+    "original": " Ludvig svarede da: «Skal jeg endelig føre krig, saa vil jeg heller kjæmpe mod mine fiender end mod min egen slegt.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Ludvig"
+    ],
+    "year": 1899,
+    "at": 8,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:056:blocks/7/text:22",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "056",
+    "field": [
+      "blocks",
+      7,
+      "text"
+    ],
+    "source_offset": 22,
+    "original": "Samtidig med at Peter udvidede sit rige og skaffede sig en stor hær og flaade, stræbte han paa anden maade at ophjælpe sit land.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Peter"
+    ],
+    "year": 1899,
+    "at": 22,
+    "word": "udvidede",
+    "expected": "utvidet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:057:blocks/24/text:294",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "057",
+    "field": [
+      "blocks",
+      24,
+      "text"
+    ],
+    "source_offset": 294,
+    "original": " men Karl svarede at derom skulde de tales ved i Moskva.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Karl"
+    ],
+    "year": 1899,
+    "at": 10,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:058:blocks/6/text:789",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "058",
+    "field": [
+      "blocks",
+      6,
+      "text"
+    ],
+    "source_offset": 789,
+    "original": " Kolonisterne protesterede mod at betale de skatter som nu blev dem paalagt;",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 14,
+    "word": "protesterede",
+    "expected": "protesterte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:058:blocks/10/text:404",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "058",
+    "field": [
+      "blocks",
+      10,
+      "text"
+    ],
+    "source_offset": 404,
+    "original": " Men den 4de juli 1776, i Filadelfia, erklærede kolonierne sig for selvstændige og uafhængige af England.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 38,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:058:blocks/11/text:1227",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "058",
+    "field": [
+      "blocks",
+      11,
+      "text"
+    ],
+    "source_offset": 1227,
+    "original": " Ogsaa Holland tænkte paa at slutte sig til den væbnede neutralitet;",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 48,
+    "word": "væbnede",
+    "expected": "væpnede",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:058:blocks/12/text:7",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "058",
+    "field": [
+      "blocks",
+      12,
+      "text"
+    ],
+    "source_offset": 7,
+    "original": "Krigen rasede i alle verdensdele og paa alle have.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 7,
+    "word": "rasede",
+    "expected": "raste",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:058:blocks/12/text:334",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "058",
+    "field": [
+      "blocks",
+      12,
+      "text"
+    ],
+    "source_offset": 334,
+    "original": " Denne vinding, ligesom ødelæggelsen af den franske, spanske og hollandske sjømagt og handel, opveiede den ringe fremgang de havde i Amerika.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 94,
+    "word": "opveiede",
+    "expected": "oppveide",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:059:blocks/4/text:10",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "059",
+    "field": [
+      "blocks",
+      4,
+      "text"
+    ],
+    "source_offset": 10,
+    "original": "Skatterne hvilede paa borgere og bønder, som holdt paa at segne under den svære byrde.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 10,
+    "word": "hvilede",
+    "expected": "hvilte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:059:blocks/12/text:203",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "059",
+    "field": [
+      "blocks",
+      12,
+      "text"
+    ],
+    "source_offset": 203,
+    "original": " men skjønt han ikke negtede Guds tilværelse, rettede han ogsaa sine angreb mod den kristne lære.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 21,
+    "word": "negtede",
+    "expected": "nektet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:060:blocks/4/text:103",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "060",
+    "field": [
+      "blocks",
+      4,
+      "text"
+    ],
+    "source_offset": 103,
+    "original": " han forlangte Schlesien, og det lykkedes ham med sin udmerkede hær at besætte dette landskab, medens Marias øvrige fiender paa forskjellige kanter faldt ind i hendes andre lande.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 54,
+    "word": "udmerkede",
+    "expected": "utmerkede",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:061:blocks/0/text:1194",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "061",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1194,
+    "original": " Katharina udrettede dog ikke lidet.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Katharina"
+    ],
+    "year": 1899,
+    "at": 11,
+    "word": "udrettede",
+    "expected": "utrettet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:064:blocks/0/text:459",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "064",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 459,
+    "original": " Da erklærede tredjestandens medlemmer sig for nationalforsamling;",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 4,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:064:blocks/9/text:287",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "064",
+    "field": [
+      "blocks",
+      9,
+      "text"
+    ],
+    "source_offset": 287,
+    "original": " De fleste inden forsamlingen var tilhængere af det indskrænkede kongedømme, som nu var Frankrigs regjeringsform.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 52,
+    "word": "indskrænkede",
+    "expected": "innskrenkede",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:064:blocks/10/text:578",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "064",
+    "field": [
+      "blocks",
+      10,
+      "text"
+    ],
+    "source_offset": 578,
+    "original": " I 1792 erklærede Frankrig Østerrig og Preussen krig.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 8,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:064:blocks/18/text:778",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "064",
+    "field": [
+      "blocks",
+      18,
+      "text"
+    ],
+    "source_offset": 778,
+    "original": " Samtidig rasede kampen mod de oprørske byer og landskaber.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 10,
+    "word": "rasede",
+    "expected": "raste",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:065:blocks/8/text:158",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "065",
+    "field": [
+      "blocks",
+      8,
+      "text"
+    ],
+    "source_offset": 158,
+    "original": " Men England svarede med at sende ud en stor flaade, som under Nelson angreb den dansk-norske flaade udenfor Kjøbenhavn (slaget paa Kjøbenhavns red den 2den april 1801).",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 13,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:065:blocks/17/text:145",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "065",
+    "field": [
+      "blocks",
+      17,
+      "text"
+    ],
+    "source_offset": 145,
+    "original": " Napoleon svarede med straks at angribe Preussen.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 10,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:065:blocks/17/text:1326",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "065",
+    "field": [
+      "blocks",
+      17,
+      "text"
+    ],
+    "source_offset": 1326,
+    "original": " Aleksander erklærede Sverige krig og benyttede leiligheden til at tage Finland.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Aleksander",
+      "Sverige"
+    ],
+    "year": 1899,
+    "at": 12,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:065:blocks/25/text:1169",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "065",
+    "field": [
+      "blocks",
+      25,
+      "text"
+    ],
+    "source_offset": 1169,
+    "original": " Kampen rasede i tre dage.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 8,
+    "word": "rasede",
+    "expected": "raste",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:065:blocks/28/text:568",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "065",
+    "field": [
+      "blocks",
+      28,
+      "text"
+    ],
+    "source_offset": 568,
+    "original": "» svarede de med raabet: «Keiseren leve!",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 2,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:066:blocks/1/text:724",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "066",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 724,
+    "original": " Aftalerne i Tilsit (1807) mellem Napoleon og keiser Aleksander indviklede derpaa, som allerede fortalt (side 234), Sverige i krig med Rusland, og Danmark-Norge i krig med England og Sverige.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Aleksander",
+      "Sverige"
+    ],
+    "year": 1899,
+    "at": 64,
+    "word": "indviklede",
+    "expected": "innviklet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:066:blocks/6/text:468",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "066",
+    "field": [
+      "blocks",
+      6,
+      "text"
+    ],
+    "source_offset": 468,
+    "original": " Denne statsbankerot ruinerede mange tidligere velstaaende familier.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 21,
+    "word": "ruinerede",
+    "expected": "ruinerte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:067:blocks/2/text:429",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "067",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 429,
+    "original": " Især i Spanien og Neapel rasede kongerne og den med dem nøie forbundne katholske geistlighed haardt mod alt som smagte af folkefrihed.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 26,
+    "word": "rasede",
+    "expected": "raste",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:068:blocks/0/text:1492",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "068",
+    "field": [
+      "blocks",
+      0,
+      "text"
+    ],
+    "source_offset": 1492,
+    "original": " Samtidig erklærede den russiske keiser Nikolaus Tyrkiet krig.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 10,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:069:blocks/3/text:219",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "069",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 219,
+    "original": " Befolkningen i Paris svarede med øieblikkelig at gjøre opstand.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Paris"
+    ],
+    "year": 1899,
+    "at": 22,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:070:blocks/4/text:27",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "070",
+    "field": [
+      "blocks",
+      4,
+      "text"
+    ],
+    "source_offset": 27,
+    "original": "Den midlertidige regjering erklærede Frankrig for en republik og indkaldte en nationalforsamling, som skulde give en ny grundlov.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 27,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:072:blocks/3/text:1077",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "072",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 1077,
+    "original": " Keiseren svarede med at erklære Kossuth og hans tilhængere for forrædere og sende østerrigske hære ind i landet.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 10,
+    "word": "svarede",
+    "expected": "svarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:074:blocks/2/text:279",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "074",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 279,
+    "original": " Preussen indlemmede uden videre kongeriget Hannover, samt et par andre stater hvoraf provinsen Hessen dannedes.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Hessen"
+    ],
+    "year": 1899,
+    "at": 10,
+    "word": "indlemmede",
+    "expected": "innlemmet",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:074:blocks/4/text:840",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "074",
+    "field": [
+      "blocks",
+      4,
+      "text"
+    ],
+    "source_offset": 840,
+    "original": " men de slaviske folk, især tschekerne, forlanger at behandles paa samme maade som ungarerne;",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 50,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:076:blocks/2/text:626",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "076",
+    "field": [
+      "blocks",
+      2,
+      "text"
+    ],
+    "source_offset": 626,
+    "original": " Keiser Nikolaus erklærede da krig (1853).",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 17,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:076:blocks/3/text:501",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "076",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 501,
+    "original": " Især forsvarede tyrkerne sig med stor dygtighed ved Plevna (i Bulgarien);",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 6,
+    "word": "forsvarede",
+    "expected": "forsvarte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:077:blocks/1/text:87",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "077",
+    "field": [
+      "blocks",
+      1,
+      "text"
+    ],
+    "source_offset": 87,
+    "original": " Partistrid rasede derpaa i flere aar i det ulykkelige land.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 12,
+    "word": "rasede",
+    "expected": "raste",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:078:blocks/5/text:436",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "078",
+    "field": [
+      "blocks",
+      5,
+      "text"
+    ],
+    "source_offset": 436,
+    "original": " Krigen med Spanien i 1898 har ført med sig at de forenede stater har erhvervet sig kolonier og skaffet sig en ordentlig hær og flaade, og gjør fordring paa at betragtes som en stormagt ved siden af Europas første stater.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 157,
+    "word": "at",
+    "expected": "å",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:079:blocks/30/text:452",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "079",
+    "field": [
+      "blocks",
+      30,
+      "text"
+    ],
+    "source_offset": 452,
+    "original": " desuden erklærede de at Norge under de daværende forhold ikke med sin bedste vilje kunde betale en saa stor sum.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Norge"
+    ],
+    "year": 1899,
+    "at": 9,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:079:blocks/41/text:1478",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "079",
+    "field": [
+      "blocks",
+      41,
+      "text"
+    ],
+    "source_offset": 1478,
+    "original": " Kongen sanktionerede denne beslutning.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 8,
+    "word": "sanktionerede",
+    "expected": "sanksjonerte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:079:blocks/50/text:1487",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "079",
+    "field": [
+      "blocks",
+      50,
+      "text"
+    ],
+    "source_offset": 1487,
+    "original": " Nordmændene protesterede enstemmig herimod, og det endte med at kongen vistnok negtede beslutningen sanktion, men gjorde dette i norsk statsraad, for at betegne at de svenske statsmagter ikke havde med sagen at gjøre.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [],
+    "year": 1899,
+    "at": 13,
+    "word": "protesterede",
+    "expected": "protesterte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:081:blocks/3/text:761",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "081",
+    "field": [
+      "blocks",
+      3,
+      "text"
+    ],
+    "source_offset": 761,
+    "original": " Preussen og Østerrig erklærede Danmark krig (1864) og tvang de danske til at opgive forsvaret af Dannevirke og trække sig tilbage til øen Als og Dybbøl, som danner en fast stilling paa fastlandet ved Alssundet.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Als",
+      "Danmark"
+    ],
+    "year": 1899,
+    "at": 22,
+    "word": "erklærede",
+    "expected": "erklærte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  },
+  {
+    "id": "raeder-1899:081:blocks/5/text:324",
+    "source": "https://www.nb.no/items/URN:NBN:no-nb_digibok_2009051203013",
+    "book": "raeder-1899",
+    "piece": "081",
+    "field": [
+      "blocks",
+      5,
+      "text"
+    ],
+    "source_offset": 324,
+    "original": " Danmark fik af alle deri interesserede stater en større sum som erstatning.",
+    "lang": "nob",
+    "nouncaps": false,
+    "names": [
+      "Danmark"
+    ],
+    "year": 1899,
+    "at": 26,
+    "word": "interesserede",
+    "expected": "interesserte",
+    "note": "Expected target reviewed independently by a second agent; not human gold."
+  }
+]

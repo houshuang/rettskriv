@@ -23,7 +23,7 @@ class CandidateSafeguards(unittest.TestCase):
 
     def test_possessive_participle_is_not_ranked_as_finite_verb(self):
         self.assertEqual(self.choices('Hendes opkastede Læbe viste Spor', 'opkastede'),
-                         {'opkastede'})
+                         {'opkastede', 'oppkastede'})  # same-lemma agreeing adjective
         self.assertIn('oppkastet', self.choices('han opkastede en Vold', 'opkastede'))
 
     def test_real_attributive_and_coordinated_forms_preserve(self):
