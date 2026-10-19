@@ -85,6 +85,10 @@ exhaustive annotation of unchanged text or a guarantee against regressions. See 
 
 ## Known weaknesses
 
+Earlier reviews identified the failure classes below. Later safeguards now preserve
+more uncertain forms, but they do not provide a complete historical grammar; these
+remain areas to check when evaluating a new corpus.
+
 - **Conservative by design.** "Leave it as printed" is always allowed, so old forms
   remain where they have two readings and the neighbouring words do not settle which:
   *tog* (= *tok*, or the noun *tog*), *vare* (= *var*, or goods), *ved* (= *vet*, or the
