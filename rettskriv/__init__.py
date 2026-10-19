@@ -13,14 +13,36 @@ from functools import lru_cache
 
 from .engine import Engine, Result
 
-__all__ = ["Engine", "Result", "engine", "modernise", "modernise_result", "prepare"]
+__all__ = ["Engine", "Result", "engine", "book_engine", "modernise", "modernise_result", "prepare"]
 
 
 @lru_cache(maxsize=None)
-def engine(lang: str = "nob") -> Engine:
+def _resources(lang: str = "nob") -> Engine:
     """A shared engine for "nob" (riksmål/Dano-Norwegian -> bokmål) or "nno"
     (landsmål -> nynorsk). Loading takes a few seconds the first time."""
     return Engine(lang)
+
+
+def engine(lang: str = "nob") -> Engine:
+    """Return isolated book state sharing the read-only linguistic resources."""
+    from copy import copy
+    eng = copy(_resources(lang))
+    eng.names = set()
+    eng.nouncaps = False
+    eng.year = None
+    eng._cand = {}
+    return eng
+
+
+def book_engine(texts: list[str], lang: str = "nob", *, year: int | None = None,
+                nouncaps: bool | None = None) -> Engine:
+    """Analyse book context once; reuse this engine for its paragraphs."""
+    eng = engine(lang)
+    eng.learn_book(texts)
+    eng.year = year
+    if nouncaps is not None:
+        eng.nouncaps = nouncaps
+    return eng
 
 
 def modernise(
@@ -30,6 +52,7 @@ def modernise(
     context: list[str] | None = None,
     year: int | None = None,
     nouncaps: bool | None = None,
+    protected: list[tuple[int, int]] | None = None,
 ) -> str:
     """The modern spelling of `text`.
 
@@ -40,7 +63,7 @@ def modernise(
     Dano-Norwegian before 1907 does). `year` is the printing year, used by a few lexicon
     rows. `verse` keeps line breaks.
     """
-    return modernise_result(text, lang, verse, context, year, nouncaps).text
+    return modernise_result(text, lang, verse, context, year, nouncaps, protected).text
 
 
 def modernise_result(
@@ -50,15 +73,12 @@ def modernise_result(
     context: list[str] | None = None,
     year: int | None = None,
     nouncaps: bool | None = None,
+    protected: list[tuple[int, int]] | None = None,
 ) -> Result:
     """Like modernise(), but returns the Result: .text, and .changes, a list of
     {"at": offset in the printed text, "from", "to", "why": the deciding step}."""
-    eng = engine(lang)
-    eng.learn_book(context if context is not None else [text])
-    eng.year = year
-    if nouncaps is not None:
-        eng.nouncaps = nouncaps
-    return eng.modernise(text, verse=verse)
+    eng = book_engine(context if context is not None else [text], lang, year=year, nouncaps=nouncaps)
+    return eng.modernise(text, verse=verse, protected=protected)
 
 
 def prepare(texts: list[str], lang: str = "nob") -> int:
@@ -81,5 +101,5 @@ def prepare(texts: list[str], lang: str = "nob") -> int:
     todo = [w for w in dict.fromkeys(wanted) if w not in have]
     if todo:
         fetch(todo, lang)
-        engine.cache_clear()
+        _resources.cache_clear()
     return len(todo)

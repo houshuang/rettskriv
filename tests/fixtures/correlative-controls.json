@@ -1,0 +1,184 @@
+[
+  {
+    "id": "caption-witness",
+    "source": "Soldaterne, saavel ved denne Leilighed, som ved et Offergilde, forfærdede Vidner.",
+    "word": "forfærdede",
+    "at": 63,
+    "constructed": true,
+    "rationale": "Nominal caption: soldiers as frightened witnesses; not a finite assertion.",
+    "expected": "preserve",
+    "expect_certification": true
+  },
+  {
+    "id": "caption-father",
+    "source": "Kongen, saavel ved denne Leilighed, som ved et Offergilde, elskede Fader.",
+    "word": "elskede",
+    "at": 59,
+    "constructed": true,
+    "rationale": "Nominal apposition beloved father; family may be ineligible, keep as eligibility control.",
+    "expected": "preserve",
+    "expect_certification": true
+  },
+  {
+    "id": "caption-approved-father",
+    "source": "Kongen, saavel ved denne Leilighed, som ved et Offergilde, velsignede Fader.",
+    "word": "velsignede",
+    "at": 59,
+    "constructed": true,
+    "rationale": "Nominal caption/apposition blessed father, not blessed somebody.",
+    "expected": "preserve",
+    "expect_certification": true
+  },
+  {
+    "id": "caption-boys",
+    "source": "Børnene, saavel ved denne Leilighed, som ved et Offergilde, udmærkede Sangere.",
+    "word": "udmærkede",
+    "at": 60,
+    "constructed": true,
+    "rationale": "Caption/apposition excellent singers; cannot choose active distinguished singers.",
+    "expected": "preserve",
+    "expect_certification": true
+  },
+  {
+    "id": "relative-subject",
+    "source": "Kongen, som ved denne Leilighed opmuntrede Folket, forøgede Vagten.",
+    "word": "forøgede",
+    "at": 51,
+    "constructed": true,
+    "rationale": "Real relative clause: som subject must never be removed as correlative.",
+    "expected": "preserve",
+    "expect_certification": false
+  },
+  {
+    "id": "relative-nested",
+    "source": "Kongen, saavel ved denne Leilighed, som ved et Offergilde hyldede Folket, forøgede Vagten.",
+    "word": "forøgede",
+    "at": 74,
+    "constructed": true,
+    "rationale": "Verb inside purported second PP prevents certification even when source is noisy.",
+    "expected": "preserve",
+    "expect_certification": false
+  },
+  {
+    "id": "np-main-clause",
+    "source": "De, saavel ved denne Leilighed, som ved et Offergilde, udmærkede Sangere bleve hjemme.",
+    "word": "udmærkede",
+    "at": 55,
+    "constructed": true,
+    "rationale": "Discontinuous subject NP; later finite predicate bleve blocks treating adjective as root.",
+    "expected": "preserve",
+    "expect_certification": true
+  },
+  {
+    "id": "copular-context",
+    "source": "Soldaterne vare, saavel ved denne Leilighed, som ved et Offergilde, forfærdede Vidner.",
+    "word": "forfærdede",
+    "at": 68,
+    "constructed": true,
+    "rationale": "Explicit copula and predicate noun phrase; no active past.",
+    "expected": "preserve",
+    "expect_certification": true
+  },
+  {
+    "id": "passive-context",
+    "source": "Børnene bleve, saavel ved denne Leilighed, som ved et Offergilde, forsynede med Mad.",
+    "word": "forsynede",
+    "at": 66,
+    "constructed": true,
+    "rationale": "Shared passive auxiliary governs perfect participle, not finite past.",
+    "expected": "preserve",
+    "expect_certification": true
+  },
+  {
+    "id": "unknown-noun",
+    "source": "Kongens Venlighed, saavel ved denne Xylobrande, som ved et Offergilde, forøgede Folkets Mod.",
+    "word": "forøgede",
+    "at": 71,
+    "constructed": true,
+    "rationale": "Unknown noun must reject deletion proof, not be assumed noun by capitalization.",
+    "expected": "preserve",
+    "expect_certification": false
+  },
+  {
+    "id": "incomplete-pp",
+    "source": "Kongens Venlighed, saavel ved denne, som ved et Offergilde, forøgede Folkets Mod.",
+    "word": "forøgede",
+    "at": 60,
+    "constructed": true,
+    "rationale": "Missing head noun in first PP.",
+    "expected": "preserve",
+    "expect_certification": false
+  },
+  {
+    "id": "nested-pp",
+    "source": "Kongens Venlighed, saavel ved denne Leilighed i Salen, som ved et Offergilde, forøgede Folkets Mod.",
+    "word": "forøgede",
+    "at": 78,
+    "constructed": true,
+    "rationale": "Nested PP exceeds bounded recognized phrase.",
+    "expected": "preserve",
+    "expect_certification": false
+  },
+  {
+    "id": "quotation",
+    "source": "Kongens Udtryk, »saavel ved denne Leilighed, som ved et Offergilde«, forøgede Folkets Undren.",
+    "word": "forøgede",
+    "at": 69,
+    "constructed": true,
+    "rationale": "Quoted wording is a mention, not detachable grammatical adjunct.",
+    "expected": "preserve",
+    "expect_certification": false
+  },
+  {
+    "id": "footnote-body",
+    "source": "Kongens Venlighed, saavel ved denne Leilighed, som ved et Offergilde paa Hlade*) se Noten, forøgede Folkets Mod.",
+    "word": "forøgede",
+    "at": 91,
+    "constructed": true,
+    "rationale": "Footnote text must not be swallowed as part of certified place.",
+    "expected": "preserve",
+    "expect_certification": false
+  },
+  {
+    "id": "protected-adjunct",
+    "source": "Kongens Føielighed, saavel ved denne Leilighed, som ved et Offergilde paa Hlade*), forøgede Thrøndernes Overmod.",
+    "word": "forøgede",
+    "at": 83,
+    "constructed": true,
+    "rationale": "Protected adjunct token blocks deletion proof.",
+    "expected": "preserve",
+    "expect_certification": false,
+    "protected": [
+      [
+        37,
+        46
+      ]
+    ]
+  },
+  {
+    "id": "protected-target",
+    "source": "Kongens Føielighed, saavel ved denne Leilighed, som ved et Offergilde paa Hlade*), forøgede Thrøndernes Overmod.",
+    "word": "forøgede",
+    "at": 83,
+    "constructed": true,
+    "rationale": "Protected target must never be replaced.",
+    "expected": "preserve",
+    "expect_certification": true,
+    "protected": [
+      [
+        83,
+        91
+      ]
+    ]
+  },
+  {
+    "id": "positive-shaped",
+    "source": "Kongens Føielighed, saavel ved denne Leilighed, som ved et Offergilde paa Hlade*), forøgede Thrøndernes Overmod.",
+    "word": "forøgede",
+    "at": 83,
+    "constructed": true,
+    "rationale": "Positive finite subject/object assertion with complete correlative adjunct.",
+    "expected": "forøket",
+    "expect_certification": true
+  }
+]

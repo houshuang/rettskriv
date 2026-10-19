@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from rettskriv.statistics import precision_lower
 from rettskriv.engine import Engine  # noqa: E402
 from rettskriv.rules import OBLIGATORY  # noqa: E402
 from tools.ingest import packets, verdicts  # noqa: E402
@@ -72,13 +73,15 @@ def main() -> None:
             continue
         precision = c["right"] / n
         mark = ""
-        if n >= args.min_n and precision >= args.min_precision:
+        lower = precision_lower(c["right"], n)
+        if n >= args.min_n and lower >= args.min_precision:
             trusted.append(sig)
             mark = "  TRUSTED"
-        print(f"{n:6d} {precision:6.3f}  {sig}{mark}   e.g. {'; '.join(wrong[sig][:4])}")
+        print(f"{n:6d} {precision:6.3f}  {sig}{mark} lower95={lower:.4f}   e.g. {'; '.join(wrong[sig][:4])}")
     if args.write:
         path = ROOT / "data" / "trusted-chains.json"
         existing = json.loads(path.read_text()) if path.exists() else {}
+        existing["_note"] = "Optional chains: one-sided 95% exact binomial precision lower bound >= 99.5%. Obligatory chains remain an explicit policy exception, not a statistical guarantee."
         existing[args.lang] = sorted(set(trusted) | {"obligatory"})
         path.write_text(json.dumps(existing, indent=1) + "\n")
         print("wrote", path)

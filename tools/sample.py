@@ -24,11 +24,13 @@ def main() -> None:
     parser.add_argument("--name", required=True)
     parser.add_argument("--seed", default="rettskriv-eval")
     parser.add_argument("--per-book", type=int, default=4)
-    parser.add_argument("--min-words", type=int, default=40)
+    parser.add_argument("--min-words", type=int, default=1)
     parser.add_argument("--forms", type=Path, help="only paragraphs that change one of these old forms (one per line)")
     args = parser.parse_args()
     forms = set(args.forms.read_text().split()) if args.forms else None
     OUT.mkdir(parents=True, exist_ok=True)
+    if (OUT / f"{args.name}.json").exists() or (OUT / f"{args.name}.md").exists():
+        raise SystemExit("sample name already exists; use a new name")
     rng = random.Random(args.seed)
     engines = {"nob": Engine("nob"), "nno": Engine("nno")}
     units, md = [], [f"# Acceptance sample {args.name}\n"]
@@ -48,7 +50,7 @@ def main() -> None:
             if lang not in engines:
                 continue
             for path, text, verse in corpus.units(item):
-                if path[0] == "blocks" and len(text.split()) >= args.min_words:
+                if len(text.split()) >= args.min_words:
                     candidates.append((item, path, text, verse, lang))
         if forms is not None:
             hits = []

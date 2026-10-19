@@ -2,7 +2,7 @@
 
 Spelling modernisation for historical Norwegian: Dano-Norwegian and riksmål (about
 1800–1930) to modern bokmål, and landsmål to modern nynorsk. Same words, today's
-spelling and inflection, and **never a change of meaning**: when the program is not sure,
+spelling and inflection, with **meaning preservation as the goal, not a guarantee**: when the program is not sure,
 it leaves the word as printed.
 
 > Glatsnogen er rødbrun, med sorte Flekker paa Hovedet og to mindre langs efter Ryggen.
@@ -18,7 +18,8 @@ two noun capitals.)
 
 It was built to give 27 digitised Norwegian school readers (1824–1931, 1.9 million words)
 a modern-spelling reading layer next to the printed text. It is deterministic, needs no
-model at run time and has no dependencies beyond Python's standard library. The
+model at run time and has no dependencies beyond Python's standard library by default.
+An experimental, explicitly enabled parser pass is available below. The
 intelligence is in a lexicon of about 64,000 decisions, each audited by language models
 against the actual passages.
 
@@ -35,15 +36,16 @@ python3 -m rettskriv --lookup book.txt         # first fetch N-gram data for new
 ```
 
 ```python
-from rettskriv import modernise, modernise_result, prepare
+from rettskriv import modernise, book_engine, prepare
 
 modernise("Han gik ud af Huset.", nouncaps=True)       # 'Han gikk ut av huset.'
 modernise("Eg hev set det.", lang="nno")               # 'Eg har set det.'
 
 book = [...]                                           # every paragraph of the book
 prepare(book)                                          # optional, network: N-gram data for new forms
+reader = book_engine(book)                             # learn book context once
 for paragraph in book:
-    result = modernise_result(paragraph, context=book)
+    result = reader.modernise(paragraph)
     result.text, result.changes                        # changes: [{"at", "from", "to", "why"}]
 ```
 
@@ -52,7 +54,7 @@ are capitalised and which capitalised words are names. Python 3.11 or newer.
 
 ## How good it is
 
-Measured by Claude Opus reviewers on fresh random paragraphs, judging every change
+Historical results for `ce74a11`, measured by Claude Opus reviewers on fresh random paragraphs, judging every change
 ([details](docs/evaluation.md)):
 
 | | Corpus it was built on | Four unseen books (Hamsun, Ibsen, Wergeland, 1840–1900) |
@@ -64,15 +66,28 @@ Measured by Claude Opus reviewers on fresh random paragraphs, judging every chan
 | Old forms left that mislead a reader | ~0.75 per 100 changes | ~10 per 100 changes |
 | Words changed | 32.0% | 27% |
 
-(The corpus column is the latest release; the unseen books were measured one round
-earlier, before about 120 context rows were added.)
+(Both columns describe historical evaluations, not the current PR. The unseen books
+were measured one round before the corpus column.)
 
-On text like the corpus it is close to finished. On unseen text it stays as safe but
-leaves more old spelling: an author's own forms that the lexicon has never seen are left
-as printed unless a trusted rule covers them. One audit round over a new text's forms
-(see [how it works](docs/how-it-works.md)) closes most of that gap.
+These model-reviewed samples do not establish an independent error guarantee.
+The robustness changes after `ce74a11` have not yet received human acceptance review.
+On unseen text the evaluated version leaves more old spelling: an author's own forms that the lexicon has never seen are left
+as printed unless a trusted rule covers them. A new corpus needs its own held-out evaluation; adding audited forms may improve coverage.
+
+The subsequent robustness campaign replayed 36 complete books and one complete story
+(2,500,544 routed words). In a targeted audit of 62 correct modernizations previously
+withheld by safeguards, the default engine recovered 38 and the optional parser
+recovered 44. All 12 malformed-output protections in that audit remained intact.
+The parser supplied 91 independently model-reviewed improvements across the corpus;
+no newly incorrect retained edit was observed in that comparison. This is not an
+exhaustive annotation of unchanged text or a guarantee against regressions. See the
+[campaign wrap-up](docs/robustness-wrapup.md) for scope and remaining cases.
 
 ## Known weaknesses
+
+Earlier reviews identified the failure classes below. Later safeguards now preserve
+more uncertain forms, but they do not provide a complete historical grammar; these
+remain areas to check when evaluating a new corpus.
 
 - **Conservative by design.** "Leave it as printed" is always allowed, so old forms
   remain where they have two readings and the neighbouring words do not settle which:
@@ -112,13 +127,70 @@ as printed unless a trusted rule covers them. One audit round over a new text's 
 
 Per word, in order: a curated, context-conditioned lexicon; name protection; forms
 the modern word bank already allows (unless the NB N-gram shows the form died out after
-1910); respelling rules, applied only when their chain has proved ≥ 99.5% precise in the
-audits; and grammar rules for the *-ede* past and plural verbs. The lexicon was built by
+1910); respelling rules, applied only when their chain has a one-sided 95% precision lower bound of ≥ 99.5% in the
+audits (obligatory letter rules are an explicit policy exception); and grammar rules for the *-ede* past and plural verbs. The lexicon was built by
 running every form of the corpus through Sonnet auditors, Opus verifiers and an Opus
 homograph screen, then fixing every error the acceptance reviewers found.
 [docs/how-it-works.md](docs/how-it-works.md) has the details, the lexicon format and the
 tools for applying it to a new corpus; [docs/briefs/](docs/briefs/) has the model
 instructions.
+
+## Experimental dependency recovery
+
+The default path remains conservative and model-free. An optional second pass
+uses reviewed historical lemma identities plus agreement between Danish and Bokmål
+dependency parsers. It never uses parser fluency to choose a word's historical sense.
+It is experimental: agreement can reproduce shared parser mistakes, and the current
+review is development evidence, not human gold. See the
+[parser evaluation](docs/dependency-parser-evaluation.md) for measured results and limitations.
+
+From a source checkout, explicitly install the optional dependency and models once:
+
+```sh
+python3 -m pip install -e '.[dependency-parser]'
+python3 -c "import stanza; [stanza.download(lang, model_dir='data/stanza', package='default_fast', processors='tokenize,pos,lemma,depparse') for lang in ('da', 'nb')]"
+```
+
+```python
+from rettskriv import book_engine
+from rettskriv.dependency import DependencyResolver
+
+resolver = DependencyResolver('data/stanza')  # local models; no automatic download
+reader = book_engine(paragraphs, lang='nob', year=1852, nouncaps=True)
+result = reader.modernise(paragraphs[0], resolver=resolver)
+print(result.text)
+print(resolver.errors)  # parse failures preserve the conservative output
+```
+
+For structured books, `tools/replay_book.py --dependency-models data/stanza`
+opts in while preserving language and verse routing. Optional live tests run with
+`RETTSKRIV_DEPENDENCY_MODELS=data/stanza python3 -m unittest tests.test_dependency_models`.
+Stanza 1.15.0 is required; model installation is an explicit network operation.
+
+## Building reading editions
+
+The `tools/` adapters read Bookifier Lesebok `book.json` files without changing the
+printed sources. Set `RETTSKRIV_CORPUS` to the work folder and
+`RETTSKRIV_LESEBOK_SCRIPTS` to the edition builder scripts when they are outside
+`~/src/bookifier/lesebok`. The HTML/EPUB builders read their own `common.WORK`;
+that folder must contain the same books used to generate the layers. Changing only
+`RETTSKRIV_CORPUS` does not redirect those builders. See
+[the corpus format](docs/corpus-format.md).
+
+```sh
+# Omit --dependency-models for the default, model-free engine.
+python3 tools/build.py --out out/modern.next --dependency-models data/stanza
+python3 tools/render_site.py --layers out/modern.next --site out/site.next
+python3 tools/build_epub.py --layers out/modern.next --out out/epub.next
+```
+
+These commands rebuild every available corpus book unless book IDs are supplied.
+The layer stores changed fields and remapped page offsets; HTML and both modern and
+parallel EPUBs consume that same layer. The EPUB build requires `epubcheck` and
+refuses success if any file fails validation. Parser errors also fail the edition
+build, rather than silently publishing a partially recovered batch. Build into fresh
+folders, validate coverage against the intended library, and only then replace the
+consumer's generated assets. Original editions remain the source for quotations.
 
 ## Related work
 
@@ -150,7 +222,10 @@ If you know of other work, please open an issue.
 
 ## Status
 
-Finished in October 2026 for its original purpose. Issues and pull requests with lexicon
+Built in October 2026 for its original corpus; robustness work is ongoing.
+See the [campaign wrap-up](docs/robustness-wrapup.md) and
+[robustness and benchmarking](docs/robustness.md) for safeguards, evaluation
+commands, and the human review still required. Issues and pull requests with lexicon
 corrections are welcome; a correction is a row in `lexicon/<norm>/core.csv`.
 
 ## Licence

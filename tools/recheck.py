@@ -29,7 +29,7 @@ def main() -> None:
         by_n = {c["n"]: (u, c) for u in units for c in u["changes"]}
         books = {}
         for row in csv.DictReader(open(EVAL / f"{name}.review.tsv"), delimiter="\t"):
-            if row["kind"] == "miss" or not row["n"].strip().isdigit():
+            if row["kind"] in {"miss", "ok"} or not row["n"].strip().isdigit():
                 continue
             unit, change = by_n[int(row["n"])]
             book = unit["book"]

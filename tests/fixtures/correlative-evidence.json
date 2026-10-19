@@ -1,0 +1,667 @@
+{
+  "id": "('faye-1852', '004', ('blocks', 2, 'text'))",
+  "source": "Uagtet Hakon ved sin vennesæle Færd havde erhvervet sig sine Landsmænds Kjærlighed, var det dog ikke langt fra, at det var kommet til alvorlige Optrin imellem Kongen og Thrønderne. Folket var endnu hedensk og kjendte ikke den ene sande Gud og hans Villie. Det dyrkede derimod mange Afguder som Odin, Thor, Freyr, Baldr, Frygga, Freya o. fl., til hvilke de paa bestemte Høitider, især ved Julefesten, offrede Dyr, fornemlig Heste, og stundom endog Mennesker. Hakon, som i England var bleven opdragen i den christne Tro, ansaa det for sin Pligt at gjøre sine Undersaatter bekjendte med den sande Tro. Han indkaldte derfor engelske Præster, byggede nogle Kirker og fik nogle af sine fortrolige Venner til at lade sig døbe. Endelig fremtraadte han i en talrig Forsamling paa Frostathing og bød Alle at tro paa een Gud og forsage alle Offringer, helligholde hver syvende Dag og faste een Dag i hver Uge. Dette Forslag opvakte stor Knurren blandt Almuen. Den djerve Asbjørn af Medalhus, en rig Bonde, reiste sig nu og erklærede i en kraftfuld Tale, at Bønderne ei vilde forsage den Tro, som deres Fædre fra Slægt til Slægt havde havt, og som derhos havde hjulpet dem selv, og at de vilde kaare sig en anden Høvding, under hvilken de kunde beholde deres Tro, hvis Kongen ei inden Thinget blev sluttet, vilde forandre sit Forsæt. Kongens Føielighed, saavel ved denne Leilighed, som ved et Offergilde paa Hlade*), forøgede Thrøndernes Overmod. De dræbte hans Præster, brændte hans Kirker og tvang ham ved en Juleoffring paa Mære til at spise Hestelever, som den Tids Christne betragtede som en Vederstyggelighed, og til at drikke alle de Offerbægre, som Bønderne iskjænkede for ham, uden at gjøre Kors over dem. Opbragt forlod Hakon Thinget og lovede at gjengjælde Thrønderne deres Overmod. Han samlede en Hær, og Rygtet gik, at det gjaldt Thrøndelagen, da udvortes Fiender afværgede en Borgerkrig. Disse Fiender vare den fordrevne Eirik Blodøxes Sønner. Efterat deres Fader nemlig var dræbt i England, vare de med deres berygtede Moder Gunhild dragne til den danske Konge Harald Blaatand, som understøttede dem med Folk og Skibe for at støde Hakon fra Thronen eller i det mindste svække den farlige Naboes Kraft. Saasnart Hakon fik Underretning om denne Ufred, forligte han sig med Thrønderne og slog sine Fiender, først i et blodigt Slag paa Augvaldsnes*) og nogle Aar senere paa Rastar-Kalf paa Freidø, hvor den gamle Eigill Ullserk ved sin Klogskab og sit Mod hjalp Hakon til en Seier over mangefold flere Fiender.",
+  "lang": "nob",
+  "year": 1852,
+  "nouncaps": true,
+  "names": [
+    "Aaret",
+    "Aasen",
+    "Abed",
+    "Admiral",
+    "Adolf",
+    "Af",
+    "Akershus",
+    "Alexander",
+    "Alf",
+    "Andreas",
+    "Areson",
+    "Armfelt",
+    "Arnbjørn",
+    "Asbjørn",
+    "Astrid",
+    "Axel",
+    "Baardssøn",
+    "Balduin",
+    "Baptista",
+    "Barfods",
+    "Bayern",
+    "Bergen",
+    "Berntsen",
+    "Bilde",
+    "Birgerssøn",
+    "Bjergstaden",
+    "Blaatand",
+    "Blodøxe",
+    "Blodøxes",
+    "Brevik",
+    "Brug",
+    "Brun",
+    "Bræstersøn",
+    "Brøgger",
+    "Bull",
+    "Bøn",
+    "Carl",
+    "Christen",
+    "Christian",
+    "Christiania",
+    "Christie",
+    "Claus",
+    "Clausson",
+    "Colbjørnsen",
+    "Danmark",
+    "Edvard",
+    "Einar",
+    "Eirik",
+    "Eiriksson",
+    "Engelbrektson",
+    "Erik",
+    "Erling",
+    "Estridson",
+    "Fjeld",
+    "Frederiks",
+    "Freyr",
+    "Georg",
+    "Gille",
+    "Gilles",
+    "Godvinson",
+    "Grenske",
+    "Grimkell",
+    "Grønland",
+    "Gudbrand",
+    "Gudbrandsdalen",
+    "Gudrun",
+    "Gunhild",
+    "Gustaf",
+    "Haardraades",
+    "Hafrsfjord",
+    "Halden",
+    "Halmstad",
+    "Halvard",
+    "Hamar",
+    "Hannover",
+    "Hans’s",
+    "Harald",
+    "Heimskringla",
+    "Helgeland",
+    "Herdabreid",
+    "Herman",
+    "Hof",
+    "Holberg",
+    "Holstein",
+    "Hordaland",
+    "Hovland",
+    "Høland",
+    "Inge",
+    "Island",
+    "Ivarsson",
+    "Jacob",
+    "Jarisleif",
+    "Jarler",
+    "Jerusalem",
+    "Johan",
+    "Jon",
+    "Jonas",
+    "Jonson",
+    "Jonsson",
+    "Jordan",
+    "Jorsalfarer",
+    "Jorsalfarers",
+    "Josephine",
+    "Julius",
+    "Kalmar",
+    "Karl",
+    "Karmsund",
+    "Kiel",
+    "Kingos",
+    "Kjeld",
+    "Klims",
+    "Klungenes",
+    "Knut",
+    "Knutson",
+    "Knutsson",
+    "Kongsberg",
+    "Krig",
+    "Krigen",
+    "Kronprinds",
+    "Kruse",
+    "Kyrre",
+    "Lagabøters",
+    "Lars",
+    "Leif",
+    "Ludvig",
+    "Luther",
+    "Magnus",
+    "Mandal",
+    "Margretas",
+    "Martin",
+    "Medregenter",
+    "Middelhavet",
+    "Minde",
+    "Mogens",
+    "Moss",
+    "Mostr",
+    "Mostrstang",
+    "Munchhaven",
+    "Munthe",
+    "Nidaros",
+    "Nils",
+    "Nordahl",
+    "Norden",
+    "Nordenfjeldske",
+    "Norge",
+    "Odin",
+    "Olaf",
+    "Oscar",
+    "Oslo",
+    "Otto",
+    "Paars",
+    "Peder",
+    "Peter",
+    "Pommern",
+    "Pram",
+    "Præstehader",
+    "Ragnhild",
+    "Ragnvald",
+    "Ramus",
+    "Randsfjorden",
+    "Regjeringen",
+    "Reichwein",
+    "Ringerike",
+    "Romsdalen",
+    "Rosenborg",
+    "Roskilde",
+    "Sarpsborg",
+    "Sigmund",
+    "Sigrid",
+    "Sigurd",
+    "Sigurdson",
+    "Sigurdsson",
+    "Sigurdssøn",
+    "Sigvald",
+    "Sinclair",
+    "Skakke",
+    "Skakkes",
+    "Skjalgssøn",
+    "Skotkonung",
+    "Skøtkonung",
+    "Slemmedegn",
+    "Smek",
+    "Snorre",
+    "Sognefjorden",
+    "Sommerfelt",
+    "Stahl",
+    "Stavanger",
+    "Stavngjemmer",
+    "Steen",
+    "Stenbock",
+    "Stettin",
+    "Stord",
+    "Storm",
+    "Stridigheder",
+    "Sture",
+    "Sturlason",
+    "Sturlasons",
+    "Svale",
+    "Sveinns",
+    "Sverige",
+    "Sverrer",
+    "Sverressøn",
+    "Sverrir",
+    "Syr",
+    "Syrs",
+    "Syvertsen",
+    "Søhelten",
+    "Thambarskjelver",
+    "Thambarskjelvers",
+    "Thjodrek",
+    "Thor",
+    "Thora",
+    "Thoralf",
+    "Thore",
+    "Thorgeir",
+    "Thorleif",
+    "Thormod",
+    "Tilnavnet",
+    "Torfesen",
+    "Toste",
+    "Tryggvason",
+    "Tryggvasons",
+    "Tunsberg",
+    "Tønsberg",
+    "Ulf",
+    "Ullensaker",
+    "Ulrica",
+    "Ulrik",
+    "Urtekjender",
+    "V",
+    "VI",
+    "VII",
+    "Viisdom",
+    "Wahl",
+    "Wasa’s",
+    "York",
+    "Øen",
+    "Østen"
+  ],
+  "target": [
+    1405,
+    1413
+  ],
+  "expected": "forøket",
+  "nodes": [
+    [
+      {
+        "span": [
+          1330,
+          1340
+        ],
+        "upos": "NOUN",
+        "feats": [
+          "Definite=Ind",
+          "Gender=Com",
+          "Number=Sing"
+        ],
+        "relation": "nsubj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": [
+          [
+            "nmod:poss",
+            [
+              1322,
+              1329
+            ]
+          ],
+          [
+            "conj",
+            [
+              1342,
+              1348
+            ]
+          ]
+        ]
+      },
+      {
+        "span": [
+          1370,
+          1373
+        ],
+        "upos": "PRON",
+        "feats": [
+          "PartType=Inf"
+        ],
+        "relation": "nsubj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": []
+      },
+      {
+        "span": [
+          1405,
+          1413
+        ],
+        "upos": "VERB",
+        "feats": [
+          "Mood=Ind",
+          "Tense=Past",
+          "VerbForm=Fin",
+          "Voice=Act"
+        ],
+        "relation": "root",
+        "head": null,
+        "children": [
+          [
+            "nsubj",
+            [
+              1330,
+              1340
+            ]
+          ],
+          [
+            "punct",
+            null
+          ],
+          [
+            "nsubj",
+            [
+              1370,
+              1373
+            ]
+          ],
+          [
+            "obl",
+            [
+              1381,
+              1391
+            ]
+          ],
+          [
+            "obj",
+            [
+              1426,
+              1433
+            ]
+          ],
+          [
+            "punct",
+            null
+          ]
+        ]
+      },
+      {
+        "span": [
+          1426,
+          1433
+        ],
+        "upos": "NOUN",
+        "feats": [
+          "Definite=Ind",
+          "Gender=Neut",
+          "Number=Sing"
+        ],
+        "relation": "obj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": [
+          [
+            "nmod:poss",
+            [
+              1414,
+              1425
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "span": [
+          1330,
+          1340
+        ],
+        "upos": "NOUN",
+        "feats": [
+          "Definite=Ind",
+          "Gender=Fem",
+          "Number=Sing"
+        ],
+        "relation": "nsubj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": [
+          [
+            "nmod",
+            [
+              1322,
+              1329
+            ]
+          ],
+          [
+            "nmod",
+            [
+              1359,
+              1368
+            ]
+          ],
+          [
+            "nmod",
+            [
+              1381,
+              1391
+            ]
+          ],
+          [
+            "punct",
+            null
+          ]
+        ]
+      },
+      {
+        "span": [
+          1405,
+          1413
+        ],
+        "upos": "VERB",
+        "feats": [
+          "Mood=Ind",
+          "Tense=Past",
+          "VerbForm=Fin"
+        ],
+        "relation": "root",
+        "head": null,
+        "children": [
+          [
+            "nsubj",
+            [
+              1330,
+              1340
+            ]
+          ],
+          [
+            "obj",
+            [
+              1426,
+              1433
+            ]
+          ],
+          [
+            "punct",
+            null
+          ]
+        ]
+      },
+      {
+        "span": [
+          1426,
+          1433
+        ],
+        "upos": "NOUN",
+        "feats": [
+          "Definite=Ind",
+          "Gender=Neut",
+          "Number=Sing"
+        ],
+        "relation": "obj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": [
+          [
+            "nmod",
+            [
+              1414,
+              1425
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "span": [
+          1330,
+          1340
+        ],
+        "upos": "NOUN",
+        "feats": [
+          "Definite=Ind",
+          "Gender=Com",
+          "Number=Sing"
+        ],
+        "relation": "nsubj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": [
+          [
+            "nmod:poss",
+            [
+              1322,
+              1329
+            ]
+          ]
+        ]
+      },
+      {
+        "span": [
+          1405,
+          1413
+        ],
+        "upos": "VERB",
+        "feats": [
+          "Mood=Ind",
+          "Tense=Past",
+          "VerbForm=Fin",
+          "Voice=Act"
+        ],
+        "relation": "root",
+        "head": null,
+        "children": [
+          [
+            "nsubj",
+            [
+              1330,
+              1340
+            ]
+          ],
+          [
+            "obj",
+            [
+              1426,
+              1433
+            ]
+          ],
+          [
+            "punct",
+            null
+          ]
+        ]
+      },
+      {
+        "span": [
+          1426,
+          1433
+        ],
+        "upos": "NOUN",
+        "feats": [
+          "Definite=Ind",
+          "Gender=Neut",
+          "Number=Sing"
+        ],
+        "relation": "obj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": [
+          [
+            "nmod:poss",
+            [
+              1414,
+              1425
+            ]
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "span": [
+          1330,
+          1340
+        ],
+        "upos": "NOUN",
+        "feats": [
+          "Definite=Ind",
+          "Gender=Fem",
+          "Number=Sing"
+        ],
+        "relation": "nsubj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": [
+          [
+            "nmod",
+            [
+              1322,
+              1329
+            ]
+          ]
+        ]
+      },
+      {
+        "span": [
+          1405,
+          1413
+        ],
+        "upos": "VERB",
+        "feats": [
+          "Mood=Ind",
+          "Tense=Past",
+          "VerbForm=Fin"
+        ],
+        "relation": "root",
+        "head": null,
+        "children": [
+          [
+            "nsubj",
+            [
+              1330,
+              1340
+            ]
+          ],
+          [
+            "obj",
+            [
+              1426,
+              1433
+            ]
+          ],
+          [
+            "punct",
+            null
+          ]
+        ]
+      },
+      {
+        "span": [
+          1426,
+          1433
+        ],
+        "upos": "NOUN",
+        "feats": [
+          "Definite=Ind",
+          "Gender=Neut",
+          "Number=Sing"
+        ],
+        "relation": "obj",
+        "head": [
+          1405,
+          1413
+        ],
+        "children": [
+          [
+            "nmod",
+            [
+              1414,
+              1425
+            ]
+          ]
+        ]
+      }
+    ]
+  ]
+}

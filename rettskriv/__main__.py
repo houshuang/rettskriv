@@ -39,8 +39,8 @@ def main() -> None:
             mine = [p for p, l in zip(paragraphs, langs) if l == lang]
             if mine:
                 print(f"looked up {prepare(mine, lang)} {lang} forms", file=sys.stderr)
-    for lang in ("nob", "nno"):
-        eng = engine(lang)
+    engines = {lang: engine(lang) for lang in ("nob", "nno")}
+    for lang, eng in engines.items():
         eng.learn_book([p for p, l in zip(paragraphs, langs) if l == lang] or [""])
         eng.year = args.year
         if args.nouncaps is not None:
@@ -54,7 +54,7 @@ def main() -> None:
         if lang not in ("nob", "nno") or not part.strip():
             out.append(part)
             continue
-        result = engine(lang).modernise(part, verse=args.verse)
+        result = engines[lang].modernise(part, verse=args.verse)
         if not args.changes:
             out.append(result.text)
             continue
