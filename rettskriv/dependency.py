@@ -5,6 +5,7 @@ see the conservative text before any dependency-based replacements are applied.
 The lexical gate is independent: a finite parse cannot select a historical sense.
 """
 from dataclasses import dataclass
+import re
 
 from .historical_verbs import candidates, infinitives
 
@@ -74,6 +75,46 @@ def agreement(danish, bokmal, span, finite_anchors=frozenset()):
     return wa is not None and wa == wb
 
 
+def inverted_motion_frame(engine, tokens, token):
+    """Independent source syntax for a noun/past homograph in a bounded frame.
+
+    A complete temporal clause precedes inverted verb + personal subject +
+    directional phrase, ending at overt coordination. No arbitrary words or
+    intervening verbs are skipped. Parser path/subject agreement is still needed.
+    """
+    source = ''.join(t.text for t in tokens)
+    left = source[:token.start]
+    front = re.search(
+        r'(?:^|[.!?]\s+)[Dd]a\s+(han|hun|jeg|vi)\s+(var|blev|ble)\s+([^\W\d_]+),\s*$', left)
+    if not front:
+        return False
+    adjective = engine.modern_lower(front.group(3).lower())
+    if not adjective or 'adj' not in engine.bank.tags(adjective):
+        return False
+    right = source[token.start + len(token.text):]
+    tail = re.match(
+        r'^\s+(han|hun|jeg|vi)\s+(ud|ut|ind|inn|op|opp|ned|frem|bort|hjem)'
+        r'(?:\s+(paa|på|til|i)\s+([^\W\d_]+))?\s+(og|men)\s+', right)
+    if not tail:
+        return False
+    if tail.group(4):
+        source_noun = tail.group(4).lower()
+        noun = engine.modern_lower(source_noun)
+        tags = engine.bank.tags(noun) if noun else set()
+        # Reviewed historical noun absent from the modern bank. Syntax evidence
+        # only; this does not override its spelling keep entry. NAOB documents
+        # vikingetog under vikingtog: https://naob.no/ordbok/vikingtog
+        if source_noun == 'vikingetog':
+            tags = {'subst'}
+        if 'subst' not in tags or any(t.startswith('verb') for t in tags):
+            return False
+    # Every word supplying this proof must be ordinary, unprotected source text.
+    start = front.start()
+    end = token.start + len(token.text) + tail.end()
+    return not any(t.word and t.start >= start and t.start < end
+                   and (t.reason == 'protected' or engine.subject_name(t)) for t in tokens)
+
+
 def independent_finite(engine, tokens):
     """Finite anchors from original morphology, never from a proposed edit."""
     from .engine import MINOR_TAGS, MODALS
@@ -88,7 +129,9 @@ def independent_finite(engine, tokens):
         modern = engine.modern_lower(t.lower)
         if modern is None or modern in auxiliaries:
             continue
-        if original == {'verb:pret'} or (not original and modern and engine.bank.tags(modern) - MINOR_TAGS == {'verb:pret'}):
+        if (original == {'verb:pret'}
+                or (not original and modern and engine.bank.tags(modern) - MINOR_TAGS == {'verb:pret'})
+                or (original == {'verb:pret', 'subst'} and inverted_motion_frame(engine, tokens, t))):
             anchors.add((t.start, t.start + len(t.text)))
     return frozenset(anchors)
 

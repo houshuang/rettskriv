@@ -1,5 +1,24 @@
 # Whole-book regression review, 19 October 2026
 
+## Latest remaining-case follow-up against3176829
+
+One additional opt-in original recovery (`ægtede→ektet`) brings the audit to
+**43/62 restored,19withheld**: two valid preserved forms and17 genuine misses.
+All previous73 approved edits and all12 malformed-output protections survive.
+Default behavior is unchanged. The new bounded source inversion frame disambiguates
+a noun/past homograph while retaining complete parser-path and subject agreement.
+
+Two additional whole books (Dunker1871, Thoresen1872) and a complete Thoresen1867
+story add192,222 routed words. Their16 parser improvements are independently approved;
+these validate existing safeguards and are not new-rule gains. Cumulative coverage:
+**36 complete books plus one complete story,2,500,544 routed words**,90 reviewed
+opt-in improvements. No new incorrect retained output observed, but unchanged text
+is not exhaustive gold. The new rule's observed gain is only the original case.
+
+See [the parser report](dependency-parser-evaluation.md) for every remaining case,
+source provenance, actual-model adversaries and validation. PR remains draft.
+
+
 ## Latest lexical/parser campaign against d577afe
 
 Default output is unchanged across 34 complete books: **2,308,322 routed words,

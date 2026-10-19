@@ -1,5 +1,93 @@
 # Dependency-parser evaluation, 19 October 2026
 
+## Remaining-case follow-up against 3176829
+
+This round recovers **one additional original case**, `ægtede→ektet`, in Olaf's
+voyages and marriages. The opt-in original audit is now **43/62 restored, 19 withheld**:
+two preserved forms are already valid modern readings, leaving **17 genuine misses**.
+Default output remains at 38/62. All 12 malformed-output protections and all 73
+previously approved opt-in improvements remain intact.
+
+The added evidence resolves a noun/past homograph only inside a complete bounded
+source construction: `Da` + personal subject + `var/blev/ble` + adjective, comma,
+inverted verb + personal subject + direction, optional single-noun prepositional
+phrase, then overt coordination. It skips no intervening words. Original morphology
+must be exactly noun/past-verb; names, protected words, keep entries and unresolved
+mappings still veto anchor use. Both parsers must still agree on the existing full
+finite path and subject. This adds an independent source proof, not an exception
+to parser agreement. Historical *vikingetog* is reviewed noun evidence from
+[NAOB's vikingtog entry](https://naob.no/ordbok/vikingtog); its spelling keep entry
+is not overridden. Other bank nouns and a direction without a PP are also tested.
+
+Independent challenge used actual models on 11 new grammatical negatives, including
+prepositional noun coordination (`til Børn og bedrøvede Enker`), four protected/name
+controls, and two positive controls. All 15 preservation controls remained unchanged;
+both positives recovered. An exact replay of 1,014 cached field/tree pairs found
+only the intended new original occurrence, duplicated in two evaluation sets, with
+no lost edits. Model inputs and tokenization are unchanged by this patch.
+
+Two additional complete books and one complete story were processed in full:
+[Dunker, Gamle Dage (1871)](https://www.bokselskap.no/boker/gamledage/tittelside),
+[Thoresen, Billeder fra Vestkysten af Norge (1872)](https://www.bokselskap.no/boker/vestkysten/tittelside),
+and [Thoresen, Min Bedstemoders Fortælling (1867)](https://www.bokselskap.no/boker/bedstemoder/tittelside).
+The story is not its containing anthology. The set has 1,919 paragraphs and 192,381
+engine-token words; three foreign paragraphs/159 words are skipped, leaving
+**192,222 routed words**. Dependency parsing also skips 199 verse paragraphs.
+All 87 eligible prose paragraphs were parsed, with no model errors. Independent
+review approves all **16 existing-parser improvements** (Dunker13, Vestkysten2,
+Bedstemoder1), with zero incorrect or uncertain replacements. These 16 validate
+previous safeguards on more sources; they are **not gains caused by the new rule**.
+
+Cumulative corpus coverage is **36 complete books plus one complete story,
+2,500,544 routed words**. The new rule does not add a recovery in these new works;
+its observed gain is still confined to one original case. Across this enlarged
+corpus, 90 opt-in improvements versus conservative output have independent review
+(73 earlier +16 new-source validations +1 new recovery). Unchanged text is not
+exhaustively labelled, and these judgments are not human gold. Historical edition
+transcriptions, foreign routing and source/paragraph boundaries are retained;
+no facsimile verification or excerpt-overlap claim is made.
+
+### Disposition of every remaining case
+
+| Original index / form | Why it remains withheld |
+| --- | --- |
+| 3 udvandrede | Parsers disagree on finite versus adjective; inverted subject is misanalysed. |
+| 4 forøgede | Relation, subject and coordination disagree. |
+| 9 kaarede | Fresh parsing still disagrees on finite/adjective and yields a spurious extra subject; resolving lexical sense alone would not suffice. |
+| 10 oprettede | Subject and object are reversed between parsers. |
+| 12 forøgede | Danish adds `som` as a second subject inside a correlative phrase. |
+| 27 straffede | `drog` remains ambiguous; the long fronted PP is outside the new complete temporal frame. |
+| 30 forøgede | Both parsers bury the real direct object under the prepositional phrase; a shared oblique also occurs in bad captions. |
+| 35 helligede | Passive recipient/title structure is misparsed; finite evidence cannot authorize passive inflection. |
+| 39 krænkede | Elliptical passive scope and attachment disagree. |
+| 41 overraskede | Fresh parsing: Danish finite coordination, Bokmål adjectival modifier. Expanding eligibility would not recover it. |
+| 43 befæstede | Passive ellipsis and participle attachment disagree. |
+| 45 svækkede | Immediate governor agrees but inherited subject ancestry differs, including a nonfinite governor; local agreement cannot replace full-path proof. |
+| 47 foraarsagede | Finite clause versus participial complement disagreement. |
+| 53 erobrede | One parser coordinates with an infinitive, the other with a finite verb. |
+| 57 lettede | Contextual lexical meaning is correct, but fresh parsing attaches it nonfinitely to embedded `kommen`. |
+| 64 forenede | Both parsers misread the predicate as an adjective modifying `Flid`. |
+| 70 udfærdigede | Both parsers attach the predicate as a participial modifier of the calendar date. |
+
+Case17 is the one newly recovered case and is excluded from this table. The two
+already-valid preserved forms are excluded as before. No broader oblique, immediate-
+governor or extra-subject exception was enabled. These cases need independently
+validated clause reconstruction or better historical parsing, not a weaker gate.
+
+Validation:102 tests discovered;99 pass without models and3 optional tests skip.
+All3 optional live-model tests also pass:163 real-book target assertions (159 distinct,
+four repeated across evaluation sets),91 constructed no-new-edit inputs and4 explicit
+protected/name controls. The frozen-parser tests include the new original recovery.
+Compilation and whitespace checks pass. No paid model calls; no merge or deployment.
+
+
+Private reproduction artifacts: `out/parser-round2/` holds the pinned3176829
+archive, full-source default/parser JSONL, aligned trees, baseline summary, exact
+cached replay, remaining-case dispositions, actual-model challenges and independent
+reviews. The complete new-book default pass uses the identical default code; this
+patch changes only the optional evidence path. No paid calls were added.
+
+
 ## Lexical identities and opt-in parser follow-up (against d577afe)
 
 The default output is unchanged across **34 complete books, 2,308,322 routed word

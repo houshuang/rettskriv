@@ -5,7 +5,7 @@ from unittest.mock import patch
 from types import SimpleNamespace
 
 from rettskriv import book_engine
-from rettskriv.dependency import DependencyResolver, Node, agreement, independent_finite
+from rettskriv.dependency import DependencyResolver, Node, agreement, independent_finite, inverted_motion_frame
 from rettskriv.historical_verbs import candidates, infinitives, identities, VerbIdentity
 
 FIN = frozenset({'VerbForm=Fin', 'Tense=Past', 'Mood=Ind'})
@@ -104,6 +104,37 @@ class DependencyTests(unittest.TestCase):
                 for choice in candidates(eng.bank, source):
                     self.assertTrue(choice.lemma)
                     self.assertTrue(choice.forms)
+
+    def test_bounded_inversion_proves_homograph_without_global_override(self):
+        for source in [
+            'Da han blev voxen, drog han ud paa Vikingetog og ægtede en Kvinde.',
+            'Da hun var ung, drog hun hjem og ægtede en Mand.',
+            'Da han var ung, drog han ud paa Heste og ægtede en Kvinde.',
+        ]:
+            eng = book_engine([source], nouncaps=True)
+            tokens = eng.modernise(source).tokens
+            anchor = next(t for t in tokens if t.lower == 'drog')
+            with self.subTest(source=source):
+                self.assertTrue(inverted_motion_frame(eng, tokens, anchor))
+                self.assertIn((anchor.start, anchor.start + len(anchor.text)), independent_finite(eng, tokens))
+            subject_at = source.index('han') if 'han' in source else source.index('hun')
+            protected = eng.modernise(source, protected=[(subject_at, subject_at + 3)]).tokens
+            self.assertFalse(inverted_motion_frame(eng, protected, anchor))
+            with patch.object(eng, 'subject_name', return_value=True):
+                self.assertFalse(inverted_motion_frame(eng, tokens, anchor))
+        for source in [
+            'Det drog han aldrig havde mødt, forfærdede Børnene.',
+            'Da han blev voxen, drog han havde set og forfærdede Børn.',
+            'Da han blev voxen, drog han ud havde rejst og ægtede en Kvinde.',
+            'Da han blev voxen, drog han ud paa Ukjendtx og ægtede en Kvinde.',
+            'Da han blev voxen, drog de ud paa Jagt og ægtede en Kvinde.',
+            'Billedtekst: drog han ud og forfærdede Børn.',
+        ]:
+            eng = book_engine([source], nouncaps=True)
+            tokens = eng.modernise(source).tokens
+            anchor = next(t for t in tokens if t.lower == 'drog')
+            with self.subTest(source=source):
+                self.assertNotIn((anchor.start, anchor.start + len(anchor.text)), independent_finite(eng, tokens))
 
     def test_protected_names_and_unresolved_forms_are_not_anchors(self):
         eng = book_engine(['han gikk'])

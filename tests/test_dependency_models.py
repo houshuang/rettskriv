@@ -38,3 +38,19 @@ class LiveDependencyModels(unittest.TestCase):
             with self.subTest(source=case['source']):
                 self.assertEqual(result.text, baseline.text)
         self.assertEqual(self.resolver.errors, [])
+
+    def test_inverted_homograph_preserves_protected_and_named_evidence(self):
+        source = 'Da han blev voxen, drog han ud paa Vikingetog og ægtede en Kongedatter.'
+        for word in ['drog', 'voxen', 'Vikingetog']:
+            eng = book_engine([source], nouncaps=True)
+            span = (source.index(word), source.index(word) + len(word))
+            baseline = eng.modernise(source, protected=[span])
+            result = eng.modernise(source, protected=[span], resolver=self.resolver)
+            with self.subTest(protected=word):
+                self.assertEqual(result.text, baseline.text)
+        named = source.replace('drog', 'Drog')
+        eng = book_engine([named], nouncaps=True)
+        eng.names.add('Drog')
+        self.assertEqual(eng.modernise(named, resolver=self.resolver).text,
+                         eng.modernise(named).text)
+        self.assertEqual(self.resolver.errors, [])

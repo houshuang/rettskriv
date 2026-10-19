@@ -3647,26 +3647,30 @@
     "source": "Ved Hakons Drab blev Olaf Tryggvason Konge. Vidunderlig havde hans Liv været. Paa den onde Dronning Gunhilds Anstiftelse var hans Fader, den norske Underkonge Tryggve, bleven myrdet, og hans Moder Astrid undkom kun ved en hastig Flugt. Under denne fødte hun paa en Holme i Randsfjorden en Søn, som blev kaldet Olaf. For at undgaa Gunhilds Efterstræbelser flygtede Astrid med sin unge Søn under store Farer ud af Landet. Paa en Reise til Gardarike*) blev det Skib, hvorpaa de vare, overfaldet af Sørøvere, der skilte Olaf fra hans Moder og solgte ham for en Buk til en Mand, der atter afhændede ham for en Kjole til en Estlænder ved Navn Reas. Ved en Hændelse traf han her paa sin Morbroder, der løskjøbte ham og tog ham med til Gardarike, hvor hans høie Byrd blev bekjendt og han kom i stor Yndest hos Landets Dronning. Da han blev voxen, drog han ud paa Vikingetog og ægtede først en vendisk og siden en irsk Kongedatter. Efter nogle Aars Omsværmen drog han som en kjek og berømt Helt til Norge. Med 5 Langskibe stævnede han ind ad Throndhjemsfjorden i det afgjørende Øieblik, da Almuen havde gjort Opstand mod Hakon Jarl. Thrønderne valgte nu med Glæde Olaf, som desuden var af den gamle Kongeæt, til Konge, og en gjevere Mand var vanskelig at finde. Han var stærkere og behændigere end enhver Anden. Han gik uden Borde paa Aarerne, naar hans Mænd roede et Langskib, og legede med tre Haandsaxe (korte Sværd) paa een Gang, saa at en af dem bestandig var i Luften. Han hug med begge Hænder, skjød med to Spyd ad Gangen, var saare kyndig i Bueskydning og Svømning. Han var vakker, munter, blid, vennesæl og saare gavmild, overgik Alle i Tapperhed, men var derhos hidsig og i sin Vrede grum. At plyndre paa Hav og Strand blev i de Dage ei anseet for Skam, men tvertimod for en hæderlig Syssel for enhver tapper og ærekjær Yngling. Paa et saadant Tog havde Olaf antaget den christne Tro, som han besluttede at indføre i sit Fædreneland, der paa den Tid var ganske hedensk. Med Klogskab og Overtalelse fik han Viken christnet. I det vestenfjeldske Norge dristede Almuen sig ei til at gjøre Modstand, men antog paa Mostr, Gula- og Dragseids-Thinge den nye Lære. Paa Øen Mostr paa Søndhordland lod Olaf bygge en liden Steenkirke, der endnu staar og er den ældste Kirke i Norge. Nordenfjelds fandt han vel kraftig Modstand, men ved Klogskab og Magt, der stundom udartede til oprørende Grumhed, drev han dog sit Forsæt igjennem. Olafs Omvendelsesiver indskrænkede sig ei til Norge alene, men strakte sig til Island, til det nylig fra Island opdagede Grønland og til Færøerne, hvilke sidste Helten Sigmund Bræstersøn christnede.",
     "word": "ægtede",
     "at": 869,
-    "accepted": false,
+    "accepted": true,
     "finite_anchors": [
-      [
-        1307,
-        1310
-      ],
       [
         659,
         663
       ],
       [
-        2101,
-        2106
+        839,
+        843
+      ],
+      [
+        1307,
+        1310
       ],
       [
         1622,
         1629
+      ],
+      [
+        2101,
+        2106
       ]
     ],
-    "target": null,
+    "target": "ektet",
     "nodes": [
       [
         {
@@ -4000,20 +4004,24 @@
     "accepted": false,
     "finite_anchors": [
       [
-        1307,
-        1310
-      ],
-      [
         659,
         663
       ],
       [
-        2101,
-        2106
+        839,
+        843
+      ],
+      [
+        1307,
+        1310
       ],
       [
         1622,
         1629
+      ],
+      [
+        2101,
+        2106
       ]
     ],
     "target": null,
@@ -4159,20 +4167,24 @@
     "accepted": false,
     "finite_anchors": [
       [
-        1307,
-        1310
-      ],
-      [
         659,
         663
       ],
       [
-        2101,
-        2106
+        839,
+        843
+      ],
+      [
+        1307,
+        1310
       ],
       [
         1622,
         1629
+      ],
+      [
+        2101,
+        2106
       ]
     ],
     "target": null,
