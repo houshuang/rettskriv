@@ -391,6 +391,7 @@ skibet,skipet,,,core
 skibene,skipene,,,core
 vand,vann,,,core
 vandet,vannet,,,core
+vandede,=,,Historical watering (vanne) and rejecting (vande) require different modern lemmas; finite syntax alone cannot choose,book-review:Hersleb1833-Erichsen1
 guld,gull,,,core
 sølv,sølv,,,core
 sten,stein,,,core

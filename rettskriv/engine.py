@@ -453,7 +453,7 @@ class Engine:
         direct = {"jeg", "du", "han", "hun", "vi", "man"}
         # A dictionary-known personal subject has no genitive suffix and no
         # governing preposition. Do not guess unknown capitals to be names.
-        named_subject = bool(governor and self.is_name(governor)
+        named_subject = bool(governor and self.subject_name(governor)
                              and not governor.lower.endswith("s")
                              and not any(self.bank.tags(self.neighbour_form(t)) & {"prep"}
                                          for t in left[left.index(governor) + 1:left.index(governor) + 2])
@@ -520,13 +520,44 @@ class Engine:
                            for n in range(3, len(w) - 2))
             return False
 
-        def noun_phrase(span):
-            if not span or not noun(span[-1]):
+        def genitive(t):
+            if not t.lower.endswith("s") or len(t.lower) < 4:
+                return False
+            stem = t.lower[:-1]
+            form = self.modern_lower(stem) or stem
+            return (self.bank.tags(form) <= {"subst", "prop"} and bool(self.bank.tags(form))
+                    or t.capitalised and any(e.kind == "name" for e in self.lexicon.get(stem, [])))
+
+        def noun_phrase(span, allow_present=False):
+            if not span:
+                return False
+            determined = len(span) > 1 and (span[0].lower in DETERMINERS or genitive(span[0]))
+            head_tags = tags(span[-1])
+            headed = noun(span[-1])
+            if (not headed and determined and "subst" in head_tags
+                    and head_tags <= {"subst", "verb:inf", "verb:imp", "verb:pres"}
+                    and (allow_present or "verb:pres" not in head_tags)):
+                analyses = self.bank.analyses(self.neighbour_form(span[-1]))
+                headed = any(a.tags.startswith("subst ") and
+                             (span[0].lower not in {"en", "et"} or "ent" in a.tags.split())
+                             for a in analyses)
+            if not headed:
                 return False
             modifiers = span[:-1]
-            if modifiers and modifiers[0].lower in DETERMINERS:
+            if modifiers and (modifiers[0].lower in DETERMINERS or genitive(modifiers[0])):
                 modifiers = modifiers[1:]
-            return all(tags(t) and tags(t) <= {"adj", "adj:part"} for t in modifiers)
+            for n, t in enumerate(modifiers):
+                ts = tags(t)
+                if ts & {"adj", "adj:part"} and ts <= {"adj", "adj:part", "subst", "verb:imp"}:
+                    continue
+                if t.lower in {"mange", "flere"} and "adj" in ts:
+                    continue
+                if (ts == {"adv"} and n + 1 < len(modifiers)
+                        and tags(modifiers[n + 1]) <= {"adj", "adj:part"}
+                        and tags(modifiers[n + 1])):
+                    continue
+                return False
+            return True
 
         def end_after(t, terminal=False):
             at = next(j for j in words if tokens[j] is t)
@@ -542,6 +573,13 @@ class Engine:
                 and noun_phrase(right) and end_after(right[-1], terminal=True)):
             return past, "weak-clause-object"
 
+        # Complete sentence-initial nominal subject followed by a negated
+        # predicate. Never skip an earlier verb to manufacture a subject.
+        subject = list(reversed(left))
+        if (subject and subject[0].initial and noun_phrase(subject)
+                and right and right[0].lower in {"ei", "ikke"}):
+            return past, "weak-clause-nominal-subject"
+
         # A terminal predicate after at + a complete noun subject. The
         # subject may have a clause adverb, but no copula/auxiliary is skipped.
         if end_after(tokens[i], terminal=True):
@@ -554,17 +592,108 @@ class Engine:
                         return past, "weak-clause-subject"
                     break
 
+        # A relative object clause contains a complete possessive subject,
+        # not merely a noun near som. Punctuation must introduce the relative.
+        for n, t in enumerate(left):
+            if t.lower not in {"som", "da"}:
+                continue
+            at = next(j for j in words if tokens[j] is t)
+            tp = words.index(at)
+            gap = "".join(x.text for x in tokens[words[tp - 1] + 1:at]) if tp else ""
+            subject = list(reversed(left[:n]))
+            if not re.fullmatch(r"\s*,\s*", gap) or not noun_phrase(subject):
+                break
+            if (t.lower == "som" and subject[0].lower in {"hans", "hendes", "deres", "vor", "vore"}
+                    and end_after(tokens[i], terminal=True)):
+                return past, "weak-relative-subject"
+            if (t.lower == "da" and right and right[0].lower in {"en", "et"}
+                    and noun_phrase(right) and end_after(right[-1], terminal=True)):
+                return past, "weak-clause-transitive"
+            break
+
+        # Relative som with a fronted negative object closes at the predicate.
+        if (len(left) >= 3 and [t.lower for t in left[:3]] == ["intet", "dog", "som"]
+                and end_after(tokens[i])):
+            at = next(j for j in words if tokens[j] is left[2])
+            tp = words.index(at)
+            gap = "".join(x.text for x in tokens[words[tp - 1] + 1:at]) if tp else ""
+            if re.fullmatch(r"\s*,\s*", gap):
+                return past, "weak-relative-object"
+
         # Inverted personal subject de with a clause adverb, not a noun modifier.
         if (re.fullmatch(r"\s*,\s*", before) and len(right) >= 2
                 and right[0].lower == "de" and right[1].lower in {"dog", "ikke", "aldrig"}):
             return past, "weak-clause-inversion"
 
+        # A negated inverted predicate followed by a complete possessive
+        # subject, not an attributive fragment or an unresolved second verb.
+        if (re.fullmatch(r"\s*,\s*", before) and len(right) >= 3
+                and right[0].lower in {"ei", "ikke"}
+                and right[1].lower in {"hans", "hendes", "deres", "mine", "vore"}
+                and noun_phrase(right[1:], allow_present=True) and end_after(right[-1], terminal=True)):
+            return past, "weak-clause-negative"
+
+        # A dated relative has a verified proper-name object. Dates alone do
+        # not license a verb: require the relative subject and full boundary.
+        if len(left) == 1 and left[0].lower == "der" and len(right) == 1 and self.subject_name(right[0]):
+            der_at = words[pos - 1]
+            gap = "".join(t.text for t in tokens[words[pos - 2] + 1:der_at]) if pos >= 2 else ""
+            obj_at = words[pos + 1]
+            stop = words[pos + 2] if pos + 2 < len(words) else len(tokens)
+            date = "".join(t.text for t in tokens[obj_at + 1:stop])
+            prefix = "".join(t.text for t in tokens[:der_at]).lower()
+            if (re.fullmatch(r"\s*,\s*", gap) and re.fullmatch(r"\s+[12][0-9]{3}[.!?]\s*", date)
+                    and not re.search(r"\b(?:her|hist|hisset)\b", re.split(r"[.!?;:]", prefix)[-1])):
+                return past, "weak-relative-date"
+
         # A reflexive after a verified non-genitive name makes that name the
         # subject. Require a new clause boundary, not arbitrary nearby names.
         if (re.fullmatch(r"\s*,\s*", before) and len(right) >= 2
-                and self.is_name(right[0]) and not right[0].lower.endswith("s")
+                and self.subject_name(right[0]) and not right[0].lower.endswith("s")
                 and right[1].lower == "sig"):
             return past, "weak-clause-reflexive"
+
+        # An indefinite inverted subject can carry a verified name apposition.
+        # Consume the whole subject before sig; unknown capitals are not names.
+        if right and right[0].lower in {"en", "et"}:
+            for stop, t in enumerate(right):
+                if t.lower != "sig":
+                    continue
+                span = right[:stop]
+                for split in range(2, len(span) + 1):
+                    if (noun_phrase(span[:split]) and all(self.subject_name(n) and not n.lower.endswith("s")
+                                                         for n in span[split:])):
+                        return past, "weak-clause-reflexive-np"
+                break
+
+        # Reporting coordination needs positive clausal-complement evidence,
+        # not just a reflexive bridge (roste sig og udmærkede Mænd is unsafe).
+        infinitive = self.modern_lower(tokens[i].lower[:-2])
+        if (infinitive in {"erklære", "svare"} and left and left[0].lower in {"og", "men"}
+                and right and right[0].lower == "i" and noun_phrase(right[1:])):
+            bridge = list(left[1:])
+            while bridge and bridge[0].lower in {"nu", "atter", "derefter"}:
+                bridge.pop(0)
+            if bridge and bridge[0].lower == "sig":
+                bridge.pop(0)
+                anchor = tags(bridge[0]) if bridge else set()
+                if anchor and "verb:pret" in anchor and anchor <= {"verb:pret", "adj:part"}:
+                    after = pos + len(right) + 1
+                    if after < len(words) and tokens[words[after]].lower == "at":
+                        gap = "".join(t.text for t in tokens[words[after - 1] + 1:words[after]])
+                        tail = []
+                        for n in range(after + 1, min(after + 9, len(words))):
+                            if BREAK.search("".join(t.text for t in tokens[words[n - 1] + 1:words[n]])):
+                                break
+                            tail.append(tokens[words[n]])
+                        if re.fullmatch(r"\s*,\s*", gap):
+                            for n, t in enumerate(tail[:-1]):
+                                subject = tail[:n]
+                                if subject and subject[-1].lower in {"ei", "ikke"}:
+                                    subject = subject[:-1]
+                                if (t.lower in {"vilde", "ville", "skulde", "skulle", "kunde", "kunne"}
+                                        and noun_phrase(subject) and "verb:inf" in tags(tail[n + 1])):
+                                    return past, "weak-reporting-complement"
 
         # Adjacent finite coordination: no noun, pronoun or participle bridge.
         if len(left) >= 2 and left[0].lower in {"og", "eller", "men"}:
@@ -675,6 +804,14 @@ class Engine:
         if token.lower == low and "prop" in tags and capital not in self.archaism.freq:
             return capital
         return low
+
+    def subject_name(self, other: Token) -> bool:
+        """Typed names supply syntax evidence, not surname-span propagation.
+
+        Hakon Thinget must not protect Thinget merely because Hakon is a name.
+        """
+        return self.is_name(other) or bool(other.capitalised and any(
+            entry.kind == "name" for entry in self.lexicon.get(other.lower, [])))
 
     def is_name(self, other: Token) -> bool:
         """A capitalised word the book or the bank knows as a name (Jens, Peder), the

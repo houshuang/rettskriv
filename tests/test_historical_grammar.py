@@ -6,11 +6,18 @@ from rettskriv import book_engine, modernise
 
 
 class HistoricalGrammar(unittest.TestCase):
+    def test_finite_syntax_does_not_resolve_historical_lexical_sense(self):
+        # Erichsen 1 piece048: a genuine finite verb, but modern vandet means
+        # rejected/disliked, not watered. Do not silently select that homograph.
+        self.assertEqual(self.word('du vandede blomsten', 'vandede'), 'vandede')
+        self.assertEqual(self.word('Han vandede Maden.', 'vandede'), 'vandede')
+
     def test_reviewed_book_sentences(self):
         fixtures = Path(__file__).parent / 'fixtures'
         cases = json.loads((fixtures / 'historical-grammar.json').read_text())
         cases += json.loads((fixtures / 'historical-recovery.json').read_text())
         cases += json.loads((fixtures / 'historical-clauses.json').read_text())
+        cases += json.loads((fixtures / 'historical-final.json').read_text())
         for case in cases:
             with self.subTest(case=case['id']):
                 eng = book_engine([case['original']], lang=case['lang'], year=case['year'], nouncaps=case['nouncaps'])
@@ -145,3 +152,43 @@ class HistoricalGrammar(unittest.TestCase):
         ]:
             with self.subTest(text=text):
                 self.assertEqual(self.word(text, word), word)
+
+    def test_relative_complete_subjects_and_objects(self):
+        for text, word, expected in [
+            ('Uroligheder, som hans mange allerede voxne Sønner foraarsagede.', 'foraarsagede', 'forårsaket'),
+            ('Det gjaldt Landet, da udvortes Fiender afværgede en Borgerkrig.', 'afværgede', 'avverget'),
+            ('en Hær, som dog intet udrettede, da Folket stod imod.', 'udrettede', 'utrettet'),
+            ('Hakon røbede tidlig megen Forstand.', 'røbede', 'røpet'),
+            ('som hans mange allerede besvarede Breve laa.', 'besvarede', 'besvarte'),
+            ('Da Krigen kom, svigtede ei hans Kjæmper.', 'svigtede', 'sviktet'),
+            ('en Konge, der erobrede Jerusalem 1099.', 'erobrede', 'erobret'),
+            ('Paa samme Tid udmærkede en norsk Mand Cort Axelsson sig.', 'udmærkede', 'utmerket'),
+            ('Da Krigen kom, forenede Frederik sig med dem.', 'forenede', 'forente'),
+            ('For at vinde Krigen, forpligtede Rusland sig til dette.', 'forpligtede', 'forpliktet'),
+        ]:
+            with self.subTest(text=text):
+                self.assertEqual(self.word(text, word), expected)
+
+    def test_relative_and_name_evidence_cannot_skip_verb_or_object_predicate(self):
+        for text, word in [
+            ('at faa Breve besvarede', 'besvarede'),
+            ('Han ved, at en elsker fremmede.', 'fremmede'),
+            ('Han ved, at en elsker forlovede.', 'forlovede'),
+            ('at få Brevene besvarede', 'besvarede'),
+            ('Han gav Hakon udmærkede Gaver.', 'udmærkede'),
+            ('med Frederik udmærkede Gaver', 'udmærkede'),
+            ('Han bad Olaf og Frederik forenede om Hjælp.', 'forenede'),
+        ]:
+            with self.subTest(text=text):
+                self.assertEqual(self.word(text, word), word)
+
+    def test_genitive_subject_and_reporting_clause_require_full_evidence(self):
+        for text, word, expected in [
+            ('Frederikshalds Indvaanere vanslægtede ei heller fra deres Fædre.', 'vanslægtede', 'vanslektet'),
+            ('Asbjørn reiste sig nu og erklærede i en kraftfuld Tale, at Bønderne ei vilde forsage Troen.', 'erklærede', 'erklærte'),
+            ('Han ønskede Kongens Breve besvarede ikke blot hurtigt, men grundigt.', 'besvarede', 'besvarede'),
+            ('Han roste sig nu og udmærkede Mænd.', 'udmærkede', 'udmærkede'),
+            ('Han vaskede sig nu og saarede Soldater.', 'saarede', 'saarede'),
+        ]:
+            with self.subTest(text=text):
+                self.assertEqual(self.word(text, word), expected)

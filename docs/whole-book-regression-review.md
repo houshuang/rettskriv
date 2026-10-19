@@ -3,6 +3,60 @@
 The production patch improves the preceding version, but does **not** yet satisfy
 “better without regressions” against the original engine. Keep the PR in draft.
 
+## Final bounded-clause campaign against d718b50
+
+Six candidate replays across **27 books, 1,909,182 routed word tokens and 39,893
+fields** restore **11 additional original decisions**. The cumulative original
+baseline audit is now **38/62 restored, 24 withheld**; all 27 previous recoveries
+and all 12 malformed-output protections survive. Two of the 24 withheld choices
+(`lønnede`, `samlede`) already have valid modern readings in their contexts, so
+withheld decisions are not equivalent to malformed outputs. The other 22 still
+need better syntactic or lexical evidence.
+
+The added frames recognize complete possessive/genitive subjects, negated
+inversion, verified name appositions with reflexives, bounded relative clauses,
+and reporting coordination with an explicit clausal complement. They never skip
+arbitrary intervening words. Typed, reviewed name entries supply subject evidence;
+free-text audit labels do not. There are 921 old name-labelled audit entries, including
+unreliable labels on ordinary nouns. The five new names do not alter global
+name-span propagation: doing that incorrectly protected `Thinget` and `Kongesøn`,
+and both real passages now have permanent regression fixtures.
+
+Adversarial review also rejected quantifier `faa` (`at faa Breve besvarede`),
+reflexive bridges alone (`roste sig og udmærkede Mænd`), and present-verb noun
+homographs (`en elsker fremmede`). These counterexamples accompany the positive
+real-book tests. The current frames are deliberately incomplete, not a general
+Norwegian parser.
+
+All 11 new recoveries occur in Faye; the other 26 books initially remained
+identical. This demonstrates stability outside Faye, **not positive evidence of
+recovery generalization**. A subsequent independent dependency-parser experiment
+found an existing lexical error in Erichsen: `du vandede blomsten` became
+`du vandet blomsten`. Modern `vande` means reject/dislike, whereas the historical
+passage means water. An explicit ambiguity entry now preserves `vandede` rather
+than choosing a wrong lemma. The same ambiguity prevents a new wrong replacement
+in Hersleb. This adds one avoided malformed output to the 11 recoveries; the
+original Faye/Schjøtt counts are unchanged.
+
+All changed outputs were reviewed in their complete source fields. The 132
+external passages remain unchanged. Language routes, source fields, token
+alignment and the 29 excluded pieces match the baseline. These are model-reviewed
+output differences, not human gold, a universal accuracy score, or an exhaustive
+review of unchanged output. No merge or deployment is implied.
+
+The optional parser study is described in [Dependency-parser evaluation](dependency-parser-evaluation.md).
+It is **not enabled in production**: two modern-language parsers agreed on one
+wrong lexical replacement in the independent challenge. More syntactic confidence
+cannot fix a wrong candidate lemma. The remaining 24 decisions are retained rather
+than forcing the original exact-match count with an unsafe fallback.
+
+88 tests pass, including 187 real-book fixture targets and the new lexical
+counterexample. Compilation and whitespace checks pass. Private frozen source,
+exact d718b50 archive, candidate snapshots and original-74 audit live in
+`out/final-35/`; parser inputs, model outputs and independent judgments are in
+`out/parser-trial/`. No paid calls were made. Historical sections below retain
+their original checkpoint counts.
+
 ## Clause analysis against 8247129
 
 The next four-round campaign recovers **5 more of the remaining 40 decisions**:

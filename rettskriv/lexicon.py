@@ -1,6 +1,9 @@
 """Curated lexicon: decisions about specific old forms.
 
-CSV columns: source, target, when, note, origin.
+CSV columns: source, target, when, note, origin; optional kind.
+
+kind=name supplies reviewed proper-name evidence for capitalized tokens only;
+it must be an unconditional keep. Free-text notes are never name evidence.
 
 - source: the old form, lower case.
 - target: the modern form, lower case, or "=" for "leave as printed".
@@ -55,6 +58,7 @@ class Entry:
     note: str
     origin: str
     line: str
+    kind: str = ""
 
     @property
     def keep(self) -> bool:
@@ -105,6 +109,11 @@ def load(lang: str) -> dict[str, list[Entry]]:
                     continue
                 try:
                     when = parse_when(row.get("when") or "")
+                    kind = (row.get("kind") or "").strip()
+                    if kind not in {"", "name"}:
+                        raise ValueError(f"unknown entry kind: {kind}")
+                    if kind == "name" and (row["target"].strip() != "=" or when):
+                        raise ValueError("name entries must unconditionally preserve source spelling")
                     if not row["target"].strip():
                         raise ValueError("empty target")
                 except ValueError as exc:
@@ -115,6 +124,7 @@ def load(lang: str) -> dict[str, list[Entry]]:
                     source=source.lower(),
                     target=row["target"].strip(),
                     when=when,
+                    kind=kind,
                     note=(row.get("note") or "").strip(),
                     origin=(row.get("origin") or "").strip(),
                     line=f"{path.name}:{number}",

@@ -17,6 +17,22 @@ class Conditions(unittest.TestCase):
             with self.subTest(condition=condition), self.assertRaises(ValueError):
                 parse_when(condition)
 
+    def test_typed_names_validate_and_do_not_trust_notes(self):
+        from rettskriv.text import tokenise
+        eng = engine()
+        for word in ['Hakon', 'Frederik', 'Rusland']:
+            self.assertTrue(eng.subject_name(tokenise(word)[0]))
+            self.assertFalse(eng.subject_name(tokenise(word.lower())[0]))
+        for word in ['Menneskes', 'Dyrs', 'Krigens']:
+            self.assertFalse(eng.subject_name(tokenise(word)[0]))
+        for row in ['hakon,=,,,x,unknown', 'hakon,Håkon,,,x,name', 'hakon,=,cap,,x,name']:
+            with tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                (root / 'bokmal').mkdir()
+                (root / 'bokmal' / 'names.csv').write_text('source,target,when,note,origin,kind\n' + row + '\n')
+                with patch('rettskriv.lexicon.LEXICON', root), self.assertRaises(ValueError):
+                    load('nob')
+
     def test_shipped_lexicons_validate(self):
         self.assertTrue(load('nob'))
         self.assertTrue(load('nno'))
