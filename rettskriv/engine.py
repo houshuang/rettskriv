@@ -273,11 +273,20 @@ class Engine:
             return low
         return self.trusted_target(low)
 
-    def weak_past(self, low: str) -> str | None:
+    def historical_infinitive(self, stem: str, following: str = "") -> str | None:
+        """Resolve lexical identity once for all inflection roles."""
+        from .historical_verbs import candidates as reviewed_candidates, infinitives
+        reviewed = infinitives(stem) if self.lang == "nob" else None
+        if reviewed is not None:
+            choices = reviewed_candidates(self.bank, stem, following=following)
+            return choices[0].infinitive if len(choices) == 1 else None
+        return self.modern_lower(stem)
+
+    def weak_past(self, low: str, following: str = "") -> str | None:
         """Modern past tense of an old weak past in -ede: svarede -> svarte, kastede -> kastet."""
         if self.lang != "nob" or not low.endswith("ede") or len(low) < 6:
             return None
-        infinitive = self.modern_lower(low[:-2])
+        infinitive = self.historical_infinitive(low[:-2], following)
         if not infinitive or "verb:inf" not in self.bank.tags(infinitive):
             return None
         lemmas = {a.lemma for a in self.bank.analyses(infinitive)
@@ -322,6 +331,11 @@ class Engine:
     def grammar_candidate(self, low: str) -> bool:
         # a curated or audited row for an -ede form is the answer (legede is lekte, not leget)
         past = self.weak_past(low) is not None and low not in self.lexicon
+        if not past and low.endswith("ede") and low not in self.lexicon:
+            from .historical_verbs import candidates as reviewed_candidates
+            # Context may distinguish reviewed identities; mere candidacy never
+            # selects one. grammar() still requires lexical and role evidence.
+            past = bool(reviewed_candidates(self.bank, low[:-2]))
         rows = self.lexicon.get(low, [])
         # an unconditional keep says the form has two readings (lede: lead or search)
         kept = len(rows) == 1 and rows[0].keep and not rows[0].when
@@ -334,7 +348,7 @@ class Engine:
         ``leverte`` cannot replace the participle in ``bleve leverede``.
         """
         token = tokens[i]
-        infinitive = self.modern_lower(token.lower[:-2])
+        infinitive = self.historical_infinitive(token.lower[:-2], "".join(t.text for t in tokens[i + 1:i + 9]))
         perfect = self.bank.inflect(infinitive, "verb:inf", "verb:perf-part")
         agreeing = self.bank.inflect(infinitive, "verb:inf", "adj:part:agreeing")
         pos = words.index(i)
@@ -668,7 +682,7 @@ class Engine:
 
         # Reporting coordination needs positive clausal-complement evidence,
         # not just a reflexive bridge (roste sig og udmærkede Mænd is unsafe).
-        infinitive = self.modern_lower(tokens[i].lower[:-2])
+        infinitive = self.historical_infinitive(tokens[i].lower[:-2])
         if (infinitive in {"erklære", "svare"} and left and left[0].lower in {"og", "men"}
                 and right and right[0].lower == "i" and noun_phrase(right[1:])):
             bridge = list(left[1:])
@@ -708,7 +722,7 @@ class Engine:
         if end_after(tokens[i]) and perfect:
             for n, t in enumerate(left):
                 if t.lower in {"ble", "blev", "bleve", "blir", "bliver"}:
-                    infinitive = self.modern_lower(tokens[i].lower[:-2])
+                    infinitive = self.historical_infinitive(tokens[i].lower[:-2])
                     adjective_forms = self.bank.inflect(infinitive, "verb:inf", "adj:part:agreeing")
                     lexical_adj = any(a.tags.startswith("adj ") and "<perf-part>" not in a.tags
                                       for form in adjective_forms | {tokens[i].lower}
@@ -726,7 +740,8 @@ class Engine:
         prev_token, next_token = self.neighbours(tokens, i, words)
         prev = prev_token.lower if prev_token is not None else None
         nxt = next_token.lower if next_token is not None else None
-        past = self.weak_past(low) if low not in self.lexicon else None
+        past = (self.weak_past(low, "".join(t.text for t in tokens[i + 1:i + 9]))
+                if low.endswith("ede") and low not in self.lexicon else None)
         if past:
             selected = self.weak_form(tokens, i, words, past)
             if selected:
@@ -977,7 +992,7 @@ class Engine:
         return True
 
     def modernise(self, text: str, verse: bool = False,
-                  protected: list[tuple[int, int]] | None = None) -> Result:
+                  protected: list[tuple[int, int]] | None = None, *, resolver=None) -> Result:
         """Modernise text, preserving tokens overlapping explicit character spans."""
         spans = protected or []
         for start, end in spans:
@@ -992,6 +1007,8 @@ class Engine:
         pending = [i for i in words if tokens[i].out is None and not self.decide(tokens, i, words, second_pass=False)]
         for i in pending:
             self.decide(tokens, i, words, second_pass=True)
+        if resolver is not None:
+            resolver.apply(self, tokens, verse=verse)
         result = Result(join(tokens), tokens)
         result._map = offset_map(tokens)
         for t in tokens:

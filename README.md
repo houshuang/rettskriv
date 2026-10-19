@@ -18,7 +18,8 @@ two noun capitals.)
 
 It was built to give 27 digitised Norwegian school readers (1824–1931, 1.9 million words)
 a modern-spelling reading layer next to the printed text. It is deterministic, needs no
-model at run time and has no dependencies beyond Python's standard library. The
+model at run time and has no dependencies beyond Python's standard library by default.
+An experimental, explicitly enabled parser pass is available below. The
 intelligence is in a lexicon of about 64,000 decisions, each audited by language models
 against the actual passages.
 
@@ -120,6 +121,38 @@ homograph screen, then fixing every error the acceptance reviewers found.
 [docs/how-it-works.md](docs/how-it-works.md) has the details, the lexicon format and the
 tools for applying it to a new corpus; [docs/briefs/](docs/briefs/) has the model
 instructions.
+
+## Experimental dependency recovery
+
+The default path remains conservative and model-free. An optional second pass
+uses reviewed historical lemma identities plus agreement between Danish and Bokmål
+dependency parsers. It never uses parser fluency to choose a word's historical sense.
+It is experimental: agreement can reproduce shared parser mistakes, and the current
+review is development evidence, not human gold. See the
+[parser evaluation](docs/dependency-parser-evaluation.md) for measured results and limitations.
+
+From a source checkout, explicitly install the optional dependency and models once:
+
+```sh
+python3 -m pip install -e '.[dependency-parser]'
+python3 -c "import stanza; [stanza.download(lang, model_dir='data/stanza', package='default_fast', processors='tokenize,pos,lemma,depparse') for lang in ('da', 'nb')]"
+```
+
+```python
+from rettskriv import book_engine
+from rettskriv.dependency import DependencyResolver
+
+resolver = DependencyResolver('data/stanza')  # local models; no automatic download
+reader = book_engine(paragraphs, lang='nob', year=1852, nouncaps=True)
+result = reader.modernise(paragraphs[0], resolver=resolver)
+print(result.text)
+print(resolver.errors)  # parse failures preserve the conservative output
+```
+
+For structured books, `tools/replay_book.py --dependency-models data/stanza`
+opts in while preserving language and verse routing. Optional live tests run with
+`RETTSKRIV_DEPENDENCY_MODELS=data/stanza python3 -m unittest tests.test_dependency_models`.
+Stanza 1.15.0 is required; model installation is an explicit network operation.
 
 ## Related work
 

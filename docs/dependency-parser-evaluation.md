@@ -1,6 +1,93 @@
 # Dependency-parser evaluation, 19 October 2026
 
-**Decision: retain the deterministic safeguards; do not authorize replacements
+## Lexical identities and opt-in parser follow-up (against d577afe)
+
+The default output is unchanged across **34 complete books, 2,308,322 routed word
+tokens and 51,957 fields/paragraphs**, and the existing 132 external passages.
+The seven added books contribute 399,140 tokens in 12,064 paragraphs. Default
+coverage remains **38/62 restored, 24 withheld**, including two valid modern forms.
+
+A reviewed inventory covers 75 historical infinitive families (77 identities).
+Candidate records preserve historical identity, modern lemma and role-specific
+forms separately. For example, historical *vande* can map to modern *vanne*
+(water) or *vande* (reject/dislike); modern dictionary uniqueness cannot resolve
+that distinction. Missing morphology also remains an unresolved alternative.
+*Kaare* retains choose/card-wool identities except in a bounded personal-object
+role-assignment frame such as `kaarede hende til sin Brud`. Past and participle
+candidates use the same identity resolution. Lexical uncertainty still abstains.
+
+`DependencyResolver` is an **experimental opt-in**, not a new default. Danish
+parses the complete original field; Bokmål parses conservative output. Both must
+agree on exact source-aligned finite-past nodes, coordination paths and subject
+heads, with matching direct objects or an independently unambiguous finite source
+anchor. Passive auxiliaries, nonfinite governors, token splits/merges, names,
+protected text, verse, other languages and explicit lexicon decisions cannot be
+overridden. Both parses are frozen before edits. External parser failure leaves
+all output unchanged and records an error. Local models are required; normalization
+never downloads them. This is selected local structural agreement, not agreement
+on entire trees or a guarantee of grammatical correctness.
+
+The first gate was rejected after both parsers misread two constructed captions:
+`Soldaterne forfærdede ved Synet af Fienden` and `Fanerne foldede ved Kongens Baare`.
+Requiring object evidence or an independent finite anchor removes these mistakes.
+The tightened gate recovers **four of the remaining 22 original cases**:
+`ægtede→ektet`, `kløvede→kløvde`, `indviklede→innviklet`, `betegnede→betegnet`.
+With opt-in parsing the cumulative original result is **42/62 restored, 20 withheld**;
+two withheld forms are already valid, leaving **18 genuine missed modernizations**.
+All 12 original malformed-output protections remain intact.
+
+The original 27-book parser scan covers 731 eligible fields/802 eligible targets.
+The seven added books contribute 181 eligible targets; complete books were used
+for context and default comparison, with parsing restricted to eligible fields.
+The final gate retains **73 independently approved improvements**: 58 in the
+original schoolbooks (including the four original-audit recoveries) and 15 in
+the added books (Collett 10, Kielland 5). No newly incorrect replacement was
+observed in those retained changes. The stricter anchor exclusions remove three
+earlier optional proposals; seven Wergeland proposals from the completed scan
+were separately reviewed before inclusion. All 58 schoolbook decisions are covered
+by recorded approvals with zero conflicting judgments.
+Independent agents reviewed changes in full source context. These are model
+judgments, not human annotations. Unchanged text was not exhaustively labelled;
+“no observed new errors” is not a global error-rate or no-regression guarantee.
+
+The seven added texts are [Ibsen, Vildanden (1884)](https://www.gutenberg.org/ebooks/13041),
+[Undset, Jenny (1911)](https://www.gutenberg.org/ebooks/32245),
+[Hamsun, Sult (1890)](https://www.gutenberg.org/ebooks/30027),
+[Jessen, S/S Styggen (1917)](https://www.gutenberg.org/ebooks/34183),
+[Kielland, Skipper Worse (1899 collected edition)](https://runeberg.org/skipwors/),
+[Hansen, Mordet paa Maskinbygger Roolfsen (1840)](https://www.bokselskap.no/boker/roolfsen/tittelside),
+and [Collett, Amtmandens Døttre (1854/55 first edition)](https://www.bokselskap.no/boker/ad1utg/tittelside).
+These are development texts, not held-out gold; school-reader excerpt overlap was
+not checked. Sult's transcriber converted aa to å, and Ibsen's transcription uses
+å; neither establishes aa accuracy. Scholarly transcriptions correct some printing
+errors. Modern commentary is excluded, but no new facsimile comparison was made.
+The new-book runs use declared Bokmål paragraphs, whereas schoolbook runs preserve
+structured language/verse routing and the same 29 excluded pieces.
+
+Reproduction evidence lives privately in `out/parser-next/`: frozen books and
+metadata, exact d577afe archive, default replays, full original/conservative parser
+inputs, aligned DA/NB trees, rejected and retained proposals, independent reviews,
+and gate-filter scripts. Current retained-output files reconstruct text from the
+conservative baseline and retained edits. Unit fixtures freeze actual parser
+outputs, not manually invented gold trees; live fixtures exercise real models.
+No paid model calls were added. Earlier experiments below are historical evidence,
+not the current acceptance rule.
+
+
+Validation: 100 tests discovered, 98 pass and two optional live-model tests skip
+without explicit models. Both live tests also pass with installed models: 147 real
+book target assertions (143 distinct targets, four repeated across original-audit
+and schoolbook fixtures) plus 80 constructed inputs, including eligibility controls.
+The 60 frozen real-parser decisions pass without models. Compilation and whitespace
+checks pass. Independent review covers all 73 retained changes with no conflicting
+judgments; no new incorrect replacement was observed. All seven new books and all
+27 schoolbooks are compared in full for default-output stability. Unchanged output
+was not exhaustively annotated. Model packages can change independently of the
+pinned library; rerun the optional suite after changing installed weights.
+
+## Prior parser trial (before this follow-up)
+
+**Earlier decision: retain the deterministic safeguards; do not authorize replacements
 from parser consensus.** Modern Danish and Bokmål parsing is useful for locating
 missed finite verbs, but agreement did not ensure the proposed modern word had
 the correct historical meaning. No parser dependency or model is loaded by the

@@ -16,12 +16,18 @@ def main():
     parser.add_argument('--engine-root', type=Path, default=Path(__file__).resolve().parent.parent)
     parser.add_argument('--out', type=Path, required=True)
     parser.add_argument('--compare', type=Path, help='Earlier replay JSON of the identical book input')
+    parser.add_argument('--dependency-models', type=Path,
+                        help='Opt in to experimental dependency recovery using installed Stanza models (no downloads)')
     args = parser.parse_args()
     sys.path.insert(0, str(args.engine_root.resolve()))
     from rettskriv import corpus
     from rettskriv.engine import Engine
     data = corpus.load(args.book)
     engines = {lang: Engine(lang) for lang in ('nob', 'nno')}
+    resolver = None
+    if args.dependency_models:
+        from rettskriv.dependency import DependencyResolver
+        resolver = DependencyResolver(args.dependency_models)
     for engine in engines.values():
         engine.learn_book(corpus.texts(data))
         engine.year = data.get('printed_year')
@@ -35,12 +41,15 @@ def main():
             skipped.append(item['id'])
             continue
         for path, text, verse in corpus.units(item):
-            result = engines[lang].modernise(text, verse=verse)
+            options = {'resolver': resolver} if resolver is not None else {}
+            result = engines[lang].modernise(text, verse=verse, **options)
             rows.append(dict(item=item['id'], path=list(path), lang=lang, source=text,
                              output=result.text, tokens=[dict(at=t.start, source=t.text, out=t.out,
                                                              reason=t.reason)
                                                         for t in result.tokens if t.word]))
     output = dict(book=args.book, engine_root=str(args.engine_root.resolve()), rows=rows, skipped=skipped)
+    if resolver is not None:
+        output['dependency_errors'] = resolver.errors
     if args.compare:
         previous = json.loads(args.compare.read_text())
         if previous['skipped'] != skipped:

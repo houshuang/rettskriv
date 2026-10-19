@@ -81,11 +81,11 @@ class Bank:
     def analyses(self, word: str) -> tuple[Analysis, ...]:
         return morphology(self.lang)[0].get(word.lower(), ())
 
-    def inflect(self, word: str, source_tag: str, target_tag: str) -> frozenset[str]:
+    def inflect(self, word: str, source_tag: str, target_tag: str, *, lemma: str | None = None) -> frozenset[str]:
         _, paradigms = morphology(self.lang)
         forms = set()
         for analysis in self.analyses(word):
-            if coarse(analysis.tags) == source_tag:
+            if coarse(analysis.tags) == source_tag and (lemma is None or analysis.lemma == lemma):
                 forms.update(paradigms.get((analysis.lemma, analysis.paradigm, target_tag), ()))
         return frozenset(forms)
 

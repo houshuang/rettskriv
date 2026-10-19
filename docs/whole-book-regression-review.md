@@ -1,5 +1,29 @@
 # Whole-book regression review, 19 October 2026
 
+## Latest lexical/parser campaign against d577afe
+
+Default output is unchanged across 34 complete books: **2,308,322 routed words,
+51,957 fields/paragraphs**, plus 132 external passages. The seven additional books
+contribute 399,140 words/12,064 paragraphs. Historical lexical alternatives now
+remain separate candidates, including alternatives without usable morphology.
+
+Experimental opt-in Danish/Bokmål parsing retains **73 independently approved
+improvements**: 58 across the original schoolbooks and 15 in the added Collett and
+Kielland texts. Four recover original withheld decisions: cumulative **42/62 restored,
+20 withheld with parsing**, versus **38/62 restored, 24 withheld by default**. Two
+withheld forms are already valid, leaving 18 genuine misses with parsing. All 12
+original malformed-output protections survive. No newly incorrect retained edit
+was observed; unchanged text was not exhaustively judged.
+
+The initial parser gate failed two caption counterexamples. The final gate requires
+matching source-aligned finite structures, subject/object evidence or an independent
+finite anchor, and a reviewed unambiguous lexical identity. Models remain opt-in,
+with no automatic downloads. See [the parser report](dependency-parser-evaluation.md)
+for design, source provenance, review coverage and limitations. This is development
+evidence from model reviewers, not human gold or a universal no-regression claim.
+
+## Prior bounded-clause campaign
+
 The production patch improves the preceding version, but does **not** yet satisfy
 “better without regressions” against the original engine. Keep the PR in draft.
 
