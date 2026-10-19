@@ -3,6 +3,73 @@
 The production patch improves the preceding version, but does **not** yet satisfy
 “better without regressions” against the original engine. Keep the PR in draft.
 
+## Further recovery against 532a114
+
+Four successive candidate replays evaluated all seven books below. The final
+candidate recovers **9 more of the remaining 49 decisions**: **22 of 62 recovered,
+40 still withheld** relative to the original engine. All 12 malformed original
+outputs remain avoided (five corrected, seven preserved). These are token
+occurrences, not distinct words. Some withheld source forms are already valid
+modern adjectives; “withheld” measures the previously approved modernization
+choice, not necessarily malformed text.
+
+| Book | Word tokens | Fields | Improvements vs 532a114 |
+| --- | ---: | ---: | ---: |
+| Faye 1852 | 15,222 | 255 | 9 |
+| Schjøtt 1890 | 73,137 | 923 | 0 |
+| Hersleb 1833 | 28,835 | 408 | 6 |
+| Ræder 1899 | 93,447 | 1,346 | 1 |
+| Hjort 1843 | 77,015 | 2,133 | 11 |
+| Knutzen 1836 | 32,920 | 632 | 1 |
+| Garborg 1885 | 69,804 | 1,767 | 0 |
+| Total | 390,380 | 7,464 | 28 |
+
+Hjort, Knutzen and Garborg add 179,739 tokens to this repair's whole-book check.
+They are additional validation books, not globally unseen project data. Garborg
+adds Landsmål coverage; zero differences establish stability, not correctness of
+all existing outputs. All input fields, language routes and skipped-piece lists
+matched. No pieces were skipped.
+
+An independent agent reviewed all 28 changed outputs as correct in context. The
+132 external passages yielded one further approved change, Skram's finite
+`der lammede alle hans Lemmer → ... lammet ...`. No new error was observed among
+these 29 changes. Unchanged text was not exhaustively reviewed, and these are
+model judgments, not human gold or proof of zero regressions on arbitrary text.
+
+The nine recoveries are five quoted `svarede → svarte`, relative `beilede → beilet`
+and `udartede → utartet`, passive `blevne ansporede → ... ansporet`, and attributive
+`Den slet forsynede ... Hær maatte vige → ... forsynte ...`.
+
+The implementation requires speech punctuation and a reporting lemma for quotation
+clauses. Relative `der` requires a comma, no detected attributive noun head, and no
+preceding locative her/hist/hisset contrast. A following modal supplies additional
+noun-phrase evidence for demonstrative adjectives. Historical blevne/bleven govern
+participle selection with the existing adjective vetoes. An explicit infinitive
+mapping `udarte → utarte` supplies dictionary-backed candidates; it does not bypass
+tense/agreement disambiguation for inflected forms.
+
+Adversarial review rejected the apparently useful `hvor/at de -ede en/et` rule:
+`de besvarede en efter en blev lagt bort` can mean the answered letters, one by one.
+It also narrowed relative `der`: `her simple Folk, der udmærkede [Mænd]` is locative
+contrast, and must not become `utmerket`. Three correct book changes were willingly
+withheld again to enforce the stronger noun-head guard. No broad default-past,
+name-subject or remote-coordination fallback was restored.
+
+The remaining 40 cases comprise 34 finite readings and six passive/object-predicate
+readings. They need stronger clause/argument analysis; local heuristics still
+confuse these with adjectives, nominalized participles and remote auxiliaries.
+This is a measured coverage improvement, not completion of the no-regressions bar.
+
+81 tests pass, with the previous 122 real-book targets plus 40 new full-context
+targets: all 28 changed outputs and all 12 malformed-output protections. New
+adversarial contrasts cover each rejected expansion. Frozen inputs, exact 532a114
+archive, four candidate snapshots, complete original-74 audit and replay scripts
+are private in `out/recovery-49/`. No paid calls, publication changes or deployment.
+
+## Previous repair against e01bec2 (historical checkpoint)
+
+The following records the preceding 532a114 checkpoint, before the recovery above.
+
 ## Compared versions and scope
 
 - Original: `ce74a11`.

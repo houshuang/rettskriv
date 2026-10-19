@@ -7,7 +7,9 @@ from rettskriv import book_engine, modernise
 
 class HistoricalGrammar(unittest.TestCase):
     def test_reviewed_book_sentences(self):
-        cases = json.loads((Path(__file__).parent / 'fixtures/historical-grammar.json').read_text())
+        fixtures = Path(__file__).parent / 'fixtures'
+        cases = json.loads((fixtures / 'historical-grammar.json').read_text())
+        cases += json.loads((fixtures / 'historical-recovery.json').read_text())
         for case in cases:
             with self.subTest(case=case['id']):
                 eng = book_engine([case['original']], lang=case['lang'], year=case['year'], nouncaps=case['nouncaps'])
@@ -85,3 +87,34 @@ class HistoricalGrammar(unittest.TestCase):
                            ('Tjærebrede!', 'Tjærebrede'),
                            ('vi var saa bedrøvede', 'bedrøvede')]:
             self.assertEqual(self.word(text, word), word)
+
+    def test_reporting_relative_and_adjective_evidence(self):
+        for text, word, expected in [
+            ('„Er hun her,“ svarede Finn.', 'svarede', 'svarte'),
+            ('„Inden Du bliver færdig,“ erklærede Gyvra.', 'erklærede', 'erklærte'),
+            ('tvende Konger, der beilede til hende.', 'beilede', 'beilet'),
+            ('Grumhed, der stundom udartede til oprørende Grumhed.', 'udartede', 'utartet'),
+            ('vare blevne ansporede til at angribe ham.', 'ansporede', 'ansporet'),
+            ('Den slet forsynede og desuden slet anførte norske Hær maatte vige.', 'forsynede', 'forsynte'),
+        ]:
+            with self.subTest(text=text):
+                self.assertEqual(self.word(text, word), expected)
+
+    def test_recovery_does_not_assume_relative_der_or_quoted_speech(self):
+        for text, word in [
+            ('Han fandt her simple Folk, der udmærkede Mænd.', 'udmærkede'),
+            ('Han fandt her simple Folk, der udmærkede.', 'udmærkede'),
+            ('Han sagde, at de besvarede en efter en blev lagt bort.', 'besvarede'),
+            ('Han sagde, at de besvarede et Øjeblik laa paa Bordet.', 'besvarede'),
+            ('et Sted, der udmærkede Mænd boede.', 'udmærkede'),
+            ('Han betragtede dem som udmærkede Mænd.', 'udmærkede'),
+            ('Han roste røde og udmærkede Gaver.', 'udmærkede'),
+            ('De vare blevne fremmede for deres Folk.', 'fremmede'),
+            ('De vare blevne udmærkede Soldater.', 'udmærkede'),
+            ('Han kaldte dem „Venner“ erklærede Fjender.', 'erklærede'),
+        ]:
+            with self.subTest(text=text):
+                self.assertEqual(self.word(text, word), word)
+
+    def test_locative_der_keeps_agreement(self):
+        self.assertEqual(self.word('Vi saa der udmærkede Mænd.', 'udmærkede'), 'utmerkede')

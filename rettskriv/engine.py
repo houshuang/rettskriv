@@ -353,7 +353,7 @@ class Engine:
                 previous = other
         prev = left[0].lower if left else None
         nxt = right[0].lower if right else None
-        auxiliaries = {"ble", "blev", "bleve", "blir", "blive", "bliver", "blitt", "blit",
+        auxiliaries = {"ble", "blev", "bleve", "bleven", "blevne", "blir", "blive", "bliver", "blitt", "blit",
                        "bli", "er", "ere", "var", "vare", "været", "være", "har", "have", "havde", "hadde"}
         adverbs = {"ei", "ikke", "aldrig", "altid", "allerede", "atter", "ogsaa", "også", "nu", "nå",
                    "her", "der", "dog", "selv", "derimod", "siden", "stundom", "endog", "just",
@@ -394,6 +394,30 @@ class Engine:
                 return None  # Could be a lexical/predicative adjective or noun phrase.
             target = pick(perfect)
             return (target, "participle") if target else None
+        # A reporting verb immediately after closed direct speech is finite.
+        # The lexical restriction excludes quoted labels followed by adjectives.
+        gap = "".join(t.text for t in tokens[words[pos - 1] + 1:i]) if pos else ""
+        if infinitive in {"svare", "erklære"} and re.search(r'[,!?][”»“"]\s*$', gap):
+            if right and (right[0].capitalised or nxt in PRONOUN_OBJECTS | {"de", "den"}):
+                return past, "weak-reporting"
+        # Relative subject der starts its own clause. Require its preceding
+        # comma so locative 'vi saa der udmærkede Mænd' does not qualify.
+        relative = next((t for t in left if t.lower not in adverbs - {"der"}), None)
+        if relative and relative.lower == "der" and head is None:
+            der_at = next((j for j in words[:pos] if tokens[j] is relative), None)
+            if der_at is not None:
+                der_pos = words.index(der_at)
+                boundary = "".join(t.text for t in tokens[words[der_pos - 1] + 1:der_at]) if der_pos else ""
+                # Locative contrast may omit its noun: 'her simple Folk,
+                # der udmærkede'. A comma alone does not make der relative.
+                preceding = []
+                for t in reversed(tokens[:der_at]):
+                    if not t.word and re.search(r"[.!?;:]", t.text):
+                        break
+                    if t.word:
+                        preceding.append(t.lower)
+                if re.fullmatch(r"\s*,\s*", boundary) and not {"her", "hist", "hisset"} & set(preceding):
+                    return past, "weak-relative"
         if nxt in PRONOUN_OBJECTS:
             return past, "weak-past"
         # Only contiguous modifiers can connect an adjective to a determiner.
@@ -405,9 +429,14 @@ class Engine:
                 governed = outside and "prep" in self.bank.tags(self.neighbour_form(outside))
                 # de/den/det can be subjects; Hans can be a personal name.
                 determiner = bool((t.lower not in {"de", "den", "det", "denne", "dette", "disse"}
-                                   or governed)
+                                   or governed
+                                   or head is not None and t.lower in {"den", "det", "de", "denne", "dette", "disse"}
+                                   and right.index(head) + 1 < len(right)
+                                   and right[right.index(head) + 1].lower in {"maatte", "måtte", "skulde", "skulle", "kunde", "kunne"})
                                   and not self.is_name(t))
                 break
+            if t.lower == "slet":  # historical adverb, also modern past of slite
+                continue
             tags = self.bank.tags(self.neighbour_form(t)) - MINOR_TAGS
             if not tags or not tags <= {"adj", "adj:part", "adv"}:
                 break
