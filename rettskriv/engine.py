@@ -418,6 +418,9 @@ class Engine:
                         preceding.append(t.lower)
                 if re.fullmatch(r"\s*,\s*", boundary) and not {"her", "hist", "hisset"} & set(preceding):
                     return past, "weak-relative"
+        clause = self.weak_clause(tokens, i, words, left, right, past, perfect)
+        if clause:
+            return clause
         if nxt in PRONOUN_OBJECTS:
             return past, "weak-past"
         # Only contiguous modifiers can connect an adjective to a determiner.
@@ -486,6 +489,105 @@ class Engine:
             return past, "weak-past"
         if nxt in PRONOUN_OBJECTS or (governor and governor.lower in direct):
             return past, "weak-past"
+        return None
+
+    def weak_clause(self, tokens, i, words, left, right, past, perfect):
+        """Recognize bounded complete constituents, never skip unknown syntax.
+
+        These proofs are alternatives to the conservative sentence-wide governor
+        veto: a preceding subordinate clause need not govern this finite clause.
+        """
+        pos = words.index(i)
+        before = "".join(t.text for t in tokens[words[pos - 1] + 1:i]) if pos else ""
+
+        def tags(t):
+            result = self.bank.tags(self.neighbour_form(t)) - MINOR_TAGS
+            if (self.nouncaps and not t.capitalised and self.neighbour_form(t) != t.lower
+                    and "subst" not in self.bank.tags(t.lower)):
+                result -= {"subst"}
+            return result
+
+        def noun(t):
+            ts = tags(t)
+            if ts == {"subst"}:
+                return True
+            # Dictionary-attested noun + noun compounds (Ovnstuer), only in
+            # capitalized-noun prose. Unknown capitals alone establish nothing.
+            if not ts and self.nouncaps and t.capitalised and not self.is_name(t):
+                w = t.lower
+                return any(self.bank.tags(w[:n]) == {"subst"}
+                           and "subst" in self.bank.tags(w[n:])
+                           for n in range(3, len(w) - 2))
+            return False
+
+        def noun_phrase(span):
+            if not span or not noun(span[-1]):
+                return False
+            modifiers = span[:-1]
+            if modifiers and modifiers[0].lower in DETERMINERS:
+                modifiers = modifiers[1:]
+            return all(tags(t) and tags(t) <= {"adj", "adj:part"} for t in modifiers)
+
+        def end_after(t, terminal=False):
+            at = next(j for j in words if tokens[j] is t)
+            n = words.index(at) + 1
+            gap = "".join(x.text for x in tokens[at + 1:words[n] if n < len(words) else len(tokens)])
+            return n == len(words) or bool(re.search(r"[.!?]" if terminal else r"[,.;:!?]", gap))
+
+        # A complete indefinite object ends the subordinate clause. Looking
+        # only at en/et would misread nominalized 'de besvarede en efter en'.
+        if (len(left) >= 2 and left[0].lower == "de"
+                and left[1].lower in {"hvor", "at", "fordi"}
+                and right and right[0].lower in {"en", "et"}
+                and noun_phrase(right) and end_after(right[-1], terminal=True)):
+            return past, "weak-clause-object"
+
+        # A terminal predicate after at + a complete noun subject. The
+        # subject may have a clause adverb, but no copula/auxiliary is skipped.
+        if end_after(tokens[i], terminal=True):
+            subject = list(left)
+            while subject and subject[0].lower in {"selv", "dog", "ikke", "aldrig"}:
+                subject.pop(0)
+            for n, t in enumerate(subject):
+                if t.lower == "at":
+                    if noun_phrase(list(reversed(subject[:n]))):
+                        return past, "weak-clause-subject"
+                    break
+
+        # Inverted personal subject de with a clause adverb, not a noun modifier.
+        if (re.fullmatch(r"\s*,\s*", before) and len(right) >= 2
+                and right[0].lower == "de" and right[1].lower in {"dog", "ikke", "aldrig"}):
+            return past, "weak-clause-inversion"
+
+        # A reflexive after a verified non-genitive name makes that name the
+        # subject. Require a new clause boundary, not arbitrary nearby names.
+        if (re.fullmatch(r"\s*,\s*", before) and len(right) >= 2
+                and self.is_name(right[0]) and not right[0].lower.endswith("s")
+                and right[1].lower == "sig"):
+            return past, "weak-clause-reflexive"
+
+        # Adjacent finite coordination: no noun, pronoun or participle bridge.
+        if len(left) >= 2 and left[0].lower in {"og", "eller", "men"}:
+            anchor = tags(left[1])
+            if (anchor and anchor <= {"verb:pres", "verb:pret"}
+                    and left[1].lower not in MODALS
+                    and self.neighbour_form(left[1]) not in MODALS | {"ble", "blir", "var", "er", "har", "hadde"}):
+                return past, "weak-clause-coordination"
+
+        # Finite blive + complete subject + participle at the clause boundary.
+        # Have + object predicates and lexical adjectives are deliberately out.
+        if end_after(tokens[i]) and perfect:
+            for n, t in enumerate(left):
+                if t.lower in {"ble", "blev", "bleve", "blir", "bliver"}:
+                    infinitive = self.modern_lower(tokens[i].lower[:-2])
+                    adjective_forms = self.bank.inflect(infinitive, "verb:inf", "adj:part:agreeing")
+                    lexical_adj = any(a.tags.startswith("adj ") and "<perf-part>" not in a.tags
+                                      for form in adjective_forms | {tokens[i].lower}
+                                      for a in self.bank.analyses(form))
+                    if noun_phrase(list(reversed(left[:n]))) and not lexical_adj:
+                        target = max(perfect, key=lambda f: (self.archaism.modern(f), f))
+                        return target, "participle-inversion"
+                    break
         return None
 
     def grammar(self, tokens: list[Token], i: int, words: list[int]) -> bool:

@@ -3,7 +3,67 @@
 The production patch improves the preceding version, but does **not** yet satisfy
 “better without regressions” against the original engine. Keep the PR in draft.
 
-## Further recovery against 532a114
+## Clause analysis against 8247129
+
+The next four-round campaign recovers **5 more of the remaining 40 decisions**:
+**27 of 62 recovered, 35 withheld** against the original engine. Every one of the
+previous 22 recoveries and all 12 malformed-output protections remains unchanged.
+
+The engine now recognizes bounded complete constituents rather than guessing from
+one neighboring word. Its deliberately limited clause frames require:
+
+- A complete indefinite object and terminal boundary in `hvor de oprettede en
+  Fristat.`; `en/et` alone is insufficient, and a second predicate rejects the parse.
+- A complete noun subject and clause-final predicate in `at Guden selv fortærede.`
+- An inverted personal subject and unequivocal clause adverb in `bevarede de dog`.
+- An immediately adjacent finite coordination anchor in `sloge eller adsplittede`.
+  No noun, pronoun or participle bridges are allowed; modal/auxiliary anchors are
+  excluded. A modern noun homograph is discounted only for a genuinely respelled
+  source that is not itself a dictionary noun, in noun-capitalizing prose.
+- A finite blive auxiliary, complete subject and clause-final participle in
+  `bleve Ovnstuer indrettede`. Dictionary noun compounds can supply the subject;
+  an unknown capital alone cannot. Both source and modern agreeing forms are
+  checked for competing lexical adjective analyses.
+
+A comma followed by a predicate, verified non-genitive name and reflexive sig is
+also recognized. It does not recover unknown historical names by capitalization.
+The frames abstain outside their bounded recognized constituents; this is not a
+complete dependency parser. Remote coordination and passive ellipsis remain open.
+
+| Book added in this campaign | Routed word tokens | Fields | Approved changes |
+| --- | ---: | ---: | ---: |
+| Beyer 1824 | 38,075 | 2,013 | 0 |
+| Jensen, third reader, 1863 | 157,542 | 2,677 | 3 |
+| Wergeland, second reader, 1844 | 87,992 | 2,464 | 0 |
+
+Across all ten books the replay covers **673,989 tokens in 14,618 fields**. There
+are **11 independently approved changed outputs** against 8247129: Faye 5, Hjort 2,
+Knutzen 1 and Jensen 3. Jensen has 14 pieces and Wergeland four excluded by the
+existing language routing in both versions. Source fields, language routes,
+skipped-piece lists and token alignment match exactly. These are production-routed
+book checks, not processing of every piece, scan or OCR layer. Additional books
+are not claimed globally unseen project data.
+
+All 11 changes were independently reviewed in their complete source fields. A
+132-passage external replay is unchanged. No changed-token regression was observed;
+unchanged output is not fully annotated and review remains model-based, not human
+gold. Zero changes in a book demonstrates stability, not universal correctness.
+
+Adversarial testing caught an inverted passive/adjective ambiguity: historical
+`udmærkede` lacks the modern lexical adjective analysis, so inspecting its source
+alone could incorrectly select `utmerket`. The final check examines same-lemma
+modern agreeing forms too. It deliberately withdraws an otherwise correct Beyer
+recovery. Object coordination (`saae dem og udmærkede Mænd`), nominalized
+participles, remote passive coordination and have-object predicates stay protected.
+
+83 tests pass with **173 real-book targets**, including the 11 new complete-field
+fixtures and all previous protections. Compilation and whitespace checks pass.
+Frozen inputs, 8247129 archive, four candidate snapshots, replay scripts and the
+complete original-74 audit remain private in `out/clause-40/`. No paid calls.
+The PR remains a draft: 35 original modernization decisions are still withheld.
+
+## Earlier recovery against 532a114
+
 
 Four successive candidate replays evaluated all seven books below. The final
 candidate recovers **9 more of the remaining 49 decisions**: **22 of 62 recovered,

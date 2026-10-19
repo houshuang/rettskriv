@@ -10,6 +10,7 @@ class HistoricalGrammar(unittest.TestCase):
         fixtures = Path(__file__).parent / 'fixtures'
         cases = json.loads((fixtures / 'historical-grammar.json').read_text())
         cases += json.loads((fixtures / 'historical-recovery.json').read_text())
+        cases += json.loads((fixtures / 'historical-clauses.json').read_text())
         for case in cases:
             with self.subTest(case=case['id']):
                 eng = book_engine([case['original']], lang=case['lang'], year=case['year'], nouncaps=case['nouncaps'])
@@ -118,3 +119,29 @@ class HistoricalGrammar(unittest.TestCase):
 
     def test_locative_der_keeps_agreement(self):
         self.assertEqual(self.word('Vi saa der udmærkede Mænd.', 'udmærkede'), 'utmerkede')
+
+    def test_complete_clause_frames(self):
+        for text, word, expected in [
+            ('Island, hvor de oprettede en Fristat.', 'oprettede', 'opprettet'),
+            ('de troede, at Guden selv fortærede.', 'fortærede', 'fortærte'),
+            ('Uagtet de kom fra Norge, bevarede de dog deres Frihed.', 'bevarede', 'bevarte'),
+            ('De sloge eller adsplittede Fienden.', 'adsplittede', 'adsplittet'),
+            ('Istedetfor Langeldr, bleve Ovnstuer indrettede, og Halm blev strøet.', 'indrettede', 'innrettet'),
+            ('Da de kom, forenede Peder sig med dem.', 'forenede', 'forente'),
+        ]:
+            with self.subTest(text=text):
+                self.assertEqual(self.word(text, word), expected)
+
+    def test_clause_proofs_require_complete_unambiguous_constituents(self):
+        for text, word in [
+            ('Han sagde, at de besvarede en efter en.', 'besvarede'),
+            ('Han sagde, at de besvarede et Øjeblik laa paa Bordet.', 'besvarede'),
+            ('Han saae dem og udmærkede Mænd.', 'udmærkede'),
+            ('Han malede sig og udmærkede Mænd.', 'udmærkede'),
+            ('Han ønskede Brevene besvarede og forseglede.', 'besvarede'),
+            ('De havde elleve Langskibe samlede.', 'samlede'),
+            ('De bleve fremmede.', 'fremmede'),
+            ('bleve store ukjendte Mænd udmærkede.', 'udmærkede'),
+        ]:
+            with self.subTest(text=text):
+                self.assertEqual(self.word(text, word), word)
